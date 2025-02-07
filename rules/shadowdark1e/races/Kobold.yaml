@@ -1,0 +1,22 @@
+name: Kobold
+skills:
+- always: true
+  description: Gain +1 to spellcasting checks.
+  id: talent:Kobold:MagicBoost
+  name: Magic Boost
+  types:
+  - spell_bonus
+  value: 1
+- always: true
+  description: Begin each session with a luck token.
+  id: talent:Kobold:LuckToken
+  name: Lucky Start
+  types:
+  - luck
+- always: true
+  description: Speak Draconic
+  id: talent:Kobold:LanguageDraconic
+  name: Language
+  option: Draconic
+  types:
+  - language

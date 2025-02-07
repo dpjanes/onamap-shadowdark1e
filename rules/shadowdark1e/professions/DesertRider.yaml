@@ -1,0 +1,33 @@
+name: Desert Rider
+hit_dice: 1d8
+weapons:
+  - Club
+  - Dagger
+  - Javelin
+  - Longsword
+  - Pike
+  - Scimitar
+  - Shortbow
+  - Spear
+  - Whip
+armor:
+  - Leather armor
+  - Shields
+skills:
+  - id: talent:DesertRider:Charge
+    name: Charge
+    description: |
+      3/day, you can charge into combat by moving at least near before attacking. Each time you do this, your melee attacks deal double damage that round.
+    types: [combat]
+    uses_per_day: 3
+    always: true
+
+  - id: talent:DesertRider:Mount
+    name: Mount
+    description: |
+      You have a common camel or horse with a reliable or lovely demeanor (see pg. 29). It comes when you call and never spooks. You can only have one such mount at a time.
+      While riding your mount, you both get a bonus to AC equal to half your level (round down). Your mount has additional levels equal to half your level (round down). You can freely leap on or off your mount once per round.
+      
+      If you lose your mount, you can use your downtime to acquire and train another. Pass a DC 15 CHA check for the new creature to become your mount. Lower the DC one step each attempt.
+    types: [mount]
+    always: true

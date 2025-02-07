@@ -1,0 +1,36 @@
+name: Basilisk
+hit_dice: 1d8
+weapons:
+  - Boomerang
+  - Club
+  - Dagger
+  - Spear
+  - Spear-thrower
+armor:
+  - None
+skills:
+  - id: talent:Basilisk:BasiliskBlood
+    name: Basilisk Blood
+    description: |
+      You have advantage on Constitution checks to avoid harmful maladies, poisons, or afflictions.
+    types: [advantage, resistance]
+    always: true
+
+  - id: talent:Basilisk:PetrifyingGaze
+    name: Petrifying Gaze
+    description: |
+      One creature of your level or less that meets your gaze must pass a DC 15 CON check or be petrified for 1d4 rounds. It still takes damage as normal while petrified.
+      
+      You can use this talent a number of times per day equal to your CON modifier (minimum 1).
+    types: [combat, magic]
+    uses_per_day: "CON modifier (minimum 1)"
+    always: true
+
+  - id: talent:Basilisk:StoneSkin
+    name: Stone Skin
+    description: |
+      Add 2 + half your level (round down) to your AC.
+      
+      You have advantage on checks to hide in natural environments.
+    types: [defense, stealth]
+    always: true

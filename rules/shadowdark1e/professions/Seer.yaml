@@ -1,0 +1,36 @@
+name: Seer
+hit_dice: 1d6
+weapons:
+  - Dagger
+  - Stave
+  - Spear
+armor:
+  - Leather armor
+skills:
+  - id: talent:Seer:Destined
+    name: Destined
+    description: |
+      Whenever you use a luck token, add 1d6 to the roll.
+    types: [luck, bonus]
+    always: true
+
+  - id: talent:Seer:Omen
+    name: Omen
+    description: |
+      3/day, you can make a DC 9 WIS check. On a success, gain a luck token (you can't have more than one luck token at a time).
+    types: [wis_check, luck]
+    uses_per_day: 3
+    always: true
+
+  - id: talent:Seer:Spellcasting
+    name: Spellcasting
+    description: |
+      You can cast seer spells you know. You know one tier 1 spell of your choice from the seer spell list.
+      
+      Each time you gain a level, you choose a new seer spell to learn according to the Seer Spells Known table.
+      
+      You use your Wisdom stat to cast seer spells. The DC is 10 + the spell's tier.
+      
+      If you fail a spellcasting check, you can't cast that spell again until you complete a rest. If you roll a natural 1 on a spellcasting check, you can't cast that spell again until you complete Seer Penance.
+    types: [spellcasting, magic]
+    always: true
