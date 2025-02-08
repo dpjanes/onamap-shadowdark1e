@@ -3,10 +3,10 @@
 ##
 skills:
 ## CHECKED
-- id: talent:CoreRules:STAT_BONUS_1
+- id: talent:BaseRules:STAT_BONUS_1
   name: "Stat Bonus"
   description: "+1 points to to stats"
-  source: "Core"
+  source: "Base"
   types: ["BONUS"]
   value: 1
   options: STATS
@@ -15,26 +15,26 @@ skills:
     value_rule: skill.value
 
 ## CHECKED
-- id: talent:CoreRules:LanguageCommon
+- id: talent:BaseRules:LanguageCommon
   name: "Language"
   description: "Speak Common"
-  source: "Core"
+  source: "Base"
   types: ["language"]
   option: "Common"
   always: True
 
 ## CHECKED
-- id: talent:CoreRules:RARE_LANGUAGE
+- id: talent:BaseRules:RARE_LANGUAGE
   name: "Language"
   description: "Speak a Rare Language"
-  source: "Core"
+  source: "Base"
   types: ["language"]
   options: RARE_LANGUAGES
 
 ## CHECKED
-- id: talent:CoreRules:COMMON_LANGUAGE
+- id: talent:BaseRules:COMMON_LANGUAGE
   name: "Language"
   description: "Speak a Common Language"
-  source: "Core"
+  source: "Base"
   types: ["language"]
   options: COMMON_LANGUAGES

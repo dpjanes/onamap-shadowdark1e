@@ -14,7 +14,6 @@ skills:
 - id: talent:Half-Orc:LanguageOrcish
   name: "Language"
   description: "Speak Orcish"
-  source: "Core"
   types: ["language"]
   option: "Orcish"
   always: True

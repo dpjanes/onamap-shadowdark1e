@@ -17,7 +17,6 @@ skills:
 - id: talent:Dwarf:LanguageDwarvish
   name: "Language"
   description: "Speak Dwarvish"
-  source: "Core"
   types: ["language"]
   option: "Dwarvish"
   always: True
