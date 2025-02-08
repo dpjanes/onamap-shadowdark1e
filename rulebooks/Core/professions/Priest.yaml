@@ -1,0 +1,287 @@
+name: Priest
+is_spellcaster: true
+armour_rule: "True"
+weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
+weapon_types:
+- Club
+- Crossbow
+- Dagger
+- Nace
+- Longsword
+- Staff
+- Warhammer
+primary_stat: "wis"
+
+skills:
+
+## CHECKED
+- id: talent:Priest:HITDICE
+  name: "Hit Dice"
+  description: "1d6 per level"
+  types: [ "hit_dice" ]
+  value: 6
+  always: True
+
+## CHECKED
+- id: talent:Priest:LanguageExtra
+  name: "Language"
+  types: [ "language" ]
+  options:
+    - "Celestial"
+    - "Diabolic"
+    - "Primordial"
+  description: "You know either Celestial, Diabolic, or Primordial."
+  always: True
+
+## XXX - Needs Work
+- id: talent:Priest:TurnUndead
+  name: "Turn Undead"
+  types: [ "know_spell" ]
+  always: True
+  value: "Turn Undead"
+  description: "You know the Turn Undead spell. It doesn't count toward your number of known spells."
+  bonuses:
+  - key: "spells.know"
+    value: "Turn Undead"
+
+## CHECKED
+- id: talent:Priest:ATTACK_BONUS
+  name: "Attack Bonus"
+  description: "+1 to melee or ranged attacks"
+  value: 1
+  bonuses:
+  - key: 'attack.tohit'
+    value: 1
+
+## CHECKED
+- id: talent:Priest:STAT_BONUS
+  name: "Stat Bonus"
+  description: "+2 to Strength or Wisdom stat"
+  value: 2
+  options:
+    - "STR"
+    - "WIS"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: skill.value
+
+titles:
+  Lawful:
+    1: Acolyte
+    3: Crusader
+    5: Templar
+    7: Champion
+    9: Paladin
+  Chaotic:
+    1: Initiate
+    3: Zealot
+    5: Cultist
+    7: Scourge
+    9: Chaos Knight
+  Neutral:
+    1: Seeker
+    3: Invoker
+    5: Haruspex
+    7: Mystic
+    9: Oracle
+
+spells_known:
+  Priest:
+    - [2]             # Level 1
+    - [3]             # Level 2
+    - [3, 1]          # Level 3
+    - [3, 2]          # Level 4
+    - [3, 2, 1]       # Level 5
+    - [3, 2, 2]       # Level 6
+    - [3, 3, 2, 1]    # Level 7
+    - [3, 3, 2, 2]    # Level 8
+    - [3, 3, 2, 2, 1] # Level 9
+    - [3, 3, 3, 2, 2] # Level 10
+
+spells:
+- duration: Instant
+  id: spell:Priest:CureWounds:1
+  level: 1
+  name: Cure Wounds
+  profession: Priest
+  range: Close
+- duration: 5 Rounds
+  id: spell:Priest:HolyWeapon:1
+  level: 1
+  name: Holy Weapon
+  profession: Priest
+  range: Close
+- duration: 1 Hour Real Time
+  id: spell:Priest:Light:1
+  level: 1
+  name: Light
+  profession: Priest
+  range: Close
+  types:
+  - Light
+- duration: Focus
+  id: spell:Priest:ProtectionFromEvil:1
+  level: 1
+  name: Protection From Evil
+  profession: Priest
+  range: Close
+- duration: 5 Rounds
+  id: spell:Priest:ShieldofFaith:1
+  level: 1
+  name: Shield of Faith
+  profession: Priest
+  range: Self
+- duration: Instant
+  id: spell:Priest:TurnUndead:1
+  level: 1
+  name: Turn Undead
+  profession: Priest
+  range: Near
+- duration: Instant
+  id: spell:Priest:Augury:2
+  level: 2
+  name: Augury
+  profession: Priest
+  range: Self
+- duration: Instant
+  id: spell:Priest:Bless:2
+  level: 2
+  name: Bless
+  profession: Priest
+  range: Close
+- duration: Focus
+  id: spell:Priest:Blind/Deafen:2
+  level: 2
+  name: Blind/Deafen
+  profession: Priest
+  range: Near
+- duration: 5 Rounds
+  id: spell:Priest:CleansingWeapon:2
+  level: 2
+  name: Cleansing Weapon
+  profession: Priest
+  range: Close
+- damage: 1d6
+  duration: Instant
+  id: spell:Priest:Smite:2
+  level: 2
+  name: Smite
+  profession: Priest
+  range: Near
+- duration: Focus
+  id: spell:Priest:ZoneofTruth:2
+  level: 2
+  name: Zone of Truth
+  profession: Priest
+  range: Near
+- duration: Focus
+  id: spell:Priest:Command:3
+  level: 3
+  name: Command
+  profession: Priest
+  range: Far
+- duration: Instant
+  id: spell:Priest:LayToRest:3
+  level: 3
+  name: Lay To Rest
+  profession: Priest
+  range: Close
+- damage: 2d6
+  duration: Instant
+  id: spell:Priest:MassCure:3
+  level: 3
+  name: Mass Cure
+  profession: Priest
+  range: Near
+- duration: Instant
+  id: spell:Priest:RebukeUnholy:3
+  level: 3
+  name: Rebuke Unholy
+  profession: Priest
+  range: Near
+- duration: Instant
+  id: spell:Priest:Restoration:3
+  level: 3
+  name: Restoration
+  profession: Priest
+  range: Close
+- duration: Instant
+  id: spell:Priest:SpeakWithDead:3
+  level: 3
+  name: Speak With Dead
+  profession: Priest
+  range: Close
+- duration: Instant
+  id: spell:Priest:Commune:4
+  level: 4
+  name: Commune
+  profession: Priest
+  range: Self
+- duration: Focus
+  id: spell:Priest:ControlWater:4
+  level: 4
+  name: Control Water
+  profession: Priest
+  range: Far
+- damage: 2d6
+  duration: Instant
+  id: spell:Priest:FlameStrike:4
+  level: 4
+  name: Flame Strike
+  profession: Priest
+  range: Far
+- duration: Focus
+  id: spell:Priest:PillarofSalt:4
+  level: 4
+  name: Pillar of Salt
+  profession: Priest
+  range: Near
+- duration: Focus
+  id: spell:Priest:Regenerate:4
+  level: 4
+  name: Regenerate
+  profession: Priest
+  range: Close
+- duration: 10 Rounds
+  id: spell:Priest:Wrath:4
+  level: 4
+  name: Wrath
+  profession: Priest
+  range: Self
+- duration: 10 Rounds
+  id: spell:Priest:DivineVengeance:5
+  level: 5
+  name: Divine Vengeance
+  notes: +4 to weapon attacks and damage during the spell's duration.
+  profession: Priest
+  range: Self
+- duration: 10 Rounds
+  id: spell:Priest:Dominion:5
+  level: 5
+  name: Dominion
+  profession: Priest
+  range: Near
+- duration: Instant
+  id: spell:Priest:Heal:5
+  level: 5
+  name: Heal
+  profession: Priest
+  range: Close
+- duration: 5 Rounds
+  id: spell:Priest:Judgment:5
+  level: 5
+  name: Judgment
+  profession: Priest
+  range: Close
+- duration: Instant
+  id: spell:Priest:PlaneShift:5
+  level: 5
+  name: Plane Shift
+  profession: Priest
+  range: Close
+- duration: Instant
+  id: spell:Priest:Prophecy:5
+  level: 5
+  name: Prophecy
+  profession: Priest
+  range: Self

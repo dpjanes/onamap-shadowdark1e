@@ -1,0 +1,130 @@
+gears:
+  - id: gear:1
+    name: Arrows
+    cost: 1 gp
+    slots: 1
+    free: 0
+    quantity: 20
+    types: 
+    - Arrow
+    - Consumable
+
+  - id: gear:2
+    name: Backpack
+    cost: 2 gp
+    slots: 1
+    free: 1
+
+  - id: gear:3
+    name: Caltrops (bag)
+    cost: 5 sp
+    slots: 1
+    free: 0
+    types: 
+    - Consumable
+
+  - id: gear:5
+    name: Crossbow Bolts
+    cost: 1 gp
+    slots: 1
+    free: 0
+    quantity: 20
+    types: 
+    - Consumable
+    - Bolt
+
+  - id: gear:6
+    name: Crowbar
+    cost: 5 sp
+    slots: 1
+    free: 0
+
+  - id: gear:7
+    name: Flask or Bottle
+    cost: 3 sp
+    slots: 1
+    free: 0
+
+  - id: gear:8
+    name: Flint and Steel
+    cost: 5 sp
+    slots: 1
+    free: 
+    types:
+    - Fire
+
+  - id: gear:10
+    name: Grappling Hook
+    cost: 1 gp
+    slots: 1
+    free: 0
+
+  - id: gear:11
+    name: Iron Spikes
+    cost: 1 gp
+    slots: 1
+    free: 0
+    types: 
+    - Consumable
+
+  - id: gear:12
+    name: Lantern
+    cost: 5 gp
+    slots: 1
+    free: 0
+    types: 
+    - Light
+    uses:
+    - Oil Flask
+    - Fire
+
+  - id: gear:13
+    name: Mirror
+    cost: 10 gp
+    slots: 1
+    free: 0
+
+  - id: gear:14
+    name: Oil Flask
+    cost: 5 sp
+    slots: 1
+    free: 0
+    types: 
+    - Light
+    - Consumable
+    - Oil Flask
+
+  - id: gear:15
+    name: Pole
+    cost: 5 sp
+    slots: 1
+    free: 0
+
+  - id: gear:16
+    name: Rations
+    cost: 5 sp
+    slots: 1
+    free: 0
+    quantity: 3
+    types: 
+    - Consumable
+    - Food
+
+  - id: gear:17
+    name: Rope
+    cost: 1 gp
+    slots: 1
+    free: 0
+
+  - id: gear:18
+    name: Torch
+    cost: 5 sp
+    slots: 1
+    free: 0
+
+    types: 
+    - Consumable
+    - Light
+  
+    uses:
+    - Fire

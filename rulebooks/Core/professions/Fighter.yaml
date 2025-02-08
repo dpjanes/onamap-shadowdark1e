@@ -1,0 +1,109 @@
+name: Fighter
+is_spellcaster: false
+armour_rule: "True"
+weapon_rule: "True"
+skills:
+## CHECKED
+- id: talent:Fighter:HITDICE
+  name: "Hit Dice"
+  description: "1d8 per level"
+  value: 8
+  types: [ "hit_dice" ]
+  always: True
+
+## CHECKED
+- id: talent:Fighter:WEAPON_MASTERY
+  name: "Weapon Mastery"
+  description: "Gain Weapon Mastery with one additional weapon type"
+  value: 1
+  options: WEAPONS
+  always: True  ## fighter gets one, they can add more
+  bonuses:
+  - key: 'attack.tohit'
+    value: 1
+  - key: 'attack.damage'
+    value: 1
+  - key: 'attack.damage_large'
+    value: 1
+  - name: "Weapon Mastery Level Bonus"
+    key: 'attack.tohit'
+    value_rule: "HALF(character.level.value)"
+  - name: "Weapon Mastery Level Bonus"
+    key: 'attack.damage'
+    value_rule: "HALF(character.level.value)"
+  - name: "Weapon Mastery Level Bonus"
+    key: 'attack.damage_large'
+    value_rule: "HALF(character.level.value)"
+
+## CHECKED
+- id: talent:Fighter:ATTACK_BONUS
+  name: "Attack Bonus"
+  description: "+1 to melee and ranged attacks"
+  value: 1
+  bonuses:
+  - key: 'attack.tohit'
+    value: 1
+
+## CHECKED
+- id: talent:Fighter:STAT_BONUS_2
+  name: "Stat Bonus"
+  description: "+2 to Strength, Dexterity, or Constitution stat"
+  value: 2
+  options:
+    - "STR"
+    - "DEX"
+    - "CON"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: skill.value
+
+## CHECKED
+- id: talent:Fighter:AC_BONUS
+  name: "AC Bonus"
+  description: "Choose one kind of armor. You get +1 AC from that armor"
+  value: 1
+  options: ARMOURS
+  talent_rule: skill.option == armour.get_armour_type
+  bonuses:
+  - key: "ac"
+    value_rule: skill.value
+
+## CHECKED
+- id: talent:Fighter:Hauler
+  name: "Hauler"
+  option: "CON"
+  description: "Add your Constitution modifier, if positive, to your gear slots."
+  always: True
+  bonuses:
+  - key: "slots"
+    value_rule: "MAX(0, character.stats.con.bonus)"
+
+## CHECKED
+- id: talent:Fighter:ClassAbilityGrit
+  name: "Grit"
+  types: [ "text" ]
+  always: True
+  description: Choose Strength or Dexterity. You have advantage on checks of that type to overcome an opposing force, such as kicking open a stuck door (Strength) or slipping free of rusty chains (Dexterity).
+  options:
+    - "STR"
+    - "DEX"
+
+titles:
+  Lawful:
+    1: Squire
+    3: Cavalier
+    5: Knight
+    7: Thane
+    9: Lord/Lady
+  Chaotic:
+    1: Knave
+    3: Bandit
+    5: Slayer
+    7: Reaver
+    9: Warlord
+  Neutral:
+    1: Warrior
+    3: Barbarian
+    5: Battlerager
+    7: Warchief
+    9: Chieftain

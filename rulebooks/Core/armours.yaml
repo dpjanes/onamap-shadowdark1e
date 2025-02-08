@@ -1,0 +1,88 @@
+armour_types:
+  - Leather
+  - Chainmail
+  - Plate Mail
+  - Shield
+  - Buckler
+
+armours:
+  - id: 'armour:1'
+    name: Leather
+    types:
+      - Leather
+    cost: 10 gp
+    slots: 1
+    ac: 11
+    use_dex_bonus: True
+    swimming: "yes"
+    stealth: "yes"
+    hands: 0
+    stack: "armour"
+  - id: 'armour:2'
+    name: Chainmail
+    types:
+      - Chainmail
+    cost: 60 gp
+    slots: 2
+    ac: 13
+    use_dex_bonus: True
+    swimming: disadvantage
+    stealth: disadvantage
+    hands: 0
+    stack: "armour"
+  - id: 'armour:3'
+    name: Plate Mail
+    types:
+      - Plate Mail
+    cost: 130 gp
+    slots: 3
+    ac: 15
+    use_dex_bonus: False
+    swimming: "no"
+    stealth: disadvantage
+    hands: 0
+    stack: "armour"
+  - id: 'armour:4'
+    name: Mithral Chainmail
+    types:
+      - Chainmail
+      - Mithral
+    cost: 240 gp
+    slots: 1
+    ac: 13
+    use_dex_bonus: True
+    swimming: "yes"
+    stealth: "yes"
+    hands: 0
+    stack: "armour"
+  - id: 'armour:5'
+    name: Mithral Plate Mail
+    types:
+      - Plate Mail
+      - Mithral
+    cost: 520 gp
+    slots: 2
+    ac: 15
+    use_dex_bonus: False
+    swimming: "yes"
+    stealth: "yes"
+    hands: 0
+    stack: "armour"
+  - id: 'armour:6'
+    name: Shield
+    types:
+      - Shield
+    cost: 10 gp
+    slots: 1
+    ac_boost: 2
+    hands: 1
+    stack: "shield"
+  - id: 'armour:7'
+    name: Buckler
+    types:
+      - Buckler
+    cost: 10 gp
+    slots: 1
+    ac_boost: 1
+    hands: 0
+    stack: "shield"

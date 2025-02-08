@@ -1,0 +1,41 @@
+Backgrounds:
+  - Name: Urchin
+    Description: "You grew up in the merciless streets of a large city."
+  - Name: Wanted
+    Description: "There's a price on your head, but you have allies."
+  - Name: Cult Initiate
+    Description: "You know blasphemous secrets and rituals."
+  - Name: Thieves' Guild
+    Description: "You have connections, contacts, and debts."
+  - Name: Banished
+    Description: "Your people cast you out for supposed crimes."
+  - Name: Orphaned
+    Description: "An unusual guardian rescued and raised you."
+  - Name: Wizard's Apprentice
+    Description: "You have a knack and eye for magic."
+  - Name: Jeweler
+    Description: "You can easily appraise value and authenticity."
+  - Name: Herbalist
+    Description: "You know plants, medicines, and poisons."
+  - Name: Barbarian
+    Description: "You left the horde, but it never quite left you."
+  - Name: Mercenary
+    Description: "You fought friend and foe alike for your coin."
+  - Name: Sailor
+    Description: "Pirate, privateer, or merchant — the seas are yours."
+  - Name: Acolyte
+    Description: "You're well trained in religious rites and doctrines."
+  - Name: Soldier
+    Description: "You served as a fighter in an organized army."
+  - Name: Ranger
+    Description: "The woods and wilds are your true home."
+  - Name: Scout
+    Description: "You survived on stealth, observation, and speed."
+  - Name: Minstrel
+    Description: "You've traveled far with your charm and talent."
+  - Name: Scholar
+    Description: "You know much about ancient history and lore."
+  - Name: Noble
+    Description: "A famous name has opened many doors for you."
+  - Name: Chirurgeon
+    Description: "You know anatomy, surgery, and first aid."

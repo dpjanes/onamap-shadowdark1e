@@ -1,0 +1,40 @@
+##
+##  These skills are common to all professions and races
+##
+skills:
+## CHECKED
+- id: talent:CoreRules:STAT_BONUS_1
+  name: "Stat Bonus"
+  description: "+1 points to to stats"
+  source: "Core"
+  types: ["BONUS"]
+  value: 1
+  options: STATS
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: skill.value
+
+## CHECKED
+- id: talent:CoreRules:LanguageCommon
+  name: "Language"
+  description: "Speak Common"
+  source: "Core"
+  types: ["language"]
+  option: "Common"
+  always: True
+
+## CHECKED
+- id: talent:CoreRules:RARE_LANGUAGE
+  name: "Language"
+  description: "Speak a Rare Language"
+  source: "Core"
+  types: ["language"]
+  options: RARE_LANGUAGES
+
+## CHECKED
+- id: talent:CoreRules:COMMON_LANGUAGE
+  name: "Language"
+  description: "Speak a Common Language"
+  source: "Core"
+  types: ["language"]
+  options: COMMON_LANGUAGES

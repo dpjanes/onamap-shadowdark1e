@@ -1,0 +1,20 @@
+name: Half-Orc
+
+skills:
+## CHECKED
+- id: skill:Half-Orc:Mighty
+  name: "Mighty"
+  description: "+1 bonus to attack and damage rolls with melee weapons"
+  rule: True
+  always: True
+  bonuses:
+  - key: 'attack.tohit'
+    value: 1
+
+- id: talent:Half-Orc:LanguageOrcish
+  name: "Language"
+  description: "Speak Orcish"
+  source: "Core"
+  types: ["language"]
+  option: "Orcish"
+  always: True

@@ -1,0 +1,261 @@
+weapon_types:
+  - Bastard sword
+  - Club
+  - Crossbow
+  - Dagger
+  - Greataxe
+  - Greatsword
+  - Javelin
+  - Longbow
+  - Longsword
+  - Mace
+  - Shortbow
+  - Shortsword
+  - Spear
+  - Staff
+  - Warhammer
+
+weapons:
+  - id: weapon:1
+    name: Bastard sword
+    types:
+      - Bastard sword
+    cost: 10 gp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d8"
+    damage_large: "1d10"
+    hands: 2
+  - id: weapon:2
+    name: Club
+    types:
+      - Club
+    cost: 5 cp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d4"
+    damage_large: "1d4"
+    hands: 1
+  - id: weapon:3
+    name: Crossbow
+    types:
+      - Crossbow
+    cost: 8 gp
+    is_melee: False
+    is_ranged: True
+    is_range_close: False
+    is_range_near: False
+    is_range_far: True
+    is_thrown: False
+    is_loading: True
+    is_finesse: False
+    damage: "1d6"
+    damage_large: "1d6"
+    hands: 2
+    consumes: Arrows
+  - id: weapon:4
+    name: Dagger
+    types:
+      - Dagger
+    cost: 1 gp
+    is_melee: True
+    is_ranged: True
+    is_range_close: True
+    is_range_near: True
+    is_range_far: False
+    is_thrown: True
+    is_loading: False
+    is_finesse: True
+    damage: "1d4"
+    damage_large: "1d4"
+    hands: 1
+  - id: weapon:5
+    name: Greataxe
+    types:
+      - Greataxe
+    cost: 10 gp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d8"
+    damage_large: "1d10"
+    hands: 2
+  - id: weapon:6
+    name: Greatsword
+    types:
+      - Greatsword
+    cost: 12 gp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d12"
+    damage_large: "1d12"
+    hands: 2
+  - id: weapon:7
+    name: Javelin
+    types:
+      - Javelin
+    cost: 5 sp
+    is_melee: True
+    is_ranged: True
+    is_range_close: True
+    is_range_near: False
+    is_range_far: True
+    is_thrown: True
+    is_loading: False
+    is_finesse: False
+    damage: "1d4"
+    damage_large: "1d4"
+    hands: 1
+  - id: weapon:8
+    name: Longbow
+    types:
+      - Longbow
+    cost: 8 gp
+    is_melee: False
+    is_ranged: True
+    is_range_close: False
+    is_range_near: False
+    is_range_far: True
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d8"
+    damage_large: "1d8"
+    hands: 2
+    consumes: Arrow
+  - id: weapon:9
+    name: Longsword
+    types:
+      - Longsword
+    cost: 9 gp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d8"
+    damage_large: "1d8"
+    hands: 1
+  - id: weapon:10
+    name: Mace
+    types:
+      - Mace
+    cost: 5 gp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d6"
+    damage_large: "1d6"
+    hands: 1
+  - id: weapon:11
+    name: Shortbow
+    types:
+      - Shortbow
+    cost: 6 gp
+    is_melee: False
+    is_ranged: True
+    is_range_close: False
+    is_range_near: False
+    is_range_far: True
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d4"
+    damage_large: "1d4"
+    hands: 2
+    consumes: Arrow
+  - id: weapon:12
+    name: Shortsword
+    types:
+      - Shortsword
+    cost: 7 gp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d6"
+    damage_large: "1d6"
+    hands: 1
+  - id: weapon:13
+    name: Spear
+    types:
+      - Spear
+    cost: 5 sp
+    is_melee: True
+    is_ranged: True
+    is_range_close: True
+    is_range_near: True
+    is_range_far: False
+    is_thrown: True
+    is_loading: False
+    is_finesse: False
+    damage: "1d6"
+    damage_large: "1d6"
+    hands: 1
+  - id: weapon:14
+    name: Staff
+    types:
+      - Staff
+    cost: 5 sp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d4"
+    damage_large: "1d4"
+    hands: 2
+  - id: weapon:15
+    name: Warhammer
+    types:
+      - Warhammer
+    cost: 10 gp
+    is_melee: True
+    is_ranged: False
+    is_range_close: True
+    is_range_near: False
+    is_range_far: False
+    is_thrown: False
+    is_loading: False
+    is_finesse: False
+    damage: "1d10"
+    damage_large: "1d10"
+    hands: 2

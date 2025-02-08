@@ -1,0 +1,657 @@
+magic_item_types:
+- Armor
+- Weapon
+- Wand
+- Rod
+- Ring
+- Amulet/Necklace
+- Cloak/Robe
+- Boots/Bracers/Gloves
+- Helmet/Hat
+- Potion
+- Scroll
+- Summoning/Transformation
+- Storage
+- Artifact/Relic
+- Miscellaneous Tool
+- Cursed Item
+- Divination/Perception
+- Flight/Levitation
+- Time Manipulation
+- Healing/Restoration
+- Elemental Power
+- Necromantic/Undead Affinity
+- Luck/Probability Manipulation
+- Planar/Dimensional
+- Mind Control/Psychic
+- Light
+
+magic_items:
+- id: magic_item:1
+  name: Armor of Saint Terragnis
+  types:
+  - Armor
+  - Plate Mail
+  _description: Golden plate mail carved from head to toe with warrior angels.
+
+- id: magic_item:2
+  name: Amulet of Vitality
+  types:
+  - Amulet/Necklace
+  _description: A gold amulet with a red ruby teardrop at its center.
+
+- id: magic_item:3
+  name: Alabaster Destrier
+  types:
+  - Summoning/Transformation
+  _description: A smooth, pearly statuette of a running horse.
+
+- id: magic_item:4
+  name: Amulet of Secrecy
+  types:
+  - Amulet/Necklace
+  - Divination/Perception
+  _description: A heavy, flat pendant carved with a lidded eye.
+
+- id: magic_item:5
+  name: Armor of the Oni
+  types:
+  - Armor
+  - Plate Mail
+  _description: Black plate mail of lacquered ironwood panels.
+
+- id: magic_item:6
+  name: Bag of Badgers
+  types:
+  - Miscellaneous Tool
+  _description: A gray, fraying sack matted with white, bristly hair.
+
+- id: magic_item:7
+  name: Bag of Devouring
+  types:
+  - Storage
+  - Cursed Item
+  _description: A worn, leather pouch with tight drawstrings.
+
+- id: magic_item:8
+  name: Bead of Force
+  types:
+  - Miscellaneous Tool
+  _description: A marble with a blue ring of light glowing softly inside it.
+
+- id: magic_item:9
+  name: Bag of Holding
+  types:
+  - Storage
+  _description: A worn, leather pouch with tight drawstrings.
+
+- id: magic_item:10
+  name: Blade of Vengeance
+  types:
+  - Weapon
+  - Bastard Sword
+  _description: A gray blade with a diamond-cut ruby in the pommel.
+
+- id: magic_item:11
+  name: Boots of Dancing
+  types:
+  - Boots/Bracers/Gloves
+  - Cursed Item
+  _description: Fine, supple boots of sheepskin.
+
+- id: magic_item:12
+  name: Boots of Hovering
+  types:
+  - Boots/Bracers/Gloves
+  - Flight/Levitation
+  _description: Brown, sturdy boots polished to a sheen.
+
+- id: magic_item:13
+  name: Boots of the Cat
+  types:
+  - Boots/Bracers/Gloves
+  _description: Gray, doeskin boots as thin and soft as slippers.
+
+- id: magic_item:14
+  name: Bracers of Archery
+  types:
+  - Boots/Bracers/Gloves
+  _description: Leather bracers embossed with soaring hawks.
+
+- id: magic_item:15
+  name: Bracers of Defense
+  types:
+  - Boots/Bracers/Gloves
+  _description: Steel bracers traced with dwarvish runes of protection.
+
+- id: magic_item:16
+  name: Brak's Cube of Perfection
+  types:
+  - Luck/Probability Manipulation
+  _description: A tiny cube with paintings of goblins on each face.
+
+- id: magic_item:17
+  name: Brak's Book of Misspells
+  types:
+  - Cursed Item
+  _description: A tome bound in ratskin that bears a jagged, glowing rune.
+
+- id: magic_item:18
+  name: Circlet of Wisdom
+  types:
+  - Helmet/Hat
+  _description: A thin, silver circlet set with a shimmering, blue pearl.
+
+- id: magic_item:19
+  name: Cloak of Elvenkind
+  types:
+  - Cloak/Robe
+  _description: A hooded, billowing cloak that shifts colors to match its surroundings.
+
+- id: magic_item:20
+  name: Cloak of the Bat
+  types:
+  - Cloak/Robe
+  - Flight/Levitation
+  _description: A leathery, black cloak that has a ragged hem and a hood with pointed ears.
+
+- id: magic_item:21
+  name: Crystal Ball
+  types:
+  - Divination/Perception
+  _description: A flawless glass orb with roiling images swirling inside it.
+
+- id: magic_item:22
+  name: Dagger of the Goblin Hero
+  types:
+  - Weapon
+  - Dagger
+  _description: A curved dagger with a half-moon notch at the blade's base.
+
+- id: magic_item:23
+  name: Egg of the Cockatrice
+  types:
+  - Summoning/Transformation
+  _description: A blue, hard egg as big as a coconut and heavy as a stone.
+
+- id: magic_item:24
+  name: Flying Carpet
+  types:
+  - Flight/Levitation
+  _description: A richly woven, red carpet with gold tassels.
+
+- id: magic_item:25
+  name: Genie Lamp
+  types:
+  - Summoning/Transformation
+  _description: A tarnished, brass oil lamp.
+
+- id: magic_item:26
+  name: Gloves of Agility
+  types:
+  - Boots/Bracers/Gloves
+  _description: Thin, leather gloves that seem to meld with the wearer's hands.
+
+- id: magic_item:27
+  name: Goblin Bomb
+  types:
+  - Miscellaneous Tool
+  _description: A preserved rat stuffed with an explosive charge and a fuse.
+
+- id: magic_item:28
+  name: Gauntlets of Might
+  types:
+  - Boots/Bracers/Gloves
+  _description: Heavy, bronze gauntlets with engravings of Herculean giants.
+
+- id: magic_item:29
+  name: Greataxe of the Horde
+  types:
+  - Weapon
+  - Greataxe
+  _description: A jagged greataxe carved from a weighty dragon bone.
+
+- id: magic_item:30
+  name: Hat of Intellect
+  types:
+  - Helmet/Hat
+  _description: A floppy, pointed hat with a wide brim.
+
+- id: magic_item:31
+  name: Hat of the Hound
+  types:
+  - Helmet/Hat
+  - Transformation
+  _description: A rounded, jaunty bowler hat.
+
+- id: magic_item:32
+  name: Helm of Mind Reading
+  types:
+  - Helmet/Hat
+  - Mind Control/Psychic
+  _description: A helm carved with brain ridges, a spinal neck-guard, and octopus-like tentacles.
+
+- id: magic_item:33
+  name: Horned Helm of Ramlaat
+  types:
+  - Helmet/Hat
+  _description: A bloodstained helm made of a ram's skull.
+
+- id: magic_item:34
+  name: Hourglass of the Black Sands
+  types:
+  - Time Manipulation
+  _description: An ancient hourglass running with obsidian sand.
+
+- id: magic_item:35
+  name: Immovable Rod
+  types:
+  - Miscellaneous Tool
+  _description: A short, iron rod with a button on one end.
+
+- id: magic_item:36
+  name: Jewel of Barbalt
+  types:
+  - Luck/Probability Manipulation
+  _description: A coconut-sized ruby cut with a thousand facets.
+
+- id: magic_item:37
+  name: Kytherian Cog
+  types:
+  - Artifact/Relic
+  _description: A coin-sized, toothed wheel buffed to a silvery shine.
+
+- id: magic_item:38
+  name: Longbow of the Elven Kings
+  types:
+  - Weapon
+  - Longbow
+  _description: A deeply curved longbow with deer antler reinforcements.
+
+- id: magic_item:39
+  name: Memnon's Discordant Blade
+  types:
+  - Weapon
+  - Greatsword
+  _description: This barbed greatsword's red blade trails a shower of sparks when swung to strike.
+
+- id: magic_item:40
+  name: Memnon's Blazing Javelin
+  types:
+  - Weapon
+  - Javelin
+  _description: This golden javelin occasionally blinks and wavers, briefly turning into a bolt of lightning.
+
+- id: magic_item:41
+  name: Magic Ink
+  types:
+  - Miscellaneous Tool
+  _description: A pot of glossy, black ink that disappears as it dries.
+
+- id: magic_item:42
+  name: Memnon's Entropic Armor
+  types:
+  - Armor
+  - Plate Mail
+  _description: Deep blue plate mail traced with gold lightning motifs and red gems arrayed into the shape of flames.
+
+- id: magic_item:43
+  name: Mirror of Mischief
+  types:
+  - Cursed Item
+  _description: A full-length mirror polished to a gleaming shine. Grinning, silver demons grasp the mirror, their claws forming its frame.
+
+- id: magic_item:44
+  name: Moonwrought Chainmail
+  types:
+  - Armor
+  - Chainmail
+  _description: A luminous jacket of chainmail as lightweight as a silk shirt.
+
+- id: magic_item:45
+  name: Necklace of Charm
+  types:
+  - Amulet/Necklace
+  _description: A gold, fishbone chain that shimmers with subtle beauty.
+
+- id: magic_item:46
+  name: Necrotic Mace of Withering
+  types:
+  - Weapon
+  - Mace
+  _description: A wrought iron mace tipped with a heavy, screaming skull.
+
+- id: magic_item:47
+  name: Obsidian Witchknife
+  types:
+  - Weapon
+  - Dagger
+  _description: A glinting, obsidian blade that trails black smoke in thin curls.
+
+- id: magic_item:48
+  name: Onyx Destrier
+  types:
+  - Summoning/Transformation
+  _description: A polished, ebony statuette of a running horse.
+
+- id: magic_item:49
+  name: Nightcloak Armor
+  types:
+  - Armor
+  - Leather
+  _description: Matte black leathers enchanted to deepen and darken shadows.
+
+- id: magic_item:50
+  name: Ophidian Armor
+  types:
+  - Armor
+  - Leather
+  _description: Glistening, smooth leather of dappled emerald scales.
+
+- id: magic_item:51
+  name: Pearl of Power
+  types:
+  - Miscellaneous Tool
+  _description: A fat, opalescent pearl glowing with an inner radiance.
+
+- id: magic_item:52
+  name: Pipe of the Rolling Hills
+  types:
+  - Miscellaneous Tool
+  _description: A long, curved pipe that smells of cloves and resin.
+
+- id: magic_item:53
+  name: Pipes of the Sewers
+  types:
+  - Summoning/Transformation
+  - Cursed Item
+  _description: A set of tarnished, brass pan pipes with seven cylinders.
+
+- id: magic_item:54
+  name: Portable Hole
+  types:
+  - Storage
+  - Cursed Item
+  _description: A black, velvet square of cloth that unfolds into a wide circle.
+
+- id: magic_item:55
+  name: Potion of Extirpation
+  types:
+  - Potion
+  _description: An acrid, tarry substance in an iron flask with a lead stopper.
+
+- id: magic_item:56
+  name: Potion of Flying
+  types:
+  - Potion
+  - Flight/Levitation
+  _description: A sunny liquid with bubbles that flash and pop like tiny stars.
+
+- id: magic_item:57
+  name: Potion of Forgetfulness
+  types:
+  - Potion
+  _description: A pink draught that swirls with a counter-clockwise current.
+
+- id: magic_item:58
+  name: Potion of Giant Strength
+  types:
+  - Potion
+  _description: A clay jar holding a stew of green, leafy sludge.
+
+- id: magic_item:59
+  name: Potion of Healing
+  types:
+  - Potion
+  - Healing/Restoration
+  _description: A glass bottle with a fizzy, lemon-vanilla liquid inside.
+
+- id: magic_item:60
+  name: Potion of Invisibility
+  types:
+  - Potion
+  _description: This glass vial appears to be empty, but a liquid audibly splashes around inside it.
+
+- id: magic_item:61
+  name: Potion of Legendary Deeds
+  types:
+  - Potion
+  _description: A golden elixir that resonates with a faint, angelic chord.
+
+- id: magic_item:62
+  name: Potion of Polymorph
+  types:
+  - Potion
+  _description: A pickled newt floats in this lavender flask of clear liquid.
+
+- id: magic_item:63
+  name: Potion of Vitality
+  types:
+  - Potion
+  - Healing/Restoration
+  _description: A crimson elixir that gently thumps with a heartbeat.
+
+- id: magic_item:64
+  name: Ring of Feather Falling
+  types:
+  - Ring
+  _description: A pearly ring carved in the likeness of an owl feather.
+
+- id: magic_item:65
+  name: Ring of Fireballs
+  types:
+  - Ring
+  _description: A bronze loop with claws holding a red marble. A fiery miasma swirls inside the glass.
+
+- id: magic_item:66
+  name: Ring of Invisibility
+  types:
+  - Ring
+  _description: A simple, gold band polished to a warm shine.
+
+- id: magic_item:67
+  name: Ring of Ramlaat
+  types:
+  - Ring
+  _description: A bone-carved ring with a ram skull. Its horns twist forward and red lights glow in its eye sockets.
+
+- id: magic_item:68
+  name: Robe of the Druid
+  types:
+  - Cloak/Robe
+  _description: A green velvet robe with a deep hood and hems embroidered with silver leaves and vines.
+
+- id: magic_item:69
+  name: Robe of the Sorcerer
+  types:
+  - Cloak/Robe
+  _description: A black leather robe with a shadowed cowl and clawed clasps on thin, mithral chains.
+
+- id: magic_item:70
+  name: Robe of the Archmage
+  types:
+  - Cloak/Robe
+  _description: A red silk robe with a wide, gold-hemmed mantle. Golden eyes and moons dust its sleeves.
+
+- id: magic_item:71
+  name: Scarab of Protection
+  types:
+  - Miscellaneous Tool
+  _description: A brooch made from a horned scarab beetle dipped in gold.
+
+- id: magic_item:72
+  name: Scimitar of the Ash Moon
+  types:
+  - Weapon
+  - Scimitar
+  _description: This wide, curved blade has a snarling efreeti head on the bronze pommel.
+
+- id: magic_item:73
+  name: Shield of the Crusader
+  types:
+  - Armor
+  - Shield
+  _description: A weighty kite shield painted with a faded, crimson cross.
+
+- id: magic_item:74
+  name: Shield of the Lion
+  types:
+  - Armor
+  - Shield
+  _description: This shield is carved as a roaring lion's face with a flowing mane.
+
+- id: magic_item:75
+  name: Shield of the Witch-King
+  types:
+  - Armor
+  - Shield
+  _description: A jagged triangle of black steel with spiny, armored plates.
+
+- id: magic_item:76
+  name: Shortsword of the Thief
+  types:
+  - Weapon
+  - Shortsword
+  _description: A stubby, gray blade riddled with notches and scars.
+
+- id: magic_item:77
+  name: Silver Mace of Wrath
+  types:
+  - Weapon
+  - Mace
+  _description: A tarnished, silver mace with seven flanges in the shape of crescent moons.
+
+- id: magic_item:78
+  name: Sphere of Annihilation
+  types:
+  - Artifact/Relic
+  _description: A three-foot, spherical void of pure darkness that hovers above the ground.
+
+- id: magic_item:79
+  name: Spyglass of True Sight
+  types:
+  - Divination/Perception
+  _description: A brass, telescoping lens with magical runes carved on it.
+
+- id: magic_item:80
+  name: Staff of Healing
+  types:
+  - Weapon
+  - Staff
+  _description: A knotted, oak stave with a heavy knurl on one end.
+
+- id: magic_item:81
+  name: Staff of Ord
+  types:
+  - Weapon
+  - Staff
+  _description: A tapered, mithral staff that resonates with arcane power.
+
+- id: magic_item:82
+  name: The Kytherian Mechanism
+  types:
+  - Artifact/Relic
+  _description: A towering, brass platform mounted with countless cogs and gears speckled in blue-green rust.
+
+- id: magic_item:83
+  name: The Malediction Infernal
+  types:
+  - Artifact/Relic
+  _description: A black, leatherbound tome with a grinning demon face embossed on the cover.
+
+- id: magic_item:84
+  name: Staff of the Cobra
+  types:
+  - Weapon
+  - Staff
+  _description: A curved scepter tipped with a ruby-eyed, flaring cobra head.
+
+- id: magic_item:85
+  name: Sword of the Ancients
+  types:
+  - Weapon
+  - Longsword
+  _description: A chipped and rusting blade with an oiled leather grip.
+
+- id: magic_item:86
+  name: Thrice-Blessed Sword
+  types:
+  - Weapon
+  - Longsword
+  _description: A lustrous, golden-handled blade anointed with blessed tears, incense, and prayers.
+
+- id: magic_item:87
+  name: Tome Mordanticus
+  types:
+  - Artifact/Relic
+  _description: A hand-drawn bestiary of the multiverse's most notable creatures and people.
+
+- id: magic_item:88
+  name: Tome of Gehemna
+  types:
+  - Artifact/Relic
+  _description: A sturdy, russet volume held by metal clasps. A golden eye in a circle adorns the cover.
+
+- id: magic_item:88
+  name: Tome of Gehemna
+  types:
+  - Artifact/Relic
+  _description: A sturdy, russet volume held by metal clasps. A golden eye in a circle adorns the cover.
+
+- id: magic_item:89
+  name: Tome of Hadebe
+  types:
+  - Scroll
+  _description: A brass-plated book with pages of etched copper leaf.
+
+- id: magic_item:90
+  name: Trident of the Seas
+  types:
+  - Weapon
+  - Spear
+  _description: A three-pronged, mithral harpoon studded with pearls.
+
+- id: magic_item:91
+  name: True Name
+  types:
+  - Miscellaneous Tool
+  _description: The secret, unique name borne by a creature and documented in The Covenant.
+
+- id: magic_item:92
+  name: Wand of Unlife
+  types:
+  - Wand
+  - Necromantic/Undead Affinity
+  _description: The knobby finger-bone of a swamp troll steeped in acrid embalming fluid.
+
+- id: magic_item:93
+  name: Wand of Warding
+  types:
+  - Wand
+  _description: A thin, weighty rod of dark iron inscribed with spiraling runes.
+
+- id: magic_item:94
+  name: Warhammer of the Dwarf Lords
+  types:
+  - Weapon
+  - Warhammer
+  _description: A boxy hammer with a stout handle and leather throwing strap.
+
+- id: magic_item:95
+  name: War Horn of the Angels
+  types:
+  - Miscellaneous Tool
+  _description: An opalescent ox horn capped with a golden mouthpiece.
+
+- id: magic_item:96
+  name: Well of Many Worlds
+  types:
+  - Planar/Dimensional
+  _description: A dark circle of cloth that seems to create a tunnel through the surface it lies upon.
+
+- id: magic_item:97
+  name: Wraith Chain
+  types:
+  - Armor
+  - Chainmail
+  _description: A chainmail shirt of black, mithral links that trails a long cloak of writhing shadows.

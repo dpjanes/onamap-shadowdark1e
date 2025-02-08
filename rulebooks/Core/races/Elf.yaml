@@ -1,0 +1,37 @@
+name: Elf
+languages:
+  - Common
+  - Elvish
+  - Sylvan
+skills:
+
+## XXX - NOT COMPLETE - need spellcasting
+- id: skill:Elf:Farsight
+  types: [ "text" ]
+  name: "Farsight"
+  description: "+1 bonus to attack rolls with ranged weapons or spellcasting checks"
+  value: 1
+  rule: True
+  always: True
+  bonuses:
+  - key: 'attack.tohit'
+    value: 1
+
+## CHECKED
+- id: talent:Elf:LanguageElvish
+  name: "Language"
+  description: "Speak Elvish"
+  source: "Core"
+  types: ["language"]
+  option: "Elvish"
+  always: True
+
+## CHECKED
+- id: talent:Elf:LanguageSylvan
+  name: "Language"
+  description: "Speak Sylvan"
+  source: "Core"
+  types: ["language"]
+  option: "Sylvan"
+  always: True
+

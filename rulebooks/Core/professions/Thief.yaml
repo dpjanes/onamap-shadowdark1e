@@ -1,0 +1,75 @@
+name: Thief
+is_spellcaster: false
+weapon_types:
+- Club
+- Crossbow
+- Dagger
+- Shortbow
+- Shortsword
+weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
+armour_rule: "OR(armour.get_armour_type == 'Leather', armour.name == 'Mithral Chainmail')"
+
+skills:
+## CHECKED
+- id: talent:Thief:HITDICE
+  name: "Hit Dice"
+  description: "1d6 per level"
+  value: 6
+  types: [ "hit_dice" ]
+  always: True
+
+## CHECKED
+- id: talent:Thief:ATTACK_BONUS
+  name: "Attack Bonus"
+  description: "+1 to melee and ranged attacks"
+  value: 1
+  bonuses:
+  - key: 'attack.tohit'
+    value: 1
+
+## CHECKED
+- id: talent:Thief:STAT_BONUS
+  name: "Stat Bonus"
+  description: "+2 to Strength, Dexterity, or Charisma stat"
+  value: 2
+  options:
+    - "STR"
+    - "DEX"
+    - "CHA"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: skill.value
+
+## CHECKED
+- id: talent:Thief:ClassAbilityAdvantage
+  name: "Advantage"
+  types: [ "text" ]
+  always: True
+  description: Advantage on climbing, sneaking and hiding, applying disguises, finding and disabling traps, and delicate tasks such as picking pockets and opening locks.
+
+## CHECKED
+- id: talent:Thief:ClassAbilityBackstab
+  name: "Backstab"
+  types: [ "text" ]
+  always: True
+  description: If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).
+
+titles:
+  Lawful:
+    1: Footpad
+    3: Burglar
+    5: Rook
+    7: Underboss
+    9: Boss
+  Chaotic:
+    1: Thug
+    3: Cutthroat
+    5: Shadow
+    7: Assassin
+    9: Wraith
+  Neutral:
+    1: Robber
+    3: Outlaw
+    5: Rogue
+    7: Renegade
+    9: Bandit King/Queen
