@@ -1,6 +1,6 @@
 name: Goblin
 skills:
-- id: skill:Goblin:KeenSenses
+- id: skill:Core:Goblin:KeenSenses
   types: [ "text" ]
   name: "Keen Senses"
   description: "Cannot be surprised"

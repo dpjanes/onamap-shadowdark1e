@@ -1,20 +1,20 @@
 name: Dwarf
 
 skills:
-- id: skill:Dwarf:HitPointAdvantage
+- id: skill:Core:Dwarf:HitPointAdvantage
   name: "HP Advantage"
   description: "Roll hit points per level with advantage"
   types: [ "text" ]
   always: True
 
-- id: skill:Dwarf:HitPointStarting
+- id: skill:Core:Dwarf:HitPointStarting
   name: "HP Starting"
   description: "Start with +2 HP"
   types: [ "hp_bonus" ]
   value: 2
   always: True
 
-- id: skill:Dwarf:LanguageDwarvish
+- id: skill:Core:Dwarf:LanguageDwarvish
   name: "Language"
   description: "Speak Dwarvish"
   types: ["language"]

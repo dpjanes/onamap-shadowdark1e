@@ -11,7 +11,7 @@ armour_rule: "OR(armour.get_armour_type == 'Leather', armour.name == 'Mithral Ch
 
 skills:
 ## CHECKED
-- id: skill:Thief:HITDICE
+- id: skill:Core:Thief:HITDICE
   name: "Hit Dice"
   description: "1d6 per level"
   value: 6
@@ -19,7 +19,7 @@ skills:
   always: True
 
 ## CHECKED
-- id: skill:Thief:ATTACK_BONUS
+- id: skill:Core:Thief:ATTACK_BONUS
   name: "Attack Bonus"
   description: "+1 to melee and ranged attacks"
   value: 1
@@ -28,7 +28,7 @@ skills:
     value: 1
 
 ## CHECKED
-- id: skill:Thief:STAT_BONUS
+- id: skill:Core:Thief:STAT_BONUS
   name: "Stat Bonus"
   description: "+2 to Strength, Dexterity, or Charisma stat"
   value: 2
@@ -41,14 +41,14 @@ skills:
     value_rule: skill.value
 
 ## CHECKED
-- id: skill:Thief:ClassAbilityAdvantage
+- id: skill:Core:Thief:ClassAbilityAdvantage
   name: "Advantage"
   types: [ "text" ]
   always: True
   description: Advantage on climbing, sneaking and hiding, applying disguises, finding and disabling traps, and delicate tasks such as picking pockets and opening locks.
 
 ## CHECKED
-- id: skill:Thief:ClassAbilityBackstab
+- id: skill:Core:Thief:ClassAbilityBackstab
   name: "Backstab"
   types: [ "text" ]
   always: True

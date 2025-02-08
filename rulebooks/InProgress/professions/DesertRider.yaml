@@ -14,7 +14,7 @@ armor:
   - Leather armor
   - Shields
 skills:
-  - id: skill:DesertRider:Charge
+  - id: skill:Core:DesertRider:Charge
     name: Charge
     description: |
       3/day, you can charge into combat by moving at least near before attacking. Each time you do this, your melee attacks deal double damage that round.
@@ -22,7 +22,7 @@ skills:
     uses_per_day: 3
     always: true
 
-  - id: skill:DesertRider:Mount
+  - id: skill:Core:DesertRider:Mount
     name: Mount
     description: |
       You have a common camel or horse with a reliable or lovely demeanor (see pg. 29). It comes when you call and never spooks. You can only have one such mount at a time.

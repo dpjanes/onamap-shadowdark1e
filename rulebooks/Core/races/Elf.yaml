@@ -6,7 +6,7 @@ languages:
 skills:
 
 ## XXX - NOT COMPLETE - need spellcasting
-- id: skill:Elf:Farsight
+- id: skill:Core:Elf:Farsight
   types: [ "text" ]
   name: "Farsight"
   description: "+1 bonus to attack rolls with ranged weapons or spellcasting checks"
@@ -18,7 +18,7 @@ skills:
     value: 1
 
 ## CHECKED
-- id: skill:Elf:LanguageElvish
+- id: skill:Core:Elf:LanguageElvish
   name: "Language"
   description: "Speak Elvish"
   types: ["language"]
@@ -26,7 +26,7 @@ skills:
   always: True
 
 ## CHECKED
-- id: skill:Elf:LanguageSylvan
+- id: skill:Core:Elf:LanguageSylvan
   name: "Language"
   description: "Speak Sylvan"
   types: ["language"]

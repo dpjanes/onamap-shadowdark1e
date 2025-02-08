@@ -14,7 +14,7 @@ armor:
   - Mithral chainmail
   - Shields
 skills:
-  - id: skill:Bard:Languages
+  - id: skill:Core:Bard:Languages
     name: Polyglot
     description: You know four additional common languages and one rare language.
     types: [language]
@@ -22,19 +22,19 @@ skills:
     rare: 1
     always: true
 
-  - id: skill:Bard:BardicArts
+  - id: skill:Core:Bard:BardicArts
     name: Bardic Arts
     description: You're trained in oration, performing arts, lore, and diplomacy. You have advantage on related checks.
     types: [advantage]
     always: true
 
-  - id: skill:Bard:MagicalDabbler
+  - id: skill:Core:Bard:MagicalDabbler
     name: Magical Dabbler
     description: You can activate spell scrolls and wands using Charisma as your spellcasting stat. If you critically fail, roll a wizard mishap.
     types: [magic]
     always: true
 
-  - id: skill:Bard:Presence
+  - id: skill:Core:Bard:Presence
     name: Presence
     description: |
       Make a DC 12 CHA check to enact one of the following effects. If you fail (excluding focus), you can't use that effect again until you rest.
@@ -43,7 +43,7 @@ skills:
     types: [cha_check]
     always: true
 
-  - id: skill:Bard:Prolific
+  - id: skill:Core:Bard:Prolific
     name: Prolific
     description: Add 1d6 to your learning rolls. Groups carousing with 1 or more bards add 1d6 to their rolls.
     types: [bonus]

@@ -15,7 +15,7 @@ primary_stat: "wis"
 skills:
 
 ## CHECKED
-- id: skill:Priest:HITDICE
+- id: skill:Core:Priest:HITDICE
   name: "Hit Dice"
   description: "1d6 per level"
   types: [ "hit_dice" ]
@@ -23,7 +23,7 @@ skills:
   always: True
 
 ## CHECKED
-- id: skill:Priest:LanguageExtra
+- id: skill:Core:Priest:LanguageExtra
   name: "Language"
   types: [ "language" ]
   options:
@@ -34,7 +34,7 @@ skills:
   always: True
 
 ## XXX - Needs Work
-- id: skill:Priest:TurnUndead
+- id: skill:Core:Priest:TurnUndead
   name: "Turn Undead"
   types: [ "know_spell" ]
   always: True
@@ -45,7 +45,7 @@ skills:
     value: "Turn Undead"
 
 ## CHECKED
-- id: skill:Priest:ATTACK_BONUS
+- id: skill:Core:Priest:ATTACK_BONUS
   name: "Attack Bonus"
   description: "+1 to melee or ranged attacks"
   value: 1
@@ -54,7 +54,7 @@ skills:
     value: 1
 
 ## CHECKED
-- id: skill:Priest:STAT_BONUS
+- id: skill:Core:Priest:STAT_BONUS
   name: "Stat Bonus"
   description: "+2 to Strength or Wisdom stat"
   value: 2

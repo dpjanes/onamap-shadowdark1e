@@ -11,21 +11,21 @@ weapons:
 armor:
   - Leather armor
 skills:
-  - id: skill:RasGodai:Languages
+  - id: skill:Core:RasGodai:Languages
     name: Diabolic Speaker
     description: You know Diabolic.
     types: [language]
     option: Diabolic
     always: true
 
-  - id: skill:RasGodai:Assassin
+  - id: skill:Core:RasGodai:Assassin
     name: Assassin
     description: |
       You have advantage on checks to sneak and hide. Your attacks deal double damage against targets that are unaware of your presence.
     types: [stealth, combat]
     always: true
 
-  - id: skill:RasGodai:SmokeStep
+  - id: skill:Core:RasGodai:SmokeStep
     name: Smoke Step
     description: |
       3/day, teleport to a location you can see within near. This does not use your action.
@@ -33,7 +33,7 @@ skills:
     uses_per_day: 3
     always: true
 
-  - id: skill:RasGodai:BlackLotus
+  - id: skill:Core:RasGodai:BlackLotus
     name: Black Lotus
     description: |
       You earned the right to eat a petal of the fabled black lotus flower, and you survived its sorcerous effects. Roll one talent on the Black Lotus Talents table.

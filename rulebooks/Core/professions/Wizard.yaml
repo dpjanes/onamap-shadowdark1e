@@ -9,7 +9,7 @@ primary_stat: "int"
 
 skills:
 ## CHECKED
-- id: skill:Wizard:HITDICE
+- id: skill:Core:Wizard:HITDICE
   name: "Hit Dice"
   description: "1d4 per level"
   types: [ "hit_dice" ]
@@ -17,7 +17,7 @@ skills:
   value: 4
 
 ## CHECKED
-- id: skill:Wizard:LanguageCommon1
+- id: skill:Core:Wizard:LanguageCommon1
   name: "Language"
   types: [ "text" ]
   description: "Speak an additional common language"
@@ -25,7 +25,7 @@ skills:
   options: COMMON_LANGUAGES
 
 ## CHECKED
-- id: skill:Wizard:LanguageCommon2
+- id: skill:Core:Wizard:LanguageCommon2
   name: "Language"
   types: [ "text" ]
   description: "Speak an additional common language"
@@ -33,7 +33,7 @@ skills:
   options: COMMON_LANGUAGES
 
 ## CHECKED
-- id: skill:Wizard:LanguageRare1
+- id: skill:Core:Wizard:LanguageRare1
   name: "Language"
   types: [ "text" ]
   description: "Speak an additional rare language"
@@ -41,7 +41,7 @@ skills:
   options: RARE_LANGUAGES
 
 ## CHECKED
-- id: skill:Wizard:LanguageRare2
+- id: skill:Core:Wizard:LanguageRare2
   name: "Language"
   types: [ "text" ]
   description: "Speak an additional rare language"
@@ -49,7 +49,7 @@ skills:
   options: RARE_LANGUAGES
 
 ## CHECKED
-- id: skill:Wizard:STAT_BONUS
+- id: skill:Core:Wizard:STAT_BONUS
   name: "Wizard Bonus"
   description: "+2 to Intelligence stat or +1 to wizard spellcasting checks"
   always: True
