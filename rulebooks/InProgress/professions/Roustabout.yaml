@@ -8,21 +8,21 @@ weapons:
 armor:
   - Leather armor
 skills:
-  - id: talent:Roustabout:KnowAGuy
+  - id: skill:Roustabout:KnowAGuy
     name: Know a Guy
     description: |
       You have advantage on checks related to interacting with commoners and sourcing favors.
     types: [advantage, social]
     always: true
 
-  - id: talent:Roustabout:Lucksmith
+  - id: skill:Roustabout:Lucksmith
     name: Lucksmith
     description: |
       Whenever another player uses your luck token, they have advantage on the new roll.
     types: [luck, support]
     always: true
 
-  - id: talent:Roustabout:SurprisingGuts
+  - id: skill:Roustabout:SurprisingGuts
     name: Surprising Guts
     description: |
       When reduced to half your HP or lower, make a DC 12 Wisdom check. If you succeed, you have advantage on your next roll.

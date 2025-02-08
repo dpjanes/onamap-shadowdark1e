@@ -3,7 +3,7 @@
 ##
 skills:
 ## CHECKED
-- id: talent:BaseRules:STAT_BONUS_1
+- id: skill:BaseRules:STAT_BONUS_1
   name: "Stat Bonus"
   description: "+1 points to to stats"
   source: "Base"
@@ -15,7 +15,7 @@ skills:
     value_rule: skill.value
 
 ## CHECKED
-- id: talent:BaseRules:LanguageCommon
+- id: skill:BaseRules:LanguageCommon
   name: "Language"
   description: "Speak Common"
   source: "Base"
@@ -24,7 +24,7 @@ skills:
   always: True
 
 ## CHECKED
-- id: talent:BaseRules:RARE_LANGUAGE
+- id: skill:BaseRules:RARE_LANGUAGE
   name: "Language"
   description: "Speak a Rare Language"
   source: "Base"
@@ -32,7 +32,7 @@ skills:
   options: RARE_LANGUAGES
 
 ## CHECKED
-- id: talent:BaseRules:COMMON_LANGUAGE
+- id: skill:BaseRules:COMMON_LANGUAGE
   name: "Language"
   description: "Speak a Common Language"
   source: "Base"

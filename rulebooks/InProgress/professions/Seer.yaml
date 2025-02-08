@@ -7,14 +7,14 @@ weapons:
 armor:
   - Leather armor
 skills:
-  - id: talent:Seer:Destined
+  - id: skill:Seer:Destined
     name: Destined
     description: |
       Whenever you use a luck token, add 1d6 to the roll.
     types: [luck, bonus]
     always: true
 
-  - id: talent:Seer:Omen
+  - id: skill:Seer:Omen
     name: Omen
     description: |
       3/day, you can make a DC 9 WIS check. On a success, gain a luck token (you can't have more than one luck token at a time).
@@ -22,7 +22,7 @@ skills:
     uses_per_day: 3
     always: true
 
-  - id: talent:Seer:Spellcasting
+  - id: skill:Seer:Spellcasting
     name: Spellcasting
     description: |
       You can cast seer spells you know. You know one tier 1 spell of your choice from the seer spell list.

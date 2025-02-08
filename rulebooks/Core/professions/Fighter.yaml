@@ -4,7 +4,7 @@ armour_rule: "True"
 weapon_rule: "True"
 skills:
 ## CHECKED
-- id: talent:Fighter:HITDICE
+- id: skill:Fighter:HITDICE
   name: "Hit Dice"
   description: "1d8 per level"
   value: 8
@@ -12,7 +12,7 @@ skills:
   always: True
 
 ## CHECKED
-- id: talent:Fighter:WEAPON_MASTERY
+- id: skill:Fighter:WEAPON_MASTERY
   name: "Weapon Mastery"
   description: "Gain Weapon Mastery with one additional weapon type"
   value: 1
@@ -36,7 +36,7 @@ skills:
     value_rule: "HALF(character.level.value)"
 
 ## CHECKED
-- id: talent:Fighter:ATTACK_BONUS
+- id: skill:Fighter:ATTACK_BONUS
   name: "Attack Bonus"
   description: "+1 to melee and ranged attacks"
   value: 1
@@ -45,7 +45,7 @@ skills:
     value: 1
 
 ## CHECKED
-- id: talent:Fighter:STAT_BONUS_2
+- id: skill:Fighter:STAT_BONUS_2
   name: "Stat Bonus"
   description: "+2 to Strength, Dexterity, or Constitution stat"
   value: 2
@@ -58,7 +58,7 @@ skills:
     value_rule: skill.value
 
 ## CHECKED
-- id: talent:Fighter:AC_BONUS
+- id: skill:Fighter:AC_BONUS
   name: "AC Bonus"
   description: "Choose one kind of armor. You get +1 AC from that armor"
   value: 1
@@ -69,7 +69,7 @@ skills:
     value_rule: skill.value
 
 ## CHECKED
-- id: talent:Fighter:Hauler
+- id: skill:Fighter:Hauler
   name: "Hauler"
   option: "CON"
   description: "Add your Constitution modifier, if positive, to your gear slots."
@@ -79,7 +79,7 @@ skills:
     value_rule: "MAX(0, character.stats.con.bonus)"
 
 ## CHECKED
-- id: talent:Fighter:ClassAbilityGrit
+- id: skill:Fighter:ClassAbilityGrit
   name: "Grit"
   types: [ "text" ]
   always: True

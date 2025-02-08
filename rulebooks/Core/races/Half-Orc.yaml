@@ -11,7 +11,7 @@ skills:
   - key: 'attack.tohit'
     value: 1
 
-- id: talent:Half-Orc:LanguageOrcish
+- id: skill:Half-Orc:LanguageOrcish
   name: "Language"
   description: "Speak Orcish"
   types: ["language"]

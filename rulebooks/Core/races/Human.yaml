@@ -7,7 +7,7 @@ skills:
   description: "Gain one additional talent roll at 1st level"
   always: True
 
-- id: talent:Human:LanguageExtra
+- id: skill:Human:LanguageExtra
   name: "Language"
   types: [ "language" ]
   options: COMMON_LANGUAGES

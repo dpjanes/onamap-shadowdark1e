@@ -8,7 +8,7 @@ skills:
 - always: true
   description: You have advantage on checks associated with navigation, tracking,
     bushcraft, stealth, and wild animals.
-  id: talent:Ranger:Wayfinder
+  id: skill:Ranger:Wayfinder
   name: Wayfinder
   types:
   - advantage
@@ -16,7 +16,7 @@ skills:
   description: Make an INT check to prepare an herbal remedy of your choice. If you
     fail, you can't make that remedy again until you successfully rest. Unused remedies
     expire in 3 rounds.
-  id: talent:Ranger:Herbalism
+  id: skill:Ranger:Herbalism
   name: Herbalism
   types:
   - int_check

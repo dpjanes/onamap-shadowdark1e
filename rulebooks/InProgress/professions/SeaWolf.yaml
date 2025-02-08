@@ -13,14 +13,14 @@ armor:
   - Mithral chainmail
   - Shields
 skills:
-  - id: talent:SeaWolf:Seafarer
+  - id: skill:SeaWolf:Seafarer
     name: Seafarer
     description: |
       You have advantage on checks related to navigating and crewing boats.
     types: [advantage, navigation]
     always: true
 
-  - id: talent:SeaWolf:OldGods
+  - id: skill:SeaWolf:OldGods
     name: Old Gods
     description: |
       Each day, your purpose aligns with one of the Old Gods (pg. 17). Choose one of the below options after you complete a rest; you gain its benefits until you complete your next rest.
@@ -31,7 +31,7 @@ skills:
     types: [divine, choice]
     always: true
 
-  - id: talent:SeaWolf:ShieldWall
+  - id: skill:SeaWolf:ShieldWall
     name: Shield Wall
     description: |
       If you wield a shield, you can use your action to take a defensive stance. Your AC becomes 20 during this time.
