@@ -9,6 +9,7 @@ attacks:
 - name: Claw
   attacks: 2
   range: Near
+  types: weapon
 hp:
   computed: 5
   max: 5

@@ -8,6 +8,7 @@ alignment: Chaotic
 attacks:
 - name: Shortsword
   range: Near
+  types: weapon
 hp:
   computed: 4
   max: 4

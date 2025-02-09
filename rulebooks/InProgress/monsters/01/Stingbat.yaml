@@ -8,6 +8,7 @@ alignment: Neutral
 attacks:
 - name: Beak
   range: Near
+  types: weapon
 hp:
   computed: 4
   max: 4

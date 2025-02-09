@@ -95,11 +95,13 @@ for monster in monsters:
         range = attack.get("range", None)
 
         if attack_name == "Spell":
+            attack["types"] = "spell"
             monster_bonuses.append({
                 "key": "spells.cast",
                 "value": tohit
             })
         else:
+            attack["types"] = "weapon"
             damage = attack.get("damage", None)
             extras = None
             if damage:

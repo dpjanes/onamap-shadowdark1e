@@ -8,6 +8,7 @@ alignment: Lawful
 attacks:
 - name: Spear
   range: Near
+  types: weapon
 hp:
   computed: 4
   max: 4

@@ -8,8 +8,10 @@ alignment: Chaotic
 attacks:
 - name: Cutlass
   range: Near
+  types: weapon
 - name: Dagger
   range: Near
+  types: weapon
 hp:
   computed: 4
   max: 4

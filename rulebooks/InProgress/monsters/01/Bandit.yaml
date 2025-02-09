@@ -8,8 +8,10 @@ alignment: Chaotic
 attacks:
 - name: Club
   range: Near
+  types: weapon
 - name: Shortbow
   range: Far
+  types: weapon
 hp:
   computed: 4
   max: 4

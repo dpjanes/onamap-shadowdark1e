@@ -9,8 +9,10 @@ alignment: Neutral
 attacks:
 - name: Bite
   range: Near
+  types: weapon
 - name: Darkness
   range: Near
+  types: weapon
 hp:
   computed: 4
   max: 4

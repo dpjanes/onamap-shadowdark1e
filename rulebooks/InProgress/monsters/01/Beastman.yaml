@@ -8,6 +8,7 @@ alignment: Chaotic
 attacks:
 - name: Spear
   range: Near
+  types: weapon
 hp:
   computed: 5
   max: 5
