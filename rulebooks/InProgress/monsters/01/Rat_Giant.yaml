@@ -16,10 +16,6 @@ hp:
   value: 5
 level:
   value: 1
-skills:
-- description: DC 12 CON or 1d4 CON damage (can't heal while ill). Repeat check once
-    per day; ends on success. Die at 0 CON.
-  name: Disease
 stats:
   chr:
     bonus: 2
@@ -39,5 +35,6 @@ weapons:
   - key: attack.tohit
     value: 1
   damage: 1d4
-  extras: disease
+  description: 'Disease: DC 12 CON or 1d4 CON damage (can''t heal while ill). Repeat
+    check once per day; ends on success. Die at 0 CON.'
 

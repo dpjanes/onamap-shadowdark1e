@@ -15,7 +15,6 @@ hp:
   value: 4
 level:
   value: 1
-stats: {}
 weapons:
 - name: Club
   damage: 1d4

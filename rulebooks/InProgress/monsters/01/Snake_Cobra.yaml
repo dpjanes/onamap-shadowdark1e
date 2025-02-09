@@ -16,9 +16,6 @@ hp:
   value: 4
 level:
   value: 1
-skills:
-- description: DC 18 CON or go to 0 HP with a death timer of 1.
-  name: Poison
 stats:
   chr:
     bonus: 3
@@ -34,5 +31,5 @@ weapons:
   - key: attack.tohit
     value: 2
   damage: '1'
-  extras: poison
+  description: 'Poison: DC 18 CON or go to 0 HP with a death timer of 1.'
 

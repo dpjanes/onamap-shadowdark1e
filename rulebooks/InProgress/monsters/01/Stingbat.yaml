@@ -19,10 +19,6 @@ level:
 moves:
 - range: near
   type: fly
-skills:
-- description: Attach to bitten target; auto-hit the next round. DC 9 STR on turn
-    to remove.
-  name: Blood Drain
 stats:
   chr:
     bonus: 2
@@ -38,5 +34,6 @@ weapons:
   - key: attack.tohit
     value: 2
   damage: 1d4
-  extras: blood drain
+  description: 'Blood Drain: Attach to bitten target; auto-hit the next round. DC
+    9 STR on turn to remove.'
 

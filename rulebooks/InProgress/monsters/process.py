@@ -9,6 +9,8 @@ with open("shadowdark_monsters.yaml", "r") as fin:
 
 def scrub(d):
     if isinstance(d, dict):
+        if "DELETE" in d:
+            return None
         return {k: scrub(v) for k, v in d.items() if v}
     elif isinstance(d, list):
         return [scrub(i) for i in d if i]
@@ -32,6 +34,7 @@ for monster in monsters:
     if moves == [{'range': 'near', 'type': ''}]:
         monster["moves"] = []
 
+    skills = monster.get("skills", [])
     monster_bonuses = []
     weapons = []
     spells = []
@@ -57,12 +60,24 @@ for monster in monsters:
                 if len(parts) == 2:
                     damage, extras = parts
 
+            if extras:
+                found = False
+                for skill in skills:
+                    if extras not in skill["name"].lower():
+                        continue
+
+                    extras = f'''{skill["name"]}: {skill["description"]}'''
+                    found = True
+
+                    skill["DELETE"] = True
+                    break
+
             weapon_bonuses = []
             weapon = {
                 "name": attack_name,
                 "bonuses": weapon_bonuses,
                 "damage": damage,
-                "extras": extras,
+                "description": extras,
             }
             weapons.append(weapon)
 
@@ -88,10 +103,11 @@ for monster in monsters:
         # if attack_bonuses:
         #     attack["bonuses"] = attack_bonuses
 
-    monster["weapons"] = [weapon for weapon in weapons if not weapon.get("DELETE")]
-    monster["attacks"] = [attack for attack in attacks if not attack.get("DELETE")]
-    monster["bonuses"] = [bonus for bonus in monster_bonuses if not bonus.get("DELETE")]
+    monster["weapons"] = weapons
+    monster["attacks"] = attacks
+    monster["bonuses"] = monster_bonuses
 
+    monster = scrub(monster)
     monster = scrub(monster)
     monster = scrub(monster)
 

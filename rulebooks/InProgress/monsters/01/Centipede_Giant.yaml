@@ -20,9 +20,6 @@ level:
 moves:
 - range: near
   type: climb
-skills:
-- description: DC 12 CON or paralyzed 1d4 rounds.
-  name: Poison
 stats:
   chr:
     bonus: 4
@@ -40,5 +37,5 @@ weapons:
   - key: attack.tohit
     value: 1
   damage: 1d4
-  extras: poison
+  description: 'Poison: DC 12 CON or paralyzed 1d4 rounds.'
 
