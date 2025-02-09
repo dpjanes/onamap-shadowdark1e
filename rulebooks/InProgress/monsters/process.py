@@ -60,8 +60,6 @@ for monster in monsters:
                 if len(parts) == 2:
                     damage, extras = parts
 
-                del attack["damage"]
-
             if extras:
                 found = False
                 for skill in skills:
@@ -88,23 +86,10 @@ for monster in monsters:
                     "key": "attack.tohit",
                     "value": tohit
                 })
-                del attack["tohit"]
-
-
-        # if range == "near":
-        #     attack["range"] = "melee"
-        #     # attack["DELETE"] = True
-        #     pass
-
-        # if tohit:
-        #     del attack["tohit"]
-        #     attack_bonuses.append({
-        #         "key": "attack.tohit",
-        #         "value": tohit
-        #     })
-
-        # if attack_bonuses:
-        #     attack["bonuses"] = attack_bonuses
+ 
+        for key in [ "tohit", "damage", "_range" ]:
+            if key in attack:
+                del attack[key]
 
     monster["weapons"] = weapons
     monster["attacks"] = attacks

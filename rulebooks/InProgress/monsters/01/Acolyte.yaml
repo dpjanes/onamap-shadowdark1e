@@ -10,7 +10,6 @@ attacks:
   range: near
 - name: Spell
   range: near
-  tohit: 2
 hp:
   computed: 4
   max: 4
