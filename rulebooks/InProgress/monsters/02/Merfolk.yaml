@@ -1,0 +1,32 @@
+id: monster:Core:Merfolk:02
+name: Merfolk
+description: Ocean dwellers with human
+ac:
+  computed: 11
+  value: 11
+alignment: Lawful
+attacks:
+- name: Spear
+  range: Near
+  types: weapon
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Near(swim)
+stats:
+  chr:
+    bonus: 1
+  dex:
+    bonus: 1
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Spear
+  damage: close
+

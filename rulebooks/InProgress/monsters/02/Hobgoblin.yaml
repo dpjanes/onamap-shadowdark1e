@@ -1,0 +1,45 @@
+id: monster:Core:Hobgoblin:02
+name: Hobgoblin
+description: A sturdy, tall goblin with russet skin. Militant and strategic.
+ac:
+  computed: 15
+  value: 15
+alignment: Chaotic
+attacks:
+- name: Longsword
+  range: Near
+  types: weapon
+- name: Longbow
+  range: Far
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: +1 to attacks and AC when in close range of an allied hobgoblin.
+  name: Phalanx
+stats:
+  chr:
+    bonus: 1
+  con:
+    bonus: 1
+  int:
+    bonus: 2
+  str:
+    bonus: 3
+  wis:
+    bonus: 1
+weapons:
+- name: Longsword
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d8
+- name: Longbow
+  damage: 1d8
+

@@ -1,0 +1,39 @@
+id: monster:Core:Soldier:02
+name: Soldier
+description: An armed footsoldier trained in the ways of battlefield combat.
+ac:
+  computed: 15
+  value: 15
+alignment: Lawful
+attacks:
+- name: Longsword
+  range: Near
+  types: weapon
+- name: Crossbow
+  range: Far
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+stats:
+  con:
+    bonus: 1
+  str:
+    bonus: 1
+weapons:
+- name: Longsword
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d8
+- name: Crossbow
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d6
+

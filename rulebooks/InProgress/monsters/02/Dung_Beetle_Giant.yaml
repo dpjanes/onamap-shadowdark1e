@@ -1,0 +1,40 @@
+id: monster:Core:Dung_Beetle_Giant:02
+name: Dung Beetle, Giant
+description: A trundling, barrel-sized beetle with a T-shaped horn.
+ac:
+  computed: 13
+  value: 13
+alignment: Neutral
+attacks:
+- name: Horn
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 3
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Horn
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
+  description: 'Knock: DC 9 STR or pushed a close distance and fall down.'
+

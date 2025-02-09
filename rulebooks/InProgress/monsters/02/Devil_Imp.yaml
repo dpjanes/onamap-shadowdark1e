@@ -1,0 +1,44 @@
+id: monster:Core:Devil_Imp:02
+name: Devil, Imp
+description: Cat-sized, red devils with oversized wings and tail, tiny horns, and
+  cowardly demeanors.
+ac:
+  computed: 13
+  value: 13
+alignment: Chaotic
+attacks:
+- name: Stinger
+  range: Near
+  types: weapon
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Near
+  type: fly
+skills:
+- description: Fire immune.
+  name: Impervious
+- description: Can grant mighty boons and patronage on behalf of an archdevil in exchange
+    for a sworn soul. ADV on related Charisma checks.
+  name: Contract
+stats:
+  chr:
+    bonus: 2
+  dex:
+    bonus: 3
+  int:
+    bonus: 1
+  str:
+    bonus: 2
+weapons:
+- name: Stinger
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d4
+  description: 'Poison: DC 12 CON or fitful sleep for 1d4 hours.'
+

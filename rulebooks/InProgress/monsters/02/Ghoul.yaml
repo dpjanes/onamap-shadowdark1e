@@ -1,0 +1,42 @@
+id: monster:Core:Ghoul:02
+name: Ghoul
+description: Gray-skinned, slavering undead with whipping tongues and flat, reptilian
+  faces.
+ac:
+  computed: 11
+  value: 11
+alignment: Chaotic
+attacks:
+- name: Claw
+  range: Near
+  types: weapon
+hp:
+  computed: 11
+  max: 11
+  value: 11
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: Immune to morale checks.
+  name: Undead
+stats:
+  con:
+    bonus: 2
+  dex:
+    bonus: 1
+  int:
+    bonus: 3
+  str:
+    bonus: 2
+  wis:
+    bonus: 1
+weapons:
+- name: Claw
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d6
+  description: 'Paralyze: DC 12 CON or paralyzed 1d4 rounds.'
+

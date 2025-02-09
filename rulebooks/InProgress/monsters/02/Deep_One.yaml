@@ -1,0 +1,40 @@
+id: monster:Core:Deep_One:02
+name: Deep One
+description: Cultish, amphibious fish-people with bulbous eyes. They lurk in deep
+  water and sunless caverns.
+ac:
+  computed: 13
+  value: 13
+alignment: Chaotic
+attacks:
+- name: Spear
+  attacks: 2
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+  type: swim
+skills:
+- description: Blinded in bright light.
+  name: Sunblind
+stats:
+  chr:
+    bonus: 2
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 2
+  str:
+    bonus: 2
+weapons:
+- name: Spear
+  damage: close
+

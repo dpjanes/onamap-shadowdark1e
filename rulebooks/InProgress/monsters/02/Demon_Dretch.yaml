@@ -1,0 +1,40 @@
+id: monster:Core:Demon_Dretch:02
+name: Demon, Dretch
+description: Green, pig-faced demons with thick claws and an oily stench.
+ac:
+  computed: 12
+  value: 12
+alignment: Chaotic
+attacks:
+- name: Claw
+  range: Near
+  types: weapon
+hp:
+  computed: 11
+  max: 11
+  value: 11
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: All in near DC 12 CON or blinded for 1d4 rounds.
+  name: Gas
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 2
+  int:
+    bonus: 2
+  str:
+    bonus: 2
+  wis:
+    bonus: 1
+weapons:
+- name: Claw
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d6
+

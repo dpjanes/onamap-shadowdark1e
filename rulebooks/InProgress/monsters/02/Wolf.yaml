@@ -1,0 +1,41 @@
+id: monster:Core:Wolf:02
+name: Wolf
+description: A giant canine with a gray pelt, yellow eyes, and dripping jaws.
+ac:
+  computed: 12
+  value: 12
+alignment: Neutral
+attacks:
+- name: Bite
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Double
+  type: near
+skills:
+- description: Deals +1 damage while an ally is close.
+  name: Pack Hunter
+stats:
+  con:
+    bonus: 1
+  dex:
+    bonus: 2
+  int:
+    bonus: 2
+  str:
+    bonus: 2
+  wis:
+    bonus: 1
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d6
+

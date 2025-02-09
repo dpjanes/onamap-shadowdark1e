@@ -1,0 +1,38 @@
+id: monster:Core:Bat_Giant:02
+name: Bat, Giant
+description: Leathery, eagle-sized mammal with a taste for flesh.
+ac:
+  computed: 12
+  value: 12
+alignment: Neutral
+attacks:
+- name: Bite
+  range: Near
+  types: weapon
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Near
+  type: fly
+stats:
+  chr:
+    bonus: 3
+  dex:
+    bonus: 2
+  int:
+    bonus: 3
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d6
+

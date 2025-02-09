@@ -1,0 +1,36 @@
+id: monster:Core:Violet_Fungus:02
+name: Violet Fungus
+description: Child-sized, creeping fungi with neon purple caps. Their whiplike roots
+  decompose living flesh.
+ac:
+  computed: 7
+  value: 7
+alignment: Neutral
+attacks:
+- name: Tendril
+  attacks: 2
+  range: Near
+  types: weapon
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Close
+stats:
+  chr:
+    bonus: 4
+  dex:
+    bonus: 2
+  int:
+    bonus: 4
+  str:
+    bonus: 3
+  wis:
+    bonus: 3
+weapons:
+- name: Tendril
+  damage: 1d4
+

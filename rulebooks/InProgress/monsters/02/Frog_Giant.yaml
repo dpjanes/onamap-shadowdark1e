@@ -1,0 +1,41 @@
+id: monster:Core:Frog_Giant:02
+name: Frog, Giant
+description: Human-sized frogs with warty skin and long, sticky tongues.
+ac:
+  computed: 12
+  value: 12
+alignment: Neutral
+attacks:
+- name: Tongue And 1 Bite
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+  type: swim
+skills:
+- description: 1 creature in near DC 12 DEX or pulled to close range.
+  name: Tongue
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 1
+  dex:
+    bonus: 2
+  int:
+    bonus: 3
+  str:
+    bonus: 2
+weapons:
+- name: Tongue And 1 Bite
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d6
+

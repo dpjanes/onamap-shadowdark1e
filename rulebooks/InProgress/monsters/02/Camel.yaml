@@ -1,0 +1,42 @@
+id: monster:Core:Camel:02
+name: Camel
+description: Ornery, tan-furred desert beasts.
+ac:
+  computed: 10
+  value: 10
+alignment: Neutral
+attacks:
+- name: Hoof
+  range: Near
+  types: weapon
+- name: Spit
+  range: Near
+  types: weapon
+hp:
+  computed: 12
+  max: 12
+  value: 12
+level:
+  value: 2
+moves:
+- range: Double
+  type: near
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 3
+  int:
+    bonus: 2
+  str:
+    bonus: 3
+  wis:
+    bonus: 1
+weapons:
+- name: Hoof
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d6
+- name: Spit
+

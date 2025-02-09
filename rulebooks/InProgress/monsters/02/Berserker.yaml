@@ -1,0 +1,38 @@
+id: monster:Core:Berserker:02
+name: Berserker
+description: Howling, battleraging warriors.
+ac:
+  computed: 12
+  value: 12
+alignment: Neutral
+attacks:
+- name: Greataxe
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
+  name: Rage
+stats:
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  str:
+    bonus: 2
+  wis:
+    bonus: 1
+weapons:
+- name: Greataxe
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d10
+

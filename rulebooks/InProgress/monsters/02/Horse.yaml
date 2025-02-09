@@ -1,0 +1,40 @@
+id: monster:Core:Horse:02
+name: Horse
+description: Powerful, swift herd animals that roam open plains.
+ac:
+  computed: 11
+  value: 11
+alignment: Neutral
+attacks:
+- name: Hooves
+  range: Near
+  types: weapon
+hp:
+  computed: 11
+  max: 11
+  value: 11
+level:
+  value: 2
+moves:
+- range: Double
+  type: near
+stats:
+  chr:
+    bonus: 2
+  con:
+    bonus: 2
+  dex:
+    bonus: 1
+  int:
+    bonus: 3
+  str:
+    bonus: 3
+  wis:
+    bonus: 1
+weapons:
+- name: Hooves
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d6
+

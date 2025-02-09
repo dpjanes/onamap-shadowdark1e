@@ -1,0 +1,48 @@
+id: monster:Core:Cultist:02
+name: Cultist
+description: A cloaked, wild-eyed zealot chanting the guttural prayers of a dark god.
+ac:
+  computed: 14
+  value: 14
+alignment: Chaotic
+attacks:
+- name: Longsword
+  range: Near
+  types: weapon
+- name: Spell
+  range: Near
+  types: spell
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: Immune to morale checks.
+  name: Fearless
+stats:
+  dex:
+    bonus: 1
+  int:
+    bonus: 1
+  str:
+    bonus: 1
+  wis:
+    bonus: 2
+spells:
+- name: Deathtouch
+  description: DC 12. 2d4 damage to one creature within close.
+  attribute: WIS
+weapons:
+- name: Longsword
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d8
+bonuses:
+- key: spells.cast
+  value: 2
+

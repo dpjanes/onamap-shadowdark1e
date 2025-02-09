@@ -1,0 +1,38 @@
+id: monster:Core:Lizardfolk:02
+name: Lizardfolk
+description: Crocodilian humanoids with scaly faces, claws, and tails. They dwell
+  in swamps and rivers.
+ac:
+  computed: 14
+  value: 14
+alignment: Chaotic
+attacks:
+- name: Spear
+  range: Near
+  types: weapon
+hp:
+  computed: 11
+  max: 11
+  value: 11
+level:
+  value: 2
+moves:
+- range: Near
+  type: swim
+stats:
+  chr:
+    bonus: 2
+  con:
+    bonus: 2
+  dex:
+    bonus: 1
+  int:
+    bonus: 1
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Spear
+  damage: close
+

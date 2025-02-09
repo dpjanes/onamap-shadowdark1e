@@ -1,0 +1,41 @@
+id: monster:Core:Sahuagin:02
+name: Sahuagin
+description: Humanoids with sea-green skin, webbed limbs, and shark teeth. Vicious
+  hunters.
+ac:
+  computed: 14
+  value: 14
+alignment: Chaotic
+attacks:
+- name: Trident
+  attacks: 2
+  range: Near
+  types: weapon
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Near
+  type: swim
+skills:
+- description: Must be submerged in water every 4 hours or suffocates.
+  name: Half-Amphibious
+stats:
+  chr:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 1
+  str:
+    bonus: 1
+weapons:
+- name: Trident
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d6
+

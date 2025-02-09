@@ -22,7 +22,7 @@ def scrub(d):
 def prescrub(d):
     if isinstance(d, dict):
         for k, v in list(d.items()):
-            if k == "range" and isinstance(v, str):
+            if k in [ "range", ] and isinstance(v, str):
                 d[k] = string.capwords(v)
             prescrub(v)
     elif isinstance(d, list):
@@ -37,7 +37,7 @@ for monster in monsters:
     prescrub(monster)
 
     level = f"{monster['level']['value']:02}"
-    if level != "01":
+    if level not in [ "01", "02", ]:
         continue
 
     os.makedirs(level, exist_ok=True)

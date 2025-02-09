@@ -1,0 +1,46 @@
+id: monster:Core:Elf:02
+name: Elf
+description: Ethereal, ageless fey-people infused with ancient magic.
+ac:
+  computed: 13
+  value: 13
+alignment: Lawful
+attacks:
+- name: Longbow
+  range: Far
+  types: weapon
+- name: Longsword
+  range: Near
+  types: weapon
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: ADV on DEX checks while in the natural wilds.
+  name: Feyblood
+stats:
+  chr:
+    bonus: 1
+  dex:
+    bonus: 3
+  int:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Longbow
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d8
+- name: Longsword
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d8
+

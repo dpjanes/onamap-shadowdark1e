@@ -1,0 +1,43 @@
+id: monster:Core:Will_O_Wisp:02
+name: Will-O'-Wisp
+description: A bobbing marsh light animated by an evil spirit. It tries to lead the
+  living into danger.
+ac:
+  computed: 13
+  value: 13
+alignment: Chaotic
+attacks:
+- name: Life Drain
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+  type: fly
+skills:
+- description: 1d4 CON damage. Death if reduced to 0 CON.
+  name: Life Drain
+stats:
+  chr:
+    bonus: 2
+  con:
+    bonus: 1
+  dex:
+    bonus: 3
+  int:
+    bonus: 1
+  str:
+    bonus: 3
+  wis:
+    bonus: 1
+weapons:
+- name: Life Drain
+  bonuses:
+  - key: attack.tohit
+    value: 3
+

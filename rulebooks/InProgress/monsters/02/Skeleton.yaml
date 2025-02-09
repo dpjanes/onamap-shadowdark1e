@@ -1,0 +1,43 @@
+id: monster:Core:Skeleton:02
+name: Skeleton
+description: A bleach-boned skeleton with red pinpoints of light in its eyes.
+ac:
+  computed: 13
+  value: 13
+alignment: Chaotic
+attacks:
+- name: Shortsword
+  range: Near
+  types: weapon
+- name: Shortbow
+  range: Far
+  types: weapon
+hp:
+  computed: 11
+  max: 11
+  value: 11
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: Immune to morale checks.
+  name: Undead
+stats:
+  chr:
+    bonus: 1
+  con:
+    bonus: 2
+  int:
+    bonus: 2
+  str:
+    bonus: 1
+weapons:
+- name: Shortsword
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d6
+- name: Shortbow
+  damage: 1d4
+

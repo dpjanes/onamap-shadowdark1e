@@ -1,0 +1,40 @@
+id: monster:Core:Rot_Flower:02
+name: Rot Flower
+description: Carnivorous flowers as large as a human. They reek of carrion.
+ac:
+  computed: 9
+  value: 9
+alignment: Neutral
+attacks:
+- name: Bite
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: None
+stats:
+  chr:
+    bonus: 4
+  con:
+    bonus: 1
+  dex:
+    bonus: 3
+  int:
+    bonus: 4
+  str:
+    bonus: 1
+  wis:
+    bonus: 3
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
+  description: 'Toxin: DC 12 CON or unconscious for 1d4 rounds.'
+

@@ -1,0 +1,47 @@
+id: monster:Core:Drow:02
+name: Drow
+description: A graceful, shadowy elf that pounces like a spider.
+ac:
+  computed: 16
+  value: 16
+alignment: Chaotic
+attacks:
+- name: Poison Dart
+  range: Near
+  types: weapon
+- name: Longsword
+  range: Near
+  types: weapon
+hp:
+  computed: 9
+  max: 9
+  value: 9
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: Blinded in bright light.
+  name: Sunblind
+stats:
+  chr:
+    bonus: 1
+  dex:
+    bonus: 3
+  int:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Poison Dart
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d4
+  description: 'Poison: DC 15 CON or sleep.'
+- name: Longsword
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d8
+

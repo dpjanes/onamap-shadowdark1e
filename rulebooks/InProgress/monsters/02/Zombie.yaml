@@ -1,0 +1,45 @@
+id: monster:Core:Zombie:02
+name: Zombie
+description: Lurching and decomposed undead that hunt in mobs.
+ac:
+  computed: 8
+  value: 8
+alignment: Chaotic
+attacks:
+- name: Slam
+  range: Near
+  types: weapon
+hp:
+  computed: 11
+  max: 11
+  value: 11
+level:
+  value: 2
+moves:
+- range: Near
+skills:
+- description: Immune to morale checks.
+  name: Undead
+- description: If zombie reduced to 0 HP by a non-magical source, DC 15 CON to go
+    to 1 HP instead.
+  name: Relentless
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 2
+  dex:
+    bonus: 2
+  int:
+    bonus: 2
+  str:
+    bonus: 2
+  wis:
+    bonus: 2
+weapons:
+- name: Slam
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d6
+

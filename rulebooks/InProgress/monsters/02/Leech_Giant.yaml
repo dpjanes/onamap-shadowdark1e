@@ -1,0 +1,42 @@
+id: monster:Core:Leech_Giant:02
+name: Leech, Giant
+description: A glossy black, blood-drinking slug as large as a cat.
+ac:
+  computed: 9
+  value: 9
+alignment: Neutral
+attacks:
+- name: Bite
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Near
+  type: swim
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 3
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
+  description: 'Attach: Attach to target; bite auto-hits next round. DC 12 STR on
+    turn to tear off.'
+

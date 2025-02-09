@@ -1,0 +1,43 @@
+id: monster:Core:Dinosaur_Velociraptor:02
+name: Dinosaur, Velociraptor
+description: Fast, turkey-sized raptors with vicious toe claws. Pack hunters.
+ac:
+  computed: 13
+  value: 13
+alignment: Neutral
+attacks:
+- name: Claw
+  range: Near
+  types: weapon
+hp:
+  computed: 10
+  max: 10
+  value: 10
+level:
+  value: 2
+moves:
+- range: Double
+  type: near
+skills:
+- description: +1d4 damage when attacking with surprise.
+  name: Clever
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 1
+  dex:
+    bonus: 3
+  int:
+    bonus: 2
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Claw
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d6
+
