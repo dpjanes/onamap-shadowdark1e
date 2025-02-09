@@ -6,10 +6,8 @@ ac:
   value: 13
 alignment: Chaotic
 attacks:
-- damage: 1d6
-  name: Shortsword
+- name: Shortsword
   range: near
-  tohit: 1
 hp:
   computed: 4
   max: 4

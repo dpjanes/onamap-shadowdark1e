@@ -6,10 +6,8 @@ ac:
   value: 12
 alignment: Neutral
 attacks:
-- damage: 1 + poison
-  name: Bite
+- name: Bite
   range: near
-  tohit: 2
 hp:
   computed: 4
   max: 4

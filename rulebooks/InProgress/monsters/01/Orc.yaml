@@ -6,10 +6,8 @@ ac:
   value: 15
 alignment: Chaotic
 attacks:
-- damage: 1d8
-  name: Greataxe
+- name: Greataxe
   range: near
-  tohit: 2
 hp:
   computed: 4
   max: 4

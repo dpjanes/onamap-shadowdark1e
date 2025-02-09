@@ -6,10 +6,8 @@ ac:
   value: 10
 alignment: Neutral
 attacks:
-- damage: 1d4
-  name: Tear
+- name: Tear
   range: near
-  tohit: 1
 hp:
   computed: 5
   max: 5

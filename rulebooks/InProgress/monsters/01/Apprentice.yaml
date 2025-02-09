@@ -6,8 +6,7 @@ ac:
   value: 11
 alignment: Neutral
 attacks:
-- damage: close
-  name: Dagger
+- name: Dagger
   range: near
 - name: Spell
   range: near

@@ -6,8 +6,7 @@ ac:
   value: 12
 alignment: Chaotic
 attacks:
-- damage: close
-  name: Spear
+- name: Spear
   range: near
 hp:
   computed: 5

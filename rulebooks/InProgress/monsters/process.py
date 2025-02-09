@@ -60,6 +60,8 @@ for monster in monsters:
                 if len(parts) == 2:
                     damage, extras = parts
 
+                del attack["damage"]
+
             if extras:
                 found = False
                 for skill in skills:
@@ -86,6 +88,7 @@ for monster in monsters:
                     "key": "attack.tohit",
                     "value": tohit
                 })
+                del attack["tohit"]
 
 
         # if range == "near":

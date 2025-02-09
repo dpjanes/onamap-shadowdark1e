@@ -6,12 +6,9 @@ ac:
   value: 12
 alignment: Chaotic
 attacks:
-- damage: 1d6
-  name: Cutlass
+- name: Cutlass
   range: near
-  tohit: 1
-- damage: close
-  name: Dagger
+- name: Dagger
   range: near
 hp:
   computed: 4

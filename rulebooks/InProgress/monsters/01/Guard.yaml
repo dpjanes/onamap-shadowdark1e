@@ -6,10 +6,8 @@ ac:
   value: 15
 alignment: Lawful
 attacks:
-- damage: 1d6
-  name: Spear
+- name: Spear
   range: near
-  tohit: 1
 hp:
   computed: 4
   max: 4

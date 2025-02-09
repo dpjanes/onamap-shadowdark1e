@@ -6,11 +6,9 @@ ac:
   value: 11
 alignment: Neutral
 attacks:
-- damage: 1d4
-  name: Claw
+- name: Claw
   attacks: 2
   range: near
-  tohit: 2
 hp:
   computed: 5
   max: 5

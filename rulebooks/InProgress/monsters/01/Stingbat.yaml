@@ -6,10 +6,8 @@ ac:
   value: 12
 alignment: Neutral
 attacks:
-- damage: 1d4 + blood drain
-  name: Beak
+- name: Beak
   range: near
-  tohit: 2
 hp:
   computed: 4
   max: 4

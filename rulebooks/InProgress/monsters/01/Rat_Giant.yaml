@@ -6,10 +6,8 @@ ac:
   value: 11
 alignment: Neutral
 attacks:
-- damage: 1d4 + disease
-  name: Bite
+- name: Bite
   range: near
-  tohit: 1
 hp:
   computed: 5
   max: 5

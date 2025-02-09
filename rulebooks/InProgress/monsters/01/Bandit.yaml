@@ -6,12 +6,9 @@ ac:
   value: 13
 alignment: Chaotic
 attacks:
-- damage: 1d4
-  name: Club
+- name: Club
   range: near
-  tohit: 1
-- damage: 1d4
-  name: Shortbow
+- name: Shortbow
   range: far
 hp:
   computed: 4

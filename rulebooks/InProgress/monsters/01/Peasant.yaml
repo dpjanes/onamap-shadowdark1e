@@ -6,8 +6,7 @@ ac:
   value: 10
 alignment: Lawful
 attacks:
-- damage: 1d4
-  name: Club
+- name: Club
   range: near
 hp:
   computed: 4

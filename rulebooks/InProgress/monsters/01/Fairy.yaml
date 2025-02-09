@@ -6,10 +6,8 @@ ac:
   value: 13
 alignment: Neutral
 attacks:
-- damage: 1 + poison
-  name: Needle
+- name: Needle
   range: near
-  tohit: 3
 hp:
   computed: 4
   max: 4

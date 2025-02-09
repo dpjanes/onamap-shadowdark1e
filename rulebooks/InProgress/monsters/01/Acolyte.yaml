@@ -6,10 +6,8 @@ ac:
   value: 12
 alignment: Lawful
 attacks:
-- damage: 1d6
-  name: Mace
+- name: Mace
   range: near
-  tohit: 1
 - name: Spell
   range: near
   tohit: 2
