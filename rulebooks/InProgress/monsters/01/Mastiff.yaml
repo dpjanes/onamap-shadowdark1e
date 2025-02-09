@@ -8,18 +8,14 @@ alignment: Neutral
 attacks:
 - damage: 1d6
   name: Bite
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 1
+  range: near
+  tohit: 1
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
-moves:
-- range: near
 stats:
   chr:
     bonus: 2
@@ -31,4 +27,10 @@ stats:
     bonus: 1
   wis:
     bonus: 1
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d6
 

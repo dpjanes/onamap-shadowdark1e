@@ -8,10 +8,8 @@ alignment: Neutral
 attacks:
 - damage: 1d4 + blood drain
   name: Beak
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 2
+  range: near
+  tohit: 2
 hp:
   computed: 4
   max: 4
@@ -34,4 +32,11 @@ stats:
     bonus: 2
   str:
     bonus: 2
+weapons:
+- name: Beak
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d4
+  extras: blood drain
 

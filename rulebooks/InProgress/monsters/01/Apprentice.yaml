@@ -8,20 +8,16 @@ alignment: Neutral
 attacks:
 - damage: close
   name: Dagger
-  range: melee
+  range: near
 - name: Spell
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 2
+  range: near
+  tohit: 2
 hp:
   computed: 3
   max: 3
   value: 3
 level:
   value: 1
-moves:
-- range: near
 skills:
 - description: DC 11. Focus. One target in near of LV 2 or less is stupefied for the
     duration.
@@ -37,6 +33,9 @@ stats:
     bonus: 2
   str:
     bonus: 1
+weapons:
+- name: Dagger
+  damage: close
 bonuses:
 - key: spells.cast
   value: 2

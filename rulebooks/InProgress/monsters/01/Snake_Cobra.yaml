@@ -8,18 +8,14 @@ alignment: Neutral
 attacks:
 - damage: 1 + poison
   name: Bite
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 2
+  range: near
+  tohit: 2
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
-moves:
-- range: near
 skills:
 - description: DC 18 CON or go to 0 HP with a death timer of 1.
   name: Poison
@@ -32,4 +28,11 @@ stats:
     bonus: 3
   str:
     bonus: 3
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: '1'
+  extras: poison
 

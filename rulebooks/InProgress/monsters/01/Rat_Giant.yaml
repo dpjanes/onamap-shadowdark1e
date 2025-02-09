@@ -8,18 +8,14 @@ alignment: Neutral
 attacks:
 - damage: 1d4 + disease
   name: Bite
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 1
+  range: near
+  tohit: 1
 hp:
   computed: 5
   max: 5
   value: 5
 level:
   value: 1
-moves:
-- range: near
 skills:
 - description: DC 12 CON or 1d4 CON damage (can't heal while ill). Repeat check once
     per day; ends on success. Die at 0 CON.
@@ -37,4 +33,11 @@ stats:
     bonus: 2
   wis:
     bonus: 1
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
+  extras: disease
 

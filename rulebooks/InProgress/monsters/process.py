@@ -28,7 +28,13 @@ for monster in monsters:
 
     monster["id"] = f"monster:Core:{monster_name}:{level}"
 
+    moves = monster.get("moves", [])
+    if moves == [{'range': 'near', 'type': ''}]:
+        monster["moves"] = []
+
     monster_bonuses = []
+    weapons = []
+    spells = []
 
     attacks = monster.get("attacks", [])
     for attack in attacks:
@@ -43,24 +49,46 @@ for monster in monsters:
                 "key": "spells.cast",
                 "value": tohit
             })
-            # attack["DELETE"] = True
-            pass
+        else:
+            damage = attack.get("damage", None)
+            extras = None
+            if damage:
+                parts = damage.split(" + ", 1)
+                if len(parts) == 2:
+                    damage, extras = parts
 
-        if range == "near":
-            attack["range"] = "melee"
-            # attack["DELETE"] = True
-            pass
+            weapon_bonuses = []
+            weapon = {
+                "name": attack_name,
+                "bonuses": weapon_bonuses,
+                "damage": damage,
+                "extras": extras,
+            }
+            weapons.append(weapon)
 
-        if tohit:
-            del attack["tohit"]
-            attack_bonuses.append({
-                "key": "attack.tohit",
-                "value": tohit
-            })
+            if tohit:
+                weapon_bonuses.append({
+                    "key": "attack.tohit",
+                    "value": tohit
+                })
 
-        if attack_bonuses:
-            attack["bonuses"] = attack_bonuses
 
+        # if range == "near":
+        #     attack["range"] = "melee"
+        #     # attack["DELETE"] = True
+        #     pass
+
+        # if tohit:
+        #     del attack["tohit"]
+        #     attack_bonuses.append({
+        #         "key": "attack.tohit",
+        #         "value": tohit
+        #     })
+
+        # if attack_bonuses:
+        #     attack["bonuses"] = attack_bonuses
+
+    monster["weapons"] = [weapon for weapon in weapons if not weapon.get("DELETE")]
     monster["attacks"] = [attack for attack in attacks if not attack.get("DELETE")]
     monster["bonuses"] = [bonus for bonus in monster_bonuses if not bonus.get("DELETE")]
 

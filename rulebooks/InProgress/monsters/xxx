@@ -1,0 +1,7 @@
+damage: 1 + poison
+damage: 1d4
+damage: 1d4 + blood drain
+damage: 1d4 + disease
+damage: 1d4 + poison
+damage: 1d6
+damage: 1d8

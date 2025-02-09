@@ -8,18 +8,14 @@ alignment: Chaotic
 attacks:
 - damage: 1d8
   name: Greataxe
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 2
+  range: near
+  tohit: 2
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
-moves:
-- range: near
 skills:
 - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
   name: Rage
@@ -30,4 +26,10 @@ stats:
     bonus: 1
   str:
     bonus: 2
+weapons:
+- name: Greataxe
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d8
 

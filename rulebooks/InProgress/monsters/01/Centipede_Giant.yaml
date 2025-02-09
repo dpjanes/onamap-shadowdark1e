@@ -9,10 +9,8 @@ alignment: Neutral
 attacks:
 - damage: 1d4 + poison
   name: Bite
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 1
+  range: near
+  tohit: 1
 hp:
   computed: 4
   max: 4
@@ -36,4 +34,11 @@ stats:
     bonus: 3
   wis:
     bonus: 3
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
+  extras: poison
 

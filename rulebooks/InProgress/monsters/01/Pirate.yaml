@@ -8,24 +8,28 @@ alignment: Chaotic
 attacks:
 - damage: 1d6
   name: Cutlass
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 1
+  range: near
+  tohit: 1
 - damage: close
   name: Dagger
-  range: melee
+  range: near
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
-moves:
-- range: near
 stats:
   dex:
     bonus: 1
   str:
     bonus: 1
+weapons:
+- name: Cutlass
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d6
+- name: Dagger
+  damage: close
 

@@ -8,10 +8,8 @@ alignment: Chaotic
 attacks:
 - damage: 1d4
   name: Club
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 1
+  range: near
+  tohit: 1
 - damage: 1d4
   name: Shortbow
   range: far
@@ -21,8 +19,6 @@ hp:
   value: 4
 level:
   value: 1
-moves:
-- range: near
 skills:
 - description: Deal an extra die of damage when undetected.
   name: Ambush
@@ -33,4 +29,12 @@ stats:
     bonus: 1
   str:
     bonus: 1
+weapons:
+- name: Club
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
+- name: Shortbow
+  damage: 1d4
 

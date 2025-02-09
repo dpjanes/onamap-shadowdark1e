@@ -10,7 +10,7 @@
   - damage: 1d8 + curse
     description: ''
     name: tentacle
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   - damage: 3d6
@@ -116,7 +116,7 @@
   - damage: 2d12
     description: ''
     name: flaming greatsword
-    number: 3
+    attacks: 3
     range: near
     tohit: 10
   description: A radiant being with a crown of fire, snowy wings, golden armor, and
@@ -164,7 +164,7 @@
   - damage: 1d8
     description: ''
     name: bastard sword
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   - damage: ''
@@ -213,7 +213,7 @@
   - damage: 1d10
     description: ''
     name: silvered bastard sword
-    number: 3
+    attacks: 3
     range: near
     tohit: 9
   description: Serene humans sculpted from alabaster. Golden orbs for eyes.
@@ -260,7 +260,7 @@
   - damage: 1d8
     description: ''
     name: longsword
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Beautiful, luminous humanoids with white-feathered wings.
@@ -444,7 +444,7 @@
   - damage: 1d6
     description: ''
     name: fist
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   - damage: 2d6
@@ -545,7 +545,7 @@
   - damage: ''
     description: ''
     name: spell
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   description: A wizened magic-user crackling with arcane power.
@@ -597,7 +597,7 @@
   - damage: close
     description: ''
     name: poisoned dagger
-    number: 2
+    attacks: 2
     range: near
   description: A black-cloaked, skulking killer.
   hp:
@@ -641,7 +641,7 @@
   - damage: 1d10
     description: ''
     name: flaming warhammer
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   - damage: 1d6
@@ -691,7 +691,7 @@
   - damage: 1d4
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   description: Fierce, clawed burrowers with black-and-white face stripes
@@ -785,7 +785,7 @@
   - damage: 2d6 + petrify
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Massive, muscled lizards with six legs and gray, tough hide.
@@ -873,7 +873,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 2
   description: A whirling cloud of screeching, bloodthirsty bats.
@@ -916,7 +916,7 @@
   - damage: 1d8
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: A hulking, swaying brute with claws as long as a finger.
@@ -962,7 +962,7 @@
   - damage: 2d6
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: A mighty, white bear that thrives in arctic environments.
@@ -1097,7 +1097,7 @@
   - damage: 2d6
     description: ''
     name: tentacle
-    number: 3
+    attacks: 3
     range: near
     tohit: 4
   description: A black, ice-cold mass of sludge.
@@ -1144,7 +1144,7 @@
   - damage: 1d6
     description: ''
     name: tusk
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Ornery wild pig with bristly, russet hair and yellowed tusks.
@@ -1190,7 +1190,7 @@
   - damage: 1d8 +
     description: ''
     name: tentacle
-    number: 4
+    attacks: 4
     range: near
     tohit: 5
   description: Purple, gaunt humanoids with squidlike heads and four face tentacles.
@@ -1245,7 +1245,7 @@
   - damage: 1d6
     description: ''
     name: spiked mace
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Brutish, bat-eared goblinoids covered in brown fur.
@@ -1290,7 +1290,7 @@
   - damage: 2d6
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 5
   - damage: ''
@@ -1387,7 +1387,7 @@
   - damage: 1d8
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Clawed apes with sandy, matted hair and reflective eyes. Carnivorous
@@ -1482,7 +1482,7 @@
   - damage: close
     description: ''
     name: spear
-    number: 2
+    attacks: 2
     range: near
   - damage: 1d8
     description: ''
@@ -1580,7 +1580,7 @@
   - damage: 1d4 + poison
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 1
   description: A crawling mass of weaving, sinuous centipedes.
@@ -1625,7 +1625,7 @@
   - damage: 2d8
     description: ''
     name: rend
-    number: 4
+    attacks: 4
     range: near
     tohit: 7
   description: A monstrous beast with a half-goat, half-lion body, wide dragon wings,
@@ -1672,7 +1672,7 @@
   - damage: 1d8 + grab
     description: ''
     name: pincer
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Brown, horse-sized lobster bugs with tentacles and pincers.
@@ -1717,7 +1717,7 @@
   - damage: 1d8
     description: ''
     name: lash
-    number: 3
+    attacks: 3
     range: near
     tohit: 4
   - damage: ''
@@ -1815,7 +1815,7 @@
   - damage: 2d6 + poison
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 6
   description: A human-sized snake with scales made of jewels and a corona of iridescent
@@ -1866,7 +1866,7 @@
   - damage: 1d8 + crush
     description: ''
     name: pincer
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: A wagon-sized, armored crab with two crushing pincers.
@@ -1911,7 +1911,7 @@
   - damage: 1d8
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Fat, scaly reptiles with stumpy legs and long, thrashing tails.
@@ -2006,7 +2006,7 @@
   - damage: 2d8
     description: ''
     name: greatclub
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   - damage: 1d12
@@ -2104,7 +2104,7 @@
   - damage: close
     description: ''
     name: spear
-    number: 2
+    attacks: 2
     range: near
   description: Cultish, amphibious fish-people with bulbous eyes. They lurk in deep
     water and sunless caverns.
@@ -2149,7 +2149,7 @@
   - damage: 2d12 + hellfire
     description: ''
     name: greatsword
-    number: 3
+    attacks: 3
     range: near
     tohit: 10
   description: Colossal, horned bat-beasts wreathed in the flames of hell itself.
@@ -2245,7 +2245,7 @@
   - damage: 2d8 + crush
     description: ''
     name: pincer
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   description: 'Horse-headed, fanged creatures
@@ -2298,7 +2298,7 @@
   - damage: 1d8
     description: ''
     name: longsword
-    number: 6
+    attacks: 6
     range: near
     tohit: 7
   description: Hissing, armored women with six limbs and the lower bodies of giant
@@ -2345,7 +2345,7 @@
   - damage: 1d8
     description: ''
     name: talons
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Wagon-sized, filthy vultures with four limbs, midnight-blue skin, and
@@ -2395,7 +2395,7 @@
   - damage: 3d10
     description: ''
     name: iron scepter
-    number: 4
+    attacks: 4
     range: near
     tohit: 10
   - damage: ''
@@ -2451,7 +2451,7 @@
   - damage: 1d6 + barb
     description: ''
     name: spine
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   - damage: 1d8
@@ -2555,13 +2555,13 @@
   - damage: 1d12
     description: ''
     name: greatsword
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   - damage: 1d8 + poison
     description: ''
     name: longbow
-    number: 2
+    attacks: 2
     range: far
     tohit: 8
   description: Raven-winged, resplendent beings in polished, black armor and helms
@@ -2608,7 +2608,7 @@
   - damage: 2d6
     description: ''
     name: burning trident
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   - damage: 2d8
@@ -2709,7 +2709,7 @@
   - damage: 2d10
     description: ''
     name: stomp
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   description: Colossal, long-necked tree grazers. Slow and peaceful.
@@ -2752,7 +2752,7 @@
   - damage: 2d8
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Aquatic reptiles as big as elephants. Flat flippers and narrow, toothy
@@ -2796,7 +2796,7 @@
   - damage: 1d8 + grab
     description: ''
     name: beak
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Long-beaked beasts with wide, triangular wings. Large enough to carry
@@ -2842,7 +2842,7 @@
   - damage: 1d10
     description: ''
     name: horns
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   - damage: ''
@@ -2892,7 +2892,7 @@
   - damage: 2d12
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   description: Towering, bipedal lizards with a massive head, jaws, and neck.
@@ -2979,7 +2979,7 @@
   - damage: 1d12
     description: ''
     name: scimitar
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   - damage: ''
@@ -3079,7 +3079,7 @@
   - damage: 2d10
     description: ''
     name: rend
-    number: 3
+    attacks: 3
     range: near
     tohit: 9
   - damage: ''
@@ -3135,7 +3135,7 @@
   - damage: 2d12
     description: ''
     name: rend
-    number: 4
+    attacks: 4
     range: near
     tohit: 11
   - damage: ''
@@ -3188,7 +3188,7 @@
   - damage: 2d8
     description: ''
     name: rend
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   - damage: ''
@@ -3241,7 +3241,7 @@
   - damage: 2d10
     description: ''
     name: rend
-    number: 4
+    attacks: 4
     range: near
     tohit: 9
   - damage: ''
@@ -3294,7 +3294,7 @@
   - damage: 2d10
     description: ''
     name: rend
-    number: 4
+    attacks: 4
     range: near
     tohit: 10
   - damage: ''
@@ -3354,7 +3354,7 @@
   - damage: 2d10
     description: ''
     name: rend
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   - damage: ''
@@ -3457,13 +3457,13 @@
   - damage: 1d8
     description: ''
     name: longsword
-    number: 3
+    attacks: 3
     range: near
     tohit: 3
   - damage: 1d8 + poison
     description: ''
     name: longbow
-    number: 2
+    attacks: 2
     range: far
     tohit: 3
   description: A monstrosity with the body of a giant spider and torso of a drow.
@@ -3510,7 +3510,7 @@
   - damage: 1d8 + poison
     description: ''
     name: snake whip
-    number: 3
+    attacks: 3
     range: near
     tohit: 4
   - damage: ''
@@ -3581,7 +3581,7 @@
   - damage: ''
     description: ''
     name: spell
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: A wizard of the wilds holding a knotted staff and wearing a mossy cloak
@@ -3781,13 +3781,13 @@
   - damage: 2d10
     description: ''
     name: scimitar
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   - damage: 2d6
     description: ''
     name: fire bolt
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Blood-red, towering humanoids formed of lava and ash. Short, black
@@ -3838,7 +3838,7 @@
   - damage: ''
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   - damage: ''
@@ -3889,7 +3889,7 @@
   - damage: ''
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   - damage: ''
@@ -3941,7 +3941,7 @@
   - damage: ''
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 6
   - damage: ''
@@ -3992,7 +3992,7 @@
   - damage: ''
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 6
   - damage: ''
@@ -4044,7 +4044,7 @@
   - damage: 1d8
     description: ''
     name: tusks
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: Mighty mammals with tough hide, flappy ears, and a trunk.
@@ -4139,7 +4139,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   - damage: ''
@@ -4278,7 +4278,7 @@
   - damage: 1d6
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Leering, winged fiends that look like stone statues. They can hold
@@ -4375,7 +4375,7 @@
   - damage: 1d8 + paralyze
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Greater ghouls who retain the intelligence they had in life.
@@ -4425,7 +4425,7 @@
   - damage: 1d8 + life drain
     description: ''
     name: death touch
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   - damage: ''
@@ -4526,7 +4526,7 @@
   - damage: 2d10
     description: ''
     name: morningstar
-    number: 3
+    attacks: 3
     range: near
     tohit: 9
   description: Pale, angular giants with blue-gray hair, light eyes, and silk robes.
@@ -4572,7 +4572,7 @@
   - damage: 2d12
     description: ''
     name: greatsword
-    number: 3
+    attacks: 3
     range: near
     tohit: 9
   description: Bulky, muscled giants with coppery skin and red hair. Heavily armored
@@ -4618,7 +4618,7 @@
   - damage: 2d10
     description: ''
     name: greataxe
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   description: Blue-skinned warriors with broad shoulders and braided hair. They sound
@@ -4664,7 +4664,7 @@
   - damage: 2d8
     description: ''
     name: greatclub
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   description: Highland-dwelling, barbaric giants with goatlike legs, horns, and horizontal
@@ -4708,7 +4708,7 @@
   - damage: 2d8
     description: ''
     name: greatclub
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   - damage: 2d10
@@ -4757,7 +4757,7 @@
   - damage: 2d8
     description: ''
     name: greatclub
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   description: Lean, sinewy giants with stony skin and deep-set eyes. They are quiet
@@ -4803,7 +4803,7 @@
   - damage: 2d12
     description: ''
     name: greatsword
-    number: 3
+    attacks: 3
     range: near
     tohit: 10
   - damage: ''
@@ -4856,7 +4856,7 @@
   - damage: 1d8 + latch
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Crawling masses of slime with dozens of screeching, lipless mouths
@@ -4909,7 +4909,7 @@
   - damage: 1d8
     description: ''
     name: longsword
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   - damage: close
@@ -5202,7 +5202,7 @@
   - damage: 1d8
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 6
   description: A towering, faceless humanoid shaped from glistening clay
@@ -5250,7 +5250,7 @@
   - damage: 1d8
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 6
   description: A ghastly monstrosity made of sewn-together corpses.
@@ -5298,7 +5298,7 @@
   - damage: 2d8
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   description: A bulky iron suit that squeals and sparks with each step
@@ -5345,7 +5345,7 @@
   - damage: 1d10
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 6
   description: A wide-limbed, lumbering statue that shakes the ground.
@@ -5392,7 +5392,7 @@
   - damage: 2d8
     description: ''
     name: gore
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   - damage: ''
@@ -5450,7 +5450,7 @@
   - damage: 2d6
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Mighty, jungle-dwelling apes.
@@ -5586,7 +5586,7 @@
   - damage: 1d10
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Winged hunters with the head of an eagle and body of a lion. Their
@@ -5719,7 +5719,7 @@
   - damage: 1d10
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: A purple-skinned, stooped woman with stringy, white hair and a mouth
@@ -5767,7 +5767,7 @@
   - damage: 1d8
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: A green, sunken-faced woman. Seaweed hair and oozing flesh.
@@ -5815,7 +5815,7 @@
   - damage: 1d8
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   - damage: ''
@@ -5868,7 +5868,7 @@
   - damage: 1d6
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   - damage: ''
@@ -5919,7 +5919,7 @@
   - damage: 1d8
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   - damage: ''
@@ -5971,7 +5971,7 @@
   - damage: 1d8
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Fierce, winged creatures with the lower body of a horse and upper body
@@ -6015,7 +6015,7 @@
   - damage: 1d10
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Ornery river-beasts as large as cows with round, purple bodies and
@@ -6200,7 +6200,7 @@
   - damage: 1d6
     description: ''
     name: pummel
-    number: 3
+    attacks: 3
     range: near
     tohit: 4
   description: Intelligent creatures made of flowing air. Often bound to the bidding
@@ -6295,7 +6295,7 @@
   - damage: 1d8
     description: ''
     name: bastard sword
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: A warrior in shining plate mail and the surcoat of a knightly order.
@@ -6439,7 +6439,7 @@
   - damage: 2d12
     description: ''
     name: tentacle
-    number: 4
+    attacks: 4
     range: near
     tohit: 9
   - damage: ''
@@ -6601,7 +6601,7 @@
   - damage: 2d8 + paralysis
     description: ''
     name: touch
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: A wizard who has completed a necromantic ritual to become a mighty,
@@ -6665,7 +6665,7 @@
   - damage: 1d8
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Tawny great cats that hunt open planes. Males have manes.
@@ -6802,7 +6802,7 @@
   - damage: 1d12
     description: ''
     name: tusks
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   description: Massive, shaggy elephants with tusks that reach the ground.
@@ -6850,7 +6850,7 @@
   - damage: ''
     description: ''
     name: sting
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Swooping manta rays as large
@@ -6895,13 +6895,13 @@
   - damage: 2d6
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   - damage: 1d8
     description: ''
     name: tail spike
-    number: 2
+    attacks: 2
     range: far
     tohit: 4
   description: Human-faced lions with bat
@@ -7078,7 +7078,7 @@
   - damage: 1d8 + stick
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Beasts that look like objects.
@@ -7124,7 +7124,7 @@
   - damage: 1d10
     description: ''
     name: greataxe
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: Ferocious bull-men with hooves and curved horns. They live in mazelike
@@ -7171,7 +7171,7 @@
   - damage: 1d6
     description: ''
     name: antler
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: A towering, brown-haired grazer with weighty, flat antlers.
@@ -7283,7 +7283,7 @@
   - damage: ''
     description: ''
     name: rot touch
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   description: A desiccated, linen-wrapped zombie.
@@ -7333,7 +7333,7 @@
   - damage: 1d6
     description: ''
     name: slam
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   description: Lumbering humanoids with spongy, elongated bodies.
@@ -7380,7 +7380,7 @@
   - damage: ''
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 7
   description: Magic-wielding cobras towering ten feet high.
@@ -7433,7 +7433,7 @@
   - damage: ''
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Mindless, skeletal husks of nagas reanimated by sorcery.
@@ -7480,7 +7480,7 @@
   - damage: ''
     description: ''
     name: hooves
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Black warhorses with flaming manes, hooves, and eyes.
@@ -7525,7 +7525,7 @@
   - damage: 1d12 + 2 + Moonbite properties
     description: ''
     name: greatsword
-    number: 4
+    attacks: 4
     range: near
     tohit: 11
   description: A pale, angular woman in translucent plate mail fashioned from giant
@@ -7596,7 +7596,7 @@
   - damage: 1d6
     description: ''
     name: tentacle
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: An orange puddle of quivering slime.
@@ -7642,7 +7642,7 @@
   - damage: 1d8 + grab
     description: ''
     name: tentacle
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Octopi as large as sailing skiffs.
@@ -7689,7 +7689,7 @@
   - damage: 2d6
     description: ''
     name: greatclub
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: A massive, dim-witted brute with tusks and a heavy frame. Often lords
@@ -7834,7 +7834,7 @@
   - damage: 1d10
     description: ''
     name: greataxe
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: An imposing orc with scars crisscrossing its body.
@@ -7879,7 +7879,7 @@
   - damage: 1d8
     description: ''
     name: tentacle
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Stumpy, three-legged beasts with barbed tentacles and vast
@@ -7925,7 +7925,7 @@
   - damage: 1d10 + dissolve
     description: ''
     name: tentacle
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: A mass of clear ooze strobing with sick pulses of violet light.
@@ -7972,7 +7972,7 @@
   - damage: 1d12
     description: ''
     name: claw
-    number: 4
+    attacks: 4
     range: near
     tohit: 8
   description: Human-shaped beings formed from black space ice. Their eyes are two
@@ -8020,7 +8020,7 @@
   - damage: 1d10
     description: ''
     name: scythe
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: Scythe-like limbs jut from a purple bulb as big as an ogre. Its lower
@@ -8068,7 +8068,7 @@
   - damage: 1d8 + poison
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Pale, horse-sized arachnids that become ghostly and intangible.
@@ -8117,7 +8117,7 @@
   - damage: 1d10
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Cantankerous bears with owl eyes, beaks, and feathers.
@@ -8163,7 +8163,7 @@
   - damage: 1d6
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Supple large cats with blue-black fur. Stealthy hunters.
@@ -8248,7 +8248,7 @@
   - damage: 1d6
     description: ''
     name: hooves
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Winged horses with noble bearings and pearly white coats.
@@ -8291,7 +8291,7 @@
   - damage: 2d12
     description: ''
     name: rend
-    number: 4
+    attacks: 4
     range: near
     tohit: 8
   description: Huge, soaring eagles made of searing flames. Intelligent and imbued
@@ -8346,7 +8346,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   description: A school of flat, silvery fish with vicious fangs.
@@ -8437,7 +8437,7 @@
   - damage: 1d6
     description: ''
     name: mace
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   - damage: ''
@@ -8496,7 +8496,7 @@
   - damage: 2d12 + swallow
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 9
   description: A massive worm as tall as a castle keep. Has a rotating maw and is
@@ -8546,7 +8546,7 @@
   - damage: 1d8
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: Demonic illusionists whose true form is of a humanlike great cat with
@@ -8734,7 +8734,7 @@
   - damage: 1 + disease
     description: ''
     name: bite
-    number: 4
+    attacks: 4
     range: near
     tohit: 0
   description: A screeching tidal wave of clawing and biting rats.
@@ -8780,7 +8780,7 @@
   - damage: 2d10
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 9
   description: A pearl-white lion with feathered wings that stands twenty feet tall.
@@ -8852,7 +8852,7 @@
   - damage: 1d8 + 2
     description: ''
     name: bastard sword
-    number: 3
+    attacks: 3
     range: near
     tohit: 4
   description: A knight in blackened armor riddled with cruel barbs.
@@ -8897,7 +8897,7 @@
   - damage: 2d6 + swallow
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   description: Massive, blue centipedes with neck hoods and red-hot spine spikes.
@@ -8950,7 +8950,7 @@
   - damage: 1d8
     description: ''
     name: horn
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Gray-skinned bulls with single nose horns. Dwell in grasslands.
@@ -8996,7 +8996,7 @@
   - damage: 2d10 + grab
     description: ''
     name: rend
-    number: 4
+    attacks: 4
     range: near
     tohit: 9
   description: Dragon-sized hawks that nest in remote mountains.
@@ -9041,7 +9041,7 @@
   - damage: 1d6 + grab
     description: ''
     name: tendril
-    number: 4
+    attacks: 4
     range: double near
     tohit: 4
   description: Ravenous monstrosities that look like cave rocks when their single
@@ -9138,7 +9138,7 @@
   - damage: 1d6
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: A mud-brown insect as big as a wolf with two feathery antennae. Consumes
@@ -9185,7 +9185,7 @@
   - damage: 1d6
     description: ''
     name: trident
-    number: 2
+    attacks: 2
     range: near
     tohit: 1
   description: Humanoids with sea-green skin, webbed limbs, and shark teeth. Vicious
@@ -9231,7 +9231,7 @@
   - damage: close
     description: ''
     name: flaming spear
-    number: 2
+    attacks: 2
     range: near
   - damage: 1d8
     description: ''
@@ -9282,7 +9282,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: A chittering cloud of iridescent, oval-shaped beetles.
@@ -9325,7 +9325,7 @@
   - damage: 1d6
     description: ''
     name: claws
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   - damage: ''
@@ -9465,7 +9465,7 @@
   - damage: 1d4 + drain
     description: ''
     name: touch
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   description: Flitting, sentient shadows in the vague shape of a human.
@@ -9511,7 +9511,7 @@
   - damage: 1d6 + engulf
     description: ''
     name: slam
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Fetid piles of slimy vegetation animated to life by lightning.
@@ -9601,7 +9601,7 @@
   - damage: 2d8
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   description: Primordial sharks the size of whales. Savage hunters.
@@ -9646,7 +9646,7 @@
   - damage: 1d6
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   - damage: ''
@@ -9748,7 +9748,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: Prehistoric tigers with long canine fangs. They hunt grasslands and
@@ -9836,7 +9836,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: An enormous, mottled serpent that can swallow a cow whole.
@@ -9881,7 +9881,7 @@
   - damage: 1d4 + poison
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 2
   description: A roiling wave of snakes darting and flowing across the ground.
@@ -9973,13 +9973,13 @@
   - damage: 1d10
     description: ''
     name: claw
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   - damage: ''
     description: ''
     name: spell
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: A winged, leonine oracle who can see into time and space and often
@@ -10215,7 +10215,7 @@
   - damage: 1d6
     description: ''
     name: claws
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   description: A gray-skinned, gaunt creature with four ropy limbs tipped in sucker-lined
@@ -10263,7 +10263,7 @@
   - damage: 3d10 + sever
     description: ''
     name: thrash
-    number: 4
+    attacks: 4
     range: near
     tohit: 13
   description: A colossal, four-legged reptile with crocodilian jaws, amber scales,
@@ -10336,7 +10336,7 @@
   - damage: ''
     description: ''
     name: d4 eyestalk ray
-    number: 2
+    attacks: 2
     range: near
   description: A floating mass of rubbery skin crusted with barnacles. Its ten eyestalks
     writhe like snakes, and a deep, circular scar mars its central body, blinding
@@ -10410,7 +10410,7 @@
   - damage: 1d10 + lop
     description: ''
     name: vorpal bastard sword
-    number: 4
+    attacks: 4
     range: near
     tohit: 9
   description: A cheerful merchant who appears to be a hale, middle-aged human man
@@ -10572,7 +10572,7 @@
   - damage: 1d10
     description: ''
     name: slam
-    number: 3
+    attacks: 3
     range: near
     tohit: 8
   - damage: 2d12
@@ -10624,7 +10624,7 @@
   - damage: 1d6
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Green, lanky giants with warty skin and territorial rage. Lair in deep
@@ -10671,7 +10671,7 @@
   - damage: 1d8
     description: ''
     name: claw
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Rime-covered trolls with blue skin and flinty, black eyes. They stalk
@@ -10764,7 +10764,7 @@
   - damage: 1d8 + blood drain
     description: ''
     name: bite
-    number: 3
+    attacks: 3
     range: near
     tohit: 7
   - damage: ''
@@ -10828,7 +10828,7 @@
   - damage: 1d8 + blood drain
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Lesser, feral vampires born from the bite of their vampiric sires.
@@ -10882,7 +10882,7 @@
   - damage: 1d4
     description: ''
     name: tendril
-    number: 2
+    attacks: 2
     range: near
     tohit: 0
   description: Child-sized, creeping fungi with neon purple caps. Their whiplike roots
@@ -10926,7 +10926,7 @@
   - damage: 1d6
     description: ''
     name: scimitar
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   - damage: close
@@ -10974,13 +10974,13 @@
   - damage: 1d10
     description: ''
     name: falchion
-    number: 3
+    attacks: 3
     range: near
     tohit: 5
   - damage: 1d8
     description: ''
     name: longbow
-    number: 2
+    attacks: 2
     range: far
     tohit: 3
   description: A giant anaconda body merges into a humanoid torso with a large snake
@@ -11030,7 +11030,7 @@
   - damage: ''
     description: ''
     name: spell
-    number: 2
+    attacks: 2
     range: near
     tohit: 5
   description: Thin viperians with scales tinged in black. They wear silk robes and
@@ -11172,7 +11172,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 2
   description: A slinking, rat-faced humanoid covered in mangy fur.
@@ -11219,7 +11219,7 @@
   - damage: 1d6
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 3
   description: A bipedal, wolf-faced humanoid covered in brown fur.
@@ -11401,7 +11401,7 @@
   - damage: 1d8
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: A massive wolf with spines of black bone along its brow ridge and back.
@@ -11446,7 +11446,7 @@
   - damage: 1d6
     description: ''
     name: bite
-    number: 2
+    attacks: 2
     range: near
     tohit: 4
   description: Sinister, white-pelted wolves with piercing blue eyes. From the fey
@@ -11538,7 +11538,7 @@
   - damage: 1d10 + life drain
     description: ''
     name: death touch
-    number: 3
+    attacks: 3
     range: near
     tohit: 6
   description: A shadowy spirit seething with anger and malice. Its presence is unsettling
@@ -11587,7 +11587,7 @@
   - damage: 1d8
     description: ''
     name: rend
-    number: 2
+    attacks: 2
     range: near
     tohit: 6
   description: Dragon-cousins with a large tail stinger, mottled lizard skin, and

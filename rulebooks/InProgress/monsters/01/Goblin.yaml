@@ -8,21 +8,17 @@ alignment: Chaotic
 attacks:
 - damage: 1d4
   name: Club
-  range: melee
+  range: near
 - damage: 1d4
   name: Shortbow
   range: far
-  bonuses:
-  - key: attack.tohit
-    value: 1
+  tohit: 1
 hp:
   computed: 5
   max: 5
   value: 5
 level:
   value: 1
-moves:
-- range: near
 skills:
 - description: Can't be surprised.
   name: Keen Senses
@@ -37,4 +33,12 @@ stats:
     bonus: 1
   wis:
     bonus: 1
+weapons:
+- name: Club
+  damage: 1d4
+- name: Shortbow
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
 

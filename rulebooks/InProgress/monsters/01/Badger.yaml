@@ -8,11 +8,9 @@ alignment: Neutral
 attacks:
 - damage: 1d4
   name: Claw
-  number: 2
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 2
+  attacks: 2
+  range: near
+  tohit: 2
 hp:
   computed: 5
   max: 5
@@ -36,4 +34,10 @@ stats:
     bonus: 2
   wis:
     bonus: 1
+weapons:
+- name: Claw
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d4
 

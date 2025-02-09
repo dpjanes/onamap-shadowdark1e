@@ -8,14 +8,15 @@ alignment: Lawful
 attacks:
 - damage: 1d4
   name: Club
-  range: melee
+  range: near
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
-moves:
-- range: near
 stats: {}
+weapons:
+- name: Club
+  damage: 1d4
 

@@ -8,10 +8,8 @@ alignment: Neutral
 attacks:
 - damage: 1d4
   name: Tear
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 1
+  range: near
+  tohit: 1
 hp:
   computed: 5
   max: 5
@@ -35,4 +33,10 @@ stats:
     bonus: 1
   wis:
     bonus: 1
+weapons:
+- name: Tear
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
 

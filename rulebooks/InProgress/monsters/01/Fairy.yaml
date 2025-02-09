@@ -8,10 +8,8 @@ alignment: Neutral
 attacks:
 - damage: 1 + poison
   name: Needle
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 3
+  range: near
+  tohit: 3
 hp:
   computed: 4
   max: 4
@@ -33,4 +31,11 @@ stats:
     bonus: 1
   str:
     bonus: 2
+weapons:
+- name: Needle
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: '1'
+  extras: poison
 

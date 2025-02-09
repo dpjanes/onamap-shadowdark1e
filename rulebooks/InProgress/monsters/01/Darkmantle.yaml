@@ -9,12 +9,10 @@ alignment: Neutral
 attacks:
 - damage: 1d4
   name: Bite
-  range: melee
-  bonuses:
-  - key: attack.tohit
-    value: 3
+  range: near
+  tohit: 3
 - name: Darkness
-  range: melee
+  range: near
 hp:
   computed: 4
   max: 4
@@ -36,4 +34,11 @@ stats:
     bonus: 3
   str:
     bonus: 2
+weapons:
+- name: Bite
+  bonuses:
+  - key: attack.tohit
+    value: 3
+  damage: 1d4
+- name: Darkness
 
