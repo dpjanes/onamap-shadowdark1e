@@ -33,7 +33,7 @@ skills:
   description: "You know either Celestial, Diabolic, or Primordial."
   always: True
 
-## XXX - Needs Work
+## CHECKED
 - id: skill:Core:Priest:TurnUndead
   name: "Turn Undead"
   types: [ "know_spell" ]

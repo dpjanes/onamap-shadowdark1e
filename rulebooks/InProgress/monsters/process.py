@@ -61,15 +61,30 @@ for monster in monsters:
 
         spell_name, attribute = spell_match.groups()
 
+        spell_bonuses = []
         spell = {
             "name": spell_name,
             "description": skill["description"],
             "attribute": attribute,
+            "bonuses": spell_bonuses,
         }
+        # right now this works correctly before of Attack Spell
+        # try:
+        #     b = monster["stats"][attribute.lower()]["value"]
+        # except KeyError:
+        #     b = 0
+
+        # b = 1
+        # if b:
+        #     spell_bonuses.append({
+        #         "key": f"stats.{attribute.lower()}.value",
+        #         "value": b
+        #     })
+        
+
         spells.append(spell)
 
         skill["DELETE"] = True
-    
 
     attacks = monster.get("attacks", [])
     for attack in attacks:
