@@ -1,3 +1,4 @@
+id: monster:Core:Bandit:01
 name: Bandit
 description: Hard-bitten rogue in tattered leathers and a hooded cloak.
 ac:
@@ -5,6 +6,12 @@ ac:
   value: 13
 alignment: Chaotic
 attacks:
+- damage: 1d4
+  name: Club
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 1
 - damage: 1d4
   name: Shortbow
   range: far
@@ -26,5 +33,4 @@ stats:
     bonus: 1
   str:
     bonus: 1
-id: monster:Core:Bandit:01
 

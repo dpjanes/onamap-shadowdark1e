@@ -1,9 +1,18 @@
+id: monster:Core:Badger:01
 name: Badger
 description: Fierce, clawed burrowers with black-and-white face stripes
 ac:
   computed: 11
   value: 11
 alignment: Neutral
+attacks:
+- damage: 1d4
+  name: Claw
+  number: 2
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 2
 hp:
   computed: 5
   max: 5
@@ -27,5 +36,4 @@ stats:
     bonus: 2
   wis:
     bonus: 1
-id: monster:Core:Badger:01
 

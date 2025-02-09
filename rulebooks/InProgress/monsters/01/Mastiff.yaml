@@ -1,9 +1,17 @@
+id: monster:Core:Mastiff:01
 name: Mastiff
 description: Muscled guard dogs with fierce
 ac:
   computed: 11
   value: 11
 alignment: Neutral
+attacks:
+- damage: 1d6
+  name: Bite
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 1
 hp:
   computed: 4
   max: 4
@@ -23,5 +31,4 @@ stats:
     bonus: 1
   wis:
     bonus: 1
-id: monster:Core:Mastiff:01
 

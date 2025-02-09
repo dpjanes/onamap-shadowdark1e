@@ -1,9 +1,14 @@
+id: monster:Core:Peasant:01
 name: Peasant
 description: A commoner in worn clothes.
 ac:
   computed: 10
   value: 10
 alignment: Lawful
+attacks:
+- damage: 1d4
+  name: Club
+  range: melee
 hp:
   computed: 4
   max: 4
@@ -13,5 +18,4 @@ level:
 moves:
 - range: near
 stats: {}
-id: monster:Core:Peasant:01
 

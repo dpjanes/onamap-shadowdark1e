@@ -1,9 +1,17 @@
+id: monster:Core:Guard:01
 name: Guard
 description: A sentry equipped with sturdy weapons and armor.
 ac:
   computed: 15
   value: 15
 alignment: Lawful
+attacks:
+- damage: 1d6
+  name: Spear
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 1
 hp:
   computed: 4
   max: 4
@@ -17,5 +25,4 @@ stats:
     bonus: 1
   wis:
     bonus: 1
-id: monster:Core:Guard:01
 

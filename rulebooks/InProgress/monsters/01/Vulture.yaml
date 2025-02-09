@@ -1,9 +1,17 @@
+id: monster:Core:Vulture:01
 name: Vulture
 description: Scavenger birds with black feathers, hunched backs, and bald heads.
 ac:
   computed: 10
   value: 10
 alignment: Neutral
+attacks:
+- damage: 1d4
+  name: Tear
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 1
 hp:
   computed: 5
   max: 5
@@ -27,5 +35,4 @@ stats:
     bonus: 1
   wis:
     bonus: 1
-id: monster:Core:Vulture:01
 

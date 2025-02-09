@@ -1,9 +1,20 @@
+id: monster:Core:Pirate:01
 name: Pirate
 description: Seafaring scoundrels who live to steal and hoard treasure.
 ac:
   computed: 12
   value: 12
 alignment: Chaotic
+attacks:
+- damage: 1d6
+  name: Cutlass
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 1
+- damage: close
+  name: Dagger
+  range: melee
 hp:
   computed: 4
   max: 4
@@ -17,5 +28,4 @@ stats:
     bonus: 1
   str:
     bonus: 1
-id: monster:Core:Pirate:01
 

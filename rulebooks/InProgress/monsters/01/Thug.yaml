@@ -1,9 +1,17 @@
+id: monster:Core:Thug:01
 name: Thug
 description: A bruised and boorish ruffian.
 ac:
   computed: 13
   value: 13
 alignment: Chaotic
+attacks:
+- damage: 1d6
+  name: Shortsword
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 1
 hp:
   computed: 4
   max: 4
@@ -21,5 +29,4 @@ stats:
     bonus: 1
   wis:
     bonus: 1
-id: monster:Core:Thug:01
 

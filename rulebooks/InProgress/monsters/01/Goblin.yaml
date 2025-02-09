@@ -1,3 +1,4 @@
+id: monster:Core:Goblin:01
 name: Goblin
 description: A short, hairless humanoid with green skin and pointy ears.
 ac:
@@ -5,6 +6,9 @@ ac:
   value: 11
 alignment: Chaotic
 attacks:
+- damage: 1d4
+  name: Club
+  range: melee
 - damage: 1d4
   name: Shortbow
   range: far
@@ -33,5 +37,4 @@ stats:
     bonus: 1
   wis:
     bonus: 1
-id: monster:Core:Goblin:01
 

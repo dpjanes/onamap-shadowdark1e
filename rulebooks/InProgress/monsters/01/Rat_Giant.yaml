@@ -1,9 +1,17 @@
+id: monster:Core:Rat_Giant:01
 name: Rat, Giant
 description: Cunning rats as large as cats. Mangy fur and wormlike tails.
 ac:
   computed: 11
   value: 11
 alignment: Neutral
+attacks:
+- damage: 1d4 + disease
+  name: Bite
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 1
 hp:
   computed: 5
   max: 5
@@ -29,5 +37,4 @@ stats:
     bonus: 2
   wis:
     bonus: 1
-id: monster:Core:Rat_Giant:01
 

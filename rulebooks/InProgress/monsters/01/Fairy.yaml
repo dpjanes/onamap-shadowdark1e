@@ -1,9 +1,17 @@
+id: monster:Core:Fairy:01
 name: Fairy
 description: Miniature fey folk with fluttering moth or butterfly wings.
 ac:
   computed: 13
   value: 13
 alignment: Neutral
+attacks:
+- damage: 1 + poison
+  name: Needle
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 3
 hp:
   computed: 4
   max: 4
@@ -25,5 +33,4 @@ stats:
     bonus: 1
   str:
     bonus: 2
-id: monster:Core:Fairy:01
 

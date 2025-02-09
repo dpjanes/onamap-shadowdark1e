@@ -1,9 +1,19 @@
+id: monster:Core:Apprentice:01
 name: Apprentice
 description: A cloaked magician with a thin, freshly bound
 ac:
   computed: 11
   value: 11
 alignment: Neutral
+attacks:
+- damage: close
+  name: Dagger
+  range: melee
+- name: Spell
+  range: melee
+  bonuses:
+  - key: attack.tohit
+    value: 2
 hp:
   computed: 3
   max: 3
@@ -27,7 +37,6 @@ stats:
     bonus: 2
   str:
     bonus: 1
-id: monster:Core:Apprentice:01
 bonuses:
 - key: spells.cast
   value: 2
