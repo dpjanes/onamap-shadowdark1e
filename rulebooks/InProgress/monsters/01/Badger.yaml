@@ -8,7 +8,7 @@ alignment: Neutral
 attacks:
 - name: Claw
   attacks: 2
-  range: near
+  range: Near
 hp:
   computed: 5
   max: 5
@@ -16,7 +16,7 @@ hp:
 level:
   value: 1
 moves:
-- range: near
+- range: Near
   type: burrow
 skills:
 - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).

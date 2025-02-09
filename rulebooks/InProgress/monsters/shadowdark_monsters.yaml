@@ -491,7 +491,7 @@
     value: 11
   alignment: Neutral
   attacks:
-  - damage: close
+  - damage: 1d4
     description: ''
     name: dagger
     range: near

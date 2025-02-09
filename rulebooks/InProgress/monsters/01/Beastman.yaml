@@ -7,13 +7,15 @@ ac:
 alignment: Chaotic
 attacks:
 - name: Spear
-  range: near
+  range: Near
 hp:
   computed: 5
   max: 5
   value: 5
 level:
   value: 1
+moves:
+- range: Near
 skills:
 - description: +1 damage with melee weapons (included).
   name: Brutal

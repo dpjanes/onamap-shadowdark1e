@@ -8,9 +8,9 @@ ac:
 alignment: Neutral
 attacks:
 - name: Bite
-  range: near
+  range: Near
 - name: Darkness
-  range: near
+  range: Near
 hp:
   computed: 4
   max: 4
@@ -18,7 +18,7 @@ hp:
 level:
   value: 1
 moves:
-- range: near
+- range: Near
   type: fly
 skills:
 - description: Extinguish all light sources in near.

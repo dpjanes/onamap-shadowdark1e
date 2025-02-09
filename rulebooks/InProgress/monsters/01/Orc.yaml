@@ -7,13 +7,15 @@ ac:
 alignment: Chaotic
 attacks:
 - name: Greataxe
-  range: near
+  range: Near
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
+moves:
+- range: Near
 skills:
 - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
   name: Rage

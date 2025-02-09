@@ -7,7 +7,7 @@ ac:
 alignment: Neutral
 attacks:
 - name: Beak
-  range: near
+  range: Near
 hp:
   computed: 4
   max: 4
@@ -15,7 +15,7 @@ hp:
 level:
   value: 1
 moves:
-- range: near
+- range: Near
   type: fly
 stats:
   chr:

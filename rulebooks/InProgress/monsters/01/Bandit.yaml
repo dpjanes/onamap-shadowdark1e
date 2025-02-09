@@ -7,15 +7,17 @@ ac:
 alignment: Chaotic
 attacks:
 - name: Club
-  range: near
+  range: Near
 - name: Shortbow
-  range: far
+  range: Far
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
+moves:
+- range: Near
 skills:
 - description: Deal an extra die of damage when undetected.
   name: Ambush

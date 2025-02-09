@@ -7,13 +7,15 @@ ac:
 alignment: Lawful
 attacks:
 - name: Spear
-  range: near
+  range: Near
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
+moves:
+- range: Near
 stats:
   str:
     bonus: 1

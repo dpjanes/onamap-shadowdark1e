@@ -7,15 +7,17 @@ ac:
 alignment: Chaotic
 attacks:
 - name: Club
-  range: near
+  range: Near
 - name: Shortbow
-  range: far
+  range: Far
 hp:
   computed: 5
   max: 5
   value: 5
 level:
   value: 1
+moves:
+- range: Near
 skills:
 - description: Can't be surprised.
   name: Keen Senses

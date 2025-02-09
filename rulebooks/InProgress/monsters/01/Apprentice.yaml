@@ -7,21 +7,17 @@ ac:
 alignment: Neutral
 attacks:
 - name: Dagger
-  range: near
+  range: Near
 - name: Spell
-  range: near
+  range: Near
 hp:
   computed: 3
   max: 3
   value: 3
 level:
   value: 1
-skills:
-- description: DC 11. Focus. One target in near of LV 2 or less is stupefied for the
-    duration.
-  name: Beguile (INT Spell)
-- description: DC 11. 1d4 damage to one target within far.
-  name: Magic Bolt (INT Spell)
+moves:
+- range: Near
 stats:
   con:
     bonus: 1
@@ -31,9 +27,17 @@ stats:
     bonus: 2
   str:
     bonus: 1
+spells:
+- name: Beguile
+  description: DC 11. Focus. One target in near of LV 2 or less is stupefied for the
+    duration.
+  attribute: INT
+- name: Magic Bolt
+  description: DC 11. 1d4 damage to one target within far.
+  attribute: INT
 weapons:
 - name: Dagger
-  damage: close
+  damage: 1d4
 bonuses:
 - key: spells.cast
   value: 2

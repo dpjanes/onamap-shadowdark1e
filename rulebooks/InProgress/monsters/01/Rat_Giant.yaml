@@ -7,13 +7,15 @@ ac:
 alignment: Neutral
 attacks:
 - name: Bite
-  range: near
+  range: Near
 hp:
   computed: 5
   max: 5
   value: 5
 level:
   value: 1
+moves:
+- range: Near
 stats:
   chr:
     bonus: 2

@@ -7,7 +7,7 @@ ac:
 alignment: Neutral
 attacks:
 - name: Tear
-  range: near
+  range: Near
 hp:
   computed: 5
   max: 5
@@ -15,7 +15,7 @@ hp:
 level:
   value: 1
 moves:
-- range: near
+- range: Near
   type: fly
 skills:
 - description: Can track dead flesh unerringly within a mile.

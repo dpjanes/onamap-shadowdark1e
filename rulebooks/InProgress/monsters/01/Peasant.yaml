@@ -7,13 +7,15 @@ ac:
 alignment: Lawful
 attacks:
 - name: Club
-  range: near
+  range: Near
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
+moves:
+- range: Near
 weapons:
 - name: Club
   damage: 1d4

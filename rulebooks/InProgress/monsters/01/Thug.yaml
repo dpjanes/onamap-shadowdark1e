@@ -7,13 +7,15 @@ ac:
 alignment: Chaotic
 attacks:
 - name: Shortsword
-  range: near
+  range: Near
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
+moves:
+- range: Near
 stats:
   chr:
     bonus: 1

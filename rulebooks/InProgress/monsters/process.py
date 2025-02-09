@@ -7,6 +7,8 @@ from types import SimpleNamespace
 with open("shadowdark_monsters.yaml", "r") as fin:
     monsters = yaml.safe_load(fin)
 
+spell_re = r"^([A-Za-z\s]+) \((\w+) Spell\)$"
+
 def scrub(d):
     if isinstance(d, dict):
         if "DELETE" in d:
@@ -17,10 +19,22 @@ def scrub(d):
     else:
         return d
     
+def prescrub(d):
+    if isinstance(d, dict):
+        for k, v in list(d.items()):
+            if k == "range" and isinstance(v, str):
+                d[k] = string.capwords(v)
+            prescrub(v)
+    elif isinstance(d, list):
+        for i in d:
+            prescrub(i)
+    
 for monster in monsters:
     monster_name = monster["name"]
     monster_name = re.sub("[^A-Za-z]", "_", monster_name)
     monster_name = re.sub("_+", "_", monster_name)
+
+    prescrub(monster)
 
     level = f"{monster['level']['value']:02}"
     if level != "01":
@@ -38,6 +52,24 @@ for monster in monsters:
     monster_bonuses = []
     weapons = []
     spells = []
+
+    for skill in skills:
+        skill_name = skill["name"]
+        spell_match = re.match(spell_re, skill_name)
+        if not spell_match:
+            continue
+
+        spell_name, attribute = spell_match.groups()
+
+        spell = {
+            "name": spell_name,
+            "description": skill["description"],
+            "attribute": attribute,
+        }
+        spells.append(spell)
+
+        skill["DELETE"] = True
+    
 
     attacks = monster.get("attacks", [])
     for attack in attacks:
@@ -91,6 +123,7 @@ for monster in monsters:
             if key in attack:
                 del attack[key]
 
+    monster["spells"] = spells
     monster["weapons"] = weapons
     monster["attacks"] = attacks
     monster["bonuses"] = monster_bonuses

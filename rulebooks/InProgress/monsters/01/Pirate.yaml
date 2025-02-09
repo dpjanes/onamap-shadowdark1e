@@ -7,15 +7,17 @@ ac:
 alignment: Chaotic
 attacks:
 - name: Cutlass
-  range: near
+  range: Near
 - name: Dagger
-  range: near
+  range: Near
 hp:
   computed: 4
   max: 4
   value: 4
 level:
   value: 1
+moves:
+- range: Near
 stats:
   dex:
     bonus: 1
