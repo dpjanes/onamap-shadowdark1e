@@ -1,0 +1,32 @@
+name: Beastman
+description: A cave hominid with scraggly fur and a stone-tipped spear.
+ac:
+  computed: 12
+  value: 12
+alignment: Chaotic
+hp:
+  computed: 5
+  max: 5
+  value: 5
+level:
+  value: 1
+moves:
+- range: near
+skills:
+- description: +1 damage with melee weapons (included).
+  name: Brutal
+stats:
+  chr:
+    bonus: 1
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 2
+  str:
+    bonus: 2
+  wis:
+    bonus: 1
+id: monster:Core:Beastman:01
+

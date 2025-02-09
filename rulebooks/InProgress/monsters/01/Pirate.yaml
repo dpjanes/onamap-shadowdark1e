@@ -1,0 +1,21 @@
+name: Pirate
+description: Seafaring scoundrels who live to steal and hoard treasure.
+ac:
+  computed: 12
+  value: 12
+alignment: Chaotic
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+stats:
+  dex:
+    bonus: 1
+  str:
+    bonus: 1
+id: monster:Core:Pirate:01
+

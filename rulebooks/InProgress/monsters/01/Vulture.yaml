@@ -1,0 +1,31 @@
+name: Vulture
+description: Scavenger birds with black feathers, hunched backs, and bald heads.
+ac:
+  computed: 10
+  value: 10
+alignment: Neutral
+hp:
+  computed: 5
+  max: 5
+  value: 5
+level:
+  value: 1
+moves:
+- range: near
+  type: fly
+skills:
+- description: Can track dead flesh unerringly within a mile.
+  name: Carrion Tracker
+stats:
+  chr:
+    bonus: 3
+  con:
+    bonus: 1
+  int:
+    bonus: 3
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+id: monster:Core:Vulture:01
+

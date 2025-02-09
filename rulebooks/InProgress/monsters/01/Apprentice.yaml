@@ -1,0 +1,34 @@
+name: Apprentice
+description: A cloaked magician with a thin, freshly bound
+ac:
+  computed: 11
+  value: 11
+alignment: Neutral
+hp:
+  computed: 3
+  max: 3
+  value: 3
+level:
+  value: 1
+moves:
+- range: near
+skills:
+- description: DC 11. Focus. One target in near of LV 2 or less is stupefied for the
+    duration.
+  name: Beguile (INT Spell)
+- description: DC 11. 1d4 damage to one target within far.
+  name: Magic Bolt (INT Spell)
+stats:
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 2
+  str:
+    bonus: 1
+id: monster:Core:Apprentice:01
+bonuses:
+- key: spells.cast
+  value: 2
+

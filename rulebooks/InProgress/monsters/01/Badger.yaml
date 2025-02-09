@@ -1,0 +1,31 @@
+name: Badger
+description: Fierce, clawed burrowers with black-and-white face stripes
+ac:
+  computed: 11
+  value: 11
+alignment: Neutral
+hp:
+  computed: 5
+  max: 5
+  value: 5
+level:
+  value: 1
+moves:
+- range: near
+  type: burrow
+skills:
+- description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
+  name: Rage
+stats:
+  chr:
+    bonus: 2
+  con:
+    bonus: 1
+  int:
+    bonus: 3
+  str:
+    bonus: 2
+  wis:
+    bonus: 1
+id: monster:Core:Badger:01
+

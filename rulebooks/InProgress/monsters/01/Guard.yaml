@@ -1,0 +1,21 @@
+name: Guard
+description: A sentry equipped with sturdy weapons and armor.
+ac:
+  computed: 15
+  value: 15
+alignment: Lawful
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+stats:
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+id: monster:Core:Guard:01
+

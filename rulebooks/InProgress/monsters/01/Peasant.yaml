@@ -1,0 +1,17 @@
+name: Peasant
+description: A commoner in worn clothes.
+ac:
+  computed: 10
+  value: 10
+alignment: Lawful
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+stats: {}
+id: monster:Core:Peasant:01
+

@@ -1,0 +1,37 @@
+name: Goblin
+description: A short, hairless humanoid with green skin and pointy ears.
+ac:
+  computed: 11
+  value: 11
+alignment: Chaotic
+attacks:
+- damage: 1d4
+  name: Shortbow
+  range: far
+  bonuses:
+  - key: attack.tohit
+    value: 1
+hp:
+  computed: 5
+  max: 5
+  value: 5
+level:
+  value: 1
+moves:
+- range: near
+skills:
+- description: Can't be surprised.
+  name: Keen Senses
+stats:
+  chr:
+    bonus: 2
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 1
+  wis:
+    bonus: 1
+id: monster:Core:Goblin:01
+

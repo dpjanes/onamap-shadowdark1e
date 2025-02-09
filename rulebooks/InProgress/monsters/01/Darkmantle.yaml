@@ -1,0 +1,30 @@
+name: Darkmantle
+description: A floating, black octopus with rows of red eyes and a webbed skirt of
+  tentacles.
+ac:
+  computed: 13
+  value: 13
+alignment: Neutral
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+  type: fly
+skills:
+- description: Extinguish all light sources in near.
+  name: Darkness
+stats:
+  chr:
+    bonus: 3
+  dex:
+    bonus: 3
+  int:
+    bonus: 3
+  str:
+    bonus: 2
+id: monster:Core:Darkmantle:01
+

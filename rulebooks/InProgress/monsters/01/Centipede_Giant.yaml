@@ -1,0 +1,32 @@
+name: Centipede, Giant
+description: Blood-red, feathery centipedes the size of a human arm. Their bite injects
+  a burning poison that cramps muscles.
+ac:
+  computed: 11
+  value: 11
+alignment: Neutral
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+  type: climb
+skills:
+- description: DC 12 CON or paralyzed 1d4 rounds.
+  name: Poison
+stats:
+  chr:
+    bonus: 4
+  dex:
+    bonus: 1
+  int:
+    bonus: 4
+  str:
+    bonus: 3
+  wis:
+    bonus: 3
+id: monster:Core:Centipede_Giant:01
+

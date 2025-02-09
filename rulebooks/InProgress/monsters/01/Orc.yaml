@@ -1,0 +1,26 @@
+name: Orc
+description: A tusked, tall humanoid with gray skin and pointed ears.
+ac:
+  computed: 15
+  value: 15
+alignment: Chaotic
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+skills:
+- description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
+  name: Rage
+stats:
+  chr:
+    bonus: 1
+  int:
+    bonus: 1
+  str:
+    bonus: 2
+id: monster:Core:Orc:01
+

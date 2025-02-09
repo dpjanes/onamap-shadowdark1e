@@ -1,0 +1,30 @@
+name: Stingbat
+description: Darting, orange insect-bat with four wings and needlelike beak.
+ac:
+  computed: 12
+  value: 12
+alignment: Neutral
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+  type: fly
+skills:
+- description: Attach to bitten target; auto-hit the next round. DC 9 STR on turn
+    to remove.
+  name: Blood Drain
+stats:
+  chr:
+    bonus: 2
+  dex:
+    bonus: 2
+  int:
+    bonus: 2
+  str:
+    bonus: 2
+id: monster:Core:Stingbat:01
+

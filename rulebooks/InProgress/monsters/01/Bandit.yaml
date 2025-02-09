@@ -1,0 +1,30 @@
+name: Bandit
+description: Hard-bitten rogue in tattered leathers and a hooded cloak.
+ac:
+  computed: 13
+  value: 13
+alignment: Chaotic
+attacks:
+- damage: 1d4
+  name: Shortbow
+  range: far
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+skills:
+- description: Deal an extra die of damage when undetected.
+  name: Ambush
+stats:
+  chr:
+    bonus: 1
+  int:
+    bonus: 1
+  str:
+    bonus: 1
+id: monster:Core:Bandit:01
+

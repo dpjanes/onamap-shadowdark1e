@@ -1,0 +1,25 @@
+name: Thug
+description: A bruised and boorish ruffian.
+ac:
+  computed: 13
+  value: 13
+alignment: Chaotic
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+stats:
+  chr:
+    bonus: 1
+  int:
+    bonus: 1
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+id: monster:Core:Thug:01
+

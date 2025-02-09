@@ -1,0 +1,27 @@
+name: Mastiff
+description: Muscled guard dogs with fierce
+ac:
+  computed: 11
+  value: 11
+alignment: Neutral
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+stats:
+  chr:
+    bonus: 2
+  dex:
+    bonus: 1
+  int:
+    bonus: 2
+  str:
+    bonus: 1
+  wis:
+    bonus: 1
+id: monster:Core:Mastiff:01
+

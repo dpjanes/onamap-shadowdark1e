@@ -1,0 +1,29 @@
+name: Fairy
+description: Miniature fey folk with fluttering moth or butterfly wings.
+ac:
+  computed: 13
+  value: 13
+alignment: Neutral
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+  type: fly
+skills:
+- description: DC 12 CON or fall into deep sleep for 1d4 hours.
+  name: Poison
+stats:
+  chr:
+    bonus: 1
+  dex:
+    bonus: 3
+  int:
+    bonus: 1
+  str:
+    bonus: 2
+id: monster:Core:Fairy:01
+

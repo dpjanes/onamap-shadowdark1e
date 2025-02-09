@@ -1,0 +1,28 @@
+name: Snake, Cobra
+description: A weaving serpent with a neck hood and lethal venom.
+ac:
+  computed: 12
+  value: 12
+alignment: Neutral
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: near
+skills:
+- description: DC 18 CON or go to 0 HP with a death timer of 1.
+  name: Poison
+stats:
+  chr:
+    bonus: 3
+  dex:
+    bonus: 2
+  int:
+    bonus: 3
+  str:
+    bonus: 3
+id: monster:Core:Snake_Cobra:01
+
