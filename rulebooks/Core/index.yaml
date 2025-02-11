@@ -1,3 +1,4 @@
 name: Core
+description: Shadowdark Core Rule Set
 system: shadowdark1e
 enabled: True

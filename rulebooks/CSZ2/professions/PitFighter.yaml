@@ -10,7 +10,6 @@ skills:
     name: Flourish
     description: |
       3/day, regain 1d6 hit points when you hit an enemy with a melee attack.
-    types: [healing]
     uses_per_day: 3
     always: true
 
@@ -18,20 +17,17 @@ skills:
     name: Implacable
     description: |
       You have advantage on Constitution checks to resist injury, poison, or endure extreme environments.
-    types: [advantage]
     always: true
 
   - id: skill:Core:PitFighter:LastStand
     name: Last Stand
     description: |
       You get up from dying with 1 hit point on a natural d20 roll of 18-20.
-    types: [survival]
     always: true
 
   - id: skill:Core:PitFighter:Relentless
     name: Relentless
     description: |
       3/day, when you are reduced to 0 HP, make a DC 18 Constitution check (the Implacable talent applies to this roll). On a success, you instead go to 1 HP.
-    types: [survival]
     uses_per_day: 3
     always: true
