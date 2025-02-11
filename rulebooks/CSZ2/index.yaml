@@ -1,5 +1,7 @@
 name: CSZ2
-description: Cursed Scroll Zine 2
+description: |
+  Cursed Scroll Zine 2.
+  Adds classes Desert Rider, Pit Fighter and Ras-Godai.
 system: shadowdark1e
-enabled: False
-
+enabled: True
+url: https://www.thearcanelibrary.com/collections/shadowdark-rpg/products/cursed-scroll-zine-vol-2-red-sands
