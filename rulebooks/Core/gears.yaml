@@ -1,130 +1,128 @@
 gears:
-  - id: gear:1
+  - id: 'gear:Core:Arrows'
     name: Arrows
     cost: 1 gp
     slots: 1
     free: 0
     quantity: 20
     types: 
-    - Arrow
-    - Consumable
+      - Arrow
+      - Consumable
 
-  - id: gear:2
+  - id: 'gear:Core:Backpack'
     name: Backpack
     cost: 2 gp
     slots: 1
     free: 1
 
-  - id: gear:3
+  - id: 'gear:Core:CaltropsBag'
     name: Caltrops (bag)
     cost: 5 sp
     slots: 1
     free: 0
     types: 
-    - Consumable
+      - Consumable
 
-  - id: gear:5
+  - id: 'gear:Core:CrossbowBolts'
     name: Crossbow Bolts
     cost: 1 gp
     slots: 1
     free: 0
     quantity: 20
     types: 
-    - Consumable
-    - Bolt
+      - Consumable
+      - Bolt
 
-  - id: gear:6
+  - id: 'gear:Core:Crowbar'
     name: Crowbar
     cost: 5 sp
     slots: 1
     free: 0
 
-  - id: gear:7
+  - id: 'gear:Core:FlaskOrBottle'
     name: Flask or Bottle
     cost: 3 sp
     slots: 1
     free: 0
 
-  - id: gear:8
+  - id: 'gear:Core:FlintAndSteel'
     name: Flint and Steel
     cost: 5 sp
     slots: 1
     free: 
     types:
-    - Fire
+      - Fire
 
-  - id: gear:10
+  - id: 'gear:Core:GrapplingHook'
     name: Grappling Hook
     cost: 1 gp
     slots: 1
     free: 0
 
-  - id: gear:11
+  - id: 'gear:Core:IronSpikes'
     name: Iron Spikes
     cost: 1 gp
     slots: 1
     free: 0
     types: 
-    - Consumable
+      - Consumable
 
-  - id: gear:12
+  - id: 'gear:Core:Lantern'
     name: Lantern
     cost: 5 gp
     slots: 1
     free: 0
     types: 
-    - Light
+      - Light
     uses:
-    - Oil Flask
-    - Fire
+      - Oil Flask
+      - Fire
 
-  - id: gear:13
+  - id: 'gear:Core:Mirror'
     name: Mirror
     cost: 10 gp
     slots: 1
     free: 0
 
-  - id: gear:14
+  - id: 'gear:Core:OilFlask'
     name: Oil Flask
     cost: 5 sp
     slots: 1
     free: 0
     types: 
-    - Light
-    - Consumable
-    - Oil Flask
+      - Light
+      - Consumable
+      - Oil Flask
 
-  - id: gear:15
+  - id: 'gear:Core:Pole'
     name: Pole
     cost: 5 sp
     slots: 1
     free: 0
 
-  - id: gear:16
+  - id: 'gear:Core:Rations'
     name: Rations
     cost: 5 sp
     slots: 1
     free: 0
     quantity: 3
     types: 
-    - Consumable
-    - Food
+      - Consumable
+      - Food
 
-  - id: gear:17
+  - id: 'gear:Core:Rope'
     name: Rope
     cost: 1 gp
     slots: 1
     free: 0
 
-  - id: gear:18
+  - id: 'gear:Core:Torch'
     name: Torch
     cost: 5 sp
     slots: 1
     free: 0
-
     types: 
-    - Consumable
-    - Light
-  
+      - Consumable
+      - Light
     uses:
-    - Fire
+      - Fire

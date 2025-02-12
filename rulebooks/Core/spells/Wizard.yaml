@@ -1,0 +1,377 @@
+spells:
+- duration: 1 Day
+  id: spell:Wizard:Alarm:1
+  level: 1
+  name: Alarm
+  profession: Wizard
+  range: Close
+- damage: 1d6
+  duration: Instant
+  id: spell:Wizard:BurningHands:1
+  level: 1
+  name: Burning Hands
+  profession: Wizard
+  range: Close
+- duration: 1d8 Days
+  id: spell:Wizard:CharmPerson:1
+  level: 1
+  name: Charm Person
+  profession: Wizard
+  range: Near
+- duration: Focus
+  id: spell:Wizard:DetectMagic:1
+  level: 1
+  name: Detect Magic
+  profession: Wizard
+  range: Near
+- duration: Instant
+  id: spell:Wizard:FeatherFall:1
+  level: 1
+  name: Feather Fall
+  profession: Wizard
+  range: Self
+- duration: 10 Rounds
+  id: spell:Wizard:FloatingDisk:1
+  level: 1
+  name: Floating Disk
+  profession: Wizard
+  range: Near
+- duration: 10 Rounds
+  id: spell:Wizard:HoldPortal:1
+  level: 1
+  name: Hold Portal
+  profession: Wizard
+  range: Near
+- duration: 1 Hour Real Time
+  id: spell:Wizard:Light:1
+  level: 1
+  name: Light
+  profession: Wizard
+  range: Close
+  types:
+  - Light
+- duration: 10 Rounds
+  id: spell:Wizard:MageArmor:1
+  level: 1
+  name: Mage Armor
+  profession: Wizard
+  range: Self
+- damage: 1d4
+  duration: Instant
+  id: spell:Wizard:MagicMissile:1
+  level: 1
+  name: Magic Missile
+  notes: Always hits the target.
+  profession: Wizard
+  range: Far
+- duration: Focus
+  id: spell:Wizard:ProtectionFromEvil:1
+  level: 1
+  name: Protection From Evil
+  profession: Wizard
+  range: Close
+- duration: Instant
+  id: spell:Wizard:Sleep:1
+  level: 1
+  name: Sleep
+  profession: Wizard
+  range: Near
+- damage: 1d6
+  duration: Focus
+  id: spell:Wizard:AcidArrow:2
+  level: 2
+  name: Acid Arrow
+  notes: Damage is dealt per round while focused.
+  profession: Wizard
+  range: Far
+- duration: 5 Rounds
+  id: spell:Wizard:AlterSelf:2
+  level: 2
+  name: Alter Self
+  profession: Wizard
+  range: Self
+- duration: Focus
+  id: spell:Wizard:DetectThoughts:2
+  level: 2
+  name: Detect Thoughts
+  profession: Wizard
+  range: Near
+- duration: 5 Rounds
+  id: spell:Wizard:FixedObject:2
+  level: 2
+  name: Fixed Object
+  profession: Wizard
+  range: Close
+- duration: Focus
+  id: spell:Wizard:HoldPerson:2
+  level: 2
+  name: Hold Person
+  profession: Wizard
+  range: Near
+- duration: 10 Rounds
+  id: spell:Wizard:Invisibility:2
+  level: 2
+  name: Invisibility
+  profession: Wizard
+  range: Close
+- duration: Instant
+  id: spell:Wizard:Knock:2
+  level: 2
+  name: Knock
+  profession: Wizard
+  range: Near
+- duration: Focus
+  id: spell:Wizard:Levitate:2
+  level: 2
+  name: Levitate
+  profession: Wizard
+  range: Self
+- duration: 5 Rounds
+  id: spell:Wizard:MirrorImage:2
+  level: 2
+  name: Mirror Image
+  profession: Wizard
+  range: Self
+- duration: Instant
+  id: spell:Wizard:MistyStep:2
+  level: 2
+  name: Misty Step
+  profession: Wizard
+  range: Self
+- duration: Focus
+  id: spell:Wizard:Silence:2
+  level: 2
+  name: Silence
+  profession: Wizard
+  range: Far
+- duration: 5 Rounds
+  id: spell:Wizard:Web:2
+  level: 2
+  name: Web
+  profession: Wizard
+  range: Far
+- duration: 1 Day
+  id: spell:Wizard:AnimateDead:3
+  level: 3
+  name: Animate Dead
+  profession: Wizard
+  range: Close
+- duration: Instant
+  id: spell:Wizard:DispelMagic:3
+  level: 3
+  name: Dispel Magic
+  profession: Wizard
+  range: Near
+- duration: 10 Rounds
+  id: spell:Wizard:Fabricate:3
+  level: 3
+  name: Fabricate
+  profession: Wizard
+  range: Near
+- damage: 4d6
+  duration: Instant
+  id: spell:Wizard:Fireball:3
+  level: 3
+  name: Fireball
+  profession: Wizard
+  range: Far
+- duration: 5 Rounds
+  id: spell:Wizard:Fly:3
+  level: 3
+  name: Fly
+  profession: Wizard
+  range: Self
+- duration: 10 Rounds
+  id: spell:Wizard:GaseousForm:3
+  level: 3
+  name: Gaseous Form
+  profession: Wizard
+  range: Self
+- duration: Focus
+  id: spell:Wizard:Illusion:3
+  level: 3
+  name: Illusion
+  profession: Wizard
+  range: Far
+- damage: 3d6
+  duration: Instant
+  id: spell:Wizard:LightningBolt:3
+  level: 3
+  name: Lightning Bolt
+  profession: Wizard
+  range: Far
+- duration: Focus
+  id: spell:Wizard:MagicCircle:3
+  level: 3
+  name: Magic Circle
+  profession: Wizard
+  range: Near
+- duration: Focus
+  id: spell:Wizard:ProtectionFromEnergy:3
+  level: 3
+  name: Protection From Energy
+  profession: Wizard
+  range: Close
+- duration: Instant
+  id: spell:Wizard:Sending:3
+  level: 3
+  name: Sending
+  profession: Wizard
+  range: Unlimited
+- duration: Instant
+  id: spell:Wizard:SpeakWithDead:3
+  level: 3
+  name: Speak With Dead
+  profession: Wizard
+  range: Close
+- duration: Focus
+  id: spell:Wizard:ArcaneEye:4
+  level: 4
+  name: Arcane Eye
+  profession: Wizard
+  range: Near
+- damage: 2d6
+  duration: 5 Rounds
+  id: spell:Wizard:Cloudkill:4
+  level: 4
+  name: Cloudkill
+  notes: Kills instantly if target is level 9 or lower and ends turn fully inside
+    the cloud.
+  profession: Wizard
+  range: Far
+- duration: Focus
+  id: spell:Wizard:Confusion:4
+  level: 4
+  name: Confusion
+  profession: Wizard
+  range: Near
+- duration: Focus
+  id: spell:Wizard:ControlWater:4
+  level: 4
+  name: Control Water
+  profession: Wizard
+  range: Far
+- duration: Instant
+  id: spell:Wizard:DimensionDoor:4
+  level: 4
+  name: Dimension Door
+  profession: Wizard
+  range: Self
+- duration: Instant
+  id: spell:Wizard:Divination:4
+  level: 4
+  name: Divination
+  profession: Wizard
+  range: Self
+- duration: 5 Rounds
+  id: spell:Wizard:Passwall:4
+  level: 4
+  name: Passwall
+  profession: Wizard
+  range: Close
+- duration: 10 Rounds
+  id: spell:Wizard:Polymorph:4
+  level: 4
+  name: Polymorph
+  profession: Wizard
+  range: Close
+- duration: 5 Rounds
+  id: spell:Wizard:ResilientSphere:4
+  level: 4
+  name: Resilient Sphere
+  profession: Wizard
+  range: Close
+- duration: 10 Rounds
+  id: spell:Wizard:Stoneskin:4
+  level: 4
+  name: Stoneskin
+  profession: Wizard
+  range: Self
+- duration: Focus
+  id: spell:Wizard:Telekinesis:4
+  level: 4
+  name: Telekinesis
+  profession: Wizard
+  range: Far
+- duration: 5 Rounds
+  id: spell:Wizard:WallofForce:4
+  level: 4
+  name: Wall of Force
+  profession: Wizard
+  range: Near
+- duration: Focus
+  id: spell:Wizard:AntimagicShell:5
+  level: 5
+  name: Antimagic Shell
+  profession: Wizard
+  range: Self
+- duration: 1 Day
+  id: spell:Wizard:CreateUndead:5
+  level: 5
+  name: Create Undead
+  profession: Wizard
+  range: Close
+- damage: 3d8
+  duration: Instant
+  id: spell:Wizard:Disintegrate:5
+  level: 5
+  name: Disintegrate
+  notes: Kills instantly if target is level 5 or lower.
+  profession: Wizard
+  range: Far
+- duration: Focus
+  id: spell:Wizard:HoldMonster:5
+  level: 5
+  name: Hold Monster
+  profession: Wizard
+  range: Near
+- duration: Instant
+  id: spell:Wizard:PlaneShift:5
+  level: 5
+  name: Plane Shift
+  profession: Wizard
+  range: Close
+- duration: Instant
+  id: spell:Wizard:PowerWordKill:5
+  level: 5
+  name: Power Word Kill
+  profession: Wizard
+  range: Near
+- damage: 3d8
+  duration: Instant
+  id: spell:Wizard:PrismaticOrb:5
+  level: 5
+  name: Prismatic Orb
+  notes: Deals double damage to targets vulnerable to chosen energy type.
+  profession: Wizard
+  range: Far
+- duration: Focus
+  id: spell:Wizard:Scrying:5
+  level: 5
+  name: Scrying
+  profession: Wizard
+  range: Self
+- duration: Focus
+  id: spell:Wizard:Shapechange:5
+  level: 5
+  name: Shapechange
+  profession: Wizard
+  range: Self
+- duration: Focus
+  id: spell:Wizard:SummonExtraplanar:5
+  level: 5
+  name: Summon Extraplanar
+  profession: Wizard
+  range: Near
+- duration: Instant
+  id: spell:Wizard:Teleport:5
+  level: 5
+  name: Teleport
+  profession: Wizard
+  range: Close
+- duration: Instant
+  id: spell:Wizard:Wish:5
+  level: 5
+  name: Wish
+  profession: Wizard
+  range: Self
