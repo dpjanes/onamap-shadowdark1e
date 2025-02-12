@@ -29,13 +29,93 @@ skills:
     name: Smoke Step
     description: |
       3/day, teleport to a location you can see within near. This does not use your action.
-    types: [mobility]
-    uses_per_day: 3
+    types:
+    - DailySkill
+    value: 3
     always: true
 
   - id: skill:Core:RasGodai:BlackLotus
     name: Black Lotus
     description: |
       You earned the right to eat a petal of the fabled black lotus flower, and you survived its sorcerous effects. Roll one talent on the Black Lotus Talents table.
-    types: [magic]
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:TwoTalents
+    name: Twin Black Lotus
+    description: You gain two Black Lotus talents instead of one (reroll further duplicates of this result).
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:Paralysis
+    name: Lotus Paralysis
+    description: |
+      1/day, when you damage a target of LV 9 or less with a weapon, it must pass a DC 15 CON check or be paralyzed for 1d4 rounds.
+    types:
+    - DailySkill
+    value: 1
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:Dexterity
+    name: Evasive Reflexes
+    description: You have advantage on Dexterity checks to avoid entrapment or injury.
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:DualWieldAC
+    name: Duelist's Grace
+    description: You gain +1 AC when wielding a melee weapon in each hand.
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:ExtraHitDie
+    name: Vital Essence
+    description: You gain an additional hit die.
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:TripleAssassinate
+    name: Death's Precision
+    description: Your Assassinate talent deals triple damage instead of double (reroll duplicates).
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:MoraleFear
+    name: Dread Presence
+    description: When enemies who can see you make a morale check, the DC is 18 instead of 15.
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:WalkOnWater
+    name: Lotus Walker
+    description: |
+      1/day, you can walk on water as if it were solid for 1d4 rounds.
+    types:
+    - DailySkill
+    value: 1
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:SleepGaze
+    name: Lotus Dream
+    description: |
+      1/day, choose a living creature of LV 5 or less you can see within near. It must pass a DC 15 CON check or fall asleep.
+    types:
+    - DailySkill
+    value: 1
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:WallWalking
+    name: Shadow Climber
+    description: |
+      1/day, you can walk on sheer surfaces such as walls for 1d4 rounds.
+    types:
+    - DailySkill
+    value: 1
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:MeleeBonus
+    name: Lethal Strikes
+    description: You deal +1 damage with melee weapons.
+    always: true
+
+  - id: skill:Core:RasGodai:BlackLotus:Vanish
+    name: Lotus Mirage
+    description: |
+      1/day, choose a creature of LV 9 or less you can see. It must pass a DC 15 WIS check or it can't see or hear you for 1d4 rounds.
+    types:
+    - DailySkill
+    value: 1
     always: true
