@@ -10,7 +10,9 @@ skills:
     name: Flourish
     description: |
       3/day, regain 1d6 hit points when you hit an enemy with a melee attack.
-    uses_per_day: 3
+    types:
+    - DailySkill
+    value: 3
     always: true
 
   - id: skill:Core:PitFighter:Implacable
@@ -29,5 +31,7 @@ skills:
     name: Relentless
     description: |
       3/day, when you are reduced to 0 HP, make a DC 18 Constitution check (the Implacable talent applies to this roll). On a success, you instead go to 1 HP.
-    uses_per_day: 3
+    value: 3
+    types:
+    - DailySkill
     always: true
