@@ -63,6 +63,66 @@ skills:
   - skill_rule: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
+  types:
+  - sdl:Plus2INTOrPlus1Casting
+
+
+## XXX Make 1 random magic item of a type you choose 
+## sdl:MakeRandomMagicItem
+
+## XXX sdl:LearnExtraSpell
+## 	Learn one additional wizard spell of any tier you know
+
+## XXX "sdl:2 Stat Points"
+
+  #   {
+  #     "sourceType": "Class",
+  #     "sourceName": "Wizard",
+  #     "sourceCategory": "Talent",
+  #     "gainedAtLevel": 3,
+  #     "name": "Plus2INTOrPlus1Casting",
+  #     "bonusTo": "",
+  #     "bonusName": "Plus2INTOrPlus1Casting"
+  #   },
+  #   {
+  #     "sourceType": "Class",
+  #     "sourceName": "Wizard",
+  #     "sourceCategory": "Talent",
+  #     "name": "PlusTwoIntOrPlusOneWizCasting",
+  #     "bonusName": "Plus1ToCastingSpells",
+  #     "bonusTo": "Wizard",
+  #     "gainedAtLevel": 3,
+  #     "bonusAmount": 1
+  #   },
+  #   {
+  #     "sourceType": "Class",
+  #     "sourceName": "Wizard",
+  #     "sourceCategory": "Talent",
+  #     "gainedAtLevel": 9,
+  #     "name": "+2 Stat Points",
+  #     "bonusTo": "",
+  #     "bonusName": "+2 Stat Points"
+  #   },
+  #   {
+  #     "sourceType": "Class",
+  #     "sourceName": "Wizard",
+  #     "sourceCategory": "Talent",
+  #     "name": "StatBonus-2",
+  #     "bonusName": "StatBonus",
+  #     "bonusTo": "CON:+1",
+  #     "gainedAtLevel": 9
+  #   },
+  #   {
+  #     "sourceType": "Class",
+  #     "sourceName": "Wizard",
+  #     "sourceCategory": "Talent",
+  #     "name": "StatBonus-1",
+  #     "bonusName": "StatBonus",
+  #     "bonusTo": "CON:+1",
+  #     "gainedAtLevel": 9
+  #   }
+  # ],
+
 
 titles:
   Lawful:

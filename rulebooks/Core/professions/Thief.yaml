@@ -41,6 +41,8 @@ skills:
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
+  types:
+  - sdl:StatBonus
 
 ## CHECKED
 - id: skill:Core:Thief:ClassAbilityAdvantage
@@ -55,6 +57,11 @@ skills:
   types: [ "text" ]
   always: True
   description: If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).
+  types:
+  - sdl:ClassTalent1
+
+## XXX MISSING 2	Gain advantage on initiative rolls (reroll duplicates)
+## sdL:ClassTalent3
 
 titles:
   Lawful:
