@@ -26,6 +26,8 @@ skills:
   bonuses:
   - key: 'attack.tohit'
     value: 1
+  types:
+  - sdl:Plus1ToHit
 
 ## CHECKED
 - id: skill:Core:Thief:STAT_BONUS

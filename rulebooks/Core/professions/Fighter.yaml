@@ -34,6 +34,8 @@ skills:
   - name: "Weapon Mastery Level Bonus"
     key: 'attack.damage_large'
     value_rule: "HALF(character.level.value)"
+  types:
+  - sdl:WeaponMastery
 
 ## CHECKED
 - id: skill:Core:Fighter:ATTACK_BONUS
@@ -43,6 +45,8 @@ skills:
   bonuses:
   - key: 'attack.tohit'
     value: 1
+  types:
+  - sdl:Plus1ToHit
 
 ## CHECKED
 - id: skill:Core:Fighter:STAT_BONUS_2
@@ -56,6 +60,8 @@ skills:
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
+  types:
+  - sdl:StatBonus
 
 ## CHECKED
 - id: skill:Core:Fighter:AC_BONUS
@@ -67,6 +73,8 @@ skills:
   bonuses:
   - key: "ac"
     value_rule: skill.value
+  types:
+  - sdl:ArmorMastery
 
 ## CHECKED
 - id: skill:Core:Fighter:Hauler
@@ -77,6 +85,8 @@ skills:
   bonuses:
   - key: "slots"
     value_rule: "MAX(0, character.stats.con.bonus)"
+  types:
+  - sdl:XXX
 
 ## CHECKED
 - id: skill:Core:Fighter:ClassAbilityGrit
@@ -87,6 +97,8 @@ skills:
   options:
     - "STR"
     - "DEX"
+  types:
+  - sdl:AdvantageOnStatChecks
 
 titles:
   Lawful:

@@ -32,6 +32,8 @@ skills:
     - "Primordial"
   description: "You know either Celestial, Diabolic, or Primordial."
   always: True
+  types:
+  - "sdl:ExtraLanguage: Priest 1"
 
 ## CHECKED
 - id: skill:Core:Priest:TurnUndead
@@ -52,6 +54,8 @@ skills:
   bonuses:
   - key: 'attack.tohit'
     value: 1
+  types:
+  - sdl:Plus1ToHit
 
 ## CHECKED
 - id: skill:Core:Priest:STAT_BONUS
@@ -64,6 +68,14 @@ skills:
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
+  types:
+  - sdl:StatBonus
+
+## XXX Missing - 	Gain advantage on casting one spell you know
+## AdvOnCastOneSpell
+
+## XXX Missing - +1 to priest spellcasting checks
+## Plus1ToCastingSpells
 
 titles:
   Lawful:
