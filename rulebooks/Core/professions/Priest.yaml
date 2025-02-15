@@ -30,7 +30,7 @@ skills:
     - "Celestial"
     - "Diabolic"
     - "Primordial"
-  description: "You know either Celestial, Diabolic, or Primordial."
+  description: "Speak Celestial, Diabolic, or Primordial."
   always: True
   types:
   - "sdl:ExtraLanguage: Priest 1"
@@ -41,7 +41,7 @@ skills:
   types: [ "know_spell" ]
   always: True
   value: "Turn Undead"
-  description: "You know the Turn Undead spell. It doesn't count toward your number of known spells."
+  description: "You know Turn Undead spell"
   bonuses:
   - key: "spells.know"
     value: "Turn Undead"
@@ -60,7 +60,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Priest:STAT_BONUS
   name: "Stat Bonus"
-  description: "+2 to Strength or Wisdom stat"
+  description: "+2 to STR or WIS"
   value: 2
   options:
     - "STR"

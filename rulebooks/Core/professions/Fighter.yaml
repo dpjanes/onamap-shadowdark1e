@@ -14,7 +14,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Fighter:WEAPON_MASTERY
   name: "Weapon Mastery"
-  description: "Gain Weapon Mastery with one additional weapon type"
+  description: "Weapon Mastery with a weapon type"
   value: 1
   options: WEAPONS
   always: True  ## fighter gets one, they can add more
@@ -51,7 +51,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Fighter:STAT_BONUS_2
   name: "Stat Bonus"
-  description: "+2 to Strength, Dexterity, or Constitution stat"
+  description: "+2 to STR, DEX or CON"
   value: 2
   options:
     - "STR"
@@ -66,7 +66,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Fighter:AC_BONUS
   name: "AC Bonus"
-  description: "Choose one kind of armor. You get +1 AC from that armor"
+  description: "+1 AC to one armour"
   value: 1
   options: ARMOURS
   talent_rule: skill.option == armour.get_armour_type
@@ -80,7 +80,7 @@ skills:
 - id: skill:Core:Fighter:Hauler
   name: "Hauler"
   option: "CON"
-  description: "Add your Constitution modifier, if positive, to your gear slots."
+  description: "+CON to gear slots."
   always: True
   bonuses:
   - key: "slots"
@@ -93,7 +93,7 @@ skills:
   name: "Grit"
   types: [ "text" ]
   always: True
-  description: Choose Strength or Dexterity. You have advantage on checks of that type to overcome an opposing force, such as kicking open a stuck door (Strength) or slipping free of rusty chains (Dexterity).
+  description: Advantage on STR or DEX against opposing force
   options:
     - "STR"
     - "DEX"

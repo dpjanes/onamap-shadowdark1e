@@ -51,7 +51,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Wizard:STAT_BONUS
   name: "Wizard Bonus"
-  description: "+2 to Intelligence stat or +1 to wizard spellcasting checks"
+  description: "+2 to INT or +1 to spellcasting"
   always: True
   options:
     - "INT"
@@ -69,7 +69,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Wizard:MAKE_MAGIC_ITEM
   name: "Make Magic Item"
-  description: "Make 1 random magic item of a type you choose"
+  description: "Make a magic item of a type"
   options: TEXT
   types:
   - sdl:MakeRandomMagicItem
@@ -77,7 +77,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Wizard:ONE_SPELL_ADVANGTAGE
   name: "Spell Advantage"
-  description: "Gain advantage on casting one spell you know"
+  description: "Advantage on casting one spell"
   options: KNOWN-SPELLS:Wizard
   types:
   - sdl:AdvOnCastOneSpell
@@ -88,15 +88,13 @@ skills:
 ## CHECKED
 - id: skill:Core:Wizard:ONE_EXTRA_SPELL
   name: "Extra Spell"
-  description: "Learn one additional wizard spell of any tier you know"
+  description: "One additional wizard spell"
   options: SPELLS:Wizard
   bonuses:
   - key: "spells.know"
     value_rule: "skill.option"
   types:
   - sdl:LearnExtraSpell
-  
-
 
 titles:
   Lawful:

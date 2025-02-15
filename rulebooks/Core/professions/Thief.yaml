@@ -32,7 +32,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Thief:STAT_BONUS
   name: "Stat Bonus"
-  description: "+2 to Strength, Dexterity, or Charisma stat"
+  description: "+2 to STR, DEX, or CHR"
   value: 2
   options:
     - "STR"
@@ -49,14 +49,14 @@ skills:
   name: "Advantage"
   types: [ "text" ]
   always: True
-  description: Advantage on climbing, sneaking and hiding, applying disguises, finding and disabling traps, and delicate tasks such as picking pockets and opening locks.
+  description: "Advantage on such as picking locks and other Thief skills"
 
 ## CHECKED
 - id: skill:Core:Thief:ClassAbilityBackstab
   name: "Backstab"
   types: [ "text" ]
   always: True
-  description: If you hit a creature who is unaware of your attack, you deal an extra weapon die of damage. Add additional weapon dice of damage equal to half your level (round down).
+  description: "Extra die + 1/2 level damage to unaware creatures"
   types:
   - sdl:ClassTalent1
 
