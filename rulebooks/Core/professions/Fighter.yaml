@@ -86,7 +86,7 @@ skills:
   - key: "slots"
     value_rule: "MAX(0, character.stats.con.bonus)"
   types:
-  - sdl:XXX
+  - sdl:Hauler
 
 ## CHECKED
 - id: skill:Core:Fighter:ClassAbilityGrit
