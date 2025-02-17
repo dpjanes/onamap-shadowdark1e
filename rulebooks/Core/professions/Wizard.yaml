@@ -23,6 +23,8 @@ skills:
   description: "Speak an additional common language"
   always: True
   options: COMMON_LANGUAGES
+  types:
+  - "sdl:ExtraLanguage"
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageCommon2
@@ -31,6 +33,8 @@ skills:
   description: "Speak an additional common language"
   always: True
   options: COMMON_LANGUAGES
+  types:
+  - "sdl:ExtraLanguage"
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageRare1
@@ -39,6 +43,8 @@ skills:
   description: "Speak an additional rare language"
   always: True
   options: RARE_LANGUAGES
+  types:
+  - "sdl:ExtraLanguage"
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageRare2
@@ -47,6 +53,8 @@ skills:
   description: "Speak an additional rare language"
   always: True
   options: RARE_LANGUAGES
+  types:
+  - "sdl:ExtraLanguage"
 
 ## CHECKED
 - id: skill:Core:Wizard:STAT_BONUS

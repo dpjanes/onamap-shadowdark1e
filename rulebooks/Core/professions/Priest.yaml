@@ -33,7 +33,7 @@ skills:
   description: "Speak Celestial, Diabolic, or Primordial."
   always: True
   types:
-  - "sdl:ExtraLanguage: Priest 1"
+  - "sdl:ExtraLanguage"
 
 ## CHECKED
 - id: skill:Core:Priest:TurnUndead

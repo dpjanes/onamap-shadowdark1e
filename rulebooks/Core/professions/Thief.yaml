@@ -58,7 +58,7 @@ skills:
   always: True
   description: "Extra die + 1/2 level damage to unaware creatures"
   types:
-  - sdl:ClassTalent1
+  - sdl:BackstabIncrease
 
 ## XXX MISSING 2	Gain advantage on initiative rolls (reroll duplicates)
 ## sdL:ClassTalent3

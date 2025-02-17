@@ -20,3 +20,5 @@ skills:
   types: ["language"]
   option: "Dwarvish"
   always: True
+  types:
+  - "sdl:ExtraLanguage"
