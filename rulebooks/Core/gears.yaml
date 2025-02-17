@@ -115,6 +115,8 @@ gears:
     cost: 1 gp
     slots: 1
     free: 0
+    types:
+    - sdl:Rope60
 
   - id: 'gear:Core:Torch'
     name: Torch
