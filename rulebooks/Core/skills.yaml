@@ -3,16 +3,20 @@
 ##
 skills:
 ## CHECKED
-- id: skill:Core:Base:STAT_BONUS_1
+- id: skill:Core:Base:StatBonus
   name: "Stat Bonus"
   description: "+1 points to to stats"
   source: "Base"
-  types: ["BONUS"]
   value: 1
   options: STATS
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
+  types:
+  - BONUS
+  - "sdl:StatBonus"
+  - "sdl:StatBonus-1"
+  - "sdl:StatBonus-2"
 
 ## CHECKED
 - id: skill:Core:Base:LanguageCommon

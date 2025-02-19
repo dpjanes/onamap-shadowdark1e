@@ -5,7 +5,7 @@ languages:
   - Sylvan
 skills:
 
-## XXX - NOT COMPLETE - need spellcasting
+## CHECKED
 - id: skill:Core:Elf:FarSight
   types: [ "text" ]
   name: "Farsight"
@@ -13,12 +13,20 @@ skills:
   value: 1
   rule: True
   always: True
+  options:
+    - "Ranged Weapons"
+    - "Spellcast"
   bonuses:
-  - key: 'attack.tohit'
+  - skill_rule: AND(skill.option == "Ranged Weapons", weapon.is_ranged)
+    key: 'attack.tohit'
     value: 1
-    skill_rule: weapon.is_ranged
+  - skill_rule: skill.option == "Spellcast"
+    key: "spells.cast"
+    value: 1
   types:
   - sdl:FarSight
+  - "sdl:AttackBonus=Ranged Weapons"
+  - sdl:Plus1ToCastingSpells=Spellcast
 
 ## CHECKED
 - id: skill:Core:Elf:LanguageElvish

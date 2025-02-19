@@ -60,7 +60,7 @@ skills:
 - id: skill:Core:Wizard:STAT_BONUS
   name: "Wizard Bonus"
   description: "+2 to INT or +1 to spellcasting"
-  always: True
+  always: False
   options:
     - "INT"
     - "Spellcast"
@@ -72,7 +72,9 @@ skills:
     key: "spells.cast"
     value: 1
   types:
-  - sdl:Plus2INTOrPlus1Casting
+  - sdl:PlusTwoIntOrPlusOneWizCasting
+  - sdl:Plus1ToCastingSpells=Spellcast
+  - sdl:StatBonus=INT
 
 ## CHECKED
 - id: skill:Core:Wizard:MAKE_MAGIC_ITEM

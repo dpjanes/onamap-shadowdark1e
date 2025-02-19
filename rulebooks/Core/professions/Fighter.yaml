@@ -64,7 +64,7 @@ skills:
   - sdl:StatBonus
 
 ## CHECKED
-- id: skill:Core:Fighter:AC_BONUS
+- id: skill:Core:Fighter:ArmorMastery
   name: "AC Bonus"
   description: "+1 AC to one armour"
   value: 1
@@ -98,7 +98,9 @@ skills:
     - "STR"
     - "DEX"
   types:
-  - sdl:AdvantageOnStatChecks
+  - sdl:Grit
+  - sdl:Dexterity=DEX
+  - sdl:Strength=STR
 
 titles:
   Lawful:
