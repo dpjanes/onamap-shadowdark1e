@@ -10,6 +10,7 @@ armours:
     name: Leather
     types:
       - Leather
+      - sdl:LeatherArmor
     cost: 10 gp
     slots: 1
     ac: 11
@@ -18,6 +19,7 @@ armours:
     stealth: "yes"
     hands: 0
     stack: "armour"
+
 
   - id: 'armour:Core:Chainmail'
     name: Chainmail
