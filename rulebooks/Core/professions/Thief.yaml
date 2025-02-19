@@ -21,7 +21,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Thief:ATTACK_BONUS
   name: "Attack Bonus"
-  description: "+1 to melee and ranged attacks"
+  description: "+1 to melee and ranged attacks" ## it is both
   value: 1
   bonuses:
   - key: 'attack.tohit'

@@ -40,7 +40,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Fighter:ATTACK_BONUS
   name: "Attack Bonus"
-  description: "+1 to melee and ranged attacks"
+  description: "+1 to melee and ranged attacks" ## it is both!
   value: 1
   bonuses:
   - key: 'attack.tohit'

@@ -93,6 +93,7 @@ gears:
       - Light
       - Consumable
       - Oil Flask
+      - sdl:OilFlask
 
   - id: 'gear:Core:Pole'
     name: Pole
