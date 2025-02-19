@@ -1,7 +1,6 @@
 name: Half-Orc
 
 skills:
-## CHECKED
 - id: skill:Core:Half-Orc:Mighty
   name: "Mighty"
   description: "+1 bonus to attack and damage rolls with melee weapons"

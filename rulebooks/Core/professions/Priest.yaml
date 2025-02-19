@@ -71,11 +71,30 @@ skills:
   types:
   - sdl:StatBonus
 
-## XXX Missing - 	Gain advantage on casting one spell you know
-## AdvOnCastOneSpell
+## CHECKED
+- id: skill:Core:Priest:ONE_SPELL_ADVANGTAGE
+  name: "Spell Advantage"
+  description: "Advantage on casting one spell"
+  options: KNOWN-SPELLS:Priest
+  types:
+  - sdl:AdvOnCastOneSpell
+  bonuses:
+  - key: "spells.advantage"
+    value_rule: "spell.name == skill.option"
+  
 
 ## XXX Missing - +1 to priest spellcasting checks
 ## Plus1ToCastingSpells
+
+- id: skill:Core:Prist:Plus1ToCastingSpells
+  name: "+1 Bonus"
+  description: "+1 to Spellcasting"
+  bonuses:
+  - skill: skill.option == "Spellcast"
+    key: "spells.cast"
+    value: 1
+  types:
+  - sdl:Plus1ToCastingSpells
 
 titles:
   Lawful:

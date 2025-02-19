@@ -6,7 +6,7 @@ languages:
 skills:
 
 ## XXX - NOT COMPLETE - need spellcasting
-- id: skill:Core:Elf:Farsight
+- id: skill:Core:Elf:FarSight
   types: [ "text" ]
   name: "Farsight"
   description: "+1 bonus to attack rolls with ranged weapons or spellcasting checks"
@@ -16,6 +16,9 @@ skills:
   bonuses:
   - key: 'attack.tohit'
     value: 1
+    skill_rule: weapon.is_ranged
+  types:
+  - sdl:FarSight
 
 ## CHECKED
 - id: skill:Core:Elf:LanguageElvish
