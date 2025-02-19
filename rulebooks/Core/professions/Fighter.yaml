@@ -91,7 +91,6 @@ skills:
 ## CHECKED
 - id: skill:Core:Fighter:ClassAbilityGrit
   name: "Grit"
-  types: [ "text" ]
   always: True
   description: Advantage on STR or DEX against opposing force
   options:

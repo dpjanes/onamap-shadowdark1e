@@ -47,14 +47,12 @@ skills:
 ## CHECKED
 - id: skill:Core:Thief:ClassAbilityAdvantage
   name: "Advantage"
-  types: [ "text" ]
   always: True
   description: "Advantage on such as picking locks and other Thief skills"
 
 ## CHECKED
 - id: skill:Core:Thief:ClassAbilityBackstab
   name: "Backstab"
-  types: [ "text" ]
   always: True
   description: "Extra die + 1/2 level damage to unaware creatures"
   types:

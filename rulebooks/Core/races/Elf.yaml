@@ -7,7 +7,6 @@ skills:
 
 ## CHECKED
 - id: skill:Core:Elf:FarSight
-  types: [ "text" ]
   name: "Farsight"
   description: "+1 bonus to attack rolls with ranged weapons or spellcasting checks"
   value: 1
@@ -32,7 +31,8 @@ skills:
 - id: skill:Core:Elf:LanguageElvish
   name: "Language"
   description: "Speak Elvish"
-  types: ["language"]
+  types:
+  - Language
   option: "Elvish"
   always: True
 
@@ -40,7 +40,8 @@ skills:
 - id: skill:Core:Elf:LanguageSylvan
   name: "Language"
   description: "Speak Sylvan"
-  types: ["language"]
+  types:
+  - Language
   option: "Sylvan"
   always: True
 

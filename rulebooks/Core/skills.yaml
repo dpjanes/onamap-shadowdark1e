@@ -23,16 +23,18 @@ skills:
   name: "Language"
   description: "Speak Common"
   source: "Base"
-  types: ["language"]
   option: "Common"
   always: True
+  types:
+  - Language
 
 ## CHECKED
 - id: skill:Core:Base:RARE_LANGUAGE
   name: "Language"
   description: "Speak a Rare Language"
   source: "Base"
-  types: ["language"]
+  types:
+  - Language
   options: RARE_LANGUAGES
 
 ## CHECKED
@@ -40,5 +42,6 @@ skills:
   name: "Language"
   description: "Speak a Common Language"
   source: "Base"
-  types: ["language"]
+  types:
+  - Language
   options: COMMON_LANGUAGES

@@ -1,7 +1,6 @@
 name: Halfling
 skills:
 - id: skill:Core:Halfling:Stealthy
-  types: [ "text" ]
   name: "Stealthy"
   description: "Stealthy: Once per day, become invisible for 3 rounds"
   always: True
