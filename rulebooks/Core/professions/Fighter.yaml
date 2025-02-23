@@ -18,6 +18,7 @@ skills:
   value: 1
   options: WEAPONS
   always: True  ## fighter gets one, they can add more
+  skill_rule: weapon.get_weapon_type == skill.option
   bonuses:
   - key: 'attack.tohit'
     value: 1
