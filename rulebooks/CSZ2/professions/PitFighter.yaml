@@ -6,7 +6,7 @@ armor:
   - Leather armor
   - Shields
 skills:
-  - id: skill:Core:PitFighter:Flourish
+  - id: skill:CSZ1:PitFighter:Flourish
     name: Flourish
     description: |
       Regain 1d6 HP when you hit with a melee attack.
@@ -15,19 +15,19 @@ skills:
     value: 3
     always: true
 
-  - id: skill:Core:PitFighter:Implacable
+  - id: skill:CSZ1:PitFighter:Implacable
     name: Implacable
     description: |
       Advantage on CON checks to resist injury, poison, or endure extreme environments.
     always: true
 
-  - id: skill:Core:PitFighter:LastStand
+  - id: skill:CSZ1:PitFighter:LastStand
     name: Last Stand
     description: |
       Rise from dying with 1 HP on a natural 18-20.
     always: true
 
-  - id: skill:Core:PitFighter:Relentless
+  - id: skill:CSZ1:PitFighter:Relentless
     name: Relentless
     description: |
       At 0 HP, make a DC 18 CON check—on success, stay at 1 HP.

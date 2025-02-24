@@ -1,0 +1,217 @@
+name: Warlock
+hit_dice: 1d6
+# weapons:
+#   - All weapons
+# armor:
+#   - Leather armor
+#   - Shields
+# Weapons: Club, crossbow, dagger, longsword, mace
+# Armor: Leather armor, chainmail, mithral chainmail, shields
+
+skills:
+
+- id: skill:CSZ1:Warlock:LanguageExtra
+  name: "Language"
+  options:
+    - "Celestial"
+    - "Diabolic"
+    - "Draconic"
+    - "Primordial"
+    - "Sylvan"
+  description: "Speak an additional Warlock language"
+  always: True
+  types:
+  - sdl:ExtraLanguage
+
+- id: skill:CSZ1:Warlock:ATTACK_BONUS
+  name: "Attack Bonus"
+  description: "+1 to melee or ranged attacks"  
+  value: 1
+  bonuses:
+  - key: 'attack.tohit'
+    value: 1
+  options:
+    - "Ranged Attacks"
+    - "Melee Attacks"
+  bonuses:
+  - skill_rule: AND(skill.option == "Ranged Attacks", weapon.is_ranged)
+    key: 'attack.tohit'
+    value: 1
+  - skill_rule: AND(skill.option == "Melee Attacks", weapon.is_meele)
+    key: 'attack.tohit'
+    value: 1
+  types:
+  - sdl:Plus1ToHit
+  - "sdl:Ranged attacks=Ranged Attacks"
+  - "sdl:Melee attacks=Melee Attacks"
+
+- id: skill:CSZ1:Warlock:Kytheros:Reroll
+  patron: Kytheros
+  name: Reroll
+  description: |
+    Kytheros: 1/day, force the GM to reroll a single roll
+  types:
+  - DailySkill
+  value: 1
+
+- id: skill:CSZ1:Warlock:Kytheros:ACBoost
+  patron: Kytheros
+  name: AC Boost
+  description: |
+    Kytheros: Gain +1 to your AC through supernatural foresight
+
+- id: skill:CSZ1:Warlock:Kytheros:StatBoost
+  patron: Kytheros
+  name: Stat Boost
+  description: |
+    Kytheros: +2 to Strength, Dexterity, or Wisdom stat
+
+- id: skill:CSZ1:Warlock:Kytheros:WisdomRoll
+  patron: Kytheros
+  name: Wisdom Roll
+  description: |
+    Kytheros: 3/day, add your WIS bonus to any roll (reroll duplicates)
+  types:
+  - DailySkill
+  value: 3
+
+- id: skill:CSZ1:Warlock:Kytheros:Choice
+  patron: Kytheros
+  name: Choice
+  description: |
+    Kytheros: Choose one option or +2 points to distribute to stats
+
+- id: skill:CSZ1:Warlock:Mugdulblub:SlimeForm
+  patron: Mugdulblub
+  name: Slime Form
+  description: |
+    Mugdulblub: 1/day, turn into a crawling puddle of slime for 3 rounds
+  types:
+  - DailySkill
+  value: 1
+
+- id: skill:CSZ1:Warlock:Mugdulblub:MaxHP
+  patron: Mugdulblub
+  name: Max HP
+  description: |
+    Mugdulblub: Maximize 2 hit point die rolls (prior or future)
+
+- id: skill:CSZ1:Warlock:Mugdulblub:StatBoost
+  patron: Mugdulblub
+  name: Stat Boost
+  description: |
+    Mugdulblub: +2 to Dexterity or Constitution stat
+
+- id: skill:CSZ1:Warlock:Mugdulblub:Immunity
+  patron: Mugdulblub
+  name: Immunity
+  description: |
+    Mugdulblub: Become immune to 1: acid, cold, poison (reroll if no options)
+
+- id: skill:CSZ1:Warlock:Mugdulblub:Choice
+  patron: Mugdulblub
+  name: Choice
+  description: |
+    Mugdulblub: Choose one option or +2 points to distribute to stats
+
+- id: skill:CSZ1:Warlock:ShuneTheVile:MindRead
+  patron: ShuneTheVile
+  name: Mind Read
+  description: |
+    ShuneTheVile: 1/day, read the mind of a creature you touch for 3 rounds
+  types:
+  - DailySkill
+  value: 1
+
+- id: skill:CSZ1:Warlock:ShuneTheVile:WizardSpell
+  patron: ShuneTheVile
+  name: Wizard Spell
+  description: |
+    ShuneTheVile: Learn a wizard spell, tier = half your level. Cast it with INT
+
+- id: skill:CSZ1:Warlock:ShuneTheVile:StatBoost
+  patron: ShuneTheVile
+  name: Stat Boost
+  description: |
+    ShuneTheVile: +2 to Dexterity or Intelligence stat
+
+- id: skill:CSZ1:Warlock:ShuneTheVile:XPBoost
+  patron: ShuneTheVile
+  name: XP Boost
+  description: |
+    ShuneTheVile: +1 XP whenever you learn a valuable or significant secret
+
+- id: skill:CSZ1:Warlock:ShuneTheVile:Choice
+  patron: ShuneTheVile
+  name: Choice
+  description: |
+    ShuneTheVile: Choose one option or +2 points to distribute to stats
+
+- id: skill:CSZ1:Warlock:Titania:Hypnotize
+  patron: Titania
+  name: Hypnotize
+  description: |
+    Titania: 1/day, hypnotize a LV 5 or less creature for 3 rounds
+  types:
+  - DailySkill
+  value: 1
+
+- id: skill:CSZ1:Warlock:Titania:Longbow
+  patron: Titania
+  name: Longbow
+  description: |
+    Titania: Learn to wield a longbow or gain +1 to ranged attacks
+
+- id: skill:CSZ1:Warlock:Titania:StatBoost
+  patron: Titania
+  name: Stat Boost
+  description: |
+    Titania: +2 to Dexterity or Charisma stat
+
+- id: skill:CSZ1:Warlock:Titania:SpellResistance
+  patron: Titania
+  name: Spell Resistance
+  description: |
+    Titania: Hostile spells that target you are always hard to cast (reroll duplicates)
+
+- id: skill:CSZ1:Warlock:Titania:Choice
+  patron: Titania
+  name: Choice
+  description: |
+    Titania: Choose one option or +2 points to distribute to stats
+
+- id: skill:CSZ1:Warlock:TheWillowman:Teleport
+  patron: TheWillowman
+  name: Teleport
+  description: |
+    TheWillowman: 1/day, teleport to a far location you see as your move
+  types:
+  - DailySkill
+  value: 1
+
+- id: skill:CSZ1:Warlock:TheWillowman:AttackBoost
+  patron: TheWillowman
+  name: Attack Boost
+  description: |
+    TheWillowman: +1 to melee or ranged attacks
+
+- id: skill:CSZ1:Warlock:TheWillowman:StatBoost
+  patron: TheWillowman
+  name: Stat Boost
+  description: |
+    TheWillowman: +2 to Strength or Dexterity stat
+
+- id: skill:CSZ1:Warlock:TheWillowman:MoraleCheck
+  patron: TheWillowman
+  name: Morale Check
+  description: |
+    TheWillowman: 1/day, force a close being to check morale, even if immune
+  types:
+  - DailySkill
+  value: 1
+
+- id: skill:CSZ1:Warlock:TheWillowman:Choice
+  patron: TheWillowman
+  name: Choice
+  description: |
+    TheWillowman: Choose one option or +2 points to distribute to stats

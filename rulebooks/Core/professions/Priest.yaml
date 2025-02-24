@@ -48,7 +48,7 @@ skills:
 ## CHECKED
 - id: skill:Core:Priest:ATTACK_BONUS
   name: "Attack Bonus"
-  description: "+1 to melee or ranged attacks"  ## is is OR 
+  description: "+1 to melee or ranged attacks"  
   value: 1
   bonuses:
   - key: 'attack.tohit'
