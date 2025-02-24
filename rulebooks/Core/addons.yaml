@@ -1,0 +1,28 @@
+#
+#   Addons get stored in "description".
+#   In this file they will apply to all professions.
+#
+- name: "Alignment"
+  key: "alignment"
+  description: "General character ethos"
+  is_strict: true
+  options:
+    - "Lawful"
+    - "Neutral"
+    - "Chaotic"
+- name: "Deity"
+  key: "deity"
+  description: "Choose a deity to follow"
+  options:
+  - "All Nord Gods"
+  - "Freya"
+  - "Gede"
+  - "Loki"
+  - "Madeera the Covenant"
+  - "Memnon"
+  - "Odin"
+  - "Ord"
+  - "Ramlaat"
+  - "Saint Terragnis"
+  - "Shune the Vile"
+  - "The Lost"

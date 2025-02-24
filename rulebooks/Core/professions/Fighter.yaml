@@ -2,6 +2,7 @@ name: Fighter
 is_spellcaster: false
 armour_rule: "True"
 weapon_rule: "True"
+
 skills:
 ## CHECKED
 - id: skill:Core:Fighter:HITDICE

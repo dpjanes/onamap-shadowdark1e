@@ -1,15 +1,33 @@
 name: Warlock
 hit_dice: 1d6
-# weapons:
-#   - All weapons
-# armor:
-#   - Leather armor
-#   - Shields
-# Weapons: Club, crossbow, dagger, longsword, mace
-# Armor: Leather armor, chainmail, mithral chainmail, shields
+armour_rule: "IN(armour.get_armour_types, profession.armour_types)"
+armour_types:
+- Leather
+- Chainmail
+- Shield
+- Buckler
+weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
+weapon_types:
+- Club
+- Crossbow
+- Dagger
+- Mace
+- Longsword
+primary_stat: "str"
+
+addons:
+- name: Patron
+  key: patron
+  description: "Choose a patron to follow"
+  is_strict: true
+  options:
+  - "Kytheros"
+  - "Mugdulblub"
+  - "Shune The Vile"
+  - "Titania"
+  - "The Willowman"
 
 skills:
-
 - id: skill:CSZ1:Warlock:LanguageExtra
   name: "Language"
   options:
