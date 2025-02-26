@@ -14,6 +14,7 @@ weapon_types:
 - Mace
 - Longsword
 primary_stat: "str"
+# is_spellcaster: true
 
 addons:
 - name: Patron
@@ -23,7 +24,7 @@ addons:
   options:
   - "Kytheros"
   - "Mugdulblub"
-  - "Shune The Vile"
+  - "Shune the Vile"
   - "Titania"
   - "The Willowman"
 
@@ -43,7 +44,7 @@ skills:
 
 - id: skill:CSZ1:Warlock:ATTACK_BONUS
   name: "Attack Bonus"
-  description: "+1 to melee or ranged attacks"  
+  description: "+1 to melee or ranged attacks"
   value: 1
   bonuses:
   - key: 'attack.tohit'
@@ -65,171 +66,239 @@ skills:
 
 - id: skill:CSZ1:Warlock:Kytheros:Reroll
   patron: Kytheros
+  filter_rule: "skill.patron == character.description.patron"
   name: Reroll
   description: |
-    Kytheros: 1/day, force the GM to reroll a single roll
+    1/day, force the GM to reroll a single roll
   types:
   - DailySkill
   value: 1
 
 - id: skill:CSZ1:Warlock:Kytheros:ACBoost
   patron: Kytheros
+  filter_rule: "skill.patron == character.description.patron"
   name: AC Boost
   description: |
-    Kytheros: Gain +1 to your AC through supernatural foresight
+    Gain +1 to your AC through supernatural foresight
+  bonuses:
+  - key: "ac"
+    value: 1
 
 - id: skill:CSZ1:Warlock:Kytheros:StatBoost
   patron: Kytheros
+  filter_rule: "skill.patron == character.description.patron"
   name: Stat Boost
   description: |
-    Kytheros: +2 to Strength, Dexterity, or Wisdom stat
+    +2 to Strength, Dexterity, or Wisdom stat
+  options:
+    - "STR"
+    - "DEX"
+    - "WIS"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: 2
 
 - id: skill:CSZ1:Warlock:Kytheros:WisdomRoll
   patron: Kytheros
+  filter_rule: "skill.patron == character.description.patron"
   name: Wisdom Roll
   description: |
-    Kytheros: 3/day, add your WIS bonus to any roll (reroll duplicates)
+    3/day, add your WIS bonus to any roll (reroll duplicates)
   types:
   - DailySkill
   value: 3
 
 - id: skill:CSZ1:Warlock:Kytheros:Choice
   patron: Kytheros
+  filter_rule: "skill.patron == character.description.patron"
   name: Choice
   description: |
-    Kytheros: Choose one option or +2 points to distribute to stats
+    Choose one option or +2 points to distribute to stats
 
 - id: skill:CSZ1:Warlock:Mugdulblub:SlimeForm
   patron: Mugdulblub
+  filter_rule: "skill.patron == character.description.patron"
   name: Slime Form
   description: |
-    Mugdulblub: 1/day, turn into a crawling puddle of slime for 3 rounds
+    1/day, turn into a crawling puddle of slime for 3 rounds
   types:
   - DailySkill
   value: 1
 
 - id: skill:CSZ1:Warlock:Mugdulblub:MaxHP
   patron: Mugdulblub
+  filter_rule: "skill.patron == character.description.patron"
   name: Max HP
   description: |
-    Mugdulblub: Maximize 2 hit point die rolls (prior or future)
+    Maximize 2 hit point die rolls (prior or future)
 
 - id: skill:CSZ1:Warlock:Mugdulblub:StatBoost
   patron: Mugdulblub
+  filter_rule: "skill.patron == character.description.patron"
   name: Stat Boost
   description: |
-    Mugdulblub: +2 to Dexterity or Constitution stat
+    +2 to Dexterity or Constitution stat
+  options:
+    - "DEX"
+    - "CON"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: 2
 
 - id: skill:CSZ1:Warlock:Mugdulblub:Immunity
   patron: Mugdulblub
+  filter_rule: "skill.patron == character.description.patron"
   name: Immunity
   description: |
-    Mugdulblub: Become immune to 1: acid, cold, poison (reroll if no options)
+    Become immune to 1: acid, cold, poison (reroll if no options)
 
 - id: skill:CSZ1:Warlock:Mugdulblub:Choice
   patron: Mugdulblub
+  filter_rule: "skill.patron == character.description.patron"
   name: Choice
   description: |
-    Mugdulblub: Choose one option or +2 points to distribute to stats
+    Choose one option or +2 points to distribute to stats
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:MindRead
-  patron: ShuneTheVile
+  patron: Shune the Vile
+  filter_rule: "skill.patron == character.description.patron"
   name: Mind Read
   description: |
-    ShuneTheVile: 1/day, read the mind of a creature you touch for 3 rounds
+    1/day, read the mind of a creature you touch for 3 rounds
   types:
   - DailySkill
   value: 1
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:WizardSpell
-  patron: ShuneTheVile
+  patron: Shune the Vile
+  filter_rule: "skill.patron == character.description.patron"
   name: Wizard Spell
   description: |
-    ShuneTheVile: Learn a wizard spell, tier = half your level. Cast it with INT
+    Learn a wizard spell, tier = half your level. Cast it with INT
+  options: ALL-SPELLS:Wizard
+  # bonuses:
+  # ## XXX
+  # - key: "spells.cast"
+  #   value_rule: "spell.name == skill.option"
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:StatBoost
-  patron: ShuneTheVile
+  patron: Shune the Vile
+  filter_rule: "skill.patron == character.description.patron"
   name: Stat Boost
   description: |
-    ShuneTheVile: +2 to Dexterity or Intelligence stat
+    +2 to Dexterity or Intelligence stat
+  options:
+    - "DEX"
+    - "INT"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: 2
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:XPBoost
-  patron: ShuneTheVile
+  patron: Shune the Vile
+  filter_rule: "skill.patron == character.description.patron"
   name: XP Boost
   description: |
-    ShuneTheVile: +1 XP whenever you learn a valuable or significant secret
+    +1 XP whenever you learn a valuable or significant secret
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:Choice
-  patron: ShuneTheVile
+  patron: Shune the Vile
+  filter_rule: "skill.patron == character.description.patron"
   name: Choice
   description: |
-    ShuneTheVile: Choose one option or +2 points to distribute to stats
+    Choose one option or +2 points to distribute to stats
 
 - id: skill:CSZ1:Warlock:Titania:Hypnotize
   patron: Titania
+  filter_rule: "skill.patron == character.description.patron"
   name: Hypnotize
   description: |
-    Titania: 1/day, hypnotize a LV 5 or less creature for 3 rounds
+    1/day, hypnotize a LV 5 or less creature for 3 rounds
   types:
   - DailySkill
   value: 1
 
 - id: skill:CSZ1:Warlock:Titania:Longbow
   patron: Titania
+  filter_rule: "skill.patron == character.description.patron"
   name: Longbow
   description: |
-    Titania: Learn to wield a longbow or gain +1 to ranged attacks
+    Learn to wield a longbow or gain +1 to ranged attacks
 
 - id: skill:CSZ1:Warlock:Titania:StatBoost
   patron: Titania
+  filter_rule: "skill.patron == character.description.patron"
   name: Stat Boost
   description: |
-    Titania: +2 to Dexterity or Charisma stat
+    +2 to Dexterity or Charisma stat
+  options:
+    - "DEX"
+    - "CHR"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: 2
 
 - id: skill:CSZ1:Warlock:Titania:SpellResistance
   patron: Titania
+  filter_rule: "skill.patron == character.description.patron"
   name: Spell Resistance
   description: |
-    Titania: Hostile spells that target you are always hard to cast (reroll duplicates)
+    Hostile spells that target you are always hard to cast (reroll duplicates)
 
 - id: skill:CSZ1:Warlock:Titania:Choice
   patron: Titania
+  filter_rule: "skill.patron == character.description.patron"
   name: Choice
   description: |
-    Titania: Choose one option or +2 points to distribute to stats
+    Choose one option or +2 points to distribute to stats
 
 - id: skill:CSZ1:Warlock:TheWillowman:Teleport
-  patron: TheWillowman
+  patron: The Willowman
+  filter_rule: "skill.patron == character.description.patron"
   name: Teleport
   description: |
-    TheWillowman: 1/day, teleport to a far location you see as your move
+    1/day, teleport to a far location you see as your move
   types:
   - DailySkill
   value: 1
 
 - id: skill:CSZ1:Warlock:TheWillowman:AttackBoost
-  patron: TheWillowman
+  patron: The Willowman
+  filter_rule: "skill.patron == character.description.patron"
   name: Attack Boost
   description: |
-    TheWillowman: +1 to melee or ranged attacks
+    +1 to melee or ranged attacks
 
 - id: skill:CSZ1:Warlock:TheWillowman:StatBoost
-  patron: TheWillowman
+  patron: The Willowman
+  filter_rule: "skill.patron == character.description.patron"
   name: Stat Boost
   description: |
-    TheWillowman: +2 to Strength or Dexterity stat
+    +2 to Strength or Dexterity stat
+  options:
+    - "DEX"
+    - "STR"
+  bonuses:
+  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+    value_rule: 2
 
 - id: skill:CSZ1:Warlock:TheWillowman:MoraleCheck
-  patron: TheWillowman
+  patron: The Willowman
+  filter_rule: "skill.patron == character.description.patron"
   name: Morale Check
   description: |
-    TheWillowman: 1/day, force a close being to check morale, even if immune
+    1/day, force a close being to check morale, even if immune
   types:
   - DailySkill
   value: 1
 
 - id: skill:CSZ1:Warlock:TheWillowman:Choice
-  patron: TheWillowman
+  patron: The Willowman
+  filter_rule: "skill.patron == character.description.patron"
   name: Choice
   description: |
-    TheWillowman: Choose one option or +2 points to distribute to stats
+    Choose one option or +2 points to distribute to stats
+
+# spells_known:
+#   Wizard:
+#     - []
