@@ -1,0 +1,138 @@
+name: Witch
+is_spellcaster: true
+armour_rule: "IN(armour.get_armour_type, ['Leather'])"
+weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
+weapon_types:
+  - Dagger
+  - Staff
+primary_stat: "cha"
+
+skills:
+- id: skill:Core:Witch:HITDICE
+  name: "Hit Dice"
+  description: "1d4 per level"
+  types: [ "hit_dice" ]
+  always: True
+  value: 4
+
+- id: skill:Core:Witch:Languages
+  name: "Languages"
+  description: "You know Diabolic, Primordial, and Sylvan."
+  always: True
+  options:
+    - "Diabolic"
+    - "Primordial"
+    - "Sylvan"
+  types:
+    - "sdl:ExtraLanguage"
+    - "Language"
+
+- id: skill:Core:Witch:Familiar
+  name: "Familiar"
+  description: "You have a small animal such as a raven, rat, or frog who serves you loyally. It can speak Common. Your familiar can be the source of spells you cast. Treat it as though it were you for determining spell ranges."
+  always: True
+
+- id: skill:Core:Witch:RestoreFamiliar
+  name: "Restore Familiar"
+  description: "If your familiar dies, you can restore it to life by permanently sacrificing 1d4 hit points."
+  always: True
+
+# - id: skill:Core:Witch:Spellcasting
+#   name: "Spellcasting"
+#   description: "You can cast witch spells you know. You use your Charisma stat to cast witch spells. The DC is 10 + the spell's tier."
+#   always: True
+#   types: [ "sdl:Spellcasting" ]
+
+# - id: skill:Core:Witch:SpellcastingFailure
+#   name: "Spellcasting Failure"
+#   description: "If you fail a spellcasting check, you can't cast that spell again until you complete a rest."
+#   always: True
+#   types: [ "sdl:SpellFailure" ]
+
+- id: skill:Core:Witch:DiabolicalMishap
+  name: "Diabolical Mishap"
+  description: "If you roll a natural 1 on a spellcasting check, roll on the corresponding Diabolical Mishap table for the spell's tier."
+  always: True
+
+- id: skill:Core:Witch:TeleportFamiliar
+  name: "Familiar Teleportation"
+  description: "1/day, teleport to your familiar's location as a move."
+  types:
+  - DailySkill
+  value: 1
+
+- id: skill:Core:Witch:CharismaBonus
+  name: "Charisma Boost"
+  description: "+2 to Charisma stat or +1 to witch spellcasting checks."
+  options:
+    - "CHR"
+    - "Spellcast"
+  bonuses:
+  - skill_rule: skill.option == "CHR"
+    key: "stats.int"
+    value: 2
+  - skill_rule: skill.option == "Spellcast"
+    key: "spells.cast"
+    value: 1
+  types:
+  - sdl:PlusTwoIntOrPlusOneWitchCasting
+  - sdl:Plus1ToCastingSpells=Spellcast
+  - sdl:StatBonus=CHR
+
+- id: skill:Core:Witch:SpellAdvantage
+  name: "Spell Advantage"
+  description: "Gain advantage on casting one spell you know."
+  options: KNOWN-SPELLS:Witch
+  types:
+  - sdl:AdvOnCastOneSpell
+  bonuses:
+  - key: "spells.advantage"
+    value_rule: "spell.name == skill.option"
+
+- id: skill:Core:Witch:ONE_EXTRA_SPELL
+  name: "Extra Spell"
+  description: "One additional Witch spell"
+  options: SPELLS:Witch
+  bonuses:
+  - key: "spells.know"
+    value_rule: "skill.option"
+  types:
+  - sdl:LearnExtraSpell
+
+- id: skill:Core:Witch:TalentOrStats
+  name: "Talent or Stat Boost"
+  description: "Choose a talent or +2 points to distribute to stats."
+
+
+titles:
+  Lawful:
+    1: Hedgewitch
+    3: Wise Woman
+    5: Crone
+    7: Witch Queen
+    9: Arcane Seer
+  Chaotic:
+    1: Occultist
+    3: Shaman
+    5: Hexer
+    7: Hag
+    9: Nightmother
+  Neutral:
+    1: Mystic
+    3: Diviner
+    5: Oracle
+    7: Coven Leader
+    9: Fatebinder
+
+spells_known:
+  Witch:
+    - [3]             # Level 1
+    - [4]             # Level 2
+    - [4, 1]          # Level 3
+    - [4, 2]          # Level 4
+    - [4, 2, 1]       # Level 5
+    - [4, 3, 2]       # Level 6
+    - [4, 3, 2, 1]    # Level 7
+    - [4, 4, 2, 2]    # Level 8
+    - [4, 4, 3, 2, 1] # Level 9
+    - [4, 4, 4, 2, 2] # Level 10

@@ -37,7 +37,7 @@ skills:
   options:
     - "STR"
     - "DEX"
-    - "CHA"
+    - "CHR"
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value

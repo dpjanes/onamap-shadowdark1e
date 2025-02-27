@@ -1,0 +1,205 @@
+spells:
+- id: spell:Witch:Cauldron:1
+  level: 1
+  name: Cauldron
+  profession: Witch
+
+- id: spell:Witch:CharmPerson:1
+  level: 1
+  name: Charm Person
+  profession: Witch
+
+- id: spell:Witch:Eyebite:1
+  level: 1
+  name: Eyebite
+  profession: Witch
+
+- id: spell:Witch:Fog:1
+  level: 1
+  name: Fog
+  profession: Witch
+
+- id: spell:Witch:Hypnotize:1
+  level: 1
+  name: Hypnotize
+  profession: Witch
+
+- id: spell:Witch:OakAshThorn:1
+  level: 1
+  name: Oak, Ash, Thorn
+  profession: Witch
+
+- id: spell:Witch:Puppet:1
+  level: 1
+  name: Puppet
+  profession: Witch
+
+- id: spell:Witch:Shadowdance:1
+  level: 1
+  name: Shadowdance
+  profession: Witch
+
+- id: spell:Witch:Willowman:1
+  level: 1
+  name: Willowman
+  profession: Witch
+
+- id: spell:Witch:Witchlight:1
+  level: 1
+  name: Witchlight
+  profession: Witch
+
+- id: spell:Witch:AlterSelf:2
+  level: 2
+  name: Alter Self
+  profession: Witch
+
+- id: spell:Witch:Augury:2
+  level: 2
+  name: Augury
+  profession: Witch
+
+- id: spell:Witch:Bogboil:2
+  level: 2
+  name: Bogboil
+  profession: Witch
+
+- id: spell:Witch:Cacklerot:2
+  level: 2
+  name: Cacklerot
+  profession: Witch
+
+- id: spell:Witch:CatsEye:2
+  level: 2
+  name: Cat's Eye
+  profession: Witch
+
+- id: spell:Witch:FrogRain:2
+  level: 2
+  name: Frog Rain
+  profession: Witch
+
+- id: spell:Witch:Invisibility:2
+  level: 2
+  name: Invisibility
+  profession: Witch
+
+- id: spell:Witch:Poison:2
+  level: 2
+  name: Poison
+  profession: Witch
+
+- id: spell:Witch:Spidersilk:2
+  level: 2
+  name: Spidersilk
+  profession: Witch
+
+- id: spell:Witch:Toadstool:2
+  level: 2
+  name: Toadstool
+  profession: Witch
+
+- id: spell:Witch:Broomstick:3
+  level: 3
+  name: Broomstick
+  profession: Witch
+
+- id: spell:Witch:Coven:3
+  level: 3
+  name: Coven
+  profession: Witch
+
+- id: spell:Witch:Divination:3
+  level: 3
+  name: Divination
+  profession: Witch
+
+- id: spell:Witch:Howl:3
+  level: 3
+  name: Howl
+  profession: Witch
+
+- id: spell:Witch:SpeakWithDead:3
+  level: 3
+  name: Speak with Dead
+  profession: Witch
+
+- id: spell:Witch:Beguile:4
+  level: 4
+  name: Beguile
+  profession: Witch
+
+- id: spell:Witch:CloakOfNight:4
+  level: 4
+  name: Cloak of Night
+  profession: Witch
+
+- id: spell:Witch:Curse:4
+  level: 4
+  name: Curse
+  profession: Witch
+
+- id: spell:Witch:DimensionDoor:4
+  level: 4
+  name: Dimension Door
+  profession: Witch
+
+- id: spell:Witch:Glassbones:4
+  level: 4
+  name: Glassbones
+  profession: Witch
+
+- id: spell:Witch:Moonbeam:4
+  level: 4
+  name: Moonbeam
+  profession: Witch
+
+- id: spell:Witch:Nightmare:4
+  level: 4
+  name: Nightmare
+  profession: Witch
+
+- id: spell:Witch:Polymorph:4
+  level: 4
+  name: Polymorph
+  profession: Witch
+
+- id: spell:Witch:Anathema:5
+  level: 5
+  name: Anathema
+  profession: Witch
+
+- id: spell:Witch:Dreamwalk:5
+  level: 5
+  name: Dreamwalk
+  profession: Witch
+
+- id: spell:Witch:Enfeeble:5
+  level: 5
+  name: Enfeeble
+  profession: Witch
+
+- id: spell:Witch:FingerOfDeath:5
+  level: 5
+  name: Finger of Death
+  profession: Witch
+
+- id: spell:Witch:MotherOfNight:5
+  level: 5
+  name: Mother of Night
+  profession: Witch
+
+- id: spell:Witch:Scrying:5
+  level: 5
+  name: Scrying
+  profession: Witch
+
+- id: spell:Witch:Shapechange:5
+  level: 5
+  name: Shapechange
+  profession: Witch
+
+- id: spell:Witch:SoulJar:5
+  level: 5
+  name: Soul Jar
+  profession: Witch
