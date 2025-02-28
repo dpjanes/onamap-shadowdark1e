@@ -15,17 +15,23 @@ skills:
   always: True
   value: 4
 
-- id: skill:Core:Witch:Languages
+- id: skill:Core:Witch:LanguageDiabolic
   name: "Languages"
-  description: "You know Diabolic, Primordial, and Sylvan."
+  description: "You know Diabolic"
   always: True
-  options:
-    - "Diabolic"
-    - "Primordial"
-    - "Sylvan"
-  types:
-    - "sdl:ExtraLanguage"
-    - "Language"
+  option: Diabolic
+
+- id: skill:Core:Witch:LanguagePrimordial
+  name: "Languages"
+  description: "You know Primordial"
+  always: True
+  option: Primordial
+
+- id: skill:Core:Witch:LanguageSylvan
+  name: "Languages"
+  description: "You know Sylvan."
+  always: True
+  option: DiSylvanabolic
 
 - id: skill:Core:Witch:Familiar
   name: "Familiar"
