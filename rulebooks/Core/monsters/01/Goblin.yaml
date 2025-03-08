@@ -1,0 +1,45 @@
+id: monster:Core:Goblin:01
+name: Goblin
+description: A short, hairless humanoid with green skin and pointy ears.
+ac:
+  computed: 11
+  value: 11
+alignment: Chaotic
+attacks:
+- name: Club
+  range: Near
+  types: weapon
+- name: Shortbow
+  range: Far
+  types: weapon
+hp:
+  computed: 5
+  max: 5
+  value: 5
+level:
+  value: 1
+moves:
+- range: Near
+skills:
+- description: Can't be surprised.
+  name: Keen Senses
+stats:
+  chr:
+    bonus: 2
+  con:
+    bonus: 1
+  dex:
+    bonus: 1
+  int:
+    bonus: 1
+  wis:
+    bonus: 1
+weapons:
+- name: Club
+  damage: 1d4
+- name: Shortbow
+  bonuses:
+  - key: attack.tohit
+    value: 1
+  damage: 1d4
+

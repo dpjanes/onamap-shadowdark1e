@@ -1,0 +1,36 @@
+id: monster:Core:Orc:01
+name: Orc
+description: A tusked, tall humanoid with gray skin and pointed ears.
+ac:
+  computed: 15
+  value: 15
+alignment: Chaotic
+attacks:
+- name: Greataxe
+  range: Near
+  types: weapon
+hp:
+  computed: 4
+  max: 4
+  value: 4
+level:
+  value: 1
+moves:
+- range: Near
+skills:
+- description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
+  name: Rage
+stats:
+  chr:
+    bonus: 1
+  int:
+    bonus: 1
+  str:
+    bonus: 2
+weapons:
+- name: Greataxe
+  bonuses:
+  - key: attack.tohit
+    value: 2
+  damage: 1d8
+
