@@ -34,3 +34,35 @@ weapons:
 - name: Dagger
   damage: close
 
+# ---
+
+
+# id: monster:Core:Pirate:01
+# name: Pirate
+# description: Seafaring scoundrels who live to steal and hoard treasure.
+#   Attack with Cutlass (near) or Dagger (close)
+# ac: 12
+# hp: 4
+# level: 1
+# alignment: Chaotic
+# rolls:
+# - name: Cutlass
+#   type: attack.tohit
+#   dice: 1d20
+# - name: Cutlass
+#   type: attack.damage
+#   dice: 1d6
+# - name: Dagger
+#   type: attack.tohit
+#   dice: 1d20
+# - name: Dagger
+#   type: attack.damage
+#   dice: 1d4
+  
+# moves:
+# - range: Near
+# stats:
+#   dex:
+#     bonus: 1
+#   str:
+#     bonus: 1

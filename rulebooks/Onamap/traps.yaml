@@ -1,0 +1,50 @@
+traps:
+  - id: "trap:Onamap:SpikedPit"
+    name: "Spiked Pit"
+    description: "A concealed pit covered with a fragile wooden lid. When stepped on, the victim falls onto sharp spikes."
+    damage: "2d6"
+
+  - id: "trap:Onamap:DartTrap"
+    name: "Dart Trap"
+    description: "A pressure plate triggers a concealed mechanism that fires a poisoned dart at the target."
+    damage: "1d8"
+
+  - id: "trap:Onamap:FlameGout"
+    name: "Flame Gout"
+    description: "A hidden nozzle spews a burst of flames when a tripwire is broken."
+    damage: "3d4"
+
+  - id: "trap:Onamap:FallingRocks"
+    name: "Falling Rocks"
+    description: "Tampered ceiling stones collapse when disturbed, crushing those below."
+    damage: "2d10"
+
+  - id: "trap:Onamap:PoisonNeedle"
+    name: "Poison Needle"
+    description: "A tiny needle hidden in a keyhole pricks the hand of anyone attempting to pick the lock."
+    damage: "1d4 + poison"
+
+  - id: "trap:Onamap:SwingingBlade"
+    name: "Swinging Blade"
+    description: "A massive scything blade swings across the corridor, slicing through anything in its path."
+    damage: "2d8"
+
+  - id: "trap:Onamap:ExplodingRunes"
+    name: "Exploding Runes"
+    description: "Magical glyphs explode when read or disturbed, dealing fire damage to all nearby."
+    damage: "4d6"
+
+  - id: "trap:Onamap:GasChamber"
+    name: "Gas Chamber"
+    description: "A room fills with toxic gas when the door is closed, slowly suffocating those inside."
+    damage: "1d6 per round"
+
+  - id: "trap:Onamap:LightningSigil"
+    name: "Lightning Sigil"
+    description: "A runic symbol discharges a bolt of electricity when stepped on."
+    damage: "3d8"
+
+  - id: "trap:Onamap:BearTrap"
+    name: "Bear Trap"
+    description: "A heavy, toothed trap snaps shut around the victim’s leg, holding them in place and causing severe injury."
+    damage: "2d6"

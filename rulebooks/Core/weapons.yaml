@@ -26,6 +26,17 @@ weapons:
   damage: 1d8
   damage_large: 1d10
   hands: 2
+  # future idea
+  # rolls:
+  # - type: attack.tohit
+  #   name: Attack
+  #   dice: 1d20
+  # - type: attack.damage
+  #   name: Damage
+  #   dice: 1d8
+  # - type: attack.damage
+  #   name: Damage (Large)
+  #   dice: 1d10
 
 - id: weapon:Core:Club
   name: Club
