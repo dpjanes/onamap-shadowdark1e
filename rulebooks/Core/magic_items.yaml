@@ -32,6 +32,7 @@ magic_items:
   name: Armor of Saint Terragnis
   types:
   - Armor
+  - Donnable
   - Plate Mail
   _description: Golden plate mail carved from head to toe with warrior angels.
 
@@ -39,6 +40,7 @@ magic_items:
   name: Amulet of Vitality
   types:
   - Amulet/Necklace
+  - Donnable
   _description: A gold amulet with a red ruby teardrop at its center.
 
 - id: magic_item:Core:AlabasterDestrier
@@ -51,6 +53,7 @@ magic_items:
   name: Amulet of Secrecy
   types:
   - Amulet/Necklace
+  - Donnable
   - Divination/Perception
   _description: A heavy, flat pendant carved with a lidded eye.
 
@@ -58,6 +61,7 @@ magic_items:
   name: Armor of the Oni
   types:
   - Armor
+  - Donnable
   - Plate Mail
   _description: Black plate mail of lacquered ironwood panels.
 
@@ -90,6 +94,7 @@ magic_items:
   name: Blade of Vengeance
   types:
   - Weapon
+  - Donnable
   - Bastard Sword
   _description: A gray blade with a diamond-cut ruby in the pommel.
 
@@ -97,6 +102,7 @@ magic_items:
   name: Boots of Dancing
   types:
   - Boots/Bracers/Gloves
+  - Donnable
   - Cursed Item
   _description: Fine, supple boots of sheepskin.
 
@@ -104,6 +110,7 @@ magic_items:
   name: Boots of Hovering
   types:
   - Boots/Bracers/Gloves
+  - Donnable
   - Flight/Levitation
   _description: Brown, sturdy boots polished to a sheen.
 
@@ -111,18 +118,21 @@ magic_items:
   name: Boots of the Cat
   types:
   - Boots/Bracers/Gloves
+  - Donnable
   _description: Gray, doeskin boots as thin and soft as slippers.
 
 - id: magic_item:Core:BracersOfArchery
   name: Bracers of Archery
   types:
   - Boots/Bracers/Gloves
+  - Donnable
   _description: Leather bracers embossed with soaring hawks.
 
 - id: magic_item:Core:BracersOfDefense
   name: Bracers of Defense
   types:
   - Boots/Bracers/Gloves
+  - Donnable
   _description: Steel bracers traced with dwarvish runes of protection.
 
 - id: magic_item:Core:BrakSCubeOfPerfection
@@ -147,12 +157,14 @@ magic_items:
   name: Cloak of Elvenkind
   types:
   - Cloak/Robe
+  - Donnable
   _description: A hooded, billowing cloak that shifts colors to match its surroundings.
 
 - id: magic_item:Core:CloakOfTheBat
   name: Cloak of the Bat
   types:
   - Cloak/Robe
+  - Donnable
   - Flight/Levitation
   _description: A leathery, black cloak that has a ragged hem and a hood with pointed
     ears.
@@ -167,6 +179,7 @@ magic_items:
   name: Dagger of the Goblin Hero
   types:
   - Weapon
+  - Donnable
   - Dagger
   _description: A curved dagger with a half-moon notch at the blade's base.
 
@@ -192,6 +205,7 @@ magic_items:
   name: Gloves of Agility
   types:
   - Boots/Bracers/Gloves
+  - Donnable
   _description: Thin, leather gloves that seem to meld with the wearer's hands.
 
 - id: magic_item:Core:GoblinBomb
@@ -204,12 +218,14 @@ magic_items:
   name: Gauntlets of Might
   types:
   - Boots/Bracers/Gloves
+  - Donnable
   _description: Heavy, bronze gauntlets with engravings of Herculean giants.
 
 - id: magic_item:Core:GreataxeOfTheHorde
   name: Greataxe of the Horde
   types:
   - Weapon
+  - Donnable
   - Greataxe
   _description: A jagged greataxe carved from a weighty dragon bone.
 
@@ -268,6 +284,7 @@ magic_items:
   name: Longbow of the Elven Kings
   types:
   - Weapon
+  - Donnable
   - Longbow
   _description: A deeply curved longbow with deer antler reinforcements.
 
@@ -275,6 +292,7 @@ magic_items:
   name: Memnon's Discordant Blade
   types:
   - Weapon
+  - Donnable
   - Greatsword
   _description: This barbed greatsword's red blade trails a shower of sparks when
     swung to strike.
@@ -283,6 +301,7 @@ magic_items:
   name: Memnon's Blazing Javelin
   types:
   - Weapon
+  - Donnable
   - Javelin
   _description: This golden javelin occasionally blinks and wavers, briefly turning
     into a bolt of lightning.
@@ -297,6 +316,7 @@ magic_items:
   name: Memnon's Entropic Armor
   types:
   - Armor
+  - Donnable
   - Plate Mail
   _description: Deep blue plate mail traced with gold lightning motifs and red gems
     arrayed into the shape of flames.
@@ -312,6 +332,7 @@ magic_items:
   name: Moonwrought Chainmail
   types:
   - Armor
+  - Donnable
   - Chainmail
   _description: A luminous jacket of chainmail as lightweight as a silk shirt.
 
@@ -319,12 +340,14 @@ magic_items:
   name: Necklace of Charm
   types:
   - Amulet/Necklace
+  - Donnable
   _description: A gold, fishbone chain that shimmers with subtle beauty.
 
 - id: magic_item:Core:NecroticMaceOfWithering
   name: Necrotic Mace of Withering
   types:
   - Weapon
+  - Donnable
   - Mace
   _description: A wrought iron mace tipped with a heavy, screaming skull.
 
@@ -332,6 +355,7 @@ magic_items:
   name: Obsidian Witchknife
   types:
   - Weapon
+  - Donnable
   - Dagger
   _description: A glinting, obsidian blade that trails black smoke in thin curls.
 
@@ -345,6 +369,7 @@ magic_items:
   name: Nightcloak Armor
   types:
   - Armor
+  - Donnable
   - Leather
   _description: Matte black leathers enchanted to deepen and darken shadows.
 
@@ -352,6 +377,7 @@ magic_items:
   name: Ophidian Armor
   types:
   - Armor
+  - Donnable
   - Leather
   _description: Glistening, smooth leather of dappled emerald scales.
 
@@ -385,12 +411,14 @@ magic_items:
   name: Potion of Extirpation
   types:
   - Potion
+  - Consumable
   _description: An acrid, tarry substance in an iron flask with a lead stopper.
 
 - id: magic_item:Core:PotionOfFlying
   name: Potion of Flying
   types:
   - Potion
+  - Consumable
   - Flight/Levitation
   _description: A sunny liquid with bubbles that flash and pop like tiny stars.
 
@@ -398,18 +426,21 @@ magic_items:
   name: Potion of Forgetfulness
   types:
   - Potion
+  - Consumable
   _description: A pink draught that swirls with a counter-clockwise current.
 
 - id: magic_item:Core:PotionOfGiantStrength
   name: Potion of Giant Strength
   types:
   - Potion
+  - Consumable
   _description: A clay jar holding a stew of green, leafy sludge.
 
 - id: magic_item:Core:PotionOfHealing
   name: Potion of Healing
   types:
   - Potion
+  - Consumable
   - Healing/Restoration
   _description: A glass bottle with a fizzy, lemon-vanilla liquid inside.
 
@@ -417,6 +448,7 @@ magic_items:
   name: Potion of Invisibility
   types:
   - Potion
+  - Consumable
   _description: This glass vial appears to be empty, but a liquid audibly splashes
     around inside it.
 
@@ -424,18 +456,21 @@ magic_items:
   name: Potion of Legendary Deeds
   types:
   - Potion
+  - Consumable
   _description: A golden elixir that resonates with a faint, angelic chord.
 
 - id: magic_item:Core:PotionOfPolymorph
   name: Potion of Polymorph
   types:
   - Potion
+  - Consumable
   _description: A pickled newt floats in this lavender flask of clear liquid.
 
 - id: magic_item:Core:PotionOfVitality
   name: Potion of Vitality
   types:
   - Potion
+  - Consumable
   - Healing/Restoration
   _description: A crimson elixir that gently thumps with a heartbeat.
 
@@ -469,6 +504,7 @@ magic_items:
   name: Robe of the Druid
   types:
   - Cloak/Robe
+  - Donnable
   _description: A green velvet robe with a deep hood and hems embroidered with silver
     leaves and vines.
 
@@ -476,6 +512,7 @@ magic_items:
   name: Robe of the Sorcerer
   types:
   - Cloak/Robe
+  - Donnable
   _description: A black leather robe with a shadowed cowl and clawed clasps on thin,
     mithral chains.
 
@@ -483,6 +520,7 @@ magic_items:
   name: Robe of the Archmage
   types:
   - Cloak/Robe
+  - Donnable
   _description: A red silk robe with a wide, gold-hemmed mantle. Golden eyes and moons
     dust its sleeves.
 
@@ -496,6 +534,7 @@ magic_items:
   name: Scimitar of the Ash Moon
   types:
   - Weapon
+  - Donnable
   - Scimitar
   _description: This wide, curved blade has a snarling efreeti head on the bronze
     pommel.
@@ -504,6 +543,7 @@ magic_items:
   name: Shield of the Crusader
   types:
   - Armor
+  - Donnable
   - Shield
   _description: A weighty kite shield painted with a faded, crimson cross.
 
@@ -511,6 +551,7 @@ magic_items:
   name: Shield of the Lion
   types:
   - Armor
+  - Donnable
   - Shield
   _description: This shield is carved as a roaring lion's face with a flowing mane.
 
@@ -518,6 +559,7 @@ magic_items:
   name: Shield of the Witch-King
   types:
   - Armor
+  - Donnable
   - Shield
   _description: A jagged triangle of black steel with spiny, armored plates.
 
@@ -525,6 +567,7 @@ magic_items:
   name: Shortsword of the Thief
   types:
   - Weapon
+  - Donnable
   - Shortsword
   _description: A stubby, gray blade riddled with notches and scars.
 
@@ -532,6 +575,7 @@ magic_items:
   name: Silver Mace of Wrath
   types:
   - Weapon
+  - Donnable
   - Mace
   _description: A tarnished, silver mace with seven flanges in the shape of crescent
     moons.
@@ -553,6 +597,7 @@ magic_items:
   name: Staff of Healing
   types:
   - Weapon
+  - Donnable
   - Staff
   _description: A knotted, oak stave with a heavy knurl on one end.
 
@@ -560,6 +605,7 @@ magic_items:
   name: Staff of Ord
   types:
   - Weapon
+  - Donnable
   - Staff
   _description: A tapered, mithral staff that resonates with arcane power.
 
@@ -581,6 +627,7 @@ magic_items:
   name: Staff of the Cobra
   types:
   - Weapon
+  - Donnable
   - Staff
   _description: A curved scepter tipped with a ruby-eyed, flaring cobra head.
 
@@ -588,6 +635,7 @@ magic_items:
   name: Sword of the Ancients
   types:
   - Weapon
+  - Donnable
   - Longsword
   _description: A chipped and rusting blade with an oiled leather grip.
 
@@ -595,6 +643,7 @@ magic_items:
   name: Thrice-Blessed Sword
   types:
   - Weapon
+  - Donnable
   - Longsword
   _description: A lustrous, golden-handled blade anointed with blessed tears, incense,
     and prayers.
@@ -624,12 +673,14 @@ magic_items:
   name: Tome of Hadebe
   types:
   - Scroll
+  - Consumable
   _description: A brass-plated book with pages of etched copper leaf.
 
 - id: magic_item:Core:TridentOfTheSeas
   name: Trident of the Seas
   types:
   - Weapon
+  - Donnable
   - Spear
   _description: A three-pronged, mithral harpoon studded with pearls.
 
@@ -658,6 +709,7 @@ magic_items:
   name: Warhammer of the Dwarf Lords
   types:
   - Weapon
+  - Donnable
   - Warhammer
   _description: A boxy hammer with a stout handle and leather throwing strap.
 
@@ -678,6 +730,7 @@ magic_items:
   name: Wraith Chain
   types:
   - Armor
+  - Donnable
   - Chainmail
   _description: A chainmail shirt of black, mithral links that trails a long cloak
     of writhing shadows.
