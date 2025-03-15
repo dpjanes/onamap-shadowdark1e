@@ -1,0 +1,8 @@
+magic_items:
+- id: magic_item:Onamap:RingOfProtection
+  name: Ring of Protection
+  types:
+  - Ring
+  - Donnable
+  description: A silver band. When worn, it grants the wearer a +1 bonus to AC.
+

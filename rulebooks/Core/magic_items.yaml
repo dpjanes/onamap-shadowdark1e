@@ -478,12 +478,14 @@ magic_items:
   name: Ring of Feather Falling
   types:
   - Ring
+  - Donnable
   _description: A pearly ring carved in the likeness of an owl feather.
 
 - id: magic_item:Core:RingOfFireballs
   name: Ring of Fireballs
   types:
   - Ring
+  - Donnable
   _description: A bronze loop with claws holding a red marble. A fiery miasma swirls
     inside the glass.
 
@@ -491,12 +493,14 @@ magic_items:
   name: Ring of Invisibility
   types:
   - Ring
+  - Donnable
   _description: A simple, gold band polished to a warm shine.
 
 - id: magic_item:Core:RingOfRamlaat
   name: Ring of Ramlaat
   types:
   - Ring
+  - Donnable
   _description: A bone-carved ring with a ram skull. Its horns twist forward and red
     lights glow in its eye sockets.
 
