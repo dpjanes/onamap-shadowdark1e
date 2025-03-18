@@ -39,7 +39,7 @@ skills:
     - "Sylvan"
   description: "Speak an additional Warlock language"
   always: True
-  types:
+  tags:
   - sdl:ExtraLanguage
 
 - id: skill:CSZ1:Warlock:ATTACK_BONUS
@@ -59,7 +59,7 @@ skills:
   - rule: AND(skill.option == "Melee Attacks", weapon.is_meele)
     key: 'attack.tohit'
     value: 1
-  types:
+  tags:
   - sdl:Plus1ToHit
   - "sdl:Ranged attacks=Ranged Attacks"
   - "sdl:Melee attacks=Melee Attacks"
@@ -70,7 +70,7 @@ skills:
   name: Reroll
   description: |
     1/day, force the GM to reroll a single roll
-  types:
+  tags:
   - DailySkill
   value: 1
 
@@ -104,7 +104,7 @@ skills:
   name: Wisdom Roll
   description: |
     3/day, add your WIS bonus to any roll (reroll duplicates)
-  types:
+  tags:
   - DailySkill
   value: 3
 
@@ -121,7 +121,7 @@ skills:
   name: Slime Form
   description: |
     1/day, turn into a crawling puddle of slime for 3 rounds
-  types:
+  tags:
   - DailySkill
   value: 1
 
@@ -165,7 +165,7 @@ skills:
   name: Mind Read
   description: |
     1/day, read the mind of a creature you touch for 3 rounds
-  types:
+  tags:
   - DailySkill
   value: 1
 
@@ -214,7 +214,7 @@ skills:
   name: Hypnotize
   description: |
     1/day, hypnotize a LV 5 or less creature for 3 rounds
-  types:
+  tags:
   - DailySkill
   value: 1
 
@@ -258,7 +258,7 @@ skills:
   name: Teleport
   description: |
     1/day, teleport to a far location you see as your move
-  types:
+  tags:
   - DailySkill
   value: 1
 
@@ -288,7 +288,7 @@ skills:
   name: Morale Check
   description: |
     1/day, force a close being to check morale, even if immune
-  types:
+  tags:
   - DailySkill
   value: 1
 

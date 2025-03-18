@@ -15,7 +15,7 @@ skills:
   name: "Hit Dice"
   description: "1d6 per level"
   value: 6
-  types: [ "hit_dice" ]
+  tags: [ "hit_dice" ]
   always: True
 
 ## CHECKED
@@ -26,7 +26,7 @@ skills:
   bonuses:
   - key: 'attack.tohit'
     value: 1
-  types:
+  tags:
   - sdl:Plus1ToHit
 
 ## CHECKED
@@ -41,7 +41,7 @@ skills:
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
-  types:
+  tags:
   - sdl:StatBonus
 
 ## CHECKED
@@ -55,7 +55,7 @@ skills:
   name: "Backstab"
   always: True
   description: "Extra die + 1/2 level damage to unaware creatures"
-  types:
+  tags:
   - sdl:BackstabIncrease
 
 ## XXX MISSING 2	Gain advantage on initiative rolls (reroll duplicates)

@@ -11,14 +11,14 @@ skills:
     name: Destined
     description: |
       Whenever you use a luck token, add 1d6 to the roll.
-    types: [luck, bonus]
+    tags: [luck, bonus]
     always: true
 
   - id: skill:Core:Seer:Omen
     name: Omen
     description: |
       3/day, you can make a DC 9 WIS check. On a success, gain a luck token (you can't have more than one luck token at a time).
-    types: [wis_check, luck]
+    tags: [wis_check, luck]
     uses_per_day: 3
     always: true
 
@@ -32,5 +32,5 @@ skills:
       You use your Wisdom stat to cast seer spells. The DC is 10 + the spell's tier.
       
       If you fail a spellcasting check, you can't cast that spell again until you complete a rest. If you roll a natural 1 on a spellcasting check, you can't cast that spell again until you complete Seer Penance.
-    types: [spellcasting, magic]
+    tags: [spellcasting, magic]
     always: true

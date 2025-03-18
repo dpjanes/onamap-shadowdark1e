@@ -11,7 +11,7 @@ skills:
 - id: skill:Core:Witch:HITDICE
   name: "Hit Dice"
   description: "1d4 per level"
-  types: [ "hit_dice" ]
+  tags: [ "hit_dice" ]
   always: True
   value: 4
 
@@ -47,13 +47,13 @@ skills:
 #   name: "Spellcasting"
 #   description: "You can cast witch spells you know. You use your Charisma stat to cast witch spells. The DC is 10 + the spell's tier."
 #   always: True
-#   types: [ "sdl:Spellcasting" ]
+#   tags: [ "sdl:Spellcasting" ]
 
 # - id: skill:Core:Witch:SpellcastingFailure
 #   name: "Spellcasting Failure"
 #   description: "If you fail a spellcasting check, you can't cast that spell again until you complete a rest."
 #   always: True
-#   types: [ "sdl:SpellFailure" ]
+#   tags: [ "sdl:SpellFailure" ]
 
 - id: skill:Core:Witch:DiabolicalMishap
   name: "Diabolical Mishap"
@@ -63,7 +63,7 @@ skills:
 - id: skill:Core:Witch:TeleportFamiliar
   name: "Familiar Teleportation"
   description: "1/day, teleport to your familiar's location as a move."
-  types:
+  tags:
   - DailySkill
   value: 1
 
@@ -80,7 +80,7 @@ skills:
   - rule: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
-  types:
+  tags:
   - sdl:PlusTwoIntOrPlusOneWitchCasting
   - sdl:Plus1ToCastingSpells=Spellcast
   - sdl:StatBonus=CHR
@@ -89,7 +89,7 @@ skills:
   name: "Spell Advantage"
   description: "Gain advantage on casting one spell you know."
   options: KNOWN-SPELLS:Witch
-  types:
+  tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
   - key: "spells.advantage"
@@ -102,7 +102,7 @@ skills:
   bonuses:
   - key: "spells.know"
     value_rule: "skill.option"
-  types:
+  tags:
   - sdl:LearnExtraSpell
 
 - id: skill:Core:Witch:TalentOrStats

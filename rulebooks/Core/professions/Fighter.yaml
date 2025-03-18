@@ -9,7 +9,7 @@ skills:
   name: "Hit Dice"
   description: "1d8 per level"
   value: 8
-  types: [ "hit_dice" ]
+  tags: [ "hit_dice" ]
   always: True
 
 ## CHECKED
@@ -36,7 +36,7 @@ skills:
   - name: "Weapon Mastery Level Bonus"
     key: 'attack.damage_large'
     value_rule: "HALF(character.level.value)"
-  types:
+  tags:
   - sdl:WeaponMastery
 
 ## CHECKED
@@ -47,7 +47,7 @@ skills:
   bonuses:
   - key: 'attack.tohit'
     value: 1
-  types:
+  tags:
   - sdl:Plus1ToHit
 
 ## CHECKED
@@ -62,7 +62,7 @@ skills:
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
-  types:
+  tags:
   - sdl:StatBonus
 
 ## CHECKED
@@ -75,7 +75,7 @@ skills:
   bonuses:
   - key: "ac"
     value_rule: skill.value
-  types:
+  tags:
   - sdl:ArmorMastery
 
 ## CHECKED
@@ -87,7 +87,7 @@ skills:
   bonuses:
   - key: "slots"
     value_rule: "MAX(0, character.stats.con.bonus)"
-  types:
+  tags:
   - sdl:Hauler
 
 ## CHECKED
@@ -98,7 +98,7 @@ skills:
   options:
     - "STR"
     - "DEX"
-  types:
+  tags:
   - sdl:Grit
   - sdl:Dexterity=DEX
   - sdl:Strength=STR

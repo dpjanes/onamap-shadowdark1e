@@ -48,7 +48,7 @@ spells:
   name: Light
   profession: Wizard
   range: Close
-  types:
+  tags:
   - Light
 - duration: 10 Rounds
   id: spell:Wizard:MageArmor:1

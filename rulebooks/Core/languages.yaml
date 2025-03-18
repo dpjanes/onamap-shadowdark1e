@@ -2,69 +2,69 @@ languages:
   - id: Celestial
     name: Celestial
     description: Angels
-    types: [Rare]
+    tags: [Rare]
 
   - id: Diabolic
     name: Diabolic
     description: Demons, devils
-    types: [Rare]
+    tags: [Rare]
 
   - id: Draconic
     name: Draconic
     description: Dragons
-    types: [Rare]
+    tags: [Rare]
 
   - id: Primordial
     name: Primordial
     description: Elder things, elementals
-    types: [Rare]
+    tags: [Rare]
 
   - id: Common
     name: Common
     description: Most humanoids
-    types: [Common]
+    tags: [Common]
 
   - id: Dwarvish
     name: Dwarvish
     description: Dwarves
-    types: [Common]
+    tags: [Common]
 
   - id: Elvish
     name: Elvish
     description: Elves
-    types: [Common]
+    tags: [Common]
 
   - id: Giant
     name: Giant
     description: Giants, ogres, trolls
-    types: [Common]
+    tags: [Common]
 
   - id: Goblin
     name: Goblin
     description: Bugbears, goblins, hobgoblins
-    types: [Common]
+    tags: [Common]
 
   - id: Merran
     name: Merran
     description: Merfolk, sahuagin, sirens
-    types: [Common]
+    tags: [Common]
 
   - id: Orcish
     name: Orcish
     description: Orcs
-    types: [Common]
+    tags: [Common]
 
   - id: Reptilian
     name: Reptilian
     description: Lizardfolk, viperians
-    types: [Common]
+    tags: [Common]
 
   - id: Sylvan
     name: Sylvan
     description: Centaurs, dryads, faeries
-    types: [Common]
+    tags: [Common]
 
   - id: Thanian
     name: Thanian
     description: Minotaurs, beastmen, manticores
-    types: [Common]
+    tags: [Common]

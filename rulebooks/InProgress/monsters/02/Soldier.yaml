@@ -8,10 +8,10 @@ alignment: Lawful
 attacks:
 - name: Longsword
   range: Near
-  types: weapon
+  tags: weapon
 - name: Crossbow
   range: Far
-  types: weapon
+  tags: weapon
 hp:
   computed: 10
   max: 10

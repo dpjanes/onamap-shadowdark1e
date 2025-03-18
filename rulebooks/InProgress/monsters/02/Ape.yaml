@@ -8,10 +8,10 @@ alignment: Neutral
 attacks:
 - name: Fist
   range: Near
-  types: weapon
+  tags: weapon
 - name: Rock
   range: Far
-  types: weapon
+  tags: weapon
 hp:
   computed: 10
   max: 10

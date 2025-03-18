@@ -9,7 +9,7 @@ alignment: Chaotic
 attacks:
 - name: Stinger
   range: Near
-  types: weapon
+  tags: weapon
 hp:
   computed: 9
   max: 9

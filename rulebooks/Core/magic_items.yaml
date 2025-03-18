@@ -30,7 +30,7 @@ magic_items:
 
 - id: magic_item:Core:ArmorOfSaintTerragnis
   name: Armor of Saint Terragnis
-  types:
+  tags:
   - Armor
   - Donnable
   - Plate Mail
@@ -38,20 +38,20 @@ magic_items:
 
 - id: magic_item:Core:AmuletOfVitality
   name: Amulet of Vitality
-  types:
+  tags:
   - Amulet/Necklace
   - Donnable
   _description: A gold amulet with a red ruby teardrop at its center.
 
 - id: magic_item:Core:AlabasterDestrier
   name: Alabaster Destrier
-  types:
+  tags:
   - Summoning/Transformation
   _description: A smooth, pearly statuette of a running horse.
 
 - id: magic_item:Core:AmuletOfSecrecy
   name: Amulet of Secrecy
-  types:
+  tags:
   - Amulet/Necklace
   - Donnable
   - Divination/Perception
@@ -59,7 +59,7 @@ magic_items:
 
 - id: magic_item:Core:ArmorOfTheOni
   name: Armor of the Oni
-  types:
+  tags:
   - Armor
   - Donnable
   - Plate Mail
@@ -67,32 +67,32 @@ magic_items:
 
 - id: magic_item:Core:BagOfBadgers
   name: Bag of Badgers
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A gray, fraying sack matted with white, bristly hair.
 
 - id: magic_item:Core:BagOfDevouring
   name: Bag of Devouring
-  types:
+  tags:
   - Storage
   - Cursed Item
   _description: A worn, leather pouch with tight drawstrings.
 
 - id: magic_item:Core:BeadOfForce
   name: Bead of Force
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A marble with a blue ring of light glowing softly inside it.
 
 - id: magic_item:Core:BagOfHolding
   name: Bag of Holding
-  types:
+  tags:
   - Storage
   _description: A worn, leather pouch with tight drawstrings.
 
 - id: magic_item:Core:BladeOfVengeance
   name: Blade of Vengeance
-  types:
+  tags:
   - Weapon
   - Donnable
   - Bastard Sword
@@ -100,7 +100,7 @@ magic_items:
 
 - id: magic_item:Core:BootsOfDancing
   name: Boots of Dancing
-  types:
+  tags:
   - Boots/Bracers/Gloves
   - Donnable
   - Cursed Item
@@ -108,7 +108,7 @@ magic_items:
 
 - id: magic_item:Core:BootsOfHovering
   name: Boots of Hovering
-  types:
+  tags:
   - Boots/Bracers/Gloves
   - Donnable
   - Flight/Levitation
@@ -116,53 +116,53 @@ magic_items:
 
 - id: magic_item:Core:BootsOfTheCat
   name: Boots of the Cat
-  types:
+  tags:
   - Boots/Bracers/Gloves
   - Donnable
   _description: Gray, doeskin boots as thin and soft as slippers.
 
 - id: magic_item:Core:BracersOfArchery
   name: Bracers of Archery
-  types:
+  tags:
   - Boots/Bracers/Gloves
   - Donnable
   _description: Leather bracers embossed with soaring hawks.
 
 - id: magic_item:Core:BracersOfDefense
   name: Bracers of Defense
-  types:
+  tags:
   - Boots/Bracers/Gloves
   - Donnable
   _description: Steel bracers traced with dwarvish runes of protection.
 
 - id: magic_item:Core:BrakSCubeOfPerfection
   name: Brak's Cube of Perfection
-  types:
+  tags:
   - Luck/Probability Manipulation
   _description: A tiny cube with paintings of goblins on each face.
 
 - id: magic_item:Core:BrakSBookOfMisspells
   name: Brak's Book of Misspells
-  types:
+  tags:
   - Cursed Item
   _description: A tome bound in ratskin that bears a jagged, glowing rune.
 
 - id: magic_item:Core:CircletOfWisdom
   name: Circlet of Wisdom
-  types:
+  tags:
   - Helmet/Hat
   _description: A thin, silver circlet set with a shimmering, blue pearl.
 
 - id: magic_item:Core:CloakOfElvenkind
   name: Cloak of Elvenkind
-  types:
+  tags:
   - Cloak/Robe
   - Donnable
   _description: A hooded, billowing cloak that shifts colors to match its surroundings.
 
 - id: magic_item:Core:CloakOfTheBat
   name: Cloak of the Bat
-  types:
+  tags:
   - Cloak/Robe
   - Donnable
   - Flight/Levitation
@@ -171,13 +171,13 @@ magic_items:
 
 - id: magic_item:Core:CrystalBall
   name: Crystal Ball
-  types:
+  tags:
   - Divination/Perception
   _description: A flawless glass orb with roiling images swirling inside it.
 
 - id: magic_item:Core:DaggerOfTheGoblinHero
   name: Dagger of the Goblin Hero
-  types:
+  tags:
   - Weapon
   - Donnable
   - Dagger
@@ -185,45 +185,45 @@ magic_items:
 
 - id: magic_item:Core:EggOfTheCockatrice
   name: Egg of the Cockatrice
-  types:
+  tags:
   - Summoning/Transformation
   _description: A blue, hard egg as big as a coconut and heavy as a stone.
 
 - id: magic_item:Core:FlyingCarpet
   name: Flying Carpet
-  types:
+  tags:
   - Flight/Levitation
   _description: A richly woven, red carpet with gold tassels.
 
 - id: magic_item:Core:GenieLamp
   name: Genie Lamp
-  types:
+  tags:
   - Summoning/Transformation
   _description: A tarnished, brass oil lamp.
 
 - id: magic_item:Core:GlovesOfAgility
   name: Gloves of Agility
-  types:
+  tags:
   - Boots/Bracers/Gloves
   - Donnable
   _description: Thin, leather gloves that seem to meld with the wearer's hands.
 
 - id: magic_item:Core:GoblinBomb
   name: Goblin Bomb
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A preserved rat stuffed with an explosive charge and a fuse.
 
 - id: magic_item:Core:GauntletsOfMight
   name: Gauntlets of Might
-  types:
+  tags:
   - Boots/Bracers/Gloves
   - Donnable
   _description: Heavy, bronze gauntlets with engravings of Herculean giants.
 
 - id: magic_item:Core:GreataxeOfTheHorde
   name: Greataxe of the Horde
-  types:
+  tags:
   - Weapon
   - Donnable
   - Greataxe
@@ -231,20 +231,20 @@ magic_items:
 
 - id: magic_item:Core:HatOfIntellect
   name: Hat of Intellect
-  types:
+  tags:
   - Helmet/Hat
   _description: A floppy, pointed hat with a wide brim.
 
 - id: magic_item:Core:HatOfTheHound
   name: Hat of the Hound
-  types:
+  tags:
   - Helmet/Hat
   - Transformation
   _description: A rounded, jaunty bowler hat.
 
 - id: magic_item:Core:HelmOfMindReading
   name: Helm of Mind Reading
-  types:
+  tags:
   - Helmet/Hat
   - Mind Control/Psychic
   _description: A helm carved with brain ridges, a spinal neck-guard, and octopus-like
@@ -252,37 +252,37 @@ magic_items:
 
 - id: magic_item:Core:HornedHelmOfRamlaat
   name: Horned Helm of Ramlaat
-  types:
+  tags:
   - Helmet/Hat
   _description: A bloodstained helm made of a ram's skull.
 
 - id: magic_item:Core:HourglassOfTheBlackSands
   name: Hourglass of the Black Sands
-  types:
+  tags:
   - Time Manipulation
   _description: An ancient hourglass running with obsidian sand.
 
 - id: magic_item:Core:ImmovableRod
   name: Immovable Rod
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A short, iron rod with a button on one end.
 
 - id: magic_item:Core:JewelOfBarbalt
   name: Jewel of Barbalt
-  types:
+  tags:
   - Luck/Probability Manipulation
   _description: A coconut-sized ruby cut with a thousand facets.
 
 - id: magic_item:Core:KytherianCog
   name: Kytherian Cog
-  types:
+  tags:
   - Artifact/Relic
   _description: A coin-sized, toothed wheel buffed to a silvery shine.
 
 - id: magic_item:Core:LongbowOfTheElvenKings
   name: Longbow of the Elven Kings
-  types:
+  tags:
   - Weapon
   - Donnable
   - Longbow
@@ -290,7 +290,7 @@ magic_items:
 
 - id: magic_item:Core:MemnonSDiscordantBlade
   name: Memnon's Discordant Blade
-  types:
+  tags:
   - Weapon
   - Donnable
   - Greatsword
@@ -299,7 +299,7 @@ magic_items:
 
 - id: magic_item:Core:MemnonSBlazingJavelin
   name: Memnon's Blazing Javelin
-  types:
+  tags:
   - Weapon
   - Donnable
   - Javelin
@@ -308,13 +308,13 @@ magic_items:
 
 - id: magic_item:Core:MagicInk
   name: Magic Ink
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A pot of glossy, black ink that disappears as it dries.
 
 - id: magic_item:Core:MemnonSEntropicArmor
   name: Memnon's Entropic Armor
-  types:
+  tags:
   - Armor
   - Donnable
   - Plate Mail
@@ -323,14 +323,14 @@ magic_items:
 
 - id: magic_item:Core:MirrorOfMischief
   name: Mirror of Mischief
-  types:
+  tags:
   - Cursed Item
   _description: A full-length mirror polished to a gleaming shine. Grinning, silver
     demons grasp the mirror, their claws forming its frame.
 
 - id: magic_item:Core:MoonwroughtChainmail
   name: Moonwrought Chainmail
-  types:
+  tags:
   - Armor
   - Donnable
   - Chainmail
@@ -338,14 +338,14 @@ magic_items:
 
 - id: magic_item:Core:NecklaceOfCharm
   name: Necklace of Charm
-  types:
+  tags:
   - Amulet/Necklace
   - Donnable
   _description: A gold, fishbone chain that shimmers with subtle beauty.
 
 - id: magic_item:Core:NecroticMaceOfWithering
   name: Necrotic Mace of Withering
-  types:
+  tags:
   - Weapon
   - Donnable
   - Mace
@@ -353,7 +353,7 @@ magic_items:
 
 - id: magic_item:Core:ObsidianWitchknife
   name: Obsidian Witchknife
-  types:
+  tags:
   - Weapon
   - Donnable
   - Dagger
@@ -361,13 +361,13 @@ magic_items:
 
 - id: magic_item:Core:OnyxDestrier
   name: Onyx Destrier
-  types:
+  tags:
   - Summoning/Transformation
   _description: A polished, ebony statuette of a running horse.
 
 - id: magic_item:Core:NightcloakArmor
   name: Nightcloak Armor
-  types:
+  tags:
   - Armor
   - Donnable
   - Leather
@@ -375,7 +375,7 @@ magic_items:
 
 - id: magic_item:Core:OphidianArmor
   name: Ophidian Armor
-  types:
+  tags:
   - Armor
   - Donnable
   - Leather
@@ -383,40 +383,40 @@ magic_items:
 
 - id: magic_item:Core:PearlOfPower
   name: Pearl of Power
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A fat, opalescent pearl glowing with an inner radiance.
 
 - id: magic_item:Core:PipeOfTheRollingHills
   name: Pipe of the Rolling Hills
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A long, curved pipe that smells of cloves and resin.
 
 - id: magic_item:Core:PipesOfTheSewers
   name: Pipes of the Sewers
-  types:
+  tags:
   - Summoning/Transformation
   - Cursed Item
   _description: A set of tarnished, brass pan pipes with seven cylinders.
 
 - id: magic_item:Core:PortableHole
   name: Portable Hole
-  types:
+  tags:
   - Storage
   - Cursed Item
   _description: A black, velvet square of cloth that unfolds into a wide circle.
 
 - id: magic_item:Core:PotionOfExtirpation
   name: Potion of Extirpation
-  types:
+  tags:
   - Potion
   - Consumable
   _description: An acrid, tarry substance in an iron flask with a lead stopper.
 
 - id: magic_item:Core:PotionOfFlying
   name: Potion of Flying
-  types:
+  tags:
   - Potion
   - Consumable
   - Flight/Levitation
@@ -424,21 +424,21 @@ magic_items:
 
 - id: magic_item:Core:PotionOfForgetfulness
   name: Potion of Forgetfulness
-  types:
+  tags:
   - Potion
   - Consumable
   _description: A pink draught that swirls with a counter-clockwise current.
 
 - id: magic_item:Core:PotionOfGiantStrength
   name: Potion of Giant Strength
-  types:
+  tags:
   - Potion
   - Consumable
   _description: A clay jar holding a stew of green, leafy sludge.
 
 - id: magic_item:Core:PotionOfHealing
   name: Potion of Healing
-  types:
+  tags:
   - Potion
   - Consumable
   - Healing/Restoration
@@ -446,7 +446,7 @@ magic_items:
 
 - id: magic_item:Core:PotionOfInvisibility
   name: Potion of Invisibility
-  types:
+  tags:
   - Potion
   - Consumable
   _description: This glass vial appears to be empty, but a liquid audibly splashes
@@ -454,21 +454,21 @@ magic_items:
 
 - id: magic_item:Core:PotionOfLegendaryDeeds
   name: Potion of Legendary Deeds
-  types:
+  tags:
   - Potion
   - Consumable
   _description: A golden elixir that resonates with a faint, angelic chord.
 
 - id: magic_item:Core:PotionOfPolymorph
   name: Potion of Polymorph
-  types:
+  tags:
   - Potion
   - Consumable
   _description: A pickled newt floats in this lavender flask of clear liquid.
 
 - id: magic_item:Core:PotionOfVitality
   name: Potion of Vitality
-  types:
+  tags:
   - Potion
   - Consumable
   - Healing/Restoration
@@ -476,14 +476,14 @@ magic_items:
 
 - id: magic_item:Core:RingOfFeatherFalling
   name: Ring of Feather Falling
-  types:
+  tags:
   - Ring
   - Donnable
   _description: A pearly ring carved in the likeness of an owl feather.
 
 - id: magic_item:Core:RingOfFireballs
   name: Ring of Fireballs
-  types:
+  tags:
   - Ring
   - Donnable
   _description: A bronze loop with claws holding a red marble. A fiery miasma swirls
@@ -491,14 +491,14 @@ magic_items:
 
 - id: magic_item:Core:RingOfInvisibility
   name: Ring of Invisibility
-  types:
+  tags:
   - Ring
   - Donnable
   _description: A simple, gold band polished to a warm shine.
 
 - id: magic_item:Core:RingOfRamlaat
   name: Ring of Ramlaat
-  types:
+  tags:
   - Ring
   - Donnable
   _description: A bone-carved ring with a ram skull. Its horns twist forward and red
@@ -506,7 +506,7 @@ magic_items:
 
 - id: magic_item:Core:RobeOfTheDruid
   name: Robe of the Druid
-  types:
+  tags:
   - Cloak/Robe
   - Donnable
   _description: A green velvet robe with a deep hood and hems embroidered with silver
@@ -514,7 +514,7 @@ magic_items:
 
 - id: magic_item:Core:RobeOfTheSorcerer
   name: Robe of the Sorcerer
-  types:
+  tags:
   - Cloak/Robe
   - Donnable
   _description: A black leather robe with a shadowed cowl and clawed clasps on thin,
@@ -522,7 +522,7 @@ magic_items:
 
 - id: magic_item:Core:RobeOfTheArchmage
   name: Robe of the Archmage
-  types:
+  tags:
   - Cloak/Robe
   - Donnable
   _description: A red silk robe with a wide, gold-hemmed mantle. Golden eyes and moons
@@ -530,13 +530,13 @@ magic_items:
 
 - id: magic_item:Core:ScarabOfProtection
   name: Scarab of Protection
-  types:
+  tags:
   - Miscellaneous Tool
   _description: A brooch made from a horned scarab beetle dipped in gold.
 
 - id: magic_item:Core:ScimitarOfTheAshMoon
   name: Scimitar of the Ash Moon
-  types:
+  tags:
   - Weapon
   - Donnable
   - Scimitar
@@ -545,7 +545,7 @@ magic_items:
 
 - id: magic_item:Core:ShieldOfTheCrusader
   name: Shield of the Crusader
-  types:
+  tags:
   - Armor
   - Donnable
   - Shield
@@ -553,7 +553,7 @@ magic_items:
 
 - id: magic_item:Core:ShieldOfTheLion
   name: Shield of the Lion
-  types:
+  tags:
   - Armor
   - Donnable
   - Shield
@@ -561,7 +561,7 @@ magic_items:
 
 - id: magic_item:Core:ShieldOfTheWitchKing
   name: Shield of the Witch-King
-  types:
+  tags:
   - Armor
   - Donnable
   - Shield
@@ -569,7 +569,7 @@ magic_items:
 
 - id: magic_item:Core:ShortswordOfTheThief
   name: Shortsword of the Thief
-  types:
+  tags:
   - Weapon
   - Donnable
   - Shortsword
@@ -577,7 +577,7 @@ magic_items:
 
 - id: magic_item:Core:SilverMaceOfWrath
   name: Silver Mace of Wrath
-  types:
+  tags:
   - Weapon
   - Donnable
   - Mace
@@ -586,20 +586,20 @@ magic_items:
 
 - id: magic_item:Core:SphereOfAnnihilation
   name: Sphere of Annihilation
-  types:
+  tags:
   - Artifact/Relic
   _description: A three-foot, spherical void of pure darkness that hovers above the
     ground.
 
 - id: magic_item:Core:SpyglassOfTrueSight
   name: Spyglass of True Sight
-  types:
+  tags:
   - Divination/Perception
   _description: A brass, telescoping lens with magical runes carved on it.
 
 - id: magic_item:Core:StaffOfHealing
   name: Staff of Healing
-  types:
+  tags:
   - Weapon
   - Donnable
   - Staff
@@ -607,7 +607,7 @@ magic_items:
 
 - id: magic_item:Core:StaffOfOrd
   name: Staff of Ord
-  types:
+  tags:
   - Weapon
   - Donnable
   - Staff
@@ -615,21 +615,21 @@ magic_items:
 
 - id: magic_item:Core:TheKytherianMechanism
   name: The Kytherian Mechanism
-  types:
+  tags:
   - Artifact/Relic
   _description: A towering, brass platform mounted with countless cogs and gears speckled
     in blue-green rust.
 
 - id: magic_item:Core:TheMaledictionInfernal
   name: The Malediction Infernal
-  types:
+  tags:
   - Artifact/Relic
   _description: A black, leatherbound tome with a grinning demon face embossed on
     the cover.
 
 - id: magic_item:Core:StaffOfTheCobra
   name: Staff of the Cobra
-  types:
+  tags:
   - Weapon
   - Donnable
   - Staff
@@ -637,7 +637,7 @@ magic_items:
 
 - id: magic_item:Core:SwordOfTheAncients
   name: Sword of the Ancients
-  types:
+  tags:
   - Weapon
   - Donnable
   - Longsword
@@ -645,7 +645,7 @@ magic_items:
 
 - id: magic_item:Core:ThriceBlessedSword
   name: Thrice-Blessed Sword
-  types:
+  tags:
   - Weapon
   - Donnable
   - Longsword
@@ -654,35 +654,35 @@ magic_items:
 
 - id: magic_item:Core:TomeMordanticus
   name: Tome Mordanticus
-  types:
+  tags:
   - Artifact/Relic
   _description: A hand-drawn bestiary of the multiverse's most notable creatures and
     people.
 
 - id: magic_item:Core:TomeOfGehemna
   name: Tome of Gehemna
-  types:
+  tags:
   - Artifact/Relic
   _description: A sturdy, russet volume held by metal clasps. A golden eye in a circle
     adorns the cover.
 
 - id: magic_item:Core:TomeOfGehemna
   name: Tome of Gehemna
-  types:
+  tags:
   - Artifact/Relic
   _description: A sturdy, russet volume held by metal clasps. A golden eye in a circle
     adorns the cover.
 
 - id: magic_item:Core:TomeOfHadebe
   name: Tome of Hadebe
-  types:
+  tags:
   - Scroll
   - Consumable
   _description: A brass-plated book with pages of etched copper leaf.
 
 - id: magic_item:Core:TridentOfTheSeas
   name: Trident of the Seas
-  types:
+  tags:
   - Weapon
   - Donnable
   - Spear
@@ -690,14 +690,14 @@ magic_items:
 
 - id: magic_item:Core:TrueName
   name: True Name
-  types:
+  tags:
   - Miscellaneous Tool
   _description: The secret, unique name borne by a creature and documented in The
     Covenant.
 
 - id: magic_item:Core:WandOfUnlife
   name: Wand of Unlife
-  types:
+  tags:
   - Wand
   - Necromantic/Undead Affinity
   _description: The knobby finger-bone of a swamp troll steeped in acrid embalming
@@ -705,13 +705,13 @@ magic_items:
 
 - id: magic_item:Core:WandOfWarding
   name: Wand of Warding
-  types:
+  tags:
   - Wand
   _description: A thin, weighty rod of dark iron inscribed with spiraling runes.
 
 - id: magic_item:Core:WarhammerOfTheDwarfLords
   name: Warhammer of the Dwarf Lords
-  types:
+  tags:
   - Weapon
   - Donnable
   - Warhammer
@@ -719,20 +719,20 @@ magic_items:
 
 - id: magic_item:Core:WarHornOfTheAngels
   name: War Horn of the Angels
-  types:
+  tags:
   - Miscellaneous Tool
   _description: An opalescent ox horn capped with a golden mouthpiece.
 
 - id: magic_item:Core:WellOfManyWorlds
   name: Well of Many Worlds
-  types:
+  tags:
   - Planar/Dimensional
   _description: A dark circle of cloth that seems to create a tunnel through the surface
     it lies upon.
 
 - id: magic_item:Core:WraithChain
   name: Wraith Chain
-  types:
+  tags:
   - Armor
   - Donnable
   - Chainmail

@@ -8,10 +8,10 @@ alignment: Neutral
 attacks:
 - name: Dagger
   range: Near
-  types: weapon
+  tags: weapon
 - name: Spell
   range: Near
-  types: spell
+  tags: spell
 hp:
   computed: 3
   max: 3

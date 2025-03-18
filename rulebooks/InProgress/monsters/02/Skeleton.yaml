@@ -8,10 +8,10 @@ alignment: Chaotic
 attacks:
 - name: Shortsword
   range: Near
-  types: weapon
+  tags: weapon
 - name: Shortbow
   range: Far
-  types: weapon
+  tags: weapon
 hp:
   computed: 11
   max: 11

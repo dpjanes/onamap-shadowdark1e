@@ -8,10 +8,10 @@ alignment: Lawful
 attacks:
 - name: Mace
   range: Near
-  types: weapon
+  tags: weapon
 - name: Spell
   range: Near
-  types: spell
+  tags: spell
 hp:
   computed: 4
   max: 4

@@ -8,10 +8,10 @@ alignment: Chaotic
 attacks:
 - name: Longsword
   range: Near
-  types: weapon
+  tags: weapon
 - name: Spell
   range: Near
-  types: spell
+  tags: spell
 hp:
   computed: 9
   max: 9

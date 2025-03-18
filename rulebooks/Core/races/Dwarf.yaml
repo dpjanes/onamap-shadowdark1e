@@ -17,6 +17,6 @@ skills:
   description: "Speak Dwarvish"
   option: "Dwarvish"
   always: True
-  types:
+  tags:
   - "sdl:ExtraLanguage"
   - "Language"

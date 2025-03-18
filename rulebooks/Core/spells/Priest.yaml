@@ -17,7 +17,7 @@ spells:
   name: Light
   profession: Priest
   range: Close
-  types:
+  tags:
   - Light
 - duration: Focus
   id: spell:Priest:ProtectionFromEvil:1

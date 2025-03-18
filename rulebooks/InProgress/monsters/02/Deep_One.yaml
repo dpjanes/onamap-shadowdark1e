@@ -10,7 +10,7 @@ attacks:
 - name: Spear
   attacks: 2
   range: Near
-  types: weapon
+  tags: weapon
 hp:
   computed: 10
   max: 10

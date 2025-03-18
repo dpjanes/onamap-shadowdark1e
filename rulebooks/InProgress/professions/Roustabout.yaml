@@ -12,19 +12,19 @@ skills:
     name: Know a Guy
     description: |
       You have advantage on checks related to interacting with commoners and sourcing favors.
-    types: [advantage, social]
+    tags: [advantage, social]
     always: true
 
   - id: skill:Core:Roustabout:Lucksmith
     name: Lucksmith
     description: |
       Whenever another player uses your luck token, they have advantage on the new roll.
-    types: [luck, support]
+    tags: [luck, support]
     always: true
 
   - id: skill:Core:Roustabout:SurprisingGuts
     name: Surprising Guts
     description: |
       When reduced to half your HP or lower, make a DC 12 Wisdom check. If you succeed, you have advantage on your next roll.
-    types: [grit, survival]
+    tags: [grit, survival]
     always: true

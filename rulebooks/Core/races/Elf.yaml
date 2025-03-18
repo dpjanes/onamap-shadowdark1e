@@ -22,7 +22,7 @@ skills:
   - rule: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
-  types:
+  tags:
   - sdl:FarSight
   - "sdl:AttackBonus=Ranged Weapons"
   - sdl:Plus1ToCastingSpells=Spellcast
@@ -31,7 +31,7 @@ skills:
 - id: skill:Core:Elf:LanguageElvish
   name: "Language"
   description: "Speak Elvish"
-  types:
+  tags:
   - Language
   option: "Elvish"
   always: True
@@ -40,7 +40,7 @@ skills:
 - id: skill:Core:Elf:LanguageSylvan
   name: "Language"
   description: "Speak Sylvan"
-  types:
+  tags:
   - Language
   option: "Sylvan"
   always: True

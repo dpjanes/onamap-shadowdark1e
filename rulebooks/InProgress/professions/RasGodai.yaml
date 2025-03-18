@@ -14,7 +14,7 @@ skills:
   - id: skill:Core:RasGodai:Languages
     name: Diabolic Speaker
     description: You know Diabolic.
-    types: [language]
+    tags: [language]
     option: Diabolic
     always: true
 
@@ -22,14 +22,14 @@ skills:
     name: Assassin
     description: |
       You have advantage on checks to sneak and hide. Your attacks deal double damage against targets that are unaware of your presence.
-    types: [stealth, combat]
+    tags: [stealth, combat]
     always: true
 
   - id: skill:Core:RasGodai:SmokeStep
     name: Smoke Step
     description: |
       3/day, teleport to a location you can see within near. This does not use your action.
-    types:
+    tags:
     - DailySkill
     value: 3
     always: true
@@ -49,7 +49,7 @@ skills:
     name: Lotus Paralysis
     description: |
       1/day, when you damage a target of LV 9 or less with a weapon, it must pass a DC 15 CON check or be paralyzed for 1d4 rounds.
-    types:
+    tags:
     - DailySkill
     value: 1
     always: true
@@ -83,7 +83,7 @@ skills:
     name: Lotus Walker
     description: |
       1/day, you can walk on water as if it were solid for 1d4 rounds.
-    types:
+    tags:
     - DailySkill
     value: 1
     always: true
@@ -92,7 +92,7 @@ skills:
     name: Lotus Dream
     description: |
       1/day, choose a living creature of LV 5 or less you can see within near. It must pass a DC 15 CON check or fall asleep.
-    types:
+    tags:
     - DailySkill
     value: 1
     always: true
@@ -101,7 +101,7 @@ skills:
     name: Shadow Climber
     description: |
       1/day, you can walk on sheer surfaces such as walls for 1d4 rounds.
-    types:
+    tags:
     - DailySkill
     value: 1
     always: true
@@ -115,7 +115,7 @@ skills:
     name: Lotus Mirage
     description: |
       1/day, choose a creature of LV 9 or less you can see. It must pass a DC 15 WIS check or it can't see or hear you for 1d4 rounds.
-    types:
+    tags:
     - DailySkill
     value: 1
     always: true

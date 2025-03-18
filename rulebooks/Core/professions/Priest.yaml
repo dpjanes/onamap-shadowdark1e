@@ -18,7 +18,7 @@ skills:
 - id: skill:Core:Priest:HITDICE
   name: "Hit Dice"
   description: "1d6 per level"
-  types: [ "hit_dice" ]
+  tags: [ "hit_dice" ]
   value: 6
   always: True
 
@@ -31,7 +31,7 @@ skills:
     - "Primordial"
   description: "Speak Celestial, Diabolic, or Primordial."
   always: True
-  types:
+  tags:
   - "sdl:ExtraLanguage"
   - "Language"
 
@@ -63,7 +63,7 @@ skills:
   - rule: AND(skill.option == "Melee Attacks", weapon.is_meele)
     key: 'attack.tohit'
     value: 1
-  types:
+  tags:
   - sdl:Plus1ToHit
   - "sdl:Ranged attacks=Ranged Attacks"
   - "sdl:Melee attacks=Melee Attacks"
@@ -79,7 +79,7 @@ skills:
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
-  types:
+  tags:
   - sdl:StatBonus
 
 ## CHECKED
@@ -87,7 +87,7 @@ skills:
   name: "Spell Advantage"
   description: "Advantage on casting one spell"
   options: KNOWN-SPELLS:Priest
-  types:
+  tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
   - key: "spells.advantage"
@@ -104,7 +104,7 @@ skills:
   - skill: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
-  types:
+  tags:
   - sdl:Plus1ToCastingSpells
 
 titles:

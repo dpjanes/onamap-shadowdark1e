@@ -13,7 +13,7 @@ skills:
 - id: skill:Core:Half-Orc:LanguageOrcish
   name: "Language"
   description: "Speak Orcish"
-  types:
+  tags:
   - Language
   option: "Orcish"
   always: True

@@ -18,7 +18,7 @@ weapon_types:
 weapons:
 - id: weapon:Core:BastardSword
   name: Bastard sword
-  types:
+  tags:
   - Bastard sword
   - Melee
   - Close
@@ -40,7 +40,7 @@ weapons:
 
 - id: weapon:Core:Club
   name: Club
-  types:
+  tags:
   - Club
   - Melee
   - Close
@@ -51,7 +51,7 @@ weapons:
 
 - id: weapon:Core:Crossbow
   name: Crossbow
-  types:
+  tags:
   - Crossbow
   - Ranged
   - Far
@@ -64,7 +64,7 @@ weapons:
 
 - id: weapon:Core:Dagger
   name: Dagger
-  types:
+  tags:
   - Dagger
   - Melee
   - Ranged
@@ -79,7 +79,7 @@ weapons:
 
 - id: weapon:Core:Greataxe
   name: Greataxe
-  types:
+  tags:
   - Greataxe
   - Melee
   - Close
@@ -90,7 +90,7 @@ weapons:
 
 - id: weapon:Core:Greatsword
   name: Greatsword
-  types:
+  tags:
   - Greatsword
   - Melee
   - Close
@@ -101,7 +101,7 @@ weapons:
 
 - id: weapon:Core:Javelin
   name: Javelin
-  types:
+  tags:
   - Javelin
   - Melee
   - Ranged
@@ -115,7 +115,7 @@ weapons:
 
 - id: weapon:Core:Longbow
   name: Longbow
-  types:
+  tags:
   - Longbow
   - Ranged
   - Far
@@ -127,7 +127,7 @@ weapons:
 
 - id: weapon:Core:Longsword
   name: Longsword
-  types:
+  tags:
   - Longsword
   - Melee
   - Close
@@ -138,7 +138,7 @@ weapons:
 
 - id: weapon:Core:Mace
   name: Mace
-  types:
+  tags:
   - Mace
   - Melee
   - Close
@@ -149,7 +149,7 @@ weapons:
 
 - id: weapon:Core:Shortbow
   name: Shortbow
-  types:
+  tags:
   - Shortbow
   - Ranged
   - Far
@@ -161,7 +161,7 @@ weapons:
 
 - id: weapon:Core:Shortsword
   name: Shortsword
-  types:
+  tags:
   - Shortsword
   - Melee
   - Close
@@ -172,7 +172,7 @@ weapons:
 
 - id: weapon:Core:Spear
   name: Spear
-  types:
+  tags:
   - Spear
   - Melee
   - Ranged
@@ -186,7 +186,7 @@ weapons:
 
 - id: weapon:Core:Staff
   name: Staff
-  types:
+  tags:
   - Staff
   - Melee
   - Close
@@ -197,7 +197,7 @@ weapons:
 
 - id: weapon:Core:Warhammer
   name: Warhammer
-  types:
+  tags:
   - Warhammer
   - Melee
   - Close

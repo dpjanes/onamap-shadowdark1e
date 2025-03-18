@@ -9,7 +9,7 @@ alignment: Chaotic
 attacks:
 - name: Claw
   range: Near
-  types: weapon
+  tags: weapon
 hp:
   computed: 11
   max: 11

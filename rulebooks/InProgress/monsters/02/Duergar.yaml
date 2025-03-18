@@ -10,7 +10,7 @@ alignment: Chaotic
 attacks:
 - name: War Pick
   range: Near
-  types: weapon
+  tags: weapon
 hp:
   computed: 12
   max: 12

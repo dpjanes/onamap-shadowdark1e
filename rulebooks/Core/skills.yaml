@@ -6,7 +6,7 @@ skills:
   name: "Blank"
   description: "Fill in your own description"
   source: "Base"
-  types:
+  tags:
   - IsBlank
 
 ## CHECKED
@@ -19,7 +19,7 @@ skills:
   bonuses:
   - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
     value_rule: skill.value
-  types:
+  tags:
   - BONUS
   - "sdl:StatBonus"
   - "sdl:StatBonus-1"
@@ -32,7 +32,7 @@ skills:
   source: "Base"
   option: "Common"
   always: True
-  types:
+  tags:
   - Language
 
 ## CHECKED
@@ -40,7 +40,7 @@ skills:
   name: "Language"
   description: "Speak a Rare Language"
   source: "Base"
-  types:
+  tags:
   - Language
   options: RARE_LANGUAGES
 
@@ -49,6 +49,6 @@ skills:
   name: "Language"
   description: "Speak a Common Language"
   source: "Base"
-  types:
+  tags:
   - Language
   options: COMMON_LANGUAGES

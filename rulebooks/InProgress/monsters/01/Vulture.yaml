@@ -8,7 +8,7 @@ alignment: Neutral
 attacks:
 - name: Tear
   range: Near
-  types: weapon
+  tags: weapon
 hp:
   computed: 5
   max: 5

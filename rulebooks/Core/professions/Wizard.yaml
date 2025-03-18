@@ -12,7 +12,7 @@ skills:
 - id: skill:Core:Wizard:HITDICE
   name: "Hit Dice"
   description: "1d4 per level"
-  types: [ "hit_dice" ]
+  tags: [ "hit_dice" ]
   always: True
   value: 4
 
@@ -22,7 +22,7 @@ skills:
   description: "Speak an additional common language"
   always: True
   options: COMMON_LANGUAGES
-  types:
+  tags:
   - "sdl:ExtraLanguage"
   - "Language"
 
@@ -32,7 +32,7 @@ skills:
   description: "Speak an additional common language"
   always: True
   options: COMMON_LANGUAGES
-  types:
+  tags:
   - "sdl:ExtraLanguage"
   - "Language"
 
@@ -43,7 +43,7 @@ skills:
   description: "Speak an additional rare language"
   always: True
   options: RARE_LANGUAGES
-  types:
+  tags:
   - "sdl:ExtraLanguage"
   - "Language"
 
@@ -53,7 +53,7 @@ skills:
   description: "Speak an additional rare language"
   always: True
   options: RARE_LANGUAGES
-  types:
+  tags:
   - "sdl:ExtraLanguage"
   - "Language"
 
@@ -72,7 +72,7 @@ skills:
   - rule: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
-  types:
+  tags:
   - sdl:PlusTwoIntOrPlusOneWizCasting
   - sdl:Plus1ToCastingSpells=Spellcast
   - sdl:StatBonus=INT
@@ -82,7 +82,7 @@ skills:
   name: "Make Magic Item"
   description: "Make a magic item of a type"
   options: TEXT
-  types:
+  tags:
   - sdl:MakeRandomMagicItem
 
 ## CHECKED
@@ -90,7 +90,7 @@ skills:
   name: "Spell Advantage"
   description: "Advantage on casting one spell"
   options: KNOWN-SPELLS:Wizard
-  types:
+  tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
   - key: "spells.advantage"
@@ -104,7 +104,7 @@ skills:
   bonuses:
   - key: "spells.know"
     value_rule: "skill.option"
-  types:
+  tags:
   - sdl:LearnExtraSpell
 
 titles:

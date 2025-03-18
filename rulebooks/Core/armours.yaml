@@ -8,7 +8,7 @@ armour_types:
 armours:
   - id: 'armour:Core:Leather'
     name: Leather
-    types:
+    tags:
       - Leather
       - sdl:LeatherArmor
       - Swimming:Yes
@@ -25,7 +25,7 @@ armours:
 
   - id: 'armour:Core:Chainmail'
     name: Chainmail
-    types:
+    tags:
       - Chainmail
       - Swimming:Disadvantage
       - Stealth:Disadvantage
@@ -41,7 +41,7 @@ armours:
 
   - id: 'armour:Core:PlateMail'
     name: Plate Mail
-    types:
+    tags:
       - Plate Mail
       - Swimming:No
       - Stealth:Disadvantage
@@ -56,7 +56,7 @@ armours:
 
   - id: 'armour:Core:MithralChainmail'
     name: Mithral Chainmail
-    types:
+    tags:
       - Chainmail
       - Mithral
       - Swimming:Yes
@@ -74,7 +74,7 @@ armours:
 
   - id: 'armour:Core:MithralPlateMail'
     name: Mithral Plate Mail
-    types:
+    tags:
       - Plate Mail
       - Mithral
       - Swimming:Yes
@@ -91,7 +91,7 @@ armours:
 
   - id: 'armour:Core:Shield'
     name: Shield
-    types:
+    tags:
       - Shield
     cost: 10 gp
     slots: 1
@@ -104,7 +104,7 @@ armours:
 
   - id: 'armour:Core:Buckler'
     name: Buckler
-    types:
+    tags:
       - Buckler
     cost: 10 gp
     slots: 1

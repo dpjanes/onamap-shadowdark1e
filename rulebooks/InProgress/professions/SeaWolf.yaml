@@ -17,7 +17,7 @@ skills:
     name: Seafarer
     description: |
       You have advantage on checks related to navigating and crewing boats.
-    types: [advantage, navigation]
+    tags: [advantage, navigation]
     always: true
 
   - id: skill:Core:SeaWolf:OldGods
@@ -28,12 +28,12 @@ skills:
       - **Odin**: You regain 1d4 HP every time you kill an enemy.
       - **Freya**: You gain a luck token if you don't have one. Each time you use a luck token, add 1d6 to your roll.
       - **Loki**: You have advantage on checks to lie, sneak, and hide.
-    types: [divine, choice]
+    tags: [divine, choice]
     always: true
 
   - id: skill:Core:SeaWolf:ShieldWall
     name: Shield Wall
     description: |
       If you wield a shield, you can use your action to take a defensive stance. Your AC becomes 20 during this time.
-    types: [defense]
+    tags: [defense]
     always: true

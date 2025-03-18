@@ -5,7 +5,7 @@ gears:
     slots: 1
     free: 0
     quantity: 20
-    types: 
+    tags: 
       - Arrow
       - Consumable
 
@@ -20,7 +20,7 @@ gears:
     cost: 5 sp
     slots: 1
     free: 0
-    types: 
+    tags: 
       - Consumable
 
   - id: 'gear:Core:CrossbowBolts'
@@ -29,7 +29,7 @@ gears:
     slots: 1
     free: 0
     quantity: 20
-    types: 
+    tags: 
       - Consumable
       - Bolt
 
@@ -50,7 +50,7 @@ gears:
     cost: 5 sp
     slots: 1
     free: 
-    types:
+    tags:
       - Fire
 
   - id: 'gear:Core:GrapplingHook'
@@ -64,7 +64,7 @@ gears:
     cost: 1 gp
     slots: 1
     free: 0
-    types: 
+    tags: 
       - Consumable
 
   - id: 'gear:Core:Lantern'
@@ -72,7 +72,7 @@ gears:
     cost: 5 gp
     slots: 1
     free: 0
-    types: 
+    tags: 
       - Light
     uses:
       - Oil Flask
@@ -89,7 +89,7 @@ gears:
     cost: 5 sp
     slots: 1
     free: 0
-    types: 
+    tags: 
       - Light
       - Consumable
       - Oil Flask
@@ -107,7 +107,7 @@ gears:
     slots: 1
     free: 0
     quantity: 3
-    types: 
+    tags: 
       - Consumable
       - Food
 
@@ -116,7 +116,7 @@ gears:
     cost: 1 gp
     slots: 1
     free: 0
-    types:
+    tags:
     - sdl:Rope60
 
   - id: 'gear:Core:Torch'
@@ -124,7 +124,7 @@ gears:
     cost: 5 sp
     slots: 1
     free: 0
-    types: 
+    tags: 
       - Consumable
       - Light
     uses:

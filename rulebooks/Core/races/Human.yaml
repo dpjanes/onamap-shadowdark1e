@@ -11,5 +11,5 @@ skills:
   options: COMMON_LANGUAGES
   description: "Speak an additional common language"
   always: True
-  types:
+  tags:
   - sdl:ExtraLanguage

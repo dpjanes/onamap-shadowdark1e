@@ -10,7 +10,7 @@ skills:
     bushcraft, stealth, and wild animals.
   id: skill:Core:Ranger:Wayfinder
   name: Wayfinder
-  types:
+  tags:
   - advantage
 - always: true
   description: Make an INT check to prepare an herbal remedy of your choice. If you
@@ -18,7 +18,7 @@ skills:
     expire in 3 rounds.
   id: skill:Core:Ranger:Herbalism
   name: Herbalism
-  types:
+  tags:
   - int_check
 weapons:
 - Dagger

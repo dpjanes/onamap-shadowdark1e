@@ -17,7 +17,7 @@ skills:
   - id: skill:CSZ1:DesertRider:Charge
     name: Charge
     description: "Move at least near before attacking to deal double melee damage that round"
-    types:
+    tags:
     - DailySkill
     value: 3
     always: true

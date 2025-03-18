@@ -17,7 +17,7 @@ skills:
   - id: skill:Core:Bard:Languages
     name: Polyglot
     description: You know four additional common languages and one rare language.
-    types: [language]
+    tags: [language]
     value: 4
     rare: 1
     always: true
@@ -25,13 +25,13 @@ skills:
   - id: skill:Core:Bard:BardicArts
     name: Bardic Arts
     description: You're trained in oration, performing arts, lore, and diplomacy. You have advantage on related checks.
-    types: [advantage]
+    tags: [advantage]
     always: true
 
   - id: skill:Core:Bard:MagicalDabbler
     name: Magical Dabbler
     description: You can activate spell scrolls and wands using Charisma as your spellcasting stat. If you critically fail, roll a wizard mishap.
-    types: [magic]
+    tags: [magic]
     always: true
 
   - id: skill:Core:Bard:Presence
@@ -40,12 +40,12 @@ skills:
       Make a DC 12 CHA check to enact one of the following effects. If you fail (excluding focus), you can't use that effect again until you rest.
       - Inspire: One target in near gains a luck token.
       - Fascinate (Focus): You transfix all chosen targets of level 4 or less within near.
-    types: [cha_check]
+    tags: [cha_check]
     always: true
 
   - id: skill:Core:Bard:Prolific
     name: Prolific
     description: Add 1d6 to your learning rolls. Groups carousing with 1 or more bards add 1d6 to their rolls.
-    types: [bonus]
+    tags: [bonus]
     value: 1d6
     always: true

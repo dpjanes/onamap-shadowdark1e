@@ -9,7 +9,7 @@ alignment: Neutral
 attacks:
 - name: Bite
   range: Near
-  types: weapon
+  tags: weapon
 hp:
   computed: 4
   max: 4
