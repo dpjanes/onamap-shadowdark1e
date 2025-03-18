@@ -16,10 +16,10 @@ skills:
     - "Ranged Weapons"
     - "Spellcast"
   bonuses:
-  - skill_rule: AND(skill.option == "Ranged Weapons", weapon.is_ranged)
+  - rule: AND(skill.option == "Ranged Weapons", weapon.is_ranged)
     key: 'attack.tohit'
     value: 1
-  - skill_rule: skill.option == "Spellcast"
+  - rule: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
   types:

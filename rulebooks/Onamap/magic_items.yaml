@@ -5,4 +5,28 @@ magic_items:
   - Ring
   - Donnable
   description: A silver band. When worn, it grants the wearer a +1 bonus to AC.
+  bonuses:
+  - key: ac.bonus
+    value: 1
+    rule: "magic_item.is_donned"
 
+
+- id: magic_item:Onamap:XPotionOfHealing
+  name: X Potion of Healing
+  types:
+  - Potion
+  - Consumable
+  - Healing/Restoration
+  rolls:
+  - type: hp.restore
+    name: Hit Points
+    dice: 3d6
+    description: "Restore 3d6 HP"
+  - type: time.rounds
+    name: Duration
+    dice: 1d3
+    description: "For 1d3 Rounds"
+  - type: misc
+    name: Smills
+    dice: 4d6
+    description: "Gain 4d6 Smills"

@@ -11,8 +11,8 @@ armours:
     types:
       - Leather
       - sdl:LeatherArmor
-      - SwimmingYes
-      - StealthYes
+      - Swimming:Yes
+      - Stealth:Yes
       - DexBonus
     cost: 10 gp
     slots: 1
@@ -21,14 +21,15 @@ armours:
     bonuses:
     - key: ac.base
       value: 11
-      skill_rule: "armour.is_donned"
+      rule: "armour.is_donned"
+      add_rule: "STAT_BONUS_PLUS('DEX')"
 
   - id: 'armour:Core:Chainmail'
     name: Chainmail
     types:
       - Chainmail
-      - SwimmingDisadvantage
-      - StealthDisadvantage
+      - Swimming:Disadvantage
+      - Stealth:Disadvantage
       - DexBonus
     cost: 60 gp
     slots: 2
@@ -37,14 +38,15 @@ armours:
     bonuses:
     - key: ac.base
       value: 13
-      skill_rule: "armour.is_donned"
+      rule: "armour.is_donned"
+      add_rule: "STAT_BONUS_PLUS('DEX')"
 
   - id: 'armour:Core:PlateMail'
     name: Plate Mail
     types:
       - Plate Mail
-      - SwimmingNo
-      - StealthDisadvantage
+      - Swimming:No
+      - Stealth:Disadvantage
     cost: 130 gp
     slots: 3
     hands: 0
@@ -52,15 +54,16 @@ armours:
     bonuses:
     - key: ac.base
       value: 15
-      skill_rule: "armour.is_donned"
+      rule: "armour.is_donned"
+      add_rule: "STAT_BONUS_PLUS('DEX')"
 
   - id: 'armour:Core:MithralChainmail'
     name: Mithral Chainmail
     types:
       - Chainmail
       - Mithral
-      - SwimmingYes
-      - StealthYes
+      - Swimming:Yes
+      - Stealth:Yes
       - DexBonus
     cost: 240 gp
     slots: 1
@@ -69,15 +72,16 @@ armours:
     bonuses:
     - key: ac.base
       value: 13
-      skill_rule: "armour.is_donned"
+      rule: "armour.is_donned"
+      add_rule: "STAT_BONUS_PLUS('DEX')"
 
   - id: 'armour:Core:MithralPlateMail'
     name: Mithral Plate Mail
     types:
       - Plate Mail
       - Mithral
-      - SwimmingYes
-      - StealthYes
+      - Swimming:Yes
+      - Stealth:Yes
     cost: 520 gp
     slots: 2
     hands: 0
@@ -85,7 +89,8 @@ armours:
     bonuses:
     - key: ac.base
       value: 15
-      skill_rule: "armour.is_donned"
+      rule: "armour.is_donned"
+      add_rule: "STAT_BONUS_PLUS('DEX')"
 
   - id: 'armour:Core:Shield'
     name: Shield
@@ -99,7 +104,7 @@ armours:
     bonuses:
     - key: ac.bonus
       value: 2
-      skill_rule: "armour.is_donned"
+      rule: "armour.is_donned"
 
   - id: 'armour:Core:Buckler'
     name: Buckler
@@ -113,4 +118,4 @@ armours:
     bonuses:
     - key: ac.bonus
       value: 1
-      skill_rule: "armour.is_donned"
+      rule: "armour.is_donned"

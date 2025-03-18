@@ -74,10 +74,10 @@ skills:
     - "CHR"
     - "Spellcast"
   bonuses:
-  - skill_rule: skill.option == "CHR"
+  - rule: skill.option == "CHR"
     key: "stats.int"
     value: 2
-  - skill_rule: skill.option == "Spellcast"
+  - rule: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
   types:

@@ -66,10 +66,10 @@ skills:
     - "INT"
     - "Spellcast"
   bonuses:
-  - skill_rule: skill.option == "INT"
+  - rule: skill.option == "INT"
     key: "stats.int"
     value: 2
-  - skill_rule: skill.option == "Spellcast"
+  - rule: skill.option == "Spellcast"
     key: "spells.cast"
     value: 1
   types:
