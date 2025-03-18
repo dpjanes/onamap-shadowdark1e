@@ -21,13 +21,13 @@ level:
 moves:
 - range: Near
 stats:
-  con:
+  CON:
     bonus: 1
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 1
 spells:
 - name: Beguile

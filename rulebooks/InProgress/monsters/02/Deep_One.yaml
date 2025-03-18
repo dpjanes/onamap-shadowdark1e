@@ -24,15 +24,15 @@ skills:
 - description: Blinded in bright light.
   name: Sunblind
 stats:
-  chr:
+  CHA:
     bonus: 2
-  con:
+  CON:
     bonus: 1
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 2
 weapons:
 - name: Spear

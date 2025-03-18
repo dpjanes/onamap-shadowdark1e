@@ -18,13 +18,13 @@ level:
 moves:
 - range: Near
 stats:
-  chr:
+  CHA:
     bonus: 1
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Shortsword

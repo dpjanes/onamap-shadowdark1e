@@ -10,7 +10,7 @@ weapon_types:
 - Longsword
 - Staff
 - Warhammer
-primary_stat: "wis"
+primary_stat: "WIS"
 
 skills:
 

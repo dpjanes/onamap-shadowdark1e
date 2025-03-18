@@ -21,9 +21,9 @@ level:
 moves:
 - range: Near
 stats:
-  dex:
+  DEX:
     bonus: 1
-  str:
+  STR:
     bonus: 1
 weapons:
 - name: Cutlass
@@ -62,7 +62,7 @@ weapons:
 # moves:
 # - range: Near
 # stats:
-#   dex:
+#   DEX:
 #     bonus: 1
-#   str:
+#   STR:
 #     bonus: 1

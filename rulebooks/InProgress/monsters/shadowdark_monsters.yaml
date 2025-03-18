@@ -43,17 +43,17 @@
   - description: Read the thoughts of all creatures within far.
     name: Telepathic
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -92,17 +92,17 @@
   - description: DC 11. Heal one creature within close for 1d4 HP.
     name: Healing Touch (WIS Spell)
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -140,17 +140,17 @@
   - description: Hostile spells targeting the archangel are extreme (DC 18) to cast.
     name: Crown of Fire
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 5
 - ac:
     bonus: 0
@@ -189,17 +189,17 @@
   - description: All enemies in near DC 15 CHA or paralyzed 1d4 rounds.
     name: Horn
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -236,17 +236,17 @@
   - description: Can see all invisible creatures and objects.
     name: Truesight
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -281,17 +281,17 @@
   - description: 3/day, touch one target to give it a luck token.
     name: Bless
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -325,17 +325,17 @@
   - description: When standing still, looks exactly like a suit of armor.
     name: Statue
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -373,17 +373,17 @@
   name: Ankheg
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -420,17 +420,17 @@
   name: Ape
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -470,17 +470,17 @@
   - description: Cold immune.
     name: Thick Fur
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -521,17 +521,17 @@
   - description: DC 11. 1d4 damage to one target within far.
     name: Magic Bolt (INT Spell)
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -573,17 +573,17 @@
       to 4 willing targets. DC 15. Teleport up to 100 miles.
     name: Float (INT Spell)
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -617,17 +617,17 @@
   - description: Deals x3 damage against surprised targets.
     name: Execute
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -667,17 +667,17 @@
   - description: Fire immune.
     name: Impervious
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -712,17 +712,17 @@
   - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
     name: Rage
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -761,17 +761,17 @@
   - description: Deal an extra die of damage when undetected.
     name: Ambush
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -807,17 +807,17 @@
       or petrified.
     name: Petrify
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -849,17 +849,17 @@
   name: Bat, Giant
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -892,17 +892,17 @@
   name: Bat, Swarm
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -938,17 +938,17 @@
       claws.
     name: Crush
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -986,17 +986,17 @@
   - description: Cold immune.
     name: Thick Fur
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1029,17 +1029,17 @@
   - description: +1 damage with melee weapons (included).
     name: Brutal
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1073,17 +1073,17 @@
   - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
     name: Rage
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1120,17 +1120,17 @@
   - description: Wood or metal that touches the ooze dissolves on a d6 roll of 1-3.
     name: Corrosive
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -1166,17 +1166,17 @@
       tusks.
     name: Gore
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1221,17 +1221,17 @@
   - description: One target in near DC 15 CHA or brain eater controls for 1d4 rounds.
     name: Mind Control
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -1266,17 +1266,17 @@
   - description: ADV on checks to sneak and hide.
     name: Stealthy
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -1317,17 +1317,17 @@
       2 bite attacks.
     name: Leap
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1363,17 +1363,17 @@
   name: Camel
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1410,17 +1410,17 @@
       start of their turn or dazed and no action.
     name: Bewilder
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1458,17 +1458,17 @@
   - description: DC 12 CON or paralyzed 1d4 rounds.
     name: Toxin
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1511,17 +1511,17 @@
   name: Centaur
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -1556,17 +1556,17 @@
   - description: DC 12 CON or paralyzed 1d4 rounds.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -1601,17 +1601,17 @@
   - description: DC 12 CON or paralyzed 1d4 rounds.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -1648,17 +1648,17 @@
       damage.
     name: Fire Breath
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -1693,17 +1693,17 @@
   - description: DC 15 STR or held in pincer. DC 15 STR to break free on turn.
     name: Grab
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1747,17 +1747,17 @@
       1d4 rounds.
     name: Screech
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1791,17 +1791,17 @@
   - description: DC 12 CON or petrified.
     name: Petrify
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1842,17 +1842,17 @@
       or heal 3d8 HP.
     name: Restore
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -1887,17 +1887,17 @@
   - description: DC 15 STR or target takes 1d8 damage.
     name: Crush
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -1930,17 +1930,17 @@
   name: Crocodile
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -1982,17 +1982,17 @@
   - description: DC 12. 2d4 damage to one creature within close.
     name: Deathtouch (WIS Spell)
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -2031,17 +2031,17 @@
   name: Cyclops
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -2080,17 +2080,17 @@
   - description: Extinguish all light sources in near.
     name: Darkness
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -2125,17 +2125,17 @@
   - description: Blinded in bright light.
     name: Sunblind
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -2177,17 +2177,17 @@
   - description: DC 18 DEX or 2d8 damage per round until flames extinguished.
     name: Hellfire
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 5
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 6
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -2221,17 +2221,17 @@
   - description: All in near DC 12 CON or blinded for 1d4 rounds.
     name: Gas
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2274,17 +2274,17 @@
       2d8 damage.'
     name: Crush
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -2321,17 +2321,17 @@
       would hit.
     name: Parry
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -2371,17 +2371,17 @@
       for 1d4 rounds.
     name: Screech
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2427,17 +2427,17 @@
       for 1d4 rounds. DC 20 CHA each turn to end the effect.
     name: Soulbind
   stats:
-    chr:
+    CHA:
       bonus: 7
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 5
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -2478,17 +2478,17 @@
       on turn to remove.
     name: Barb
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2531,17 +2531,17 @@
       WIS this way swears its soul to an archdevil.
     name: Drain
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -2584,17 +2584,17 @@
       for 1d4 rounds. DC 15 WIS on turn to end effect.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -2635,17 +2635,17 @@
   - description: Half damage from non-magical weapons.
     name: Iron Hide
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2685,17 +2685,17 @@
   - description: DC 12 CON or fitful sleep for 1d4 hours.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -2728,17 +2728,17 @@
   name: Dinosaur, Brachiosaurus
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 6
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2772,17 +2772,17 @@
   name: Dinosaur, Plesiosaurus
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2818,17 +2818,17 @@
   - description: DC 15 STR or held. DC 15 STR on turn to break free.
     name: Grab
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2868,17 +2868,17 @@
       hit, x3 damage.
     name: Charge
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2911,17 +2911,17 @@
   name: Dinosaur, Tyrannosaurus
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -2955,17 +2955,17 @@
   - description: +1d4 damage when attacking with surprise.
     name: Clever
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -3010,17 +3010,17 @@
       check.
     name: Wish
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -3055,17 +3055,17 @@
   - description: Can secretly hear the surface thoughts of all humanoids within near
     name: Telepathy
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -3111,17 +3111,17 @@
       when hit. Determine randomly if an attack hits dragon or illusions.
     name: Mirage
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 5
 - ac:
     bonus: 0
@@ -3164,17 +3164,17 @@
       6d10 damage.
     name: Fire Breath
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 5
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 6
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -3217,17 +3217,17 @@
   - description: Fills a near-sized cube extending from dragon. DC 15 CON or 3d8 damage.
     name: Poison Breath
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -3270,17 +3270,17 @@
       4d8 damage and frozen for 1 round.
     name: Ice Breath
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 5
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -3330,17 +3330,17 @@
       flung 2d100 feet in a random direction.
     name: Water Spout
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 6
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 5
 - ac:
     bonus: 0
@@ -3382,17 +3382,17 @@
       damage and blinded for 1 round.
     name: Smog Breath
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -3433,17 +3433,17 @@
   - description: Blinded in bright light.
     name: Sunblind
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -3486,17 +3486,17 @@
   - description: Blinded in bright light.
     name: Sunblind
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -3552,17 +3552,17 @@
       it for 5 rounds. DC 15 STR on turn to break free.
     name: Web (WIS Spell)
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -3613,17 +3613,17 @@
       are thrown 2d20 feet in a random direction.
     name: Thunderclap (INT Spell)
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -3663,17 +3663,17 @@
   - description: Step inside bonded tree.
     name: Meld
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -3713,17 +3713,17 @@
   - description: Blinded in bright light.
     name: Sunblind
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -3757,17 +3757,17 @@
   - description: DC 9 STR or pushed a close distance and fall down.
     name: Knock
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -3814,17 +3814,17 @@
   - description: Cast wish once a week for a mortal, no spellcasting check.
     name: Wish
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -3865,17 +3865,17 @@
   - description: All within close DC 15 DEX or flung 2d20 feet in random direction.
     name: Whirlwind
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 5
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -3917,17 +3917,17 @@
       of earth.
     name: Avalanche
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -3968,17 +3968,17 @@
   - description: All within near DC 15 DEX or 3d8 damage.
     name: Inferno
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4020,17 +4020,17 @@
       (treat as underwater). DC 15 STR to escape on turn.
     name: Whirlpool
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4066,17 +4066,17 @@
       If hit, x3 damage.
     name: Charge
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4115,17 +4115,17 @@
   - description: ADV on DEX checks while in the natural wilds.
     name: Feyblood
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4166,17 +4166,17 @@
       on turn.
     name: Poison Web
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4210,17 +4210,17 @@
   - description: DC 12 CON or fall into deep sleep for 1d4 hours.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4254,17 +4254,17 @@
   - description: 1 creature in near DC 12 DEX or pulled to close range.
     name: Tongue
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4300,17 +4300,17 @@
   - description: Only damaged by magical sources.
     name: Impervious
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4351,17 +4351,17 @@
   - description: DC 15 CON or paralyzed 1d4 rounds.
     name: Toxin
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4401,17 +4401,17 @@
   - description: DC 12 CON or paralyzed 1d4 rounds.
     name: Paralyze
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4455,17 +4455,17 @@
       it inhabits the target's body and controls its actions for 2d4 rounds.
     name: Possess
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4502,17 +4502,17 @@
   - description: DC 12 CON or paralyzed 1d4 rounds.
     name: Paralyze
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4548,17 +4548,17 @@
   - description: ADV on checks to detect sneaking or hiding creatures.
     name: Alert
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -4594,17 +4594,17 @@
   - description: Fire immune.
     name: Fireblood
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 6
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -4640,17 +4640,17 @@
   - description: Cold immune.
     name: Frostblood
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -4684,17 +4684,17 @@
   name: Giant, Goat
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4733,17 +4733,17 @@
   name: Giant, Hill
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -4779,17 +4779,17 @@
   - description: Half damage from stabbing and cutting weapons.
     name: Stone Hide
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -4832,17 +4832,17 @@
       DC 15 DEX or 5d10 damage. DISADV on check if in water.
     name: Lightning Bolt
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 6
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -4885,17 +4885,17 @@
       turn to tear off.
     name: Latch
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4932,17 +4932,17 @@
   name: Gladiator
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -4980,17 +4980,17 @@
   - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
     name: Rage
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -5030,17 +5030,17 @@
   - description: 2/day, underground only. Turn invisible for 3 rounds.
     name: Stone Meld
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5079,17 +5079,17 @@
   - description: Can't be surprised.
     name: Keen Senses
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5122,17 +5122,17 @@
   - description: Can't be surprised.
     name: Keen Senses
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -5178,17 +5178,17 @@
       a DC 12 CON save or have DISADV on their next check/attack.
     name: Stink Bomb (WIS Spell)
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -5226,17 +5226,17 @@
   - description: Slam damage can only be healed by level 5+ priest.
     name: Curse
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -5274,17 +5274,17 @@
   - description: When at or below 20 HP, +1 slam attack and slams deal double damage.
     name: Berserk
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5321,17 +5321,17 @@
   - description: All within near, DC 15 CON or 8d6 damage.
     name: Poison Breath
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -5368,17 +5368,17 @@
   - description: Far range, one target. DC 15 CON or speed halved 1d4 rds.
     name: Slow
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -5426,17 +5426,17 @@
       (gorgons immune).
     name: Petrifying Breath
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5469,17 +5469,17 @@
   name: Gorilla
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5516,17 +5516,17 @@
       1-3.
     name: Corrosive
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -5562,17 +5562,17 @@
   - description: Target is immobilized. DC 15 Strength check on turn to break free.
     name: Grab
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5606,17 +5606,17 @@
   name: Griffon
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5653,17 +5653,17 @@
       at a time. DC 15 STR on turn to break free.
     name: Grab
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5695,17 +5695,17 @@
   name: Guard
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5743,17 +5743,17 @@
   - description: Instantly change to look like any other humanoid.
     name: Shapechange
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -5791,17 +5791,17 @@
       1d4 rounds.
     name: Terrify
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -5844,17 +5844,17 @@
   - description: Instantly change to look like any other humanoid.
     name: Shapechange
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -5895,17 +5895,17 @@
       to harpy for 1d4 rounds. Immune for 1 day if passed check.
     name: Song
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -5947,17 +5947,17 @@
       damage. Cannot use again for 1d4 rounds.
     name: Fire Breath
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -5991,17 +5991,17 @@
   name: Hippogriff
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6037,17 +6037,17 @@
   - description: ADV on STR checks to grab or drag other creatures.
     name: Stumpy
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -6086,17 +6086,17 @@
   - description: +1 to attacks and AC when in close range of an allied hobgoblin.
     name: Phalanx
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6128,17 +6128,17 @@
   name: Horse
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6176,17 +6176,17 @@
       heads combined.
     name: Heads
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6227,17 +6227,17 @@
   - description: Can always sense the direction of its chosen quarry.
     name: Tracking
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6271,17 +6271,17 @@
   - description: DC 9 CON or paralyzed 1d4 rounds.
     name: Toxin
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6316,17 +6316,17 @@
   - description: 3/day, ADV on a roll made in service of knight's order.
     name: Oath
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -6359,17 +6359,17 @@
   - description: 1/day, an attack that would hit misses instead.
     name: Dodge
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -6415,17 +6415,17 @@
       sorcerer's commands.
     name: Spider Swarm (CHA Spell)
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6477,17 +6477,17 @@
       2d4 rounds. Seaborne vessels have a 1:6 chance of capsizing each round.
     name: Storm
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 6
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -6522,17 +6522,17 @@
       tear off.
     name: Attach
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6577,17 +6577,17 @@
   - description: DC 12. Self. Become invisible for 2d4 rounds.
     name: Invisibility (CHA Spell)
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6641,17 +6641,17 @@
       lich.
     name: Wither (INT Spell)
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -6684,17 +6684,17 @@
   name: Lion
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6726,17 +6726,17 @@
   name: Lizardfolk
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6778,17 +6778,17 @@
   - description: DC 13. Focus. One humanoid target within near paralyzed for duration.
     name: Snare (INT Spell)
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6826,17 +6826,17 @@
       If hit, x3 damage.
     name: Charge
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6871,17 +6871,17 @@
   - description: DC 15 CON or drop to 0 hit points in 1d4 rounds.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6922,17 +6922,17 @@
   - description: Manticores have 4d6 tail spikes. They regrow each day.
     name: Spikes
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -6964,17 +6964,17 @@
   name: Mastiff
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -7013,17 +7013,17 @@
   - description: DC 15 CON or go to 0 HP.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -7054,17 +7054,17 @@
   name: Merfolk
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -7100,17 +7100,17 @@
       to remove.
     name: Stick
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -7147,17 +7147,17 @@
       make 1 horn attack. If hit, x2 damage.
     name: Charge
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -7190,17 +7190,17 @@
   name: Moose
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -7259,17 +7259,17 @@
   - description: DC 13. Self. Teleport up to one mile.
     name: Phase (INT Spell)
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 5
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -7309,17 +7309,17 @@
       while affected by necrosis.
     name: Necrosis
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -7356,17 +7356,17 @@
   - description: Speak mentally with creatures within double near.
     name: Telepathic
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -7409,17 +7409,17 @@
       rounds.
     name: Whispers (CHA Spell)
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -7456,17 +7456,17 @@
   - description: Immune to morale checks. Only damaged by silver or magical sources.
     name: Greater Undead
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -7501,17 +7501,17 @@
   - description: Nightmare and its rider immune to fire.
     name: Impervious
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -7572,17 +7572,17 @@
       jungle.
     name: Ur-Vampire
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -7618,17 +7618,17 @@
       HP between both). Can split up to four times.
     name: Split
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -7665,17 +7665,17 @@
       for 1d4 rounds.
     name: Grab
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -7709,17 +7709,17 @@
   name: Ogre
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -7766,17 +7766,17 @@
   - description: DC 13. Self. Turn into mist that can fly double near. Lasts 2d4 rounds.
     name: Mist (CHA Spell)
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -7810,17 +7810,17 @@
   - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
     name: Rage
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -7855,17 +7855,17 @@
   - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
     name: Rage
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -7901,17 +7901,17 @@
       Ends on success.
     name: Disease
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -7948,17 +7948,17 @@
   - description: One random piece of non-magical gear is destroyed
     name: Dissolve
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -7996,17 +7996,17 @@
   - description: Enemies within near of rime walker DC 12 CON or lose action
     name: Ice Aura
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -8044,17 +8044,17 @@
   - description: DC 12 CON or paralyzed for 1d4 rounds
     name: Toxin
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8093,17 +8093,17 @@
   - description: DC 12 CON or drop to 0 HP in 1d4 rounds
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8139,17 +8139,17 @@
       claws.
     name: Crush
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -8182,17 +8182,17 @@
   name: Panther
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8224,17 +8224,17 @@
   name: Peasant
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -8267,17 +8267,17 @@
   name: Pegasus
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8322,17 +8322,17 @@
       days.
     name: Rebirth
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -8367,17 +8367,17 @@
   - description: ADV on attacks against creatures below half their HP.
     name: Savage
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -8413,17 +8413,17 @@
   name: Pirate
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -8472,17 +8472,17 @@
       near range for duration.
     name: Rebuke (WIS Spell)
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -8522,17 +8522,17 @@
       least 20 damage in one round to the inside of its gullet.
     name: Swallow
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8575,17 +8575,17 @@
       the rakshasa.
     name: Weakness
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -8620,17 +8620,17 @@
       per day; ends on success. Die at 0 CON.
     name: Disease
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8665,17 +8665,17 @@
       once per day; ends on success. Die at 0 CON.
     name: Disease
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8710,17 +8710,17 @@
       once per day; ends on success. Die at 0 CON.
     name: Disease
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8756,17 +8756,17 @@
       per day; ends on success. Die at 0 CON.
     name: Disease
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8828,17 +8828,17 @@
       when the spell ends.
     name: Time Stop (WIS Spell)
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 5
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 6
 - ac:
     bonus: 0
@@ -8873,17 +8873,17 @@
   - description: +2 damage with melee weapons (included).
     name: Bloodlust
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -8926,17 +8926,17 @@
       at least 20 damage in one round to the inside of its gullet.
     name: Swallow
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -8972,17 +8972,17 @@
       hit, x3 damage.
     name: Charge
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9017,17 +9017,17 @@
   - description: DC 18 STR or target held. DC 18 STR on turn to break free.
     name: Grab
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -9070,17 +9070,17 @@
   - description: Four total. AC 18 each. 4+ damage to one severs it.
     name: Tendrils
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -9114,17 +9114,17 @@
   - description: DC 12 CON or unconscious for 1d4 rounds.
     name: Toxin
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -9161,17 +9161,17 @@
       1-3.
     name: Corrosive
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -9207,17 +9207,17 @@
   - description: Must be submerged in water every 4 hours or suffocates.
     name: Half-Amphibious
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9258,17 +9258,17 @@
       damage.
     name: Impervious
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -9301,17 +9301,17 @@
   name: Scarab, Swarm
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9352,17 +9352,17 @@
       rounds.
     name: Scream
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9396,17 +9396,17 @@
   - description: DC 9 CON or go to 0 HP.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9441,17 +9441,17 @@
       DC 12 CON or go to 0 HP.
     name: Grab
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9487,17 +9487,17 @@
       becomes a shadow.
     name: Drain
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9535,17 +9535,17 @@
       shambling mound's body and suffocates in 2d4 rounds. DC 15 STR on turn to escape.
     name: Engulf
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9577,17 +9577,17 @@
   name: Shark
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -9622,17 +9622,17 @@
   - description: Immune to morale checks.
     name: Fearless
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 5
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -9675,17 +9675,17 @@
       rounds. Immune for 1 day if passed check.
     name: Song
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -9724,17 +9724,17 @@
   - description: Immune to morale checks.
     name: Undead
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9768,17 +9768,17 @@
   name: Smilodon
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -9812,17 +9812,17 @@
   - description: DC 18 CON or go to 0 HP with a death timer of 1.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9857,17 +9857,17 @@
   - description: Contested STR to hold target immobile for one round.
     name: Constrict
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9902,17 +9902,17 @@
   - description: DC 12 CON or go to 0 HP in 1d4 rounds.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -9949,17 +9949,17 @@
   name: Soldier
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -10013,17 +10013,17 @@
   - description: DC 13. One target in far takes 3d8 damage.
     name: Unmake (WIS Spell)
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -10057,17 +10057,17 @@
   - description: DC 9 CON or take 1d4 damage.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -10102,17 +10102,17 @@
   - description: DC 12 CON or paralyzed 1d4 hours.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -10146,17 +10146,17 @@
   - description: DC 12 CON or paralyzed 1d4 rounds.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -10191,17 +10191,17 @@
       to remove.
     name: Blood Drain
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -10239,17 +10239,17 @@
   - description: Deals x2 damage against surprised creatures.
     name: Strangle
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -10312,17 +10312,17 @@
       in one round to the inside of its gullet.
     name: Swallow
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 5
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 7
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -10386,17 +10386,17 @@
       10. Death. DC 15 CON or drop to 0 HP with a death timer of 1.'
     name: Eyestalk Ray
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 5
-    int:
+    INT:
       bonus: 5
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -10456,17 +10456,17 @@
       environment he does not wish to suffer.
     name: Strange Lands
   stats:
-    chr:
+    CHA:
       bonus: 5
-    con:
+    CON:
       bonus: 4
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 4
 - ac:
     bonus: 0
@@ -10506,17 +10506,17 @@
   - description: Deal x2 damage against surprised creatures.
     name: Backstab
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -10548,17 +10548,17 @@
   name: Thug
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -10600,17 +10600,17 @@
       ally without this ability. Reverts back in 1 day.
     name: Animate Tree
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -10647,17 +10647,17 @@
       fire or acid.
     name: Regenerate
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -10696,17 +10696,17 @@
       acid.
     name: Regenerate
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -10740,17 +10740,17 @@
   - description: A touch heals 2d6 HP or ends one curse or disease.
     name: Healing Horn
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 2
 - ac:
     bonus: 0
@@ -10804,17 +10804,17 @@
       while at 0 HP.
     name: Vampire
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -10858,17 +10858,17 @@
       while at 0 HP.
     name: Vampire
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 3
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -10902,17 +10902,17 @@
   name: Violet Fungus
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 4
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 4
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 3
 - ac:
     bonus: 0
@@ -10950,17 +10950,17 @@
   name: Viperian
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11002,17 +11002,17 @@
   - description: Can only be harmed by magical sources.
     name: Impervious
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11060,17 +11060,17 @@
       on spellcasting checks for the duration.
     name: Whispers (INT Spell)
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 0
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11104,17 +11104,17 @@
   - description: Can track dead flesh unerringly within a mile.
     name: Carrion Tracker
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 0
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11148,17 +11148,17 @@
   - description: DC 9 CON or go to 0 HP.
     name: Venom
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -11195,17 +11195,17 @@
   - description: If 12 or more damage from the same wererat, contract lycanthropy.
     name: Lycanthropy
   stats:
-    chr:
+    CHA:
       bonus: 1
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 1
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11242,17 +11242,17 @@
   - description: If 12 or more damage from the same werewolf, contract lycanthropy.
     name: Lycanthropy
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11288,17 +11288,17 @@
   - description: 1d4 CON damage. Death if reduced to 0 CON.
     name: Life Drain
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -11333,17 +11333,17 @@
   - description: 1d4 CON damage. Death if reduced to 0 CON.
     name: Life Drain
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 3
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11377,17 +11377,17 @@
   - description: Deals +1 damage while an ally is close.
     name: Pack Hunter
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11422,17 +11422,17 @@
   - description: Deals +1 damage while next to an ally.
     name: Pack Hunter
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 1
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11471,17 +11471,17 @@
       3d8 damage. Cannot use again for 1d4 rounds.
     name: Frost Breath
   stats:
-    chr:
+    CHA:
       bonus: 0
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 3
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11514,17 +11514,17 @@
   name: Worg
   skills: []
   stats:
-    chr:
+    CHA:
       bonus: 2
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 1
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11563,17 +11563,17 @@
   - description: 1d4 CON damage. Death if reduced to 0 CON.
     name: Life Drain
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 0
-    dex:
+    DEX:
       bonus: 4
-    int:
+    INT:
       bonus: 0
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 0
 - ac:
     bonus: 0
@@ -11609,17 +11609,17 @@
   - description: DC 15 CON or take 2d10 damage.
     name: Poison
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 1
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 3
-    str:
+    STR:
       bonus: 4
-    wis:
+    WIS:
       bonus: 1
 - ac:
     bonus: 0
@@ -11656,15 +11656,15 @@
       to 1 HP instead.
     name: Relentless
   stats:
-    chr:
+    CHA:
       bonus: 3
-    con:
+    CON:
       bonus: 2
-    dex:
+    DEX:
       bonus: 2
-    int:
+    INT:
       bonus: 2
-    str:
+    STR:
       bonus: 2
-    wis:
+    WIS:
       bonus: 2

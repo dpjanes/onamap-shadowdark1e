@@ -86,7 +86,7 @@ skills:
   always: True
   bonuses:
   - key: "slots"
-    value_rule: "MAX(0, character.stats.con.bonus)"
+    value_rule: "MAX(0, character.stats.CON.bonus)"
   tags:
   - sdl:Hauler
 

@@ -22,15 +22,15 @@ skills:
 - description: Immune to morale checks.
   name: Undead
 stats:
-  con:
+  CON:
     bonus: 2
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 2
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Claw

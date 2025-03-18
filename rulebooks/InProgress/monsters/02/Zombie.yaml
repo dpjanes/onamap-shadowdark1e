@@ -24,17 +24,17 @@ skills:
     to 1 HP instead.
   name: Relentless
 stats:
-  chr:
+  CHA:
     bonus: 3
-  con:
+  CON:
     bonus: 2
-  dex:
+  DEX:
     bonus: 2
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 2
-  wis:
+  WIS:
     bonus: 2
 weapons:
 - name: Slam

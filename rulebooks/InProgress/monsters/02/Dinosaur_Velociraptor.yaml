@@ -22,17 +22,17 @@ skills:
 - description: +1d4 damage when attacking with surprise.
   name: Clever
 stats:
-  chr:
+  CHA:
     bonus: 3
-  con:
+  CON:
     bonus: 1
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Claw

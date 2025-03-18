@@ -19,13 +19,13 @@ moves:
 - range: Near
   type: fly
 stats:
-  chr:
+  CHA:
     bonus: 1
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 2
 weapons:
 - name: Needle

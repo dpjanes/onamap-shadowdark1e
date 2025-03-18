@@ -18,17 +18,17 @@ level:
 moves:
 - range: None
 stats:
-  chr:
+  CHA:
     bonus: 4
-  con:
+  CON:
     bonus: 1
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 4
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 3
 weapons:
 - name: Bite

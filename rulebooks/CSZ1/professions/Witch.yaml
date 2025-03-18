@@ -5,7 +5,7 @@ weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
 weapon_types:
   - Dagger
   - Staff
-primary_stat: "cha"
+primary_stat: "CHA"
 
 skills:
 - id: skill:Core:Witch:HITDICE
@@ -75,7 +75,7 @@ skills:
     - "Spellcast"
   bonuses:
   - rule: skill.option == "CHR"
-    key: "stats.int"
+    key: "stats.INT"
     value: 2
   - rule: skill.option == "Spellcast"
     key: "spells.cast"

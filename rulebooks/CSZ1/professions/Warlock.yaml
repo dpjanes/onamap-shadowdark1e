@@ -13,7 +13,7 @@ weapon_types:
 - Dagger
 - Mace
 - Longsword
-primary_stat: "str"
+primary_stat: "STR"
 # is_spellcaster: true
 
 addons:

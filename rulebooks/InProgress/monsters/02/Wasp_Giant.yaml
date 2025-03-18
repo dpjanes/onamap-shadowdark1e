@@ -22,13 +22,13 @@ skills:
 - description: DC 9 CON or go to 0 HP.
   name: Venom
 stats:
-  chr:
+  CHA:
     bonus: 3
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 1
 weapons:
 - name: Sting

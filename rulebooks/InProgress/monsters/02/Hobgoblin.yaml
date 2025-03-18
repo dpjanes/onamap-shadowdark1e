@@ -24,15 +24,15 @@ skills:
 - description: +1 to attacks and AC when in close range of an allied hobgoblin.
   name: Phalanx
 stats:
-  chr:
+  CHA:
     bonus: 1
-  con:
+  CON:
     bonus: 1
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 3
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Longsword

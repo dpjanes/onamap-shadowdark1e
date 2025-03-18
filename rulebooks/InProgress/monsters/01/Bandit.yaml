@@ -24,11 +24,11 @@ skills:
 - description: Deal an extra die of damage when undetected.
   name: Ambush
 stats:
-  chr:
+  CHA:
     bonus: 1
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 1
 weapons:
 - name: Club

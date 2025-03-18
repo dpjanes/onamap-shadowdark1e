@@ -22,15 +22,15 @@ moves:
 - range: Double
   type: near
 stats:
-  chr:
+  CHA:
     bonus: 3
-  con:
+  CON:
     bonus: 3
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 3
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Hoof

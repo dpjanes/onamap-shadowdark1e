@@ -18,13 +18,13 @@ level:
 moves:
 - range: Near
 stats:
-  chr:
+  CHA:
     bonus: 3
-  dex:
+  DEX:
     bonus: 2
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 3
 weapons:
 - name: Bite

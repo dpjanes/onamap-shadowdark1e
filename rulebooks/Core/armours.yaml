@@ -14,7 +14,7 @@ armours:
     - key: ac.base
       value: 11
       rule: "armour.is_donned"
-      stat_bonus: dex
+      stat_bonus: DEX
 
   - id: 'armour:Core:Chainmail'
     name: Chainmail
@@ -30,7 +30,7 @@ armours:
     - key: ac.base
       value: 13
       rule: "armour.is_donned"
-      stat_bonus: dex
+      stat_bonus: DEX
 
   - id: 'armour:Core:PlateMail'
     name: Plate Mail
@@ -62,7 +62,7 @@ armours:
     - key: ac.base
       value: 13
       rule: "armour.is_donned"
-      stat_bonus: dex
+      stat_bonus: DEX
 
   - id: 'armour:Core:MithralPlateMail'
     name: Mithral Plate Mail
@@ -79,7 +79,7 @@ armours:
     - key: ac.base
       value: 15
       rule: "armour.is_donned"
-      stat_bonus: dex
+      stat_bonus: DEX
 
   - id: 'armour:Core:Shield'
     name: Shield

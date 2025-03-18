@@ -21,9 +21,9 @@ level:
 moves:
 - range: Near
 stats:
-  con:
+  CON:
     bonus: 1
-  str:
+  STR:
     bonus: 1
 weapons:
 - name: Longsword

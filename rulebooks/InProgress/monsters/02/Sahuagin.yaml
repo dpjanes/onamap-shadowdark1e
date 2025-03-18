@@ -24,13 +24,13 @@ skills:
 - description: Must be submerged in water every 4 hours or suffocates.
   name: Half-Amphibious
 stats:
-  chr:
+  CHA:
     bonus: 1
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 1
 weapons:
 - name: Trident

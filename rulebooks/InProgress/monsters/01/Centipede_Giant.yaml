@@ -20,15 +20,15 @@ moves:
 - range: Near
   type: climb
 stats:
-  chr:
+  CHA:
     bonus: 4
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 4
-  str:
+  STR:
     bonus: 3
-  wis:
+  WIS:
     bonus: 3
 weapons:
 - name: Bite

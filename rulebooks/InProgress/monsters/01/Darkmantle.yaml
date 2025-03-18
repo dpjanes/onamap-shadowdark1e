@@ -26,13 +26,13 @@ skills:
 - description: Extinguish all light sources in near.
   name: Darkness
 stats:
-  chr:
+  CHA:
     bonus: 3
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 2
 weapons:
 - name: Bite

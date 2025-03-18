@@ -27,13 +27,13 @@ skills:
 - description: Blinded in bright light.
   name: Sunblind
 stats:
-  chr:
+  CHA:
     bonus: 1
-  con:
+  CON:
     bonus: 3
-  str:
+  STR:
     bonus: 2
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: War Pick

@@ -5,7 +5,7 @@ weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
 weapon_types:
 - Staff
 - Dagger
-primary_stat: "int"
+primary_stat: "INT"
 
 skills:
 ## CHECKED
@@ -67,7 +67,7 @@ skills:
     - "Spellcast"
   bonuses:
   - rule: skill.option == "INT"
-    key: "stats.int"
+    key: "stats.INT"
     value: 2
   - rule: skill.option == "Spellcast"
     key: "spells.cast"

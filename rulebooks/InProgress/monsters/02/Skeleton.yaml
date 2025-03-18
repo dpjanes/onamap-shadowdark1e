@@ -24,13 +24,13 @@ skills:
 - description: Immune to morale checks.
   name: Undead
 stats:
-  chr:
+  CHA:
     bonus: 1
-  con:
+  CON:
     bonus: 2
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 1
 weapons:
 - name: Shortsword

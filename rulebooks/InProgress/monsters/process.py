@@ -22,7 +22,7 @@ def scrub(d):
 def prescrub(d):
     if isinstance(d, dict):
         for k, v in list(d.items()):
-            if k in [ "range", ] and isinstance(v, str):
+            if k in [ "range", ] and isinstance(v, STR):
                 d[k] = string.capwords(v)
             prescrub(v)
     elif isinstance(d, list):

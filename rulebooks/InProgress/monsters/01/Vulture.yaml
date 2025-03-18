@@ -22,15 +22,15 @@ skills:
 - description: Can track dead flesh unerringly within a mile.
   name: Carrion Tracker
 stats:
-  chr:
+  CHA:
     bonus: 3
-  con:
+  CON:
     bonus: 1
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Tear

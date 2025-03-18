@@ -23,15 +23,15 @@ skills:
 - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
   name: Rage
 stats:
-  chr:
+  CHA:
     bonus: 2
-  con:
+  CON:
     bonus: 1
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 2
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Claw

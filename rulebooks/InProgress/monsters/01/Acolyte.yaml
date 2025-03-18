@@ -21,13 +21,13 @@ level:
 moves:
 - range: Near
 stats:
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 2
 spells:
 - name: Healing Touch

@@ -24,13 +24,13 @@ skills:
 - description: ADV on DEX checks while in the natural wilds.
   name: Feyblood
 stats:
-  chr:
+  CHA:
     bonus: 1
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 1
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Longbow

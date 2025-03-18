@@ -18,9 +18,9 @@ level:
 moves:
 - range: Near
 stats:
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Spear

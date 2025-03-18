@@ -22,15 +22,15 @@ skills:
 - description: Deals +1 damage while an ally is close.
   name: Pack Hunter
 stats:
-  con:
+  CON:
     bonus: 1
-  dex:
+  DEX:
     bonus: 2
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 2
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Bite

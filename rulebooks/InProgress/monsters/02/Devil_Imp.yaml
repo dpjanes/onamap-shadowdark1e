@@ -26,13 +26,13 @@ skills:
     for a sworn soul. ADV on related Charisma checks.
   name: Contract
 stats:
-  chr:
+  CHA:
     bonus: 2
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 2
 weapons:
 - name: Stinger

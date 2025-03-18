@@ -19,17 +19,17 @@ moves:
 - range: Double
   type: near
 stats:
-  chr:
+  CHA:
     bonus: 2
-  con:
+  CON:
     bonus: 2
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 3
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Hooves

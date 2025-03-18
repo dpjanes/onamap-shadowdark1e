@@ -24,13 +24,13 @@ skills:
 - description: Immune to morale checks.
   name: Fearless
 stats:
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 2
 spells:
 - name: Deathtouch

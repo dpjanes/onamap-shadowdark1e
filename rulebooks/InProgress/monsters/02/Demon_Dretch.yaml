@@ -21,15 +21,15 @@ skills:
 - description: All in near DC 12 CON or blinded for 1d4 rounds.
   name: Gas
 stats:
-  chr:
+  CHA:
     bonus: 3
-  con:
+  CON:
     bonus: 2
-  int:
+  INT:
     bonus: 2
-  str:
+  STR:
     bonus: 2
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Claw

@@ -24,13 +24,13 @@ skills:
 - description: Blinded in bright light.
   name: Sunblind
 stats:
-  chr:
+  CHA:
     bonus: 1
-  dex:
+  DEX:
     bonus: 3
-  int:
+  INT:
     bonus: 1
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Poison Dart

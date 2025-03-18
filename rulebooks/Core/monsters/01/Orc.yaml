@@ -21,11 +21,11 @@ skills:
 - description: 1/day, immune to morale checks, +1d4 damage (3 rounds).
   name: Rage
 stats:
-  chr:
+  CHA:
     bonus: 1
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 2
 weapons:
 - name: Greataxe

@@ -24,15 +24,15 @@ skills:
 - description: Nonmagical metal that touches the ooze dissolves on a d6 roll of 1-3.
   name: Corrosive
 stats:
-  chr:
+  CHA:
     bonus: 4
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 4
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 3
 weapons:
 - name: Tentacle

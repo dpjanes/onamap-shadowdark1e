@@ -19,15 +19,15 @@ moves:
 - range: Near
   type: fly
 stats:
-  chr:
+  CHA:
     bonus: 3
-  dex:
+  DEX:
     bonus: 2
-  int:
+  INT:
     bonus: 3
-  str:
+  STR:
     bonus: 1
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Bite

@@ -21,15 +21,15 @@ skills:
 - description: When standing still, looks exactly like a suit of armor.
   name: Statue
 stats:
-  con:
+  CON:
     bonus: 2
-  dex:
+  DEX:
     bonus: 1
-  int:
+  INT:
     bonus: 1
-  str:
+  STR:
     bonus: 3
-  wis:
+  WIS:
     bonus: 1
 weapons:
 - name: Longsword
