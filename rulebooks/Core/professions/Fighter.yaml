@@ -71,7 +71,7 @@ skills:
   description: "+1 AC to one armour"
   value: 1
   options: ARMOURS
-  talent_rule: 'HAS_TAG_VALUE(armour, "ArmourType", skill.option)'
+  rule: 'HAS_TAG_VALUE(armour, "ArmourType", skill.option)'
   bonuses:
   - key: "ac.bonus"
     value_rule: skill.value
