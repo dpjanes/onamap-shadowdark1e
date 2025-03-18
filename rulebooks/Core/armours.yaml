@@ -13,7 +13,7 @@ armours:
       - sdl:LeatherArmor
       - Swimming:Yes
       - Stealth:Yes
-      - DexBonus
+      # - DexBonus
     cost: 10 gp
     slots: 1
     hands: 0
@@ -22,7 +22,7 @@ armours:
     - key: ac.base
       value: 11
       rule: "armour.is_donned"
-      add_rule: "STAT_BONUS_PLUS('DEX')"
+      stat_bonus: dex
 
   - id: 'armour:Core:Chainmail'
     name: Chainmail
@@ -30,7 +30,7 @@ armours:
       - Chainmail
       - Swimming:Disadvantage
       - Stealth:Disadvantage
-      - DexBonus
+      # - DexBonus
     cost: 60 gp
     slots: 2
     hands: 0
@@ -39,7 +39,7 @@ armours:
     - key: ac.base
       value: 13
       rule: "armour.is_donned"
-      add_rule: "STAT_BONUS_PLUS('DEX')"
+      stat_bonus: dex
 
   - id: 'armour:Core:PlateMail'
     name: Plate Mail
@@ -55,7 +55,6 @@ armours:
     - key: ac.base
       value: 15
       rule: "armour.is_donned"
-      add_rule: "STAT_BONUS_PLUS('DEX')"
 
   - id: 'armour:Core:MithralChainmail'
     name: Mithral Chainmail
@@ -64,7 +63,7 @@ armours:
       - Mithral
       - Swimming:Yes
       - Stealth:Yes
-      - DexBonus
+      # - DexBonus
     cost: 240 gp
     slots: 1
     hands: 0
@@ -73,7 +72,7 @@ armours:
     - key: ac.base
       value: 13
       rule: "armour.is_donned"
-      add_rule: "STAT_BONUS_PLUS('DEX')"
+      stat_bonus: dex
 
   - id: 'armour:Core:MithralPlateMail'
     name: Mithral Plate Mail
@@ -90,7 +89,7 @@ armours:
     - key: ac.base
       value: 15
       rule: "armour.is_donned"
-      add_rule: "STAT_BONUS_PLUS('DEX')"
+      stat_bonus: dex
 
   - id: 'armour:Core:Shield'
     name: Shield
