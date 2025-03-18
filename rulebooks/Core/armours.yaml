@@ -9,7 +9,7 @@ armours:
   - id: 'armour:Core:Leather'
     name: Leather
     tags:
-      - Leather
+      - ArmourType:Leather
       - sdl:LeatherArmor
       - Swimming:Yes
       - Stealth:Yes
@@ -26,7 +26,7 @@ armours:
   - id: 'armour:Core:Chainmail'
     name: Chainmail
     tags:
-      - Chainmail
+      - ArmourType:Chainmail
       - Swimming:Disadvantage
       - Stealth:Disadvantage
     cost: 60 gp
@@ -42,7 +42,7 @@ armours:
   - id: 'armour:Core:PlateMail'
     name: Plate Mail
     tags:
-      - Plate Mail
+      - ArmourType:Plate Mail
       - Swimming:No
       - Stealth:Disadvantage
     cost: 130 gp
@@ -57,7 +57,7 @@ armours:
   - id: 'armour:Core:MithralChainmail'
     name: Mithral Chainmail
     tags:
-      - Chainmail
+      - ArmourType:Chainmail
       - Mithral
       - Swimming:Yes
       - Stealth:Yes
@@ -75,7 +75,7 @@ armours:
   - id: 'armour:Core:MithralPlateMail'
     name: Mithral Plate Mail
     tags:
-      - Plate Mail
+      - ArmourType:Plate Mail
       - Mithral
       - Swimming:Yes
       - Stealth:Yes
@@ -92,7 +92,7 @@ armours:
   - id: 'armour:Core:Shield'
     name: Shield
     tags:
-      - Shield
+      - ArmourType:Shield
     cost: 10 gp
     slots: 1
     hands: 1
@@ -103,7 +103,7 @@ armours:
       rule: "armour.is_donned"
 
   - id: 'armour:Core:Buckler'
-    name: Buckler
+    name: ArmourType:Buckler
     tags:
       - Buckler
     cost: 10 gp

@@ -71,9 +71,9 @@ skills:
   description: "+1 AC to one armour"
   value: 1
   options: ARMOURS
-  talent_rule: skill.option == armour.get_armour_type
+  talent_rule: 'HAS_TAG_VALUE(armour, "ArmourType", skill.option)'
   bonuses:
-  - key: "ac"
+  - key: "ac.bonus"
     value_rule: skill.value
   tags:
   - sdl:ArmorMastery
