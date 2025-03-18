@@ -13,7 +13,6 @@ armours:
       - sdl:LeatherArmor
       - Swimming:Yes
       - Stealth:Yes
-      # - DexBonus
     cost: 10 gp
     slots: 1
     hands: 0
@@ -30,7 +29,6 @@ armours:
       - Chainmail
       - Swimming:Disadvantage
       - Stealth:Disadvantage
-      # - DexBonus
     cost: 60 gp
     slots: 2
     hands: 0
@@ -95,7 +93,6 @@ armours:
     name: Shield
     types:
       - Shield
-      - DexBonus
     cost: 10 gp
     slots: 1
     hands: 1
@@ -109,7 +106,6 @@ armours:
     name: Buckler
     types:
       - Buckler
-      - DexBonus
     cost: 10 gp
     slots: 1
     hands: 0
