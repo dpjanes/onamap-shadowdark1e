@@ -18,7 +18,7 @@ skills:
     name: Charge
     description: "Move at least near before attacking to deal double melee damage that round"
     tags:
-    - RechargeDaily
+    - Recharge:Daily
     value: 3
     always: true
 

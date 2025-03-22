@@ -315,7 +315,7 @@ magic_items:
   - Swimming:Disadvantage
   - Stealth:Disadvantage
   - Consumable
-  - RechargeDaily
+  - Recharge:Daily
   slots: 2
   hands: 0
   stack: "armour"
@@ -420,6 +420,7 @@ magic_items:
   - Potion
   - Consumable
   - Flight/Levitation
+  description: Fly near distance for 10 rounds.
 
 - id: magic_item:Core:PotionOfForgetfulness
   name: Potion of Forgetfulness
@@ -467,24 +468,30 @@ magic_items:
 
 - id: magic_item:Core:RingOfFeatherFalling
   name: Ring of Feather Falling
+  slots: 0
   tags:
   - Ring
   - Donnable
+  - Recharge:Daily
+  description: "Cast Feather Fall - 1/day"
 
 - id: magic_item:Core:RingOfFireballs
   name: Ring of Fireballs
+  slots: 0
   tags:
   - Ring
   - Donnable
 
 - id: magic_item:Core:RingOfInvisibility
   name: Ring of Invisibility
+  slots: 0
   tags:
   - Ring
   - Donnable
 
 - id: magic_item:Core:RingOfRamlaat
   name: Ring of Ramlaat
+  slots: 0
   tags:
   - Ring
   - Donnable

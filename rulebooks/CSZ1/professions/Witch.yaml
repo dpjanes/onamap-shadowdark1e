@@ -64,7 +64,7 @@ skills:
   name: "Familiar Teleportation"
   description: "1/day, teleport to your familiar's location as a move."
   tags:
-  - RechargeDaily
+  - Recharge:Daily
   value: 1
 
 - id: skill:Core:Witch:CharismaBonus
