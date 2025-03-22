@@ -1,6 +1,6 @@
 name: Witch
 is_spellcaster: true
-armour_rule: "IN(GET_TAG(armour, "ArmourType:"), ['Leather'])"
+armour_rule: "IN(GET_TAG(armour, 'ArmourType:'), ['Leather'])"
 weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
 weapon_types:
   - Dagger
@@ -64,7 +64,7 @@ skills:
   name: "Familiar Teleportation"
   description: "1/day, teleport to your familiar's location as a move."
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 1
 
 - id: skill:Core:Witch:CharismaBonus

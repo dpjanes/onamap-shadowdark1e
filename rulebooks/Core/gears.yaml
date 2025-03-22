@@ -3,7 +3,6 @@ gears:
     name: Arrows
     cost: 1 gp
     slots: 1
-    free: 0
     quantity: 20
     tags: 
       - Arrow
@@ -13,13 +12,11 @@ gears:
     name: Backpack
     cost: 2 gp
     slots: 1
-    free: 1
 
   - id: 'gear:Core:CaltropsBag'
     name: Caltrops (bag)
     cost: 5 sp
     slots: 1
-    free: 0
     tags: 
       - Consumable
 
@@ -27,7 +24,6 @@ gears:
     name: Crossbow Bolts
     cost: 1 gp
     slots: 1
-    free: 0
     quantity: 20
     tags: 
       - Consumable
@@ -37,19 +33,16 @@ gears:
     name: Crowbar
     cost: 5 sp
     slots: 1
-    free: 0
 
   - id: 'gear:Core:FlaskOrBottle'
     name: Flask or Bottle
     cost: 3 sp
     slots: 1
-    free: 0
 
   - id: 'gear:Core:FlintAndSteel'
     name: Flint and Steel
     cost: 5 sp
     slots: 1
-    free: 
     tags:
       - Fire
 
@@ -57,13 +50,11 @@ gears:
     name: Grappling Hook
     cost: 1 gp
     slots: 1
-    free: 0
 
   - id: 'gear:Core:IronSpikes'
     name: Iron Spikes
     cost: 1 gp
     slots: 1
-    free: 0
     tags: 
       - Consumable
 
@@ -71,7 +62,6 @@ gears:
     name: Lantern
     cost: 5 gp
     slots: 1
-    free: 0
     tags: 
       - Light
     uses:
@@ -82,13 +72,11 @@ gears:
     name: Mirror
     cost: 10 gp
     slots: 1
-    free: 0
 
   - id: 'gear:Core:OilFlask'
     name: Oil Flask
     cost: 5 sp
     slots: 1
-    free: 0
     tags: 
       - Light
       - Consumable
@@ -99,13 +87,11 @@ gears:
     name: Pole
     cost: 5 sp
     slots: 1
-    free: 0
 
   - id: 'gear:Core:Rations'
     name: Rations
     cost: 5 sp
     slots: 1
-    free: 0
     quantity: 3
     tags: 
       - Consumable
@@ -115,7 +101,6 @@ gears:
     name: Rope
     cost: 1 gp
     slots: 1
-    free: 0
     tags:
     - sdl:Rope60
 
@@ -123,7 +108,6 @@ gears:
     name: Torch
     cost: 5 sp
     slots: 1
-    free: 0
     tags: 
       - Consumable
       - Light

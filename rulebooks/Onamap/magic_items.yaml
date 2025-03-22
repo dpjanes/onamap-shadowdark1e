@@ -4,6 +4,7 @@ magic_items:
   tags:
   - Ring
   - Donnable
+  - Armour
   description: A silver band. When worn, it grants the wearer a +1 bonus to AC.
   bonuses:
   - key: ac.bonus

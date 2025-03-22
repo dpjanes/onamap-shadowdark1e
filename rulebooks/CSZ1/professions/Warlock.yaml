@@ -71,7 +71,7 @@ skills:
   description: |
     1/day, force the GM to reroll a single roll
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 1
 
 - id: skill:CSZ1:Warlock:Kytheros:ACBoost
@@ -105,7 +105,7 @@ skills:
   description: |
     3/day, add your WIS bonus to any roll (reroll duplicates)
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 3
 
 - id: skill:CSZ1:Warlock:Kytheros:Choice
@@ -122,7 +122,7 @@ skills:
   description: |
     1/day, turn into a crawling puddle of slime for 3 rounds
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 1
 
 - id: skill:CSZ1:Warlock:Mugdulblub:MaxHP
@@ -166,7 +166,7 @@ skills:
   description: |
     1/day, read the mind of a creature you touch for 3 rounds
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 1
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:WizardSpell
@@ -215,7 +215,7 @@ skills:
   description: |
     1/day, hypnotize a LV 5 or less creature for 3 rounds
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 1
 
 - id: skill:CSZ1:Warlock:Titania:Longbow
@@ -259,7 +259,7 @@ skills:
   description: |
     1/day, teleport to a far location you see as your move
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 1
 
 - id: skill:CSZ1:Warlock:TheWillowman:AttackBoost
@@ -289,7 +289,7 @@ skills:
   description: |
     1/day, force a close being to check morale, even if immune
   tags:
-  - DailySkill
+  - RechargeDaily
   value: 1
 
 - id: skill:CSZ1:Warlock:TheWillowman:Choice

@@ -11,7 +11,7 @@ skills:
     description: |
       Regain 1d6 HP when you hit with a melee attack.
     tags:
-    - DailySkill
+    - RechargeDaily
     value: 3
     always: true
 
@@ -33,5 +33,5 @@ skills:
       At 0 HP, make a DC 18 CON check—on success, stay at 1 HP.
     value: 3
     tags:
-    - DailySkill
+    - RechargeDaily
     always: true
