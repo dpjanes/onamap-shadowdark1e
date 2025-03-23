@@ -5,15 +5,16 @@ skills:
   name: "Mighty"
   description: "+1 bonus to attack and damage rolls with melee weapons"
   rule: True
-  always: True
   bonuses:
   - key: 'attack.tohit'
     value: 1
+  tags:
+  - Always
 
 - id: skill:Core:Half-Orc:LanguageOrcish
   name: "Language"
   description: "Speak Orcish"
   tags:
   - Language
+  - Always
   option: "Orcish"
-  always: True

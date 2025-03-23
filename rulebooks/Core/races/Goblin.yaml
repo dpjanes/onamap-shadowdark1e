@@ -1,6 +1,8 @@
 name: Goblin
+
 skills:
 - id: skill:Core:Goblin:KeenSenses
   name: "Keen Senses"
   description: "Cannot be surprised"
-  always: True
+  tags:
+  - Always

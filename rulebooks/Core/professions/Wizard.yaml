@@ -12,56 +12,55 @@ skills:
 - id: skill:Core:Wizard:HITDICE
   name: "Hit Dice"
   description: "1d4 per level"
-  tags: [ "hit_dice" ]
-  always: True
   value: 4
+  tags:
+  - Always
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageCommon1
   name: "Language"
   description: "Speak an additional common language"
-  always: True
   options: COMMON_LANGUAGES
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
+  - Always
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageCommon2
   name: "Language"
   description: "Speak an additional common language"
-  always: True
   options: COMMON_LANGUAGES
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
+  - Always
 
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageRare1
   name: "Language"
   description: "Speak an additional rare language"
-  always: True
   options: RARE_LANGUAGES
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
+  - Always
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageRare2
   name: "Language"
   description: "Speak an additional rare language"
-  always: True
   options: RARE_LANGUAGES
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
+  - Always
 
 ## CHECKED
 - id: skill:Core:Wizard:STAT_BONUS
   name: "Wizard Bonus"
   description: "+2 to INT or +1 to spellcasting"
-  always: False
   options:
     - "INT"
     - "Spellcast"

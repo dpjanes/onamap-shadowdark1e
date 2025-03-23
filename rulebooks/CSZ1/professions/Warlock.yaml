@@ -38,9 +38,9 @@ skills:
     - "Primordial"
     - "Sylvan"
   description: "Speak an additional Warlock language"
-  always: True
   tags:
   - sdl:ExtraLanguage
+  - Always
 
 - id: skill:CSZ1:Warlock:ATTACK_BONUS
   name: "Attack Bonus"

@@ -9,8 +9,8 @@ skills:
   name: "Hit Dice"
   description: "1d8 per level"
   value: 8
-  tags: [ "hit_dice" ]
-  always: True
+  tags:
+  - Always
 
 ## CHECKED
 - id: skill:Core:Fighter:WEAPON_MASTERY
@@ -18,7 +18,6 @@ skills:
   description: "Weapon Mastery with a weapon type"
   value: 1
   options: WEAPONS
-  always: True  ## fighter gets one, they can add more
   rule: weapon.get_weapon_type == skill.option
   bonuses:
   - key: 'attack.tohit'
@@ -38,6 +37,7 @@ skills:
     value_rule: "HALF(character.level.value)"
   tags:
   - sdl:WeaponMastery
+  - Always ## fighter gets one, they can add more
 
 ## CHECKED
 - id: skill:Core:Fighter:ATTACK_BONUS
@@ -83,17 +83,16 @@ skills:
   name: "Hauler"
   option: "CON"
   description: "+CON to gear slots."
-  always: True
   bonuses:
   - key: "slots"
     value_rule: "MAX(0, character.stats.CON.bonus)"
   tags:
   - sdl:Hauler
+  - Always
 
 ## CHECKED
 - id: skill:Core:Fighter:ClassAbilityGrit
   name: "Grit"
-  always: True
   description: Advantage on STR or DEX against opposing force
   options:
     - "STR"
@@ -102,6 +101,7 @@ skills:
   - sdl:Grit
   - sdl:Dexterity=DEX
   - sdl:Strength=STR
+  - Always
 
 titles:
   Lawful:

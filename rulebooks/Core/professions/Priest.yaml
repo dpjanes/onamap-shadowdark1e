@@ -18,9 +18,9 @@ skills:
 - id: skill:Core:Priest:HITDICE
   name: "Hit Dice"
   description: "1d6 per level"
-  tags: [ "hit_dice" ]
   value: 6
-  always: True
+  tags:
+  - Always
 
 ## CHECKED
 - id: skill:Core:Priest:LanguageExtra
@@ -30,20 +30,21 @@ skills:
     - "Diabolic"
     - "Primordial"
   description: "Speak Celestial, Diabolic, or Primordial."
-  always: True
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
+  - Always
 
 ## CHECKED
 - id: skill:Core:Priest:TurnUndead
   name: "Turn Undead"
-  always: True
   value: "Turn Undead"
   description: "You know Turn Undead spell"
   bonuses:
   - key: "spells.know"
     value: "Turn Undead"
+  tags:
+  - Always
 
 ## CHECKED
 - id: skill:Core:Priest:ATTACK_BONUS

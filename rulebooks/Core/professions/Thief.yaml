@@ -15,8 +15,8 @@ skills:
   name: "Hit Dice"
   description: "1d6 per level"
   value: 6
-  tags: [ "hit_dice" ]
-  always: True
+  tags:
+  - Always
 
 ## CHECKED
 - id: skill:Core:Thief:ATTACK_BONUS
@@ -47,16 +47,17 @@ skills:
 ## CHECKED
 - id: skill:Core:Thief:ClassAbilityAdvantage
   name: "Advantage"
-  always: True
   description: "Advantage on such as picking locks and other Thief skills"
+  tags:
+  - Always
 
 ## CHECKED
 - id: skill:Core:Thief:ClassAbilityBackstab
   name: "Backstab"
-  always: True
   description: "Extra die + 1/2 level damage to unaware creatures"
   tags:
   - sdl:BackstabIncrease
+  - Always
 
 ## XXX MISSING 2	Gain advantage on initiative rolls (reroll duplicates)
 ## sdL:ClassTalent3

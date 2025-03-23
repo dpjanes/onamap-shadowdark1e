@@ -11,37 +11,43 @@ skills:
 - id: skill:Core:Witch:HITDICE
   name: "Hit Dice"
   description: "1d4 per level"
-  tags: [ "hit_dice" ]
-  always: True
   value: 4
+  tags:
+  - Always
 
 - id: skill:Core:Witch:LanguageDiabolic
   name: "Languages"
   description: "You know Diabolic"
-  always: True
+  tags:
+  - Always
   option: Diabolic
 
 - id: skill:Core:Witch:LanguagePrimordial
   name: "Languages"
   description: "You know Primordial"
-  always: True
+  tags:
+  - Always
   option: Primordial
 
 - id: skill:Core:Witch:LanguageSylvan
   name: "Languages"
   description: "You know Sylvan."
-  always: True
+  tags:
+  - Always
   option: DiSylvanabolic
 
 - id: skill:Core:Witch:Familiar
   name: "Familiar"
   description: "You have a small animal such as a raven, rat, or frog who serves you loyally. It can speak Common. Your familiar can be the source of spells you cast. Treat it as though it were you for determining spell ranges."
-  always: True
+  tags:
+  - Always
 
 - id: skill:Core:Witch:RestoreFamiliar
   name: "Restore Familiar"
   description: "If your familiar dies, you can restore it to life by permanently sacrificing 1d4 hit points."
-  always: True
+  options: TEXT
+  tags:
+  - Always
 
 # - id: skill:Core:Witch:Spellcasting
 #   name: "Spellcasting"
@@ -58,7 +64,8 @@ skills:
 - id: skill:Core:Witch:DiabolicalMishap
   name: "Diabolical Mishap"
   description: "If you roll a natural 1 on a spellcasting check, roll on the corresponding Diabolical Mishap table for the spell's tier."
-  always: True
+  tags:
+  - Always
 
 - id: skill:Core:Witch:TeleportFamiliar
   name: "Familiar Teleportation"

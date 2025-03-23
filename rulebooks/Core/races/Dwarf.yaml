@@ -4,19 +4,21 @@ skills:
 - id: skill:Core:Dwarf:HitPointAdvantage
   name: "HP Advantage"
   description: "Roll hit points per level with advantage"
-  always: True
+  tags:
+  - Always
 
 - id: skill:Core:Dwarf:HitPointStarting
   name: "HP Starting"
   description: "Start with +2 HP"
   value: 2
-  always: True
+  tags:
+  - Always
 
 - id: skill:Core:Dwarf:LanguageDwarvish
   name: "Language"
   description: "Speak Dwarvish"
   option: "Dwarvish"
-  always: True
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
+  - Always

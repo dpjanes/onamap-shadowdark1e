@@ -31,9 +31,9 @@ skills:
   description: "Speak Common"
   source: "Base"
   option: "Common"
-  always: True
   tags:
   - Language
+  - Always
 
 ## CHECKED
 - id: skill:Core:Base:RARE_LANGUAGE

@@ -13,19 +13,22 @@ skills:
     tags:
     - Recharge:Daily
     value: 3
-    always: true
+    tags:
+    - Always
 
   - id: skill:CSZ1:PitFighter:Implacable
     name: Implacable
     description: |
       Advantage on CON checks to resist injury, poison, or endure extreme environments.
-    always: true
+    tags:
+    - Always
 
   - id: skill:CSZ1:PitFighter:LastStand
     name: Last Stand
     description: |
       Rise from dying with 1 HP on a natural 18-20.
-    always: true
+    tags:
+    - Always
 
   - id: skill:CSZ1:PitFighter:Relentless
     name: Relentless
@@ -34,4 +37,4 @@ skills:
     value: 3
     tags:
     - Recharge:Daily
-    always: true
+    - Always

@@ -4,12 +4,13 @@ skills:
 - id: skill:Core:Human:Ambitious
   name: "Ambitious"
   description: "Gain one additional talent roll at 1st level"
-  always: True
+  tags:
+  - Always
 
 - id: skill:Core:Human:LanguageExtra
   name: "Language"
   options: COMMON_LANGUAGES
   description: "Speak an additional common language"
-  always: True
   tags:
   - sdl:ExtraLanguage
+  - Always

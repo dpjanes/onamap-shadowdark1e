@@ -3,7 +3,7 @@ gears:
     name: Arrows
     cost: 1 gp
     slots: 1
-    quantity: 20
+    max: 20
     tags: 
       - Arrow
       - Consumable
@@ -24,7 +24,7 @@ gears:
     name: Crossbow Bolts
     cost: 1 gp
     slots: 1
-    quantity: 20
+    max: 20
     tags: 
       - Consumable
       - Bolt
@@ -92,7 +92,7 @@ gears:
     name: Rations
     cost: 5 sp
     slots: 1
-    quantity: 3
+    max: 3
     tags: 
       - Consumable
       - Food
