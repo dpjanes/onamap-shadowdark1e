@@ -481,6 +481,12 @@ magic_items:
   tags:
   - Ring
   - Donnable
+  - Recharge:Rest
+  description: "Throw Fireball up to Far - 1/rest"
+  rolls:
+  - name: Fireball
+    type: attack.tohit
+    dice: 4d6
 
 - id: magic_item:Core:RingOfInvisibility
   name: Ring of Invisibility
