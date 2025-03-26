@@ -62,11 +62,7 @@ gears:
     name: Lantern
     cost: 5 gp
     slots: 1
-    tags: 
-      - Light
-    uses:
-      - Oil Flask
-      - Fire
+    description: Use an Oil Flask for Light
 
   - id: 'gear:Core:Mirror'
     name: Mirror
@@ -80,7 +76,6 @@ gears:
     tags: 
       - Light
       - Consumable
-      - Oil Flask
       - sdl:OilFlask
 
   - id: 'gear:Core:Pole'
@@ -111,5 +106,3 @@ gears:
     tags: 
       - Consumable
       - Light
-    uses:
-      - Fire
