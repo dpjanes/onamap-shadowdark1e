@@ -5,12 +5,13 @@ weapon_rule: "True"
 
 skills:
 ## CHECKED
-- id: skill:Core:Fighter:HITDICE
+- id: skill:Core:Fighter:HitDice
   name: "Hit Dice"
   description: "1d8 per level"
   value: 8
   tags:
   - Always
+  - HitDice
 
 ## CHECKED
 - id: skill:Core:Fighter:WEAPON_MASTERY

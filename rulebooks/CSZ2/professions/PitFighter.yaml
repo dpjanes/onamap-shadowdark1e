@@ -6,35 +6,43 @@ armor:
   - Leather armor
   - Shields
 skills:
-  - id: skill:CSZ1:PitFighter:Flourish
-    name: Flourish
-    description: |
-      Regain 1d6 HP when you hit with a melee attack.
-    tags:
-    - Recharge:Daily
-    value: 3
-    tags:
-    - Always
+- id: skill:CSZ2:PitFighter:HitDice
+  name: "Hit Dice"
+  description: "1d8 per level"
+  value: 8
+  tags:
+  - Always
+  - HitDice
 
-  - id: skill:CSZ1:PitFighter:Implacable
-    name: Implacable
-    description: |
-      Advantage on CON checks to resist injury, poison, or endure extreme environments.
-    tags:
-    - Always
+- id: skill:CSZ2:PitFighter:Flourish
+  name: Flourish
+  description: |
+    Regain 1d6 HP when you hit with a melee attack.
+  tags:
+  - Recharge:Daily
+  value: 3
+  tags:
+  - Always
 
-  - id: skill:CSZ1:PitFighter:LastStand
-    name: Last Stand
-    description: |
-      Rise from dying with 1 HP on a natural 18-20.
-    tags:
-    - Always
+- id: skill:CSZ2:PitFighter:Implacable
+  name: Implacable
+  description: |
+    Advantage on CON checks to resist injury, poison, or endure extreme environments.
+  tags:
+  - Always
 
-  - id: skill:CSZ1:PitFighter:Relentless
-    name: Relentless
-    description: |
-      At 0 HP, make a DC 18 CON check—on success, stay at 1 HP.
-    value: 3
-    tags:
-    - Recharge:Daily
-    - Always
+- id: skill:CSZ2:PitFighter:LastStand
+  name: Last Stand
+  description: |
+    Rise from dying with 1 HP on a natural 18-20.
+  tags:
+  - Always
+
+- id: skill:CSZ2:PitFighter:Relentless
+  name: Relentless
+  description: |
+    At 0 HP, make a DC 18 CON check—on success, stay at 1 HP.
+  value: 3
+  tags:
+  - Recharge:Daily
+  - Always

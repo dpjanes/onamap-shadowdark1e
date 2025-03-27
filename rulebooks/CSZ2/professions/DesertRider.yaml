@@ -14,16 +14,24 @@ armor:
   - Leather armor
   - Shields
 skills:
-  - id: skill:CSZ1:DesertRider:Charge
-    name: Charge
-    description: "Move at least near before attacking to deal double melee damage that round"
-    tags:
-    - Recharge:Daily
-    - Always
-    value: 3
+- id: skill:CSZ2:DesertRider:HitDice
+  name: "Hit Dice"
+  description: "1d8 per level"
+  value: 8
+  tags:
+  - Always
+  - HitDice
 
-  - id: skill:CSZ1:DesertRider:Mount
-    name: Mount
-    description: "You have a reliable camel or horse that never spooks and comes when called. (See pg. 29)"
-    tags:
-    - Always
+- id: skill:CSZ2:DesertRider:Charge
+  name: Charge
+  description: "Move at least near before attacking to deal double melee damage that round"
+  tags:
+  - Recharge:Daily
+  - Always
+  value: 3
+
+- id: skill:CSZ2:DesertRider:Mount
+  name: Mount
+  description: "You have a reliable camel or horse that never spooks and comes when called. (See pg. 29)"
+  tags:
+  - Always

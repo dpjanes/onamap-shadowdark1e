@@ -29,6 +29,14 @@ addons:
   - "The Willowman"
 
 skills:
+- id: skill:Core:Warlock:HitDice
+  name: "Hit Dice"
+  description: "1d4 per level"
+  value: 4
+  tags:
+  - Always
+  - HitDice
+
 - id: skill:CSZ1:Warlock:LanguageExtra
   name: "Language"
   options:

@@ -9,12 +9,13 @@ primary_stat: "INT"
 
 skills:
 ## CHECKED
-- id: skill:Core:Wizard:HITDICE
+- id: skill:Core:Wizard:HitDice
   name: "Hit Dice"
   description: "1d4 per level"
   value: 4
   tags:
   - Always
+  - HitDice
 
 ## CHECKED
 - id: skill:Core:Wizard:LanguageCommon1

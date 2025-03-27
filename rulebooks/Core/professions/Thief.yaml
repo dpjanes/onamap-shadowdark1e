@@ -11,12 +11,13 @@ armour_rule: "OR(GET_TAG(armour, 'ArmourType:') == 'Leather', armour.name == 'Mi
 
 skills:
 ## CHECKED
-- id: skill:Core:Thief:HITDICE
+- id: skill:Core:Thief:HitDice
   name: "Hit Dice"
   description: "1d6 per level"
   value: 6
   tags:
   - Always
+  - HitDice
 
 ## CHECKED
 - id: skill:Core:Thief:ATTACK_BONUS

@@ -15,12 +15,13 @@ primary_stat: "WIS"
 skills:
 
 ## CHECKED
-- id: skill:Core:Priest:HITDICE
+- id: skill:Core:Priest:HitDice
   name: "Hit Dice"
   description: "1d6 per level"
   value: 6
   tags:
   - Always
+  - HitDice
 
 ## CHECKED
 - id: skill:Core:Priest:LanguageExtra

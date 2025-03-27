@@ -8,12 +8,13 @@ weapon_types:
 primary_stat: "CHA"
 
 skills:
-- id: skill:Core:Witch:HITDICE
+- id: skill:Core:Witch:HitDice
   name: "Hit Dice"
   description: "1d4 per level"
   value: 4
   tags:
   - Always
+  - HitDice
 
 - id: skill:Core:Witch:LanguageDiabolic
   name: "Languages"
