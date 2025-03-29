@@ -1,12 +1,12 @@
 name: Warlock
 hit_dice: 1d6
-armour_rule: "IN(GET_TAG(armour, "ArmourType:")s, profession.armour_types)"
+armour_rule: "IN(item.get_armour_type, profession.armour_types)"
 armour_types:
 - Leather
 - Chainmail
 - Shield
 - Buckler
-weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
+weapon_rule: "IN(item.get_weapon_type, profession.weapon_types)"
 weapon_types:
 - Club
 - Crossbow

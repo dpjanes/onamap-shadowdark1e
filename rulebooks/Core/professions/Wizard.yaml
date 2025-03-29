@@ -1,7 +1,7 @@
 name: Wizard
 is_spellcaster: true
-armour_rule: "0"
-weapon_rule: "IN(weapon.get_weapon_type, profession.weapon_types)"
+armour_rule: "False"
+weapon_rule: "IN(item.get_weapon_type, profession.weapon_types)"
 weapon_types:
 - Staff
 - Dagger

@@ -1,21 +1,3 @@
-## THIS NEEDS TO BE COMPUTED
-weapon_types:
-  - Bastard sword
-#   - Club
-#   - Crossbow
-#   - Dagger
-#   - Greataxe
-#   - Greatsword
-#   - Javelin
-#   - Longbow
-#   - Longsword
-#   - Mace
-#   - Shortbow
-#   - Shortsword
-#   - Spear
-#   - Staff
-#   - Warhammer
-
 weapons:
 - id: weapon:Core:BastardSword
   name: Bastard sword

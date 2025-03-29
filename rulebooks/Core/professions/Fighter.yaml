@@ -72,7 +72,8 @@ skills:
   description: "+1 AC to one armour"
   value: 1
   options: ARMOURS
-  rule: 'HAS_TAG_VALUE(item, "ArmourType", skill.option)'
+  # rule: 'HAS_TAG_VALUE(item, "ArmourType", skill.option)'
+  rule: item.get_armour_type == skill.option
   bonuses:
   - key: "ac.bonus"
     value_rule: skill.value
