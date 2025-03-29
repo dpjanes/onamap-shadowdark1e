@@ -19,7 +19,7 @@ skills:
   description: "Weapon Mastery with a weapon type"
   value: 1
   options: WEAPONS
-  rule: weapon.get_weapon_type == skill.option
+  rule: item.get_weapon_type == skill.option
   bonuses:
   - key: 'attack.tohit'
     value: 1
@@ -61,7 +61,7 @@ skills:
     - "DEX"
     - "CON"
   bonuses:
-  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+  - key_rule: 'CONCAT("stats.", UPPER(skill.option))'
     value_rule: skill.value
   tags:
   - sdl:StatBonus
@@ -72,7 +72,7 @@ skills:
   description: "+1 AC to one armour"
   value: 1
   options: ARMOURS
-  rule: 'HAS_TAG_VALUE(armour, "ArmourType", skill.option)'
+  rule: 'HAS_TAG_VALUE(item, "ArmourType", skill.option)'
   bonuses:
   - key: "ac.bonus"
     value_rule: skill.value

@@ -59,10 +59,10 @@ skills:
     - "Ranged Attacks"
     - "Melee Attacks"
   bonuses:
-  - rule: AND(skill.option == "Ranged Attacks", weapon.is_ranged)
+  - rule: AND(skill.option == "Ranged Attacks", item.is_ranged)
     key: 'attack.tohit'
     value: 1
-  - rule: AND(skill.option == "Melee Attacks", weapon.is_meele)
+  - rule: AND(skill.option == "Melee Attacks", item.is_meele)
     key: 'attack.tohit'
     value: 1
   tags:
@@ -79,7 +79,7 @@ skills:
     - "STR"
     - "WIS"
   bonuses:
-  - key_rule: 'CONCAT("stats.", LOWER(skill.option))'
+  - key_rule: 'CONCAT("stats.", UPPER(skill.option))'
     value_rule: skill.value
   tags:
   - sdl:StatBonus
@@ -92,8 +92,8 @@ skills:
   tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
-  - key: "spells.advantage"
-    value_rule: "spell.name == skill.option"
+  - key: "spells.cast.advantage"
+    value_rule: "item.name == skill.option"
   
 
 ## XXX Missing - +1 to priest spellcasting checks

@@ -93,8 +93,8 @@ skills:
   tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
-  - key: "spells.advantage"
-    value_rule: "spell.name == skill.option"
+  - key: "spells.cast.advantage"
+    value_rule: "item.name == skill.option"
   
 ## CHECKED
 - id: skill:Core:Wizard:ONE_EXTRA_SPELL

@@ -1,53 +1,67 @@
+## THIS NEEDS TO BE COMPUTED
 weapon_types:
   - Bastard sword
-  - Club
-  - Crossbow
-  - Dagger
-  - Greataxe
-  - Greatsword
-  - Javelin
-  - Longbow
-  - Longsword
-  - Mace
-  - Shortbow
-  - Shortsword
-  - Spear
-  - Staff
-  - Warhammer
+#   - Club
+#   - Crossbow
+#   - Dagger
+#   - Greataxe
+#   - Greatsword
+#   - Javelin
+#   - Longbow
+#   - Longsword
+#   - Mace
+#   - Shortbow
+#   - Shortsword
+#   - Spear
+#   - Staff
+#   - Warhammer
 
 weapons:
 - id: weapon:Core:BastardSword
   name: Bastard sword
+  description: Use a longer blade and handle, allowing for versatile one- or two-handed use. 
   tags:
   - Bastard sword
+  - WeaponType:Bastard sword
   - Melee
   - Close
   cost: 10 gp
   damage: 1d8
   damage_large: 1d10
   hands: 2
-  # future idea
-  # rolls:
-  # - type: attack.tohit
-  #   name: Attack
-  #   dice: 1d20
-  # - type: attack.damage
-  #   name: Damage
-  #   dice: 1d8
-  # - type: attack.damage
-  #   name: Damage (Large)
-  #   dice: 1d10
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
+  - type: attack.damage
+    name: Damage (1H)
+    description: "Wielded with one hand"
+    dice: d8
+    rule: "hands == 1"
+    stat: STR
+  - type: attack.damage
+    name: Damage (2H)
+    dice: d10
+    rule: "hands == 2"
+    description: "Wielded with two hands - no shield"
+    stat: STR
 
+IGNOREME:
 - id: weapon:Core:Club
   name: Club
   tags:
   - Club
   - Melee
   - Close
+  - WeaponType:Club
   cost: 5 cp
   damage: 1d4
   damage_large: 1d4
   hands: 1
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Crossbow
   name: Crossbow
@@ -56,11 +70,16 @@ weapons:
   - Ranged
   - Far
   - Loading
+  - WeaponType:Crossbow
   cost: 8 gp
   damage: 1d6
   damage_large: 1d6
   hands: 2
   consumes: Arrows
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Dagger
   name: Dagger
@@ -72,10 +91,15 @@ weapons:
   - Near
   - Thrown
   - Finesse
+  - WeaponType:Dagger
   cost: 1 gp
   damage: 1d4
   damage_large: 1d4
   hands: 1
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Greataxe
   name: Greataxe
@@ -83,10 +107,15 @@ weapons:
   - Greataxe
   - Melee
   - Close
+  - WeaponType:Greataxe
   cost: 10 gp
   damage: 1d8
   damage_large: 1d10
   hands: 2
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Greatsword
   name: Greatsword
@@ -94,10 +123,15 @@ weapons:
   - Greatsword
   - Melee
   - Close
+  - WeaponType:Greatsword
   cost: 12 gp
   damage: 1d12
   damage_large: 1d12
   hands: 2
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Javelin
   name: Javelin
@@ -108,10 +142,15 @@ weapons:
   - Close
   - Far
   - Thrown
+  - WeaponType:Javelin
   cost: 5 sp
   damage: 1d4
   damage_large: 1d4
   hands: 1
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Longbow
   name: Longbow
@@ -119,11 +158,16 @@ weapons:
   - Longbow
   - Ranged
   - Far
+  - WeaponType:Longsword
   cost: 8 gp
   damage: 1d8
   damage_large: 1d8
   hands: 2
   consumes: Arrow
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Longsword
   name: Longsword
@@ -131,10 +175,15 @@ weapons:
   - Longsword
   - Melee
   - Close
+  - WeaponType:Longsword
   cost: 9 gp
   damage: 1d8
   damage_large: 1d8
   hands: 1
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Mace
   name: Mace
@@ -142,10 +191,15 @@ weapons:
   - Mace
   - Melee
   - Close
+  - WeaponType:Mace
   cost: 5 gp
   damage: 1d6
   damage_large: 1d6
   hands: 1
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Shortbow
   name: Shortbow
@@ -153,11 +207,16 @@ weapons:
   - Shortbow
   - Ranged
   - Far
+  - WeaponType:Shortbow
   cost: 6 gp
   damage: 1d4
   damage_large: 1d4
   hands: 2
   consumes: Arrow
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Shortsword
   name: Shortsword
@@ -165,10 +224,15 @@ weapons:
   - Shortsword
   - Melee
   - Close
+  - WeaponType:Shortsword
   cost: 7 gp
   damage: 1d6
   damage_large: 1d6
   hands: 1
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Spear
   name: Spear
@@ -179,10 +243,15 @@ weapons:
   - Close
   - Near
   - Thrown
+  - WeaponType:Spear
   cost: 5 sp
   damage: 1d6
   damage_large: 1d6
   hands: 1
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Staff
   name: Staff
@@ -190,10 +259,15 @@ weapons:
   - Staff
   - Melee
   - Close
+  - WeaponType:Staff
   cost: 5 sp
   damage: 1d4
   damage_large: 1d4
   hands: 2
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
 
 - id: weapon:Core:Warhammer
   name: Warhammer
@@ -201,7 +275,12 @@ weapons:
   - Warhammer
   - Melee
   - Close
+  - WeaponType:Warhammer
   cost: 10 gp
   damage: 1d10
   damage_large: 1d10
   hands: 2
+  rolls:
+  - type: attack.tohit
+    name: Attack
+    dice: d20
