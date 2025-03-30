@@ -3,10 +3,12 @@ weapons:
   name: Bastard sword
   description: Use a longer blade and handle, allowing for versatile one- or two-handed use. 
   tags:
-  - Bastard sword
   - WeaponType:Bastard sword
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
+  - Hands:1
+  - Hands:2
+  - Stack:Weapon1
   cost: 10 gp
   damage: 1d8
   damage_large: 1d10
@@ -28,14 +30,15 @@ weapons:
     description: "Wielded with two hands - no shield"
     stat: STR
 
-IGNOREME:
 - id: weapon:Core:Club
   name: Club
+  description: A simple, heavy stick or cudgel.
   tags:
-  - Club
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Club
+  - Hands:1
+  - Stack:Weapon1
   cost: 5 cp
   damage: 1d4
   damage_large: 1d4
@@ -44,20 +47,23 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d4
+    stat: STR
 
 - id: weapon:Core:Crossbow
   name: Crossbow
+  description: A ranged weapon that uses a horizontal bow mounted on a stock.
   tags:
-  - Crossbow
-  - Ranged
-  - Far
-  - Loading
+  - Range:Far
   - WeaponType:Crossbow
+  - Hands:2
+  - Stack:Weapon2
   cost: 8 gp
   damage: 1d6
   damage_large: 1d6
   hands: 2
-  consumes: Arrows
   rolls:
   - type: attack.tohit
     name: Attack
@@ -65,15 +71,14 @@ IGNOREME:
 
 - id: weapon:Core:Dagger
   name: Dagger
+  description: A small, easily concealed blade. May be thrown. 
   tags:
-  - Dagger
-  - Melee
-  - Ranged
-  - Close
-  - Near
-  - Thrown
-  - Finesse
+  - Range:Melee
+  - Range:Close
+  - Range:Near
   - WeaponType:Dagger
+  - Hands:1
+  - Stack:Weapon0
   cost: 1 gp
   damage: 1d4
   damage_large: 1d4
@@ -82,14 +87,25 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage (+STR)
+    dice: d4
+    stat: STR
+  - type: attack.damage
+    name: Damage (+DEX)
+    dice: d4
+    stat: DEX
 
 - id: weapon:Core:Greataxe
   name: Greataxe
+  description: A large, heavy axe designed for one or two-handed use.
   tags:
-  - Greataxe
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Greataxe
+  - Hands:1
+  - Hands:2
+  - Stack:Weapon1
   cost: 10 gp
   damage: 1d8
   damage_large: 1d10
@@ -98,14 +114,28 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage (1H)
+    description: "Wielded with one hand"
+    dice: d8
+    rule: "hands == 1"
+    stat: STR
+  - type: attack.damage
+    name: Damage (2H)
+    dice: d10
+    rule: "hands == 2"
+    description: "Wielded with two hands - no shield"
+    stat: STR
 
 - id: weapon:Core:Greatsword
   name: Greatsword
+  description: A large, heavy sword designed for two-handed use.
   tags:
-  - Greatsword
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Greatsword
+  - Hands:2
+  - Stack:Weapon2
   cost: 12 gp
   damage: 1d12
   damage_large: 1d12
@@ -114,17 +144,21 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d12
+    stat: STR
 
 - id: weapon:Core:Javelin
   name: Javelin
+  description: A light spear designed for throwing.
   tags:
-  - Javelin
-  - Melee
-  - Ranged
-  - Close
-  - Far
-  - Thrown
+  - Range:Melee
+  - Range:Close
+  - Range:Far
   - WeaponType:Javelin
+  - Hands:1
+  - Stack:Weapon1
   cost: 5 sp
   damage: 1d4
   damage_large: 1d4
@@ -133,31 +167,47 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage (held)
+    dice: d4
+    stat: STR
+    rule: "range == 'Melee'"
+  - type: attack.damage
+    name: Damage (thrown)
+    dice: d4
+    stat: DEX
+    rule: "range != 'Melee'"
 
 - id: weapon:Core:Longbow
   name: Longbow
+  description: A large bow designed for long-range use.
   tags:
-  - Longbow
-  - Ranged
-  - Far
+  - Range:Far
   - WeaponType:Longsword
+  - Hands:2
+  - Stack:Weapon1
   cost: 8 gp
   damage: 1d8
   damage_large: 1d8
   hands: 2
-  consumes: Arrow
   rolls:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d8
+    stat: DEX
 
 - id: weapon:Core:Longsword
   name: Longsword
+  description: A sword designed for one-handed use.
   tags:
-  - Longsword
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Longsword
+  - Hands:1
+  - Stack:Weapon1
   cost: 9 gp
   damage: 1d8
   damage_large: 1d8
@@ -166,14 +216,20 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d8
+    stat: STR
 
 - id: weapon:Core:Mace
   name: Mace
+  description: A heavy, blunt weapon designed for crushing blows.
   tags:
-  - Mace
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Mace
+  - Hands:1
+  - Stack:Weapon1
   cost: 5 gp
   damage: 1d6
   damage_large: 1d6
@@ -182,31 +238,41 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d6
+    stat: STR
 
 - id: weapon:Core:Shortbow
   name: Shortbow
+  description: A small bow designed for short-range use.
   tags:
-  - Shortbow
-  - Ranged
-  - Far
+  - Range:Far
   - WeaponType:Shortbow
+  - Hands:2
+  - Stack:Weapon2
   cost: 6 gp
   damage: 1d4
   damage_large: 1d4
   hands: 2
-  consumes: Arrow
   rolls:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d6
+    stat: DEX
 
 - id: weapon:Core:Shortsword
   name: Shortsword
+  description: A small sword designed for one-handed use.
   tags:
-  - Shortsword
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Shortsword
+  - Hands:1
+  - Stack:Weapon1
   cost: 7 gp
   damage: 1d6
   damage_large: 1d6
@@ -215,17 +281,21 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d6
+    stat: STR
 
 - id: weapon:Core:Spear
   name: Spear
+  description: A long pole with a pointed end, used for thrusting or throwing.
   tags:
-  - Spear
-  - Melee
-  - Ranged
-  - Close
-  - Near
-  - Thrown
+  - Range:Melee
+  - Range:Close
+  - Range:Near
   - WeaponType:Spear
+  - Hands:1
+  - Stack:Weapon1
   cost: 5 sp
   damage: 1d6
   damage_large: 1d6
@@ -234,14 +304,26 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage (held)
+    dice: d6
+    stat: STR
+    rule: "range == 'Melee'"
+  - type: attack.damage
+    name: Damage (thrown)
+    dice: d6
+    stat: DEX
+    rule: "range != 'Melee'"
 
 - id: weapon:Core:Staff
   name: Staff
+  description: A long, sturdy pole used for support or as a weapon.
   tags:
-  - Staff
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Staff
+  - Hands:2
+  - Stack:Weapon2
   cost: 5 sp
   damage: 1d4
   damage_large: 1d4
@@ -250,14 +332,20 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d4
+    stat: STR
 
 - id: weapon:Core:Warhammer
   name: Warhammer
+  description: A heavy hammer designed for crushing blows.
   tags:
-  - Warhammer
-  - Melee
-  - Close
+  - Range:Melee
+  - Range:Close
   - WeaponType:Warhammer
+  - Hands:2
+  - Stack:Weapon2
   cost: 10 gp
   damage: 1d10
   damage_large: 1d10
@@ -266,3 +354,7 @@ IGNOREME:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d10
+    stat: STR
