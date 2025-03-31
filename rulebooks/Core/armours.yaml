@@ -12,7 +12,7 @@ armours:
     bonuses:
     - key: ac.base
       value: 11
-      rule: "armour.is_donned"
+      rule: "item.is_donned"
       stat_bonus: DEX
 
   - id: 'armour:Core:Chainmail'
@@ -27,7 +27,7 @@ armours:
     bonuses:
     - key: ac.base
       value: 13
-      rule: "armour.is_donned"
+      rule: "item.is_donned"
       stat_bonus: DEX
 
   - id: 'armour:Core:PlateMail'
@@ -42,7 +42,7 @@ armours:
     bonuses:
     - key: ac.base
       value: 15
-      rule: "armour.is_donned"
+      rule: "item.is_donned"
 
   - id: 'armour:Core:MithralChainmail'
     name: Mithral Chainmail
@@ -57,7 +57,7 @@ armours:
     bonuses:
     - key: ac.base
       value: 13
-      rule: "armour.is_donned"
+      rule: "item.is_donned"
       stat_bonus: DEX
 
   - id: 'armour:Core:MithralPlateMail'
@@ -73,7 +73,7 @@ armours:
     bonuses:
     - key: ac.base
       value: 15
-      rule: "armour.is_donned"
+      rule: "item.is_donned"
       stat_bonus: DEX
 
   - id: 'armour:Core:Shield'
@@ -86,7 +86,7 @@ armours:
     bonuses:
     - key: ac.bonus
       value: 2
-      rule: "armour.is_donned"
+      rule: "item.is_donned"
 
   - id: 'armour:Core:Buckler'
     name: Buckler
@@ -99,4 +99,4 @@ armours:
     bonuses:
     - key: ac.bonus
       value: 1
-      rule: "armour.is_donned"
+      rule: "item.is_donned"

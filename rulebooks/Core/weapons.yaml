@@ -68,6 +68,10 @@ weapons:
   - type: attack.tohit
     name: Attack
     dice: d20
+  - type: attack.damage
+    name: Damage
+    dice: d6
+    stat: STR
 
 - id: weapon:Core:Dagger
   name: Dagger

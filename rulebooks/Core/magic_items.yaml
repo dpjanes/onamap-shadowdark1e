@@ -31,14 +31,13 @@ magic_items:
 - id: magic_item:Core:ArmorOfSaintTerragnis
   name: Armor of Saint Terragnis
   tags:
-  - Armour
   - Donnable
   - ArmourType:Plate Mail
   - Swimming:No
   - Stealth:Disadvantage
+  - Stack:Armour
   slots: 3
   hands: 0
-  stack: "armour"
   bonuses:
   - key: ac.base
     value: 15
@@ -65,14 +64,13 @@ magic_items:
 - id: magic_item:Core:ArmorOfTheOni
   name: Armor of the Oni
   tags:
-  - Armour
   - Donnable
   - ArmourType:Plate Mail
   - Swimming:No
   - Stealth:Disadvantage
+  - Stack:Armour
   slots: 3
   hands: 0
-  stack: "armour"
   bonuses:
   - key: ac.base
     value: 15
@@ -288,14 +286,13 @@ magic_items:
 - id: magic_item:Core:MemnonSEntropicArmor
   name: Memnon's Entropic Armor
   tags:
-  - Armour
   - Donnable
   - ArmourType:Plate Mail
   - Swimming:No
   - Stealth:Disadvantage
+  - Stack:Armour
   slots: 3
   hands: 0
-  stack: "armour"
   bonuses:
   - key: ac.base
     value: 15
@@ -309,16 +306,15 @@ magic_items:
 - id: magic_item:Core:MoonwroughtChainmail
   name: Moonwrought Chainmail
   tags:
-  - Armour
   - Donnable
   - ArmourType:Chainmail
   - Swimming:Disadvantage
   - Stealth:Disadvantage
   - Consumable
   - Recharge:Daily
+  - Stack:Armour
   slots: 2
   hands: 0
-  stack: "armour"
   description: "+1 spellcasting check or ranged attack - 1/day"
   bonuses:
   - key: ac.base
@@ -354,14 +350,13 @@ magic_items:
 - id: magic_item:Core:NightcloakArmor
   name: Nightcloak Armor
   tags:
-  - Armour
   - Donnable
   - ArmourType:Leather
   - Swimming:Yes
   - Stealth:Yes
+  - Stack:Armour
   slots: 1
   hands: 0
-  stack: "armour"
   bonuses:
   - key: ac.base
     value: 11
@@ -371,15 +366,14 @@ magic_items:
 - id: magic_item:Core:OphidianArmor
   name: Ophidian Armor
   tags:
-  - Armour
   - Donnable
   - ArmourType:Leather
   - Swimming:Yes
   - Stealth:Yes
+  - Stack:Armour
   cost: 10 gp
   slots: 1
   hands: 0
-  stack: "armour"
   bonuses:
   - key: ac.base
     value: 11
@@ -535,7 +529,6 @@ magic_items:
 - id: magic_item:Core:ShieldOfTheCrusader
   name: Shield of the Crusader
   tags:
-  - Armour
   - Donnable
   - ArmourType:Shield
   slots: 1
@@ -549,7 +542,6 @@ magic_items:
 - id: magic_item:Core:ShieldOfTheLion
   name: Shield of the Lion
   tags:
-  - Armour
   - Donnable
   - ArmourType:Shield
   slots: 1
@@ -563,7 +555,6 @@ magic_items:
 - id: magic_item:Core:ShieldOfTheWitchKing
   name: Shield of the Witch-King
   tags:
-  - Armour
   - Donnable
   - ArmourType:Shield
   slots: 1
@@ -707,14 +698,13 @@ magic_items:
 - id: magic_item:Core:WraithChain
   name: Wraith Chain
   tags:
-  - Armour
   - Donnable
   - ArmourType:Chainmail
   - Swimming:Disadvantage
   - Stealth:Disadvantage
+  - Stack:Armour
   slots: 2
   hands: 0
-  stack: "armour"
   bonuses:
   - key: ac.base
     value: 13
