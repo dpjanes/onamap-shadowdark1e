@@ -1,7 +1,7 @@
 name: Witch
 is_spellcaster: true
 armour_rule: "IN(GET_TAG(item, 'ArmourType:'), ['Leather'])"
-weapon_rule: "IN(item.get_weapon_type, profession.weapon_types)"
+weapon_rule: "IN(item.weapon_type, profession.weapon_types)"
 weapon_types:
   - Dagger
   - Staff

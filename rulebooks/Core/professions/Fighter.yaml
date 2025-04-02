@@ -19,7 +19,7 @@ skills:
   description: "Weapon Mastery with a weapon type"
   value: 1
   options: WEAPONS
-  rule: item.get_weapon_type == skill.option
+  rule: item.weapon_type == skill.option
   bonuses:
   - key: 'attack.tohit'
     value: 1

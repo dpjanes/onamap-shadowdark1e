@@ -6,7 +6,7 @@ armour_types:
 - Chainmail
 - Shield
 - Buckler
-weapon_rule: "IN(item.get_weapon_type, profession.weapon_types)"
+weapon_rule: "IN(item.weapon_type, profession.weapon_types)"
 weapon_types:
 - Club
 - Crossbow
