@@ -1,6 +1,6 @@
 name: Warlock
 hit_dice: 1d6
-armour_rule: "IN(item.get_armour_type, profession.armour_types)"
+armour_rule: "IN(item.armour_type, profession.armour_types)"
 armour_types:
 - Leather
 - Chainmail

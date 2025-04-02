@@ -10,8 +10,6 @@ weapons:
   - Hands:2
   - Stack:Weapon1
   cost: 10 gp
-  damage: 1d8
-  damage_large: 1d10
   hands: 2
   rolls:
   - type: attack.tohit
@@ -40,8 +38,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 cp
-  damage: 1d4
-  damage_large: 1d4
   hands: 1
   rolls:
   - type: attack.tohit
@@ -61,8 +57,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 8 gp
-  damage: 1d6
-  damage_large: 1d6
   hands: 2
   rolls:
   - type: attack.tohit
@@ -71,7 +65,7 @@ weapons:
   - type: attack.damage
     name: Damage
     dice: d6
-    stat: STR
+    stat: DEX
 
 - id: weapon:Core:Dagger
   name: Dagger
@@ -84,8 +78,6 @@ weapons:
   - Hands:1
   - Stack:Weapon0
   cost: 1 gp
-  damage: 1d4
-  damage_large: 1d4
   hands: 1
   rolls:
   - type: attack.tohit
@@ -111,8 +103,6 @@ weapons:
   - Hands:2
   - Stack:Weapon1
   cost: 10 gp
-  damage: 1d8
-  damage_large: 1d10
   hands: 2
   rolls:
   - type: attack.tohit
@@ -141,8 +131,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 12 gp
-  damage: 1d12
-  damage_large: 1d12
   hands: 2
   rolls:
   - type: attack.tohit
@@ -164,8 +152,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 sp
-  damage: 1d4
-  damage_large: 1d4
   hands: 1
   rolls:
   - type: attack.tohit
@@ -191,8 +177,6 @@ weapons:
   - Hands:2
   - Stack:Weapon1
   cost: 8 gp
-  damage: 1d8
-  damage_large: 1d8
   hands: 2
   rolls:
   - type: attack.tohit
@@ -213,8 +197,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 9 gp
-  damage: 1d8
-  damage_large: 1d8
   hands: 1
   rolls:
   - type: attack.tohit
@@ -235,8 +217,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 gp
-  damage: 1d6
-  damage_large: 1d6
   hands: 1
   rolls:
   - type: attack.tohit
@@ -256,8 +236,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 6 gp
-  damage: 1d4
-  damage_large: 1d4
   hands: 2
   rolls:
   - type: attack.tohit
@@ -278,8 +256,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 7 gp
-  damage: 1d6
-  damage_large: 1d6
   hands: 1
   rolls:
   - type: attack.tohit
@@ -301,8 +277,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 sp
-  damage: 1d6
-  damage_large: 1d6
   hands: 1
   rolls:
   - type: attack.tohit
@@ -329,8 +303,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 5 sp
-  damage: 1d4
-  damage_large: 1d4
   hands: 2
   rolls:
   - type: attack.tohit
@@ -351,8 +323,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 10 gp
-  damage: 1d10
-  damage_large: 1d10
   hands: 2
   rolls:
   - type: attack.tohit
