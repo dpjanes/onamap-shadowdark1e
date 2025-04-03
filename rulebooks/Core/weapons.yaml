@@ -12,9 +12,6 @@ weapons:
   cost: 10 gp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage (1H)
     description: "Wielded with one hand"
@@ -40,9 +37,6 @@ weapons:
   cost: 5 cp
   hands: 1
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d4
@@ -59,9 +53,6 @@ weapons:
   cost: 8 gp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d6
@@ -80,9 +71,6 @@ weapons:
   cost: 1 gp
   hands: 1
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage (+STR)
     dice: d4
@@ -105,9 +93,6 @@ weapons:
   cost: 10 gp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage (1H)
     description: "Wielded with one hand"
@@ -133,9 +118,6 @@ weapons:
   cost: 12 gp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d12
@@ -154,9 +136,6 @@ weapons:
   cost: 5 sp
   hands: 1
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage (held)
     dice: d4
@@ -179,9 +158,6 @@ weapons:
   cost: 8 gp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d8
@@ -199,9 +175,6 @@ weapons:
   cost: 9 gp
   hands: 1
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d8
@@ -219,9 +192,6 @@ weapons:
   cost: 5 gp
   hands: 1
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d6
@@ -238,9 +208,6 @@ weapons:
   cost: 6 gp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d6
@@ -258,9 +225,6 @@ weapons:
   cost: 7 gp
   hands: 1
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d6
@@ -279,9 +243,6 @@ weapons:
   cost: 5 sp
   hands: 1
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage (held)
     dice: d6
@@ -305,9 +266,6 @@ weapons:
   cost: 5 sp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d4
@@ -325,9 +283,6 @@ weapons:
   cost: 10 gp
   hands: 2
   rolls:
-  - type: attack.tohit
-    name: Attack
-    dice: d20
   - type: attack.damage
     name: Damage
     dice: d10
