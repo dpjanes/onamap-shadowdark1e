@@ -1,0 +1,34 @@
+treasures:
+  - key: "GP"
+    name: "Gold"
+    description: "The most common currency used in the world."
+    ratio: 1
+    kind: "Coin"
+  - key: "SP"
+    name: "Silver"
+    description: "A less common currency, often used for smaller transactions."
+    key: "S"
+    ratio: "1/10"
+    kind: "Coin"
+  - key: "CP"
+    name: "Copper"
+    description: "A very common currency, often used for small purchases."
+    ratio: "1/100"
+    kind: "Coin"
+  - key: "PP"
+    name: "Platinum"
+    description: "A rare and valuable currency, often used for large transactions."
+    ratio: 10
+    kind: "Coin"
+  - key: "EP"
+    name: "Electrum"
+    description: "A rare currency, often used for large transactions."
+    ratio: 5
+    kind: "Coin"
+
+  - key: "gem50"
+    name: "50 GP Gem"
+    description: "A gem worth 50 GP."
+    ratio: "50"
+    order: 10
+    kind: "Gem"

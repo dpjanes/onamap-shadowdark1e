@@ -2,7 +2,7 @@ gears:
   - id: 'gear:Core:Arrows'
     name: Arrows
     cost: 1 gp
-    slots: 1
+    weight: 1
     max: 20
     tags: 
       - Arrow
@@ -11,19 +11,19 @@ gears:
   - id: 'gear:Core:Backpack'
     name: Backpack
     cost: 2 gp
-    slots: 1
+    weight: 1
 
   - id: 'gear:Core:CaltropsBag'
     name: Caltrops (bag)
     cost: 5 sp
-    slots: 1
+    weight: 1
     tags: 
       - Consumable
 
   - id: 'gear:Core:CrossbowBolts'
     name: Crossbow Bolts
     cost: 1 gp
-    slots: 1
+    weight: 1
     max: 20
     tags: 
       - Consumable
@@ -32,47 +32,47 @@ gears:
   - id: 'gear:Core:Crowbar'
     name: Crowbar
     cost: 5 sp
-    slots: 1
+    weight: 1
 
   - id: 'gear:Core:FlaskOrBottle'
     name: Flask or Bottle
     cost: 3 sp
-    slots: 1
+    weight: 1
 
   - id: 'gear:Core:FlintAndSteel'
     name: Flint and Steel
     cost: 5 sp
-    slots: 1
+    weight: 1
     tags:
       - Fire
 
   - id: 'gear:Core:GrapplingHook'
     name: Grappling Hook
     cost: 1 gp
-    slots: 1
+    weight: 1
 
   - id: 'gear:Core:IronSpikes'
     name: Iron Spikes
     cost: 1 gp
-    slots: 1
+    weight: 1
     tags: 
       - Consumable
 
   - id: 'gear:Core:Lantern'
     name: Lantern
     cost: 5 gp
-    slots: 1
+    weight: 1
     description: Use an Oil Flask for Light
 
   - id: 'gear:Core:Mirror'
     name: Mirror
     cost: 10 gp
-    slots: 1
+    weight: 1
 
   - id: 'gear:Core:OilFlask'
     name: Oil Flask
     cost: 5 sp
-    slots: 1
+    weight: 1
     tags: 
       - Light
       - Consumable
@@ -81,12 +81,12 @@ gears:
   - id: 'gear:Core:Pole'
     name: Pole
     cost: 5 sp
-    slots: 1
+    weight: 1
 
   - id: 'gear:Core:Rations'
     name: Rations
     cost: 5 sp
-    slots: 1
+    weight: 1
     max: 3
     tags: 
       - Consumable
@@ -95,14 +95,14 @@ gears:
   - id: 'gear:Core:Rope'
     name: Rope
     cost: 1 gp
-    slots: 1
+    weight: 1
     tags:
     - sdl:Rope60
 
   - id: 'gear:Core:Torch'
     name: Torch
     cost: 5 sp
-    slots: 1
+    weight: 1
     tags: 
       - Consumable
       - Light
