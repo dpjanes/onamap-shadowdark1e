@@ -94,6 +94,7 @@ spells:
   tags:
   - Range:Close
   - Light
+  rolls:
   - type: spell.duration
     name: Duration
     description: in Rounds
@@ -113,6 +114,9 @@ spells:
     description: in Rouunds
     dice: 10
     units: Round
+  bonuses:
+  - key: ac.base
+    value: 14
 
 - damage: 1d4
   id: spell:Wizard:MagicMissile:1
