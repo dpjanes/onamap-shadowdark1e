@@ -4,10 +4,10 @@
 bonuses:
 - key: "attack.tohit"
   name: "To Hit (Melee/+STR)"
-  value_rule: "character.data.stats.STR.bonus"
+  value_rule: "character.stats.STR.bonus"
   rule: "range == 'Melee'"
   
 - key: "attack.tohit"
   name: "To Hit (Ranged/+DEX)"
-  value_rule: "character.data.stats.DEX.bonus"
+  value_rule: "character.stats.DEX.bonus"
   rule: "range != 'Melee'"
