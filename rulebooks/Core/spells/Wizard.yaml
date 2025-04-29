@@ -1,4 +1,13 @@
 spells:
+- id: spell:Wizard:Blank
+  level: 1
+  profession: Wizard
+  name: "Blank"
+  description: "Fill in your own description"
+  source: "Base"
+  tags:
+  - IsBlank
+
 - id: spell:Wizard:Alarm:1
   level: 1
   name: Alarm

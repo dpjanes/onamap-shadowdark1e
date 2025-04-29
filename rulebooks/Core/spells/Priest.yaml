@@ -1,4 +1,13 @@
 spells:
+- id: spell:Priest:Blank
+  level: 1
+  profession: Priest
+  name: "Blank"
+  description: "Fill in your own description"
+  source: "Base"
+  tags:
+  - IsBlank
+
 - duration: Instant
   id: spell:Priest:CureWounds:1
   level: 1
