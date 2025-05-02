@@ -39,7 +39,6 @@ skills:
 ## CHECKED
 - id: skill:Core:Priest:TurnUndead
   name: "Turn Undead"
-  value: "Turn Undead"
   description: "You know Turn Undead spell"
   bonuses:
   - key: "spells.know"
