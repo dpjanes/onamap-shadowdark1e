@@ -1,0 +1,160 @@
+## NOTE BONUSES ARE BS
+conditions:
+  - id: 'condition:Core:Blinded'
+    name: Blinded
+    description: "You can’t see and automatically fail any ability check that requires sight. Attack rolls against you have advantage, and your attack rolls have disadvantage."
+    bonuses:
+      - key: weapon.attack.advantage
+        value: -1
+      - key: ability_check.sight_based
+        value: -10
+
+  - id: 'condition:Core:Charmed'
+    name: Charmed
+    description: "You can’t attack the charmer or target the charmer with harmful abilities or magical effects. The charmer has advantage on any ability check to interact socially with you."
+    bonuses: []
+
+  - id: 'condition:Core:Deafened'
+    name: Deafened
+    description: "You can’t hear and automatically fail any ability check that requires hearing."
+    bonuses:
+      - key: ability_check.hearing_based
+        value: -10
+
+  - id: 'condition:Core:Frightened'
+    name: Frightened
+    description: "You have disadvantage on ability checks and attack rolls while the source of your fear is within line of sight. You can’t willingly move closer to the source of your fear."
+    bonuses:
+      - key: ability_check.general
+        value: -1
+      - key: weapon.attack.advantage
+        value: -1
+
+  - id: 'condition:Core:Grappled'
+    name: Grappled
+    description: "Your speed becomes 0, and you can’t benefit from any bonus to your speed."
+    bonuses:
+      - key: movement.speed
+        value: 0
+
+  - id: 'condition:Core:Incapacitated'
+    name: Incapacitated
+    description: "You can’t take actions or reactions."
+    bonuses:
+      - key: action.available
+        value: 0
+      - key: reaction.available
+        value: 0
+
+  - id: 'condition:Core:Invisible'
+    name: Invisible
+    description: "You are impossible to see without the aid of magic or special senses. For the purpose of hiding, you are heavily obscured. Attack rolls against you have disadvantage, and your attack rolls have advantage."
+    bonuses:
+      - key: weapon.attack.advantage
+        value: 1
+      - key: defense.attack.advantage
+        value: -1
+
+  - id: 'condition:Core:Paralyzed'
+    name: Paralyzed
+    description: "You are incapacitated and can’t move or speak. You automatically fail Strength and Dexterity saving throws. Attack rolls against you have advantage. Any attack that hits you is a critical hit if the attacker is within 5 feet."
+    bonuses:
+      - key: action.available
+        value: 0
+      - key: reaction.available
+        value: 0
+      - key: saving_throw.STR
+        value: -10
+      - key: saving_throw.DEX
+        value: -10
+      - key: defense.attack.advantage
+        value: 1
+      - key: defense.attack.critical_if_within_5ft
+        value: 1
+
+  - id: 'condition:Core:Petrified'
+    name: Petrified
+    description: "You are transformed, along with any nonmagical object you are wearing or carrying, into a solid inanimate substance (usually stone). You are incapacitated, can't move or speak, and are unaware of your surroundings."
+    bonuses:
+      - key: action.available
+        value: 0
+      - key: reaction.available
+        value: 0
+      - key: movement.speed
+        value: 0
+
+  - id: 'condition:Core:Poisoned'
+    name: Poisoned
+    description: "You have disadvantage on attack rolls and ability checks."
+    bonuses:
+      - key: weapon.attack.advantage
+        value: -1
+      - key: ability_check.general
+        value: -1
+
+  - id: 'condition:Core:Prone'
+    name: Prone
+    description: "Your only movement option is to crawl, unless you stand up. You have disadvantage on attack rolls. An attack roll against you has advantage if the attacker is within 5 feet, otherwise the attack roll has disadvantage."
+    bonuses:
+      - key: movement.mode
+        value: 'crawl'
+      - key: weapon.attack.advantage
+        value: -1
+      - key: defense.attack.advantage_if_within_5ft
+        value: 1
+      - key: defense.attack.advantage_if_ranged
+        value: -1
+
+  - id: 'condition:Core:Restrained'
+    name: Restrained
+    description: "Your speed becomes 0, and you can't benefit from any bonus to your speed. Attack rolls against you have advantage, and your attack rolls have disadvantage. You have disadvantage on Dexterity saving throws."
+    bonuses:
+      - key: movement.speed
+        value: 0
+      - key: weapon.attack.advantage
+        value: -1
+      - key: defense.attack.advantage
+        value: 1
+      - key: saving_throw.DEX
+        value: -1
+
+  - id: 'condition:Core:Stunned'
+    name: Stunned
+    description: "You are incapacitated, can’t move, and can speak only falteringly. You automatically fail Strength and Dexterity saving throws. Attack rolls against you have advantage."
+    bonuses:
+      - key: action.available
+        value: 0
+      - key: reaction.available
+        value: 0
+      - key: movement.speed
+        value: 0
+      - key: saving_throw.STR
+        value: -10
+      - key: saving_throw.DEX
+        value: -10
+      - key: defense.attack.advantage
+        value: 1
+
+  - id: 'condition:Core:Unconscious'
+    name: Unconscious
+    description: "You are incapacitated, can’t move or speak, and are unaware of your surroundings. You drop whatever you’re holding and fall prone. You automatically fail Strength and Dexterity saving throws. Attack rolls against you have advantage. Any attack that hits is a critical hit if the attacker is within 5 feet."
+    bonuses:
+      - key: action.available
+        value: 0
+      - key: reaction.available
+        value: 0
+      - key: movement.speed
+        value: 0
+      - key: saving_throw.STR
+        value: -10
+      - key: saving_throw.DEX
+        value: -10
+      - key: defense.attack.advantage
+        value: 1
+      - key: defense.attack.critical_if_within_5ft
+        value: 1
+
+  - id: 'condition:Core:Exhaustion'
+    name: Exhaustion
+    description: "Exhaustion has six levels. Effects include disadvantage on ability checks, reduced speed, disadvantage on saving throws, halved hit point maximum, and eventual death. Levels stack and must be removed one at a time."
+    bonuses: []

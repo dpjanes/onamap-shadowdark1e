@@ -1,4 +1,5 @@
 name: Goblin
+id: race:Core:Goblin
 
 skills:
 - id: skill:Core:Goblin:KeenSenses

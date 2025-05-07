@@ -1,4 +1,5 @@
 name: Human
+id: race:Core:Human
 
 skills:
 - id: skill:Core:Human:Ambitious

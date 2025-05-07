@@ -1,4 +1,5 @@
 name: Elf
+id: race:Core:Elf
 languages:
   - Common
   - Elvish

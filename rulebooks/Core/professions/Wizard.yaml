@@ -1,4 +1,6 @@
 name: Wizard
+id: profession:Core:Wizard
+
 is_spellcaster: true
 armour_rule: "False"
 weapon_rule: "IN(item.weapon_type, profession.weapon_types)"

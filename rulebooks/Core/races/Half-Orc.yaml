@@ -1,4 +1,5 @@
 name: Half-Orc
+id: race:Core:Half-Orc
 
 skills:
 - id: skill:Core:Half-Orc:Mighty

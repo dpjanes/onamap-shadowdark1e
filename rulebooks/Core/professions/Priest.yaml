@@ -1,4 +1,6 @@
 name: Priest
+id: profession:Core:Priest
+
 is_spellcaster: true
 armour_rule: "True"
 weapon_rule: "IN(item.weapon_type, profession.weapon_types)"

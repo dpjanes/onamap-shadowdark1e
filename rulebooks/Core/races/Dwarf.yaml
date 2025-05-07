@@ -1,4 +1,5 @@
 name: Dwarf
+id: race:Core:Dwarf
 
 skills:
 - id: skill:Core:Dwarf:HitPointAdvantage

@@ -1,22 +1,22 @@
 stats:
-- id: STR
+- id: stat:Core:STR
   name: Strength
   dice: 3d6
 # - id: STR_00
 #   name: Strength/00
 #   dice: d100
-- id: DEX
+- id: stat:Core:DEX
   name: Dexterity
   dice: 3d6
-- id: CON
+- id: stat:Core:CON
   name: Constitution
   dice: 3d6
-- id: INT
+- id: stat:Core:INT
   name: Intelligence
   dice: 3d6
-- id: WIS
+- id: stat:Core:WIS
   name: Wisdom
   dice: 3d6
-- id: CHA
+- id: stat:Core:CHA
   name: Charisma
   dice: 3d6

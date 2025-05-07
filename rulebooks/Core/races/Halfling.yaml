@@ -1,4 +1,6 @@
 name: Halfling
+id: race:Core:Halfling
+
 skills:
 - id: skill:Core:Halfling:Stealthy
   name: "Stealthy"

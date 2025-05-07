@@ -1,4 +1,5 @@
 name: Fighter
+id: profession:Core:Fighter
 is_spellcaster: false
 armour_rule: "True"
 weapon_rule: "True"

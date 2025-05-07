@@ -1,4 +1,6 @@
 name: Thief
+id: profession:Core:Thief
+
 is_spellcaster: false
 weapon_types:
 - Club
