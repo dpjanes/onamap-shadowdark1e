@@ -1,5 +1,6 @@
 name: Goblin
 id: race:Core:Goblin
+name_generator: fictional_names:slavic
 
 skills:
 - id: skill:Core:Goblin:KeenSenses

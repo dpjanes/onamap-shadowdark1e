@@ -1,5 +1,6 @@
 name: Dwarf
 id: race:Core:Dwarf
+name_generator: fictional_names:dwarven
 
 skills:
 - id: skill:Core:Dwarf:HitPointAdvantage

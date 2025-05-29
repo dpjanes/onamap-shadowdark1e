@@ -1,5 +1,6 @@
 name: Half-Orc
 id: race:Core:Half-Orc
+name_generator: fictional_names:orc
 
 skills:
 - id: skill:Core:Half-Orc:Mighty

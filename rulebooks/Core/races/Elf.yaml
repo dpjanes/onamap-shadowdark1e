@@ -1,9 +1,7 @@
 name: Elf
 id: race:Core:Elf
-languages:
-  - Common
-  - Elvish
-  - Sylvan
+name_generator: fictional_names:elven
+
 skills:
 
 ## CHECKED

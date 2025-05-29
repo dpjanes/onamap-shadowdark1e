@@ -1,5 +1,6 @@
 name: Human
 id: race:Core:Human
+name_generator: fictional_names:human
 
 skills:
 - id: skill:Core:Human:Ambitious

@@ -1,5 +1,6 @@
 name: Halfling
 id: race:Core:Halfling
+name_generator: fictional_names:halfling
 
 skills:
 - id: skill:Core:Halfling:Stealthy
