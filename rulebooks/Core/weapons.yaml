@@ -10,18 +10,17 @@ weapons:
   - Hands:2
   - Stack:Weapon1
   cost: 10 gp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage (1H)
     description: "Wielded with one hand"
     dice: d8
-    rule: "hands == '1'"
+    rule: "Hands == '1'"
     # stat: STR
   - type: attack.damage
     name: Damage (2H)
     dice: d10
-    rule: "hands != '1'"
+    rule: "Hands != '1'"
     description: "Wielded with two hands - no shield"
     # stat: STR
 
@@ -35,7 +34,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 cp
-  hands: 1
   rolls:
   - type: attack.damage
     name: Damage
@@ -51,7 +49,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 8 gp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage
@@ -69,7 +66,6 @@ weapons:
   - Hands:1
   - Stack:Weapon0
   cost: 1 gp
-  hands: 1
   rolls:
   - type: attack.damage
     name: Damage (+STR)
@@ -91,18 +87,17 @@ weapons:
   - Hands:2
   - Stack:Weapon1
   cost: 10 gp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage (1H)
     description: "Wielded with one hand"
     dice: d8
-    rule: "hands == '1'"
+    rule: "Hands == '1'"
     # stat: STR
   - type: attack.damage
     name: Damage (2H)
     dice: d10
-    rule: "hands != '1'"
+    rule: "Hands != '1'"
     description: "Wielded with two hands - no shield"
     # stat: STR
 
@@ -116,7 +111,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 12 gp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage
@@ -134,7 +128,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 sp
-  hands: 1
   rolls:
   - type: attack.damage
     name: Damage (held)
@@ -156,7 +149,6 @@ weapons:
   - Hands:2
   - Stack:Weapon1
   cost: 8 gp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage
@@ -173,7 +165,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 9 gp
-  hands: 1
   rolls:
   - type: attack.damage
     name: Damage
@@ -190,7 +181,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 gp
-  hands: 1
   rolls:
   - type: attack.damage
     name: Damage
@@ -206,7 +196,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 6 gp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage
@@ -223,7 +212,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 7 gp
-  hands: 1
   rolls:
   - type: attack.damage
     name: Damage
@@ -241,7 +229,6 @@ weapons:
   - Hands:1
   - Stack:Weapon1
   cost: 5 sp
-  hands: 1
   rolls:
   - type: attack.damage
     name: Damage (held)
@@ -257,7 +244,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 5 sp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage
@@ -274,7 +260,6 @@ weapons:
   - Hands:2
   - Stack:Weapon2
   cost: 10 gp
-  hands: 2
   rolls:
   - type: attack.damage
     name: Damage

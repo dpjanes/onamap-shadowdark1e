@@ -37,7 +37,6 @@ magic_items:
   - Stealth:Disadvantage
   - Stack:Armour
   weight: 3
-  hands: 0
   bonuses:
   - key: ac.base
     value: 15
@@ -70,7 +69,6 @@ magic_items:
   - Stealth:Disadvantage
   - Stack:Armour
   weight: 3
-  hands: 0
   bonuses:
   - key: ac.base
     value: 15
@@ -292,7 +290,6 @@ magic_items:
   - Stealth:Disadvantage
   - Stack:Armour
   weight: 3
-  hands: 0
   bonuses:
   - key: ac.base
     value: 15
@@ -314,7 +311,6 @@ magic_items:
   - Recharge:Daily
   - Stack:Armour
   weight: 2
-  hands: 0
   description: "+1 spellcasting check or ranged attack - 1/day"
   bonuses:
   - key: ac.base
@@ -356,7 +352,6 @@ magic_items:
   - Stealth:Yes
   - Stack:Armour
   weight: 1
-  hands: 0
   bonuses:
   - key: ac.base
     value: 11
@@ -373,7 +368,6 @@ magic_items:
   - Stack:Armour
   cost: 10 gp
   weight: 1
-  hands: 0
   bonuses:
   - key: ac.base
     value: 11
@@ -531,8 +525,8 @@ magic_items:
   tags:
   - Donnable
   - ArmourType:Shield
+  - Hands:1
   weight: 1
-  hands: 1
   stack: "shield"
   bonuses:
   - key: ac.bonus
@@ -544,8 +538,8 @@ magic_items:
   tags:
   - Donnable
   - ArmourType:Shield
+  - Hands:1
   weight: 1
-  hands: 1
   stack: "shield"
   bonuses:
   - key: ac.bonus
@@ -557,8 +551,8 @@ magic_items:
   tags:
   - Donnable
   - ArmourType:Shield
+  - Hands:1
   weight: 1
-  hands: 1
   stack: "shield"
   bonuses:
   - key: ac.bonus
@@ -704,7 +698,6 @@ magic_items:
   - Stealth:Disadvantage
   - Stack:Armour
   weight: 2
-  hands: 0
   bonuses:
   - key: ac.base
     value: 13
