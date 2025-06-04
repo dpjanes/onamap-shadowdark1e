@@ -26,16 +26,11 @@ skills:
     value: 1
   - key: 'attack.damage'
     value: 1
-  - key: 'attack.damage_large'
-    value: 1
   - name: "Weapon Mastery Level Bonus"
     key: 'attack.tohit'
     value_rule: "HALF(character.level.value)"
   - name: "Weapon Mastery Level Bonus"
     key: 'attack.damage'
-    value_rule: "HALF(character.level.value)"
-  - name: "Weapon Mastery Level Bonus"
-    key: 'attack.damage_large'
     value_rule: "HALF(character.level.value)"
   tags:
   - sdl:WeaponMastery
