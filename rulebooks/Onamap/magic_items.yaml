@@ -16,7 +16,7 @@ magic_items:
   bonuses:
   - key: ac.bonus
     value: 1
-    rule: "magic_item.is_donned"
+    rule: "item.is_donned"
 
 - id: magic_item:Onamap:XPotionOfHealing
   name: X Potion of Healing

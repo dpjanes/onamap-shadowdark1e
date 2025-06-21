@@ -10,6 +10,13 @@
     - "Lawful"
     - "Neutral"
     - "Chaotic"
+- name: "Sex"
+  key: "sex"
+  description: "Character Sex"
+  is_strict: true
+  options:
+    - "Male"
+    - "Female"
 - name: "Deity"
   key: "deity"
   description: "Choose a deity to follow"

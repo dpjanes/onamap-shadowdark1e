@@ -40,7 +40,7 @@ magic_items:
   bonuses:
   - key: ac.base
     value: 15
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
 
 - id: magic_item:Core:AmuletOfVitality
   name: Amulet of Vitality
@@ -72,7 +72,7 @@ magic_items:
   bonuses:
   - key: ac.base
     value: 15
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
 
 - id: magic_item:Core:BagOfBadgers
   name: Bag of Badgers
@@ -293,7 +293,7 @@ magic_items:
   bonuses:
   - key: ac.base
     value: 15
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
 
 - id: magic_item:Core:MirrorOfMischief
   name: Mirror of Mischief
@@ -315,7 +315,7 @@ magic_items:
   bonuses:
   - key: ac.base
     value: 13
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
     stat_bonus: DEX
 
 - id: magic_item:Core:NecklaceOfCharm
@@ -355,7 +355,7 @@ magic_items:
   bonuses:
   - key: ac.base
     value: 11
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
     stat_bonus: DEX
 
 - id: magic_item:Core:OphidianArmor
@@ -371,7 +371,7 @@ magic_items:
   bonuses:
   - key: ac.base
     value: 11
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
     stat_bonus: DEX
 
 - id: magic_item:Core:PearlOfPower
@@ -531,7 +531,7 @@ magic_items:
   bonuses:
   - key: ac.bonus
     value: 2
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
 
 - id: magic_item:Core:ShieldOfTheLion
   name: Shield of the Lion
@@ -544,7 +544,7 @@ magic_items:
   bonuses:
   - key: ac.bonus
     value: 2
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
 
 - id: magic_item:Core:ShieldOfTheWitchKing
   name: Shield of the Witch-King
@@ -557,7 +557,7 @@ magic_items:
   bonuses:
   - key: ac.bonus
     value: 2
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
 
 - id: magic_item:Core:ShortswordOfTheThief
   name: Shortsword of the Thief
@@ -701,5 +701,5 @@ magic_items:
   bonuses:
   - key: ac.base
     value: 13
-    rule: "armour.is_donned"
+    rule: "item.is_donned"
     stat_bonus: DEX
