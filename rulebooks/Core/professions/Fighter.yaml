@@ -28,10 +28,10 @@ skills:
     value: 1
   - name: "Weapon Mastery Level Bonus"
     key: 'attack.tohit'
-    value_rule: "HALF(character.level.value)"
+    value_rule: "HALF(pc.functions.Level('Fighter'))"
   - name: "Weapon Mastery Level Bonus"
     key: 'attack.damage'
-    value_rule: "HALF(character.level.value)"
+    value_rule: "HALF(pc.functions.Level('Fighter'))"
   tags:
   - sdl:WeaponMastery
   - Always ## fighter gets one, they can add more
@@ -83,7 +83,7 @@ skills:
   description: "+CON to gear slots."
   bonuses:
   - key: "slots"
-    value_rule: "MAX(0, character.stats.CON.bonus)"
+    value_rule: "MAX(0, pc.stats.CON.bonus)"
   tags:
   - sdl:Hauler
   - Always
