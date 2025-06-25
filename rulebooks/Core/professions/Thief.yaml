@@ -43,7 +43,7 @@ skills:
     - "DEX"
     - "CHR"
   bonuses:
-  - key_rule: 'CONCAT("stats.", UPPER(skill.option))'
+  - key_rule: 'CONCAT("stats.", UPPER(skill.option), ".bonus")'
     value_rule: skill.value
   tags:
   - sdl:StatBonus

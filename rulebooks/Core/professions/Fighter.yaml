@@ -57,7 +57,7 @@ skills:
     - "DEX"
     - "CON"
   bonuses:
-  - key_rule: 'CONCAT("stats.", UPPER(skill.option))'
+  - key_rule: 'CONCAT("stats.", UPPER(skill.option), ".bonus")'
     value_rule: skill.value
   tags:
   - sdl:StatBonus
@@ -82,8 +82,8 @@ skills:
   option: "CON"
   description: "+CON to gear slots."
   bonuses:
-  - key: "slots"
-    value_rule: "MAX(0, pc.stats.CON.bonus)"
+  - key: "weight.bonus"
+    value_rule: "MAX(0, pc.functions.StatBonus('CON'))"
   tags:
   - sdl:Hauler
   - Always

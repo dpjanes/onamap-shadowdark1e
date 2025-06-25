@@ -69,7 +69,7 @@ skills:
     - "Spellcast"
   bonuses:
   - rule: skill.option == "INT"
-    key: "stats.INT"
+    key: "stats.INT.bonus"
     value: 2
   - rule: skill.option == "Spellcast"
     key: "spells.cast"

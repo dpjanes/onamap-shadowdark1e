@@ -17,7 +17,7 @@ skills:
   value: 1
   options: STATS
   bonuses:
-  - key_rule: 'CONCAT("stats.", UPPER(skill.option))'
+  - key_rule: 'CONCAT("stats.", UPPER(skill.option), ".bonus")'
     value_rule: skill.value
   tags:
   - BONUS
