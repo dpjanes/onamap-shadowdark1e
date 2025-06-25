@@ -57,7 +57,7 @@ skills:
     - "DEX"
     - "CON"
   bonuses:
-  - key_rule: 'CONCAT("stats.", UPPER(skill.option), ".bonus")'
+  - key_rule: 'CONCAT("stats.", UPPER(skill.option), ".add")'
     value_rule: skill.value
   tags:
   - sdl:StatBonus
@@ -71,7 +71,7 @@ skills:
   # rule: 'HAS_TAG_VALUE(item, "ArmourType", skill.option)'
   rule: item.armour_type == skill.option
   bonuses:
-  - key: "ac.bonus"
+  - key: "ac.add"
     value_rule: skill.value
   tags:
   - sdl:ArmorMastery
@@ -82,7 +82,7 @@ skills:
   option: "CON"
   description: "+CON to gear slots."
   bonuses:
-  - key: "weight.bonus"
+  - key: "weight.carry.add"
     value_rule: "MAX(0, pc.functions.StatBonus('CON'))"
   tags:
   - sdl:Hauler
