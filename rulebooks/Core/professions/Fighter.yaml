@@ -57,7 +57,7 @@ skills:
     - "DEX"
     - "CON"
   bonuses:
-  - key_rule: 'CONCAT("stats.", UPPER(skill.option), ".add")'
+  - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: skill.value
   tags:
   - sdl:StatBonus

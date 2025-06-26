@@ -83,7 +83,7 @@ skills:
     - "Spellcast"
   bonuses:
   - rule: skill.option == "CHR"
-    key: "stats.INT.add"
+    key: "stat.INT.add"
     value: 2
   - rule: skill.option == "Spellcast"
     key: "spells.cast"
@@ -115,7 +115,7 @@ skills:
 
 - id: skill:Core:Witch:TalentOrStats
   name: "Talent or Stat Boost"
-  description: "Choose a talent or +2 points to distribute to stats."
+  description: "Choose a talent or +2 points to distribute to stat."
 
 
 titles:

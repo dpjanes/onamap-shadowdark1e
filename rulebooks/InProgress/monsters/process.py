@@ -77,7 +77,7 @@ for monster in monsters:
         # b = 1
         # if b:
         #     spell_bonuses.append({
-        #         "key": f"stats.{attribute.lower()}.value",
+        #         "key": f"stat.{attribute.lower()}.value",
         #         "value": b
         #     })
         
