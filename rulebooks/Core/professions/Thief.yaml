@@ -36,12 +36,12 @@ skills:
 ## CHECKED
 - id: skill:Core:Thief:STAT_BONUS
   name: "Stat Bonus"
-  description: "+2 to STR, DEX, or CHR"
+  description: "+2 to STR, DEX, or CHA"
   value: 2
   options:
     - "STR"
     - "DEX"
-    - "CHR"
+    - "CHA"
   bonuses:
   - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: skill.value

@@ -79,10 +79,10 @@ skills:
   name: "Charisma Boost"
   description: "+2 to Charisma stat or +1 to witch spellcasting checks."
   options:
-    - "CHR"
+    - "CHA"
     - "Spellcast"
   bonuses:
-  - rule: skill.option == "CHR"
+  - rule: skill.option == "CHA"
     key: "stat.INT.add"
     value: 2
   - rule: skill.option == "Spellcast"
@@ -91,7 +91,7 @@ skills:
   tags:
   - sdl:PlusTwoIntOrPlusOneWitchCasting
   - sdl:Plus1ToCastingSpells=Spellcast
-  - sdl:StatBonus=CHR
+  - sdl:StatBonus=CHA
 
 - id: skill:Core:Witch:SpellAdvantage
   name: "Spell Advantage"

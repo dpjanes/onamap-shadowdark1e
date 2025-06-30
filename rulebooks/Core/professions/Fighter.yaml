@@ -69,7 +69,7 @@ skills:
   value: 1
   options: ARMOURS
   # rule: 'HAS_TAG_VALUE(item, "ArmourType", skill.option)'
-  rule: item.armour_type == skill.option
+  rule: 'AND(armour.armour_type, armour.armour_type == skill.option)'
   bonuses:
   - key: "ac.add"
     value_rule: skill.value
@@ -95,6 +95,9 @@ skills:
   options:
     - "STR"
     - "DEX"
+  bonuses:
+  - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".text")'
+    value: "Advantage on Opposing Force"
   tags:
   - sdl:Grit
   - sdl:Dexterity=DEX
