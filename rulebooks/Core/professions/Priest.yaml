@@ -89,12 +89,13 @@ skills:
 - id: skill:Core:Priest:ONE_SPELL_ADVANGTAGE
   name: "Spell Advantage"
   description: "Advantage on casting one spell"
-  options: KNOWN-SPELLS:Priest
+  options_rule: "GetOptions('KNOWN-SPELLS', 'Priest')"
   tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
   - key: "spell.cast.advantage"
-    value_rule: "item.name == skill.option"
+    rule: "skill.option"
+    value_rule: "spell.name == skill.option"
   
 
 ## XXX Missing - +1 to priest spellcasting checks

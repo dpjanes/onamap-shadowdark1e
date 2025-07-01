@@ -23,7 +23,7 @@ skills:
 - id: skill:Core:Wizard:LanguageCommon1
   name: "Language"
   description: "Speak an additional common language"
-  options: COMMON_LANGUAGES
+  options_rule: "GetOptions('COMMON_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
@@ -33,7 +33,7 @@ skills:
 - id: skill:Core:Wizard:LanguageCommon2
   name: "Language"
   description: "Speak an additional common language"
-  options: COMMON_LANGUAGES
+  options_rule: "GetOptions('COMMON_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
@@ -44,7 +44,7 @@ skills:
 - id: skill:Core:Wizard:LanguageRare1
   name: "Language"
   description: "Speak an additional rare language"
-  options: RARE_LANGUAGES
+  options_rule: "GetOptions('RARE_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
@@ -54,7 +54,7 @@ skills:
 - id: skill:Core:Wizard:LanguageRare2
   name: "Language"
   description: "Speak an additional rare language"
-  options: RARE_LANGUAGES
+  options_rule: "GetOptions('RARE_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
@@ -83,7 +83,7 @@ skills:
 - id: skill:Core:Wizard:MAKE_MAGIC_ITEM
   name: "Make Magic Item"
   description: "Make a magic item of a type"
-  options: TEXT
+  options_rule: "GetOptions('TEXT')"
   tags:
   - sdl:MakeRandomMagicItem
 
@@ -91,18 +91,19 @@ skills:
 - id: skill:Core:Wizard:ONE_SPELL_ADVANGTAGE
   name: "Spell Advantage"
   description: "Advantage on casting one spell"
-  options: KNOWN-SPELLS:Wizard
+  options_rule: "GetOptions('KNOWN-SPELLS', 'Wizard')"
   tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
   - key: "spell.cast.advantage"
-    value_rule: "item.name == skill.option"
+    rule: "skill.option"
+    value_rule: "spell.name == skill.option"
   
 ## CHECKED
 - id: skill:Core:Wizard:ONE_EXTRA_SPELL
   name: "Extra Spell"
   description: "One additional wizard spell"
-  options: SPELLS:Wizard
+  options_rule: "GetOptions('SPELLS', 'Wizard')"
   bonuses:
   - key: "spells.know"
     value_rule: "skill.option"

@@ -19,7 +19,7 @@ skills:
   name: "Weapon Mastery"
   description: "Weapon Mastery with a weapon type"
   value: 1
-  options: WEAPONS
+  options_rule: "GetOptions('WEAPONS')"
   rule: item.weapon_type == skill.option
   bonuses:
   - key: 'attack.tohit'
@@ -67,7 +67,7 @@ skills:
   name: "AC Bonus"
   description: "+1 AC to one armour"
   value: 1
-  options: ARMOURS
+  options_rule: "GetOptions('ARMOURS')"
   # rule: 'HAS_TAG_VALUE(item, "ArmourType", skill.option)'
   rule: 'AND(armour.armour_type, armour.armour_type == skill.option)'
   bonuses:

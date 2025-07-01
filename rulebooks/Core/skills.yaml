@@ -15,7 +15,7 @@ skills:
   description: "+1 points to to stats"
   source: "Base"
   value: 1
-  options: STATS
+  options_rule: "GetOptions('STATS')"
   bonuses:
   - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: skill.value
@@ -42,7 +42,7 @@ skills:
   source: "Base"
   tags:
   - Language
-  options: RARE_LANGUAGES
+  options_rule: "GetOptions('RARE_LANGUAGES')"
 
 ## CHECKED
 - id: skill:Core:Base:COMMON_LANGUAGE
@@ -51,4 +51,4 @@ skills:
   source: "Base"
   tags:
   - Language
-  options: COMMON_LANGUAGES
+  options_rule: "GetOptions('COMMON_LANGUAGES')"

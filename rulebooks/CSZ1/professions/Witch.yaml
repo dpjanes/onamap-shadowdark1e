@@ -46,7 +46,7 @@ skills:
 - id: skill:Core:Witch:RestoreFamiliar
   name: "Restore Familiar"
   description: "If your familiar dies, you can restore it to life by permanently sacrificing 1d4 hit points."
-  options: TEXT
+  options_rule: "GetOptions('TEXT')"
   tags:
   - Always
 
@@ -96,17 +96,17 @@ skills:
 - id: skill:Core:Witch:SpellAdvantage
   name: "Spell Advantage"
   description: "Gain advantage on casting one spell you know."
-  options: KNOWN-SPELLS:Witch
+  options_rule: "GetOptions('KNOWN-SPELLS', 'Witch')"
   tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
   - key: "spell.cast.advantage"
-    value_rule: "item.name == skill.option"
+    value_rule: "spell.name == skill.option"
 
 - id: skill:Core:Witch:ONE_EXTRA_SPELL
   name: "Extra Spell"
   description: "One additional Witch spell"
-  options: SPELLS:Witch
+  options_rule: "GetOptions('SPELLS', 'Witch')"
   bonuses:
   - key: "spells.know"
     value_rule: "skill.option"

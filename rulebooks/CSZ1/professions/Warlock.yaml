@@ -183,7 +183,7 @@ skills:
   name: Wizard Spell
   description: |
     Learn a wizard spell, tier = half your level. Cast it with INT
-  options: ALL-SPELLS:Wizard
+  options_rule: "GetOptions('ALL-SPELLS', 'Wizard')"
   # bonuses:
   # ## XXX
   # - key: "spell.cast"

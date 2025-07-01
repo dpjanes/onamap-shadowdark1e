@@ -11,7 +11,7 @@ skills:
 
 - id: skill:Core:Human:LanguageExtra
   name: "Language"
-  options: COMMON_LANGUAGES
+  options_rule: "GetOptions('COMMON_LANGUAGES')"
   description: "Speak an additional common language"
   tags:
   - sdl:ExtraLanguage
