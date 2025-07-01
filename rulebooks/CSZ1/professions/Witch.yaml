@@ -86,7 +86,7 @@ skills:
     key: "stat.INT.add"
     value: 2
   - rule: skill.option == "Spellcast"
-    key: "spells.cast"
+    key: "spell.cast"
     value: 1
   tags:
   - sdl:PlusTwoIntOrPlusOneWitchCasting
@@ -100,7 +100,7 @@ skills:
   tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
-  - key: "spells.cast.advantage"
+  - key: "spell.cast.advantage"
     value_rule: "item.name == skill.option"
 
 - id: skill:Core:Witch:ONE_EXTRA_SPELL

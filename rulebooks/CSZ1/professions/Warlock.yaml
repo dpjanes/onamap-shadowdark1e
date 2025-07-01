@@ -186,7 +186,7 @@ skills:
   options: ALL-SPELLS:Wizard
   # bonuses:
   # ## XXX
-  # - key: "spells.cast"
+  # - key: "spell.cast"
   #   value_rule: "spell.name == skill.option"
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:StatBoost

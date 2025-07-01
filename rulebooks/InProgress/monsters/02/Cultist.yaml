@@ -43,6 +43,6 @@ weapons:
     value: 1
   damage: 1d8
 bonuses:
-- key: spells.cast
+- key: spell.cast
   value: 2
 

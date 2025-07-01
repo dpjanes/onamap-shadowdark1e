@@ -93,7 +93,7 @@ skills:
   tags:
   - sdl:AdvOnCastOneSpell
   bonuses:
-  - key: "spells.cast.advantage"
+  - key: "spell.cast.advantage"
     value_rule: "item.name == skill.option"
   
 
@@ -105,7 +105,7 @@ skills:
   description: "+1 to Spellcasting"
   bonuses:
   - skill: skill.option == "Spellcast"
-    key: "spells.cast"
+    key: "spell.cast"
     value: 1
   tags:
   - sdl:Plus1ToCastingSpells
