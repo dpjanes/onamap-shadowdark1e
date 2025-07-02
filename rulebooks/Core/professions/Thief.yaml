@@ -54,14 +54,20 @@ skills:
   description: "Advantage on such as picking locks and other Thief skills"
   tags:
   - Always
+  bonuses:
+  - key: 'stat.STR.text'
+    value: "Advantage on Thief Talents"
+  - key: 'stat.DEX.text'
+    value: "Advantage on Thief Talents"
+  - key: 'stat.INT.text'
+    value: "Advantage on Thief Talents"
 
 ## CHECKED
-- id: skill:Core:Thief:ClassAbilityBackstab
+- id: skill:Core:Thief:Backstab
   name: "Backstab"
   description: "Extra die + 1/2 level damage to unaware creatures"
   tags:
   - sdl:BackstabIncrease
-  - Always
 
 ## XXX MISSING 2	Gain advantage on initiative rolls (reroll duplicates)
 ## sdL:ClassTalent3

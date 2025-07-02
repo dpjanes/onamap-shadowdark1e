@@ -60,10 +60,10 @@ skills:
     - "Ranged Attacks"
     - "Melee Attacks"
   bonuses:
-  - rule: AND(skill.option == "Ranged Attacks", item.is_ranged)
+  - rule: AND(skill.option == "Ranged Attacks", weapon.is_ranged, Range != "Melee")
     key: 'attack.tohit'
     value: 1
-  - rule: AND(skill.option == "Melee Attacks", item.is_meele)
+  - rule: AND(skill.option == "Melee Attacks", weapon.is_melee, Range == "Melee")
     key: 'attack.tohit'
     value: 1
   tags:
