@@ -103,7 +103,8 @@ skills:
     - "DEX"
     - "WIS"
   bonuses:
-  - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
+  - key_rule: 'f"stat.{skill.option}.add"'
+    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: 2
 
 - id: skill:CSZ1:Warlock:Kytheros:WisdomRoll
@@ -150,7 +151,8 @@ skills:
     - "DEX"
     - "CON"
   bonuses:
-  - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
+  - key_rule: 'f"stat.{skill.option}.add"'
+    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: 2
 
 - id: skill:CSZ1:Warlock:Mugdulblub:Immunity
@@ -199,7 +201,8 @@ skills:
     - "DEX"
     - "INT"
   bonuses:
-  - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
+  - key_rule: 'f"stat.{skill.option}.add"'
+    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: 2
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:XPBoost
@@ -243,7 +246,8 @@ skills:
     - "DEX"
     - "CHA"
   bonuses:
-  - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
+  - key_rule: 'f"stat.{skill.option}.add"'
+    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: 2
 
 - id: skill:CSZ1:Warlock:Titania:SpellResistance
@@ -287,7 +291,8 @@ skills:
     - "DEX"
     - "STR"
   bonuses:
-  - key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
+  - key_rule: 'f"stat.{skill.option}.add"'
+    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: 2
 
 - id: skill:CSZ1:Warlock:TheWillowman:MoraleCheck
