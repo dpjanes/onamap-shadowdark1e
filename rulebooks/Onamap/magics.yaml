@@ -1,12 +1,12 @@
-magic_items:
-- id: magic_item:Onamap:LampOfLight
+magics:
+- id: magic:Onamap:LampOfLight
   name: Lamp of Light
   tags:
   - Recharge:Daily
   - Light
   description: This creates a light for one hour.
 
-- id: magic_item:Onamap:RingOfProtection
+- id: magic:Onamap:RingOfProtection
   name: Ring of Protection
   tags:
   - Ring
@@ -18,7 +18,7 @@ magic_items:
     value: 1
     rule: "item.is_donned"
 
-- id: magic_item:Onamap:XPotionOfHealing
+- id: magic:Onamap:XPotionOfHealing
   name: X Potion of Healing
   tags:
   - Potion

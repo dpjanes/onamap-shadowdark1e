@@ -1,4 +1,4 @@
-magic_item_types:
+magic_types:
 - Armour
 - Weapon
 - Wand
@@ -26,9 +26,9 @@ magic_item_types:
 - Mind Control/Psychic
 - Light
 
-magic_items:
+magics:
 
-- id: magic_item:Core:ArmorOfSaintTerragnis
+- id: magic:Core:ArmorOfSaintTerragnis
   name: Armor of Saint Terragnis
   tags:
   - Donnable
@@ -42,25 +42,25 @@ magic_items:
     value: 15
     rule: "item.is_donned"
 
-- id: magic_item:Core:AmuletOfVitality
+- id: magic:Core:AmuletOfVitality
   name: Amulet of Vitality
   tags:
   - Amulet/Necklace
   - Donnable
 
-- id: magic_item:Core:AlabasterDestrier
+- id: magic:Core:AlabasterDestrier
   name: Alabaster Destrier
   tags:
   - Summoning/Transformation
 
-- id: magic_item:Core:AmuletOfSecrecy
+- id: magic:Core:AmuletOfSecrecy
   name: Amulet of Secrecy
   tags:
   - Amulet/Necklace
   - Donnable
   - Divination/Perception
 
-- id: magic_item:Core:ArmorOfTheOni
+- id: magic:Core:ArmorOfTheOni
   name: Armor of the Oni
   tags:
   - Donnable
@@ -74,214 +74,214 @@ magic_items:
     value: 15
     rule: "item.is_donned"
 
-- id: magic_item:Core:BagOfBadgers
+- id: magic:Core:BagOfBadgers
   name: Bag of Badgers
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:BagOfDevouring
+- id: magic:Core:BagOfDevouring
   name: Bag of Devouring
   tags:
   - Storage
   - Cursed Item
 
-- id: magic_item:Core:BeadOfForce
+- id: magic:Core:BeadOfForce
   name: Bead of Force
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:BagOfHolding
+- id: magic:Core:BagOfHolding
   name: Bag of Holding
   tags:
   - Storage
 
-- id: magic_item:Core:BladeOfVengeance
+- id: magic:Core:BladeOfVengeance
   name: Blade of Vengeance
   tags:
   - Weapon
   - Donnable
   - Bastard Sword
 
-- id: magic_item:Core:BootsOfDancing
+- id: magic:Core:BootsOfDancing
   name: Boots of Dancing
   tags:
   - Boots/Bracers/Gloves
   - Donnable
   - Cursed Item
 
-- id: magic_item:Core:BootsOfHovering
+- id: magic:Core:BootsOfHovering
   name: Boots of Hovering
   tags:
   - Boots/Bracers/Gloves
   - Donnable
   - Flight/Levitation
 
-- id: magic_item:Core:BootsOfTheCat
+- id: magic:Core:BootsOfTheCat
   name: Boots of the Cat
   tags:
   - Boots/Bracers/Gloves
   - Donnable
 
-- id: magic_item:Core:BracersOfArchery
+- id: magic:Core:BracersOfArchery
   name: Bracers of Archery
   tags:
   - Boots/Bracers/Gloves
   - Donnable
 
-- id: magic_item:Core:BracersOfDefense
+- id: magic:Core:BracersOfDefense
   name: Bracers of Defense
   tags:
   - Boots/Bracers/Gloves
   - Donnable
 
-- id: magic_item:Core:BrakSCubeOfPerfection
+- id: magic:Core:BrakSCubeOfPerfection
   name: Brak's Cube of Perfection
   tags:
   - Luck/Probability Manipulation
 
-- id: magic_item:Core:BrakSBookOfMisspells
+- id: magic:Core:BrakSBookOfMisspells
   name: Brak's Book of Misspells
   tags:
   - Cursed Item
 
-- id: magic_item:Core:CircletOfWisdom
+- id: magic:Core:CircletOfWisdom
   name: Circlet of Wisdom
   tags:
   - Helmet/Hat
 
-- id: magic_item:Core:CloakOfElvenkind
+- id: magic:Core:CloakOfElvenkind
   name: Cloak of Elvenkind
   tags:
   - Cloak/Robe
   - Donnable
 
-- id: magic_item:Core:CloakOfTheBat
+- id: magic:Core:CloakOfTheBat
   name: Cloak of the Bat
   tags:
   - Cloak/Robe
   - Donnable
   - Flight/Levitation
 
-- id: magic_item:Core:CrystalBall
+- id: magic:Core:CrystalBall
   name: Crystal Ball
   tags:
   - Divination/Perception
 
-- id: magic_item:Core:DaggerOfTheGoblinHero
+- id: magic:Core:DaggerOfTheGoblinHero
   name: Dagger of the Goblin Hero
   tags:
   - Weapon
   - Donnable
   - Dagger
 
-- id: magic_item:Core:EggOfTheCockatrice
+- id: magic:Core:EggOfTheCockatrice
   name: Egg of the Cockatrice
   tags:
   - Summoning/Transformation
 
-- id: magic_item:Core:FlyingCarpet
+- id: magic:Core:FlyingCarpet
   name: Flying Carpet
   tags:
   - Flight/Levitation
 
-- id: magic_item:Core:GenieLamp
+- id: magic:Core:GenieLamp
   name: Genie Lamp
   tags:
   - Summoning/Transformation
 
-- id: magic_item:Core:GlovesOfAgility
+- id: magic:Core:GlovesOfAgility
   name: Gloves of Agility
   tags:
   - Boots/Bracers/Gloves
   - Donnable
 
-- id: magic_item:Core:GoblinBomb
+- id: magic:Core:GoblinBomb
   name: Goblin Bomb
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:GauntletsOfMight
+- id: magic:Core:GauntletsOfMight
   name: Gauntlets of Might
   tags:
   - Boots/Bracers/Gloves
   - Donnable
 
-- id: magic_item:Core:GreataxeOfTheHorde
+- id: magic:Core:GreataxeOfTheHorde
   name: Greataxe of the Horde
   tags:
   - Weapon
   - Donnable
   - Greataxe
 
-- id: magic_item:Core:HatOfIntellect
+- id: magic:Core:HatOfIntellect
   name: Hat of Intellect
   tags:
   - Helmet/Hat
 
-- id: magic_item:Core:HatOfTheHound
+- id: magic:Core:HatOfTheHound
   name: Hat of the Hound
   tags:
   - Helmet/Hat
   - Transformation
 
-- id: magic_item:Core:HelmOfMindReading
+- id: magic:Core:HelmOfMindReading
   name: Helm of Mind Reading
   tags:
   - Helmet/Hat
   - Mind Control/Psychic
 
-- id: magic_item:Core:HornedHelmOfRamlaat
+- id: magic:Core:HornedHelmOfRamlaat
   name: Horned Helm of Ramlaat
   tags:
   - Helmet/Hat
 
-- id: magic_item:Core:HourglassOfTheBlackSands
+- id: magic:Core:HourglassOfTheBlackSands
   name: Hourglass of the Black Sands
   tags:
   - Time Manipulation
 
-- id: magic_item:Core:ImmovableRod
+- id: magic:Core:ImmovableRod
   name: Immovable Rod
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:JewelOfBarbalt
+- id: magic:Core:JewelOfBarbalt
   name: Jewel of Barbalt
   tags:
   - Luck/Probability Manipulation
 
-- id: magic_item:Core:KytherianCog
+- id: magic:Core:KytherianCog
   name: Kytherian Cog
   tags:
   - Artifact/Relic
 
-- id: magic_item:Core:LongbowOfTheElvenKings
+- id: magic:Core:LongbowOfTheElvenKings
   name: Longbow of the Elven Kings
   tags:
   - Weapon
   - Donnable
   - Longbow
 
-- id: magic_item:Core:MemnonSDiscordantBlade
+- id: magic:Core:MemnonSDiscordantBlade
   name: Memnon's Discordant Blade
   tags:
   - Weapon
   - Donnable
   - Greatsword
 
-- id: magic_item:Core:MemnonSBlazingJavelin
+- id: magic:Core:MemnonSBlazingJavelin
   name: Memnon's Blazing Javelin
   tags:
   - Weapon
   - Donnable
   - Javelin
 
-- id: magic_item:Core:MagicInk
+- id: magic:Core:MagicInk
   name: Magic Ink
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:MemnonSEntropicArmor
+- id: magic:Core:MemnonSEntropicArmor
   name: Memnon's Entropic Armor
   tags:
   - Donnable
@@ -295,12 +295,12 @@ magic_items:
     value: 15
     rule: "item.is_donned"
 
-- id: magic_item:Core:MirrorOfMischief
+- id: magic:Core:MirrorOfMischief
   name: Mirror of Mischief
   tags:
   - Cursed Item
 
-- id: magic_item:Core:MoonwroughtChainmail
+- id: magic:Core:MoonwroughtChainmail
   name: Moonwrought Chainmail
   tags:
   - Donnable
@@ -318,32 +318,32 @@ magic_items:
     rule: "item.is_donned"
     stat_bonus: DEX
 
-- id: magic_item:Core:NecklaceOfCharm
+- id: magic:Core:NecklaceOfCharm
   name: Necklace of Charm
   tags:
   - Amulet/Necklace
   - Donnable
 
-- id: magic_item:Core:NecroticMaceOfWithering
+- id: magic:Core:NecroticMaceOfWithering
   name: Necrotic Mace of Withering
   tags:
   - Weapon
   - Donnable
   - Mace
 
-- id: magic_item:Core:ObsidianWitchknife
+- id: magic:Core:ObsidianWitchknife
   name: Obsidian Witchknife
   tags:
   - Weapon
   - Donnable
   - Dagger
 
-- id: magic_item:Core:OnyxDestrier
+- id: magic:Core:OnyxDestrier
   name: Onyx Destrier
   tags:
   - Summoning/Transformation
 
-- id: magic_item:Core:NightcloakArmor
+- id: magic:Core:NightcloakArmor
   name: Nightcloak Armor
   tags:
   - Donnable
@@ -358,7 +358,7 @@ magic_items:
     rule: "item.is_donned"
     stat_bonus: DEX
 
-- id: magic_item:Core:OphidianArmor
+- id: magic:Core:OphidianArmor
   name: Ophidian Armor
   tags:
   - Donnable
@@ -374,35 +374,35 @@ magic_items:
     rule: "item.is_donned"
     stat_bonus: DEX
 
-- id: magic_item:Core:PearlOfPower
+- id: magic:Core:PearlOfPower
   name: Pearl of Power
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:PipeOfTheRollingHills
+- id: magic:Core:PipeOfTheRollingHills
   name: Pipe of the Rolling Hills
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:PipesOfTheSewers
+- id: magic:Core:PipesOfTheSewers
   name: Pipes of the Sewers
   tags:
   - Summoning/Transformation
   - Cursed Item
 
-- id: magic_item:Core:PortableHole
+- id: magic:Core:PortableHole
   name: Portable Hole
   tags:
   - Storage
   - Cursed Item
 
-- id: magic_item:Core:PotionOfExtirpation
+- id: magic:Core:PotionOfExtirpation
   name: Potion of Extirpation
   tags:
   - Potion
   - Consumable
 
-- id: magic_item:Core:PotionOfFlying
+- id: magic:Core:PotionOfFlying
   name: Potion of Flying
   tags:
   - Potion
@@ -410,51 +410,51 @@ magic_items:
   - Flight/Levitation
   description: Fly near distance for 10 rounds.
 
-- id: magic_item:Core:PotionOfForgetfulness
+- id: magic:Core:PotionOfForgetfulness
   name: Potion of Forgetfulness
   tags:
   - Potion
   - Consumable
 
-- id: magic_item:Core:PotionOfGiantStrength
+- id: magic:Core:PotionOfGiantStrength
   name: Potion of Giant Strength
   tags:
   - Potion
   - Consumable
 
-- id: magic_item:Core:PotionOfHealing
+- id: magic:Core:PotionOfHealing
   name: Potion of Healing
   tags:
   - Potion
   - Consumable
   - Healing/Restoration
 
-- id: magic_item:Core:PotionOfInvisibility
+- id: magic:Core:PotionOfInvisibility
   name: Potion of Invisibility
   tags:
   - Potion
   - Consumable
 
-- id: magic_item:Core:PotionOfLegendaryDeeds
+- id: magic:Core:PotionOfLegendaryDeeds
   name: Potion of Legendary Deeds
   tags:
   - Potion
   - Consumable
 
-- id: magic_item:Core:PotionOfPolymorph
+- id: magic:Core:PotionOfPolymorph
   name: Potion of Polymorph
   tags:
   - Potion
   - Consumable
 
-- id: magic_item:Core:PotionOfVitality
+- id: magic:Core:PotionOfVitality
   name: Potion of Vitality
   tags:
   - Potion
   - Consumable
   - Healing/Restoration
 
-- id: magic_item:Core:RingOfFeatherFalling
+- id: magic:Core:RingOfFeatherFalling
   name: Ring of Feather Falling
   weight: 0
   tags:
@@ -463,7 +463,7 @@ magic_items:
   - Recharge:Daily
   description: "Cast Feather Fall - 1/day"
 
-- id: magic_item:Core:RingOfFireballs
+- id: magic:Core:RingOfFireballs
   name: Ring of Fireballs
   weight: 0
   tags:
@@ -476,51 +476,51 @@ magic_items:
     type: attack.tohit
     dice: 4d6
 
-- id: magic_item:Core:RingOfInvisibility
+- id: magic:Core:RingOfInvisibility
   name: Ring of Invisibility
   weight: 0
   tags:
   - Ring
   - Donnable
 
-- id: magic_item:Core:RingOfRamlaat
+- id: magic:Core:RingOfRamlaat
   name: Ring of Ramlaat
   weight: 0
   tags:
   - Ring
   - Donnable
 
-- id: magic_item:Core:RobeOfTheDruid
+- id: magic:Core:RobeOfTheDruid
   name: Robe of the Druid
   tags:
   - Cloak/Robe
   - Donnable
 
-- id: magic_item:Core:RobeOfTheSorcerer
+- id: magic:Core:RobeOfTheSorcerer
   name: Robe of the Sorcerer
   tags:
   - Cloak/Robe
   - Donnable
 
-- id: magic_item:Core:RobeOfTheArchmage
+- id: magic:Core:RobeOfTheArchmage
   name: Robe of the Archmage
   tags:
   - Cloak/Robe
   - Donnable
 
-- id: magic_item:Core:ScarabOfProtection
+- id: magic:Core:ScarabOfProtection
   name: Scarab of Protection
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:ScimitarOfTheAshMoon
+- id: magic:Core:ScimitarOfTheAshMoon
   name: Scimitar of the Ash Moon
   tags:
   - Weapon
   - Donnable
   - Scimitar
 
-- id: magic_item:Core:ShieldOfTheCrusader
+- id: magic:Core:ShieldOfTheCrusader
   name: Shield of the Crusader
   tags:
   - Donnable
@@ -533,7 +533,7 @@ magic_items:
     value: 2
     rule: "item.is_donned"
 
-- id: magic_item:Core:ShieldOfTheLion
+- id: magic:Core:ShieldOfTheLion
   name: Shield of the Lion
   tags:
   - Donnable
@@ -546,7 +546,7 @@ magic_items:
     value: 2
     rule: "item.is_donned"
 
-- id: magic_item:Core:ShieldOfTheWitchKing
+- id: magic:Core:ShieldOfTheWitchKing
   name: Shield of the Witch-King
   tags:
   - Donnable
@@ -559,137 +559,137 @@ magic_items:
     value: 2
     rule: "item.is_donned"
 
-- id: magic_item:Core:ShortswordOfTheThief
+- id: magic:Core:ShortswordOfTheThief
   name: Shortsword of the Thief
   tags:
   - Weapon
   - Donnable
   - Shortsword
 
-- id: magic_item:Core:SilverMaceOfWrath
+- id: magic:Core:SilverMaceOfWrath
   name: Silver Mace of Wrath
   tags:
   - Weapon
   - Donnable
   - Mace
 
-- id: magic_item:Core:SphereOfAnnihilation
+- id: magic:Core:SphereOfAnnihilation
   name: Sphere of Annihilation
   tags:
   - Artifact/Relic
 
-- id: magic_item:Core:SpyglassOfTrueSight
+- id: magic:Core:SpyglassOfTrueSight
   name: Spyglass of True Sight
   tags:
   - Divination/Perception
 
-- id: magic_item:Core:StaffOfHealing
+- id: magic:Core:StaffOfHealing
   name: Staff of Healing
   tags:
   - Weapon
   - Donnable
   - Staff
 
-- id: magic_item:Core:StaffOfOrd
+- id: magic:Core:StaffOfOrd
   name: Staff of Ord
   tags:
   - Weapon
   - Donnable
   - Staff
 
-- id: magic_item:Core:TheKytherianMechanism
+- id: magic:Core:TheKytherianMechanism
   name: The Kytherian Mechanism
   tags:
   - Artifact/Relic
 
-- id: magic_item:Core:TheMaledictionInfernal
+- id: magic:Core:TheMaledictionInfernal
   name: The Malediction Infernal
   tags:
   - Artifact/Relic
 
-- id: magic_item:Core:StaffOfTheCobra
+- id: magic:Core:StaffOfTheCobra
   name: Staff of the Cobra
   tags:
   - Weapon
   - Donnable
   - Staff
 
-- id: magic_item:Core:SwordOfTheAncients
+- id: magic:Core:SwordOfTheAncients
   name: Sword of the Ancients
   tags:
   - Weapon
   - Donnable
   - Longsword
 
-- id: magic_item:Core:ThriceBlessedSword
+- id: magic:Core:ThriceBlessedSword
   name: Thrice-Blessed Sword
   tags:
   - Weapon
   - Donnable
   - Longsword
 
-- id: magic_item:Core:TomeMordanticus
+- id: magic:Core:TomeMordanticus
   name: Tome Mordanticus
   tags:
   - Artifact/Relic
 
-- id: magic_item:Core:TomeOfGehemna
+- id: magic:Core:TomeOfGehemna
   name: Tome of Gehemna
   tags:
   - Artifact/Relic
 
-- id: magic_item:Core:TomeOfGehemna
+- id: magic:Core:TomeOfGehemna
   name: Tome of Gehemna
   tags:
   - Artifact/Relic
 
-- id: magic_item:Core:TomeOfHadebe
+- id: magic:Core:TomeOfHadebe
   name: Tome of Hadebe
   tags:
   - Scroll
   - Consumable
 
-- id: magic_item:Core:TridentOfTheSeas
+- id: magic:Core:TridentOfTheSeas
   name: Trident of the Seas
   tags:
   - Weapon
   - Donnable
   - Spear
 
-- id: magic_item:Core:TrueName
+- id: magic:Core:TrueName
   name: True Name
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:WandOfUnlife
+- id: magic:Core:WandOfUnlife
   name: Wand of Unlife
   tags:
   - Wand
   - Necromantic/Undead Affinity
 
-- id: magic_item:Core:WandOfWarding
+- id: magic:Core:WandOfWarding
   name: Wand of Warding
   tags:
   - Wand
 
-- id: magic_item:Core:WarhammerOfTheDwarfLords
+- id: magic:Core:WarhammerOfTheDwarfLords
   name: Warhammer of the Dwarf Lords
   tags:
   - Weapon
   - Donnable
   - Warhammer
 
-- id: magic_item:Core:WarHornOfTheAngels
+- id: magic:Core:WarHornOfTheAngels
   name: War Horn of the Angels
   tags:
   - Miscellaneous Tool
 
-- id: magic_item:Core:WellOfManyWorlds
+- id: magic:Core:WellOfManyWorlds
   name: Well of Many Worlds
   tags:
   - Planar/Dimensional
 
-- id: magic_item:Core:WraithChain
+- id: magic:Core:WraithChain
   name: Wraith Chain
   tags:
   - Donnable
