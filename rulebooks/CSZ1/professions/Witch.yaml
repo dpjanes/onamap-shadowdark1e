@@ -1,3 +1,4 @@
+id: profession:CSZ1:Witch
 name: Witch
 is_spellcaster: true
 armour_rule: "IN(GET_TAG(item, 'ArmourType:'), ['Leather'])"

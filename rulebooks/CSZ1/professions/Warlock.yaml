@@ -1,3 +1,4 @@
+id: profession:CSZ1:Warlock
 name: Warlock
 hit_dice: 1d6
 armour_rule: "IN(item.armour_type, profession.armour_types)"
