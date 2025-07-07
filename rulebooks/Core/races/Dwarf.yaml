@@ -7,14 +7,14 @@ skills:
   name: "HP Advantage"
   description: "Roll hit points per level with advantage"
   tags:
-  - Always
+  - IsAlways
 
 - id: skill:Core:Dwarf:HitPointStarting
   name: "HP Starting"
   description: "Start with +2 HP"
   value: 2
   tags:
-  - Always
+  - IsAlways
 
 - id: skill:Core:Dwarf:LanguageDwarvish
   name: "Language"
@@ -23,4 +23,4 @@ skills:
   tags:
   - "sdl:ExtraLanguage"
   - "Language"
-  - Always
+  - IsAlways

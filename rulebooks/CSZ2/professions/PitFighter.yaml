@@ -12,7 +12,7 @@ skills:
   description: "1d8 per level"
   value: 8
   tags:
-  - Always
+  - IsAlways
   - HitDice
 
 - id: skill:CSZ2:PitFighter:Flourish
@@ -23,21 +23,21 @@ skills:
   - Recharge:Daily
   value: 3
   tags:
-  - Always
+  - IsAlways
 
 - id: skill:CSZ2:PitFighter:Implacable
   name: Implacable
   description: |
     Advantage on CON checks to resist injury, poison, or endure extreme environments.
   tags:
-  - Always
+  - IsAlways
 
 - id: skill:CSZ2:PitFighter:LastStand
   name: Last Stand
   description: |
     Rise from dying with 1 HP on a natural 18-20.
   tags:
-  - Always
+  - IsAlways
 
 - id: skill:CSZ2:PitFighter:Relentless
   name: Relentless
@@ -46,4 +46,4 @@ skills:
   value: 3
   tags:
   - Recharge:Daily
-  - Always
+  - IsAlways

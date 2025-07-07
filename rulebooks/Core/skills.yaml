@@ -34,7 +34,7 @@ skills:
   option: "Common"
   tags:
   - Language
-  - Always
+  - IsAlways
 
 ## CHECKED
 - id: skill:Core:Base:RARE_LANGUAGE

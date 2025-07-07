@@ -11,7 +11,7 @@ skills:
   description: "1d8 per level"
   value: 8
   tags:
-  - Always
+  - IsAlways
   - HitDice
 
 ## CHECKED
@@ -34,7 +34,7 @@ skills:
     value_rule: "HALF(pc.functions.Level('Fighter'))"
   tags:
   - sdl:WeaponMastery
-  - Always ## fighter gets one, they can add more
+  - IsAlways ## fighter gets one, they can add more
 
 ## CHECKED
 - id: skill:Core:Fighter:ATTACK_BONUS
@@ -87,7 +87,7 @@ skills:
     value_rule: "MAX(0, pc.functions.StatBonus('CON'))"
   tags:
   - sdl:Hauler
-  - Always
+  - IsAlways
 
 ## CHECKED
 - id: skill:Core:Fighter:ClassAbilityGrit
@@ -103,7 +103,7 @@ skills:
   - sdl:Grit
   - sdl:Dexterity=DEX
   - sdl:Strength=STR
-  - Always
+  - IsAlways
 
 titles:
   Lawful:

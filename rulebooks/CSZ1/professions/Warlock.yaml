@@ -35,7 +35,7 @@ skills:
   description: "1d4 per level"
   value: 4
   tags:
-  - Always
+  - IsAlways
   - HitDice
 
 - id: skill:CSZ1:Warlock:LanguageExtra
@@ -49,7 +49,7 @@ skills:
   description: "Speak an additional Warlock language"
   tags:
   - sdl:ExtraLanguage
-  - Always
+  - IsAlways
 
 - id: skill:CSZ1:Warlock:ATTACK_BONUS
   name: "Attack Bonus"

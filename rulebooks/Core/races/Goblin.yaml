@@ -7,4 +7,4 @@ skills:
   name: "Keen Senses"
   description: "Cannot be surprised"
   tags:
-  - Always
+  - IsAlways

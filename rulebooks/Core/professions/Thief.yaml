@@ -19,7 +19,7 @@ skills:
   description: "1d6 per level"
   value: 6
   tags:
-  - Always
+  - IsAlways
   - HitDice
 
 ## CHECKED
@@ -54,7 +54,7 @@ skills:
   name: "Advantage"
   description: "Advantage on such as picking locks and other Thief skills"
   tags:
-  - Always
+  - IsAlways
   bonuses:
   - key: 'stat.STR.text'
     value: "Advantage on Thief Talents"

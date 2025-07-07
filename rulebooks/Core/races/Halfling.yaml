@@ -8,5 +8,5 @@ skills:
   description: "Stealthy: Once per day, become invisible for 3 rounds"
   tags:
   - Recharge:Daily
-  - Always
+  - IsAlways
   value: 1

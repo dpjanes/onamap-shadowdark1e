@@ -131,7 +131,7 @@ spells:
   id: spell:Wizard:MagicMissile:1
   level: 1
   name: Magic Missile
-  notes: Always hits the target.
+  notes: IsAlways hits the target.
   profession: Wizard
   tags:
   - Range:Far

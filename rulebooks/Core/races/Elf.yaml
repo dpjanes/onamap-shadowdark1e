@@ -24,7 +24,7 @@ skills:
   - sdl:FarSight
   - "sdl:AttackBonus=Ranged Weapons"
   - sdl:Plus1ToCastingSpells=Spellcast
-  - Always
+  - IsAlways
 
 ## CHECKED
 - id: skill:Core:Elf:LanguageElvish
@@ -32,7 +32,7 @@ skills:
   description: "Speak Elvish"
   tags:
   - Language
-  - Always
+  - IsAlways
   option: "Elvish"
 
 ## CHECKED
@@ -41,6 +41,6 @@ skills:
   description: "Speak Sylvan"
   tags:
   - Language
-  - Always
+  - IsAlways
   option: "Sylvan"
 

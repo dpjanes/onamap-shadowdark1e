@@ -11,12 +11,12 @@ skills:
   - key: 'attack.tohit'
     value: 1
   tags:
-  - Always
+  - IsAlways
 
 - id: skill:Core:Half-Orc:LanguageOrcish
   name: "Language"
   description: "Speak Orcish"
   tags:
   - Language
-  - Always
+  - IsAlways
   option: "Orcish"
