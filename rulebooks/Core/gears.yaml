@@ -74,7 +74,7 @@ gears:
     cost: 5 sp
     weight: 1
     tags: 
-      - Light
+      - IsLight
       - IsConsumable
       - sdl:OilFlask
 
@@ -105,4 +105,4 @@ gears:
     weight: 1
     tags: 
       - IsConsumable
-      - Light
+      - IsLight

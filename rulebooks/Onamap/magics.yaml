@@ -3,7 +3,7 @@ magics:
   name: Lamp of Light
   tags:
   - Recharge:Daily
-  - Light
+  - IsLight
   description: This creates a light for one hour.
 
 - id: magic:Onamap:RingOfProtection

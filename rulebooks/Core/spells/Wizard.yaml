@@ -102,7 +102,7 @@ spells:
   profession: Wizard
   tags:
   - Range:Close
-  - Light
+  - IsLight
   rolls:
   - type: spell.duration
     name: Duration
