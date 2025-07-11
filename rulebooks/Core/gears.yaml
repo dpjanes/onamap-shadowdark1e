@@ -6,7 +6,7 @@ gears:
     max: 20
     tags: 
       - Arrow
-      - Consumable
+      - IsConsumable
 
   - id: 'gear:Core:Backpack'
     name: Backpack
@@ -18,7 +18,7 @@ gears:
     cost: 5 sp
     weight: 1
     tags: 
-      - Consumable
+      - IsConsumable
 
   - id: 'gear:Core:CrossbowBolts'
     name: Crossbow Bolts
@@ -26,7 +26,7 @@ gears:
     weight: 1
     max: 20
     tags: 
-      - Consumable
+      - IsConsumable
       - Bolt
 
   - id: 'gear:Core:Crowbar'
@@ -56,7 +56,7 @@ gears:
     cost: 1 gp
     weight: 1
     tags: 
-      - Consumable
+      - IsConsumable
 
   - id: 'gear:Core:Lantern'
     name: Lantern
@@ -75,7 +75,7 @@ gears:
     weight: 1
     tags: 
       - Light
-      - Consumable
+      - IsConsumable
       - sdl:OilFlask
 
   - id: 'gear:Core:Pole'
@@ -89,7 +89,7 @@ gears:
     weight: 1
     max: 3
     tags: 
-      - Consumable
+      - IsConsumable
       - Food
 
   - id: 'gear:Core:Rope'
@@ -104,5 +104,5 @@ gears:
     cost: 5 sp
     weight: 1
     tags: 
-      - Consumable
+      - IsConsumable
       - Light

@@ -10,7 +10,7 @@ magics:
   name: Ring of Protection
   tags:
   - Ring
-  - Donnable
+  - IsDonnable
   - Armour
   description: A silver band. When worn, it grants the wearer a +1 bonus to AC.
   bonuses:
@@ -22,7 +22,7 @@ magics:
   name: X Potion of Healing
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
   - Healing/Restoration
   rolls:
   - type: hp.restore

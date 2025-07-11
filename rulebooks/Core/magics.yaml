@@ -31,7 +31,7 @@ magics:
 - id: magic:Core:ArmorOfSaintTerragnis
   name: Armor of Saint Terragnis
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Plate Mail
   - Swimming:No
   - Stealth:Disadvantage
@@ -46,7 +46,7 @@ magics:
   name: Amulet of Vitality
   tags:
   - Amulet/Necklace
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:AlabasterDestrier
   name: Alabaster Destrier
@@ -57,13 +57,13 @@ magics:
   name: Amulet of Secrecy
   tags:
   - Amulet/Necklace
-  - Donnable
+  - IsDonnable
   - Divination/Perception
 
 - id: magic:Core:ArmorOfTheOni
   name: Armor of the Oni
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Plate Mail
   - Swimming:No
   - Stealth:Disadvantage
@@ -99,40 +99,40 @@ magics:
   name: Blade of Vengeance
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Bastard Sword
 
 - id: magic:Core:BootsOfDancing
   name: Boots of Dancing
   tags:
   - Boots/Bracers/Gloves
-  - Donnable
+  - IsDonnable
   - Cursed Item
 
 - id: magic:Core:BootsOfHovering
   name: Boots of Hovering
   tags:
   - Boots/Bracers/Gloves
-  - Donnable
+  - IsDonnable
   - Flight/Levitation
 
 - id: magic:Core:BootsOfTheCat
   name: Boots of the Cat
   tags:
   - Boots/Bracers/Gloves
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:BracersOfArchery
   name: Bracers of Archery
   tags:
   - Boots/Bracers/Gloves
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:BracersOfDefense
   name: Bracers of Defense
   tags:
   - Boots/Bracers/Gloves
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:BrakSCubeOfPerfection
   name: Brak's Cube of Perfection
@@ -153,13 +153,13 @@ magics:
   name: Cloak of Elvenkind
   tags:
   - Cloak/Robe
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:CloakOfTheBat
   name: Cloak of the Bat
   tags:
   - Cloak/Robe
-  - Donnable
+  - IsDonnable
   - Flight/Levitation
 
 - id: magic:Core:CrystalBall
@@ -171,7 +171,7 @@ magics:
   name: Dagger of the Goblin Hero
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Dagger
 
 - id: magic:Core:EggOfTheCockatrice
@@ -193,7 +193,7 @@ magics:
   name: Gloves of Agility
   tags:
   - Boots/Bracers/Gloves
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:GoblinBomb
   name: Goblin Bomb
@@ -204,13 +204,13 @@ magics:
   name: Gauntlets of Might
   tags:
   - Boots/Bracers/Gloves
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:GreataxeOfTheHorde
   name: Greataxe of the Horde
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Greataxe
 
 - id: magic:Core:HatOfIntellect
@@ -259,21 +259,21 @@ magics:
   name: Longbow of the Elven Kings
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Longbow
 
 - id: magic:Core:MemnonSDiscordantBlade
   name: Memnon's Discordant Blade
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Greatsword
 
 - id: magic:Core:MemnonSBlazingJavelin
   name: Memnon's Blazing Javelin
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Javelin
 
 - id: magic:Core:MagicInk
@@ -284,7 +284,7 @@ magics:
 - id: magic:Core:MemnonSEntropicArmor
   name: Memnon's Entropic Armor
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Plate Mail
   - Swimming:No
   - Stealth:Disadvantage
@@ -303,11 +303,11 @@ magics:
 - id: magic:Core:MoonwroughtChainmail
   name: Moonwrought Chainmail
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Chainmail
   - Swimming:Disadvantage
   - Stealth:Disadvantage
-  - Consumable
+  - IsConsumable
   - Recharge:Daily
   - Stack:Armour
   weight: 2
@@ -322,20 +322,20 @@ magics:
   name: Necklace of Charm
   tags:
   - Amulet/Necklace
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:NecroticMaceOfWithering
   name: Necrotic Mace of Withering
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Mace
 
 - id: magic:Core:ObsidianWitchknife
   name: Obsidian Witchknife
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Dagger
 
 - id: magic:Core:OnyxDestrier
@@ -346,7 +346,7 @@ magics:
 - id: magic:Core:NightcloakArmor
   name: Nightcloak Armor
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Leather
   - Swimming:Yes
   - Stealth:Yes
@@ -361,7 +361,7 @@ magics:
 - id: magic:Core:OphidianArmor
   name: Ophidian Armor
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Leather
   - Swimming:Yes
   - Stealth:Yes
@@ -400,13 +400,13 @@ magics:
   name: Potion of Extirpation
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
 
 - id: magic:Core:PotionOfFlying
   name: Potion of Flying
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
   - Flight/Levitation
   description: Fly near distance for 10 rounds.
 
@@ -414,44 +414,44 @@ magics:
   name: Potion of Forgetfulness
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
 
 - id: magic:Core:PotionOfGiantStrength
   name: Potion of Giant Strength
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
 
 - id: magic:Core:PotionOfHealing
   name: Potion of Healing
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
   - Healing/Restoration
 
 - id: magic:Core:PotionOfInvisibility
   name: Potion of Invisibility
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
 
 - id: magic:Core:PotionOfLegendaryDeeds
   name: Potion of Legendary Deeds
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
 
 - id: magic:Core:PotionOfPolymorph
   name: Potion of Polymorph
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
 
 - id: magic:Core:PotionOfVitality
   name: Potion of Vitality
   tags:
   - Potion
-  - Consumable
+  - IsConsumable
   - Healing/Restoration
 
 - id: magic:Core:RingOfFeatherFalling
@@ -459,7 +459,7 @@ magics:
   weight: 0
   tags:
   - Ring
-  - Donnable
+  - IsDonnable
   - Recharge:Daily
   description: "Cast Feather Fall - 1/day"
 
@@ -468,7 +468,7 @@ magics:
   weight: 0
   tags:
   - Ring
-  - Donnable
+  - IsDonnable
   - Recharge:Rest
   description: "Throw Fireball up to Far - 1/rest"
   rolls:
@@ -481,32 +481,32 @@ magics:
   weight: 0
   tags:
   - Ring
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:RingOfRamlaat
   name: Ring of Ramlaat
   weight: 0
   tags:
   - Ring
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:RobeOfTheDruid
   name: Robe of the Druid
   tags:
   - Cloak/Robe
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:RobeOfTheSorcerer
   name: Robe of the Sorcerer
   tags:
   - Cloak/Robe
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:RobeOfTheArchmage
   name: Robe of the Archmage
   tags:
   - Cloak/Robe
-  - Donnable
+  - IsDonnable
 
 - id: magic:Core:ScarabOfProtection
   name: Scarab of Protection
@@ -517,13 +517,13 @@ magics:
   name: Scimitar of the Ash Moon
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Scimitar
 
 - id: magic:Core:ShieldOfTheCrusader
   name: Shield of the Crusader
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Shield
   - Hands:1
   weight: 1
@@ -536,7 +536,7 @@ magics:
 - id: magic:Core:ShieldOfTheLion
   name: Shield of the Lion
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Shield
   - Hands:1
   weight: 1
@@ -549,7 +549,7 @@ magics:
 - id: magic:Core:ShieldOfTheWitchKing
   name: Shield of the Witch-King
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Shield
   - Hands:1
   weight: 1
@@ -563,14 +563,14 @@ magics:
   name: Shortsword of the Thief
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Shortsword
 
 - id: magic:Core:SilverMaceOfWrath
   name: Silver Mace of Wrath
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Mace
 
 - id: magic:Core:SphereOfAnnihilation
@@ -587,14 +587,14 @@ magics:
   name: Staff of Healing
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Staff
 
 - id: magic:Core:StaffOfOrd
   name: Staff of Ord
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Staff
 
 - id: magic:Core:TheKytherianMechanism
@@ -611,21 +611,21 @@ magics:
   name: Staff of the Cobra
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Staff
 
 - id: magic:Core:SwordOfTheAncients
   name: Sword of the Ancients
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Longsword
 
 - id: magic:Core:ThriceBlessedSword
   name: Thrice-Blessed Sword
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Longsword
 
 - id: magic:Core:TomeMordanticus
@@ -647,13 +647,13 @@ magics:
   name: Tome of Hadebe
   tags:
   - Scroll
-  - Consumable
+  - IsConsumable
 
 - id: magic:Core:TridentOfTheSeas
   name: Trident of the Seas
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Spear
 
 - id: magic:Core:TrueName
@@ -676,7 +676,7 @@ magics:
   name: Warhammer of the Dwarf Lords
   tags:
   - Weapon
-  - Donnable
+  - IsDonnable
   - Warhammer
 
 - id: magic:Core:WarHornOfTheAngels
@@ -692,7 +692,7 @@ magics:
 - id: magic:Core:WraithChain
   name: Wraith Chain
   tags:
-  - Donnable
+  - IsDonnable
   - ArmourType:Chainmail
   - Swimming:Disadvantage
   - Stealth:Disadvantage
