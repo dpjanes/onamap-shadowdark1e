@@ -35,7 +35,7 @@ skills:
   description: "Speak Celestial, Diabolic, or Primordial."
   tags:
   - "sdl:ExtraLanguage"
-  - "Language"
+  - IsLanguage
   - IsAlways
 
 ## CHECKED

@@ -22,5 +22,5 @@ skills:
   option: "Dwarvish"
   tags:
   - "sdl:ExtraLanguage"
-  - "Language"
+  - IsLanguage
   - IsAlways

@@ -26,7 +26,7 @@ skills:
   options_rule: "GetOptions('COMMON_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
-  - "Language"
+  - IsLanguage
   - IsAlways
 
 ## CHECKED
@@ -36,7 +36,7 @@ skills:
   options_rule: "GetOptions('COMMON_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
-  - "Language"
+  - IsLanguage
   - IsAlways
 
 
@@ -47,7 +47,7 @@ skills:
   options_rule: "GetOptions('RARE_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
-  - "Language"
+  - IsLanguage
   - IsAlways
 
 ## CHECKED
@@ -57,7 +57,7 @@ skills:
   options_rule: "GetOptions('RARE_LANGUAGES')"
   tags:
   - "sdl:ExtraLanguage"
-  - "Language"
+  - IsLanguage
   - IsAlways
 
 ## CHECKED

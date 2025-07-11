@@ -17,6 +17,6 @@ skills:
   name: "Language"
   description: "Speak Orcish"
   tags:
-  - Language
+  - IsLanguage
   - IsAlways
   option: "Orcish"

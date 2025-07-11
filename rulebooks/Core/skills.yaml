@@ -33,7 +33,7 @@ skills:
   source: "Base"
   option: "Common"
   tags:
-  - Language
+  - IsLanguage
   - IsAlways
 
 ## CHECKED
@@ -42,7 +42,7 @@ skills:
   description: "Speak a Rare Language"
   source: "Base"
   tags:
-  - Language
+  - IsLanguage
   options_rule: "GetOptions('RARE_LANGUAGES')"
 
 ## CHECKED
@@ -51,5 +51,5 @@ skills:
   description: "Speak a Common Language"
   source: "Base"
   tags:
-  - Language
+  - IsLanguage
   options_rule: "GetOptions('COMMON_LANGUAGES')"

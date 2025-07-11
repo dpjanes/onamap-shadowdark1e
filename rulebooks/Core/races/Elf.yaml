@@ -31,7 +31,7 @@ skills:
   name: "Language"
   description: "Speak Elvish"
   tags:
-  - Language
+  - IsLanguage
   - IsAlways
   option: "Elvish"
 
@@ -40,7 +40,7 @@ skills:
   name: "Language"
   description: "Speak Sylvan"
   tags:
-  - Language
+  - IsLanguage
   - IsAlways
   option: "Sylvan"
 
