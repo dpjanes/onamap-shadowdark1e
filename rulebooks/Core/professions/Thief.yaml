@@ -9,7 +9,6 @@ weapon_types:
 - Shortbow
 - Shortsword
 weapon_rule: "IN(item.weapon_type, profession.weapon_types)"
-# armour_rule: "OR(GET_TAG(armour, 'ArmourType:') == 'Leather', armour.name == 'Mithral Chainmail')"
 armour_rule: "OR(item.armour_type == 'Leather', item.name == 'Mithral Chainmail')"
 
 skills:
@@ -44,7 +43,6 @@ skills:
     - "CHA"
   bonuses:
   - key_rule: 'f"stat.{skill.option}.add"'
-    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: skill.value
   tags:
   - sdl:StatBonus

@@ -18,7 +18,6 @@ skills:
   options_rule: "GetOptions('STATS')"
   bonuses:
   - key_rule: 'f"stat.{skill.option}.add"'
-    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: skill.value
   tags:
   - BONUS

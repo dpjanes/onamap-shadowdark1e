@@ -58,7 +58,6 @@ skills:
     - "CON"
   bonuses:
   - key_rule: 'f"stat.{skill.option}.add"'
-    ## key_rule: 'CONCAT("stat.", UPPER(skill.option), ".add")'
     value_rule: skill.value
   tags:
   - sdl:StatBonus
@@ -69,7 +68,6 @@ skills:
   description: "+1 AC to one armour"
   value: 1
   options_rule: "GetOptions('ARMOURS')"
-  # rule: 'HAS_TAG_VALUE(item, "ArmourType", skill.option)'
   rule: 'AND(armour.armour_type, armour.armour_type == skill.option)'
   bonuses:
   - key: "ac.add"

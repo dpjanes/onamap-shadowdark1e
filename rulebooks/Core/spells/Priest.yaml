@@ -34,12 +34,26 @@ spells:
   name: Protection From Evil
   profession: Priest
   range: Close
-- duration: 5 Rounds
-  id: spell:Priest:ShieldofFaith:1
+
+- id: spell:Priest:ShieldofFaith:1
   level: 1
   name: Shield of Faith
   profession: Priest
   range: Self
+  description: "A protective force wrought of your holy conviction surrounds you."
+  duration: "d4 + 1 Round / Level"
+  rolls:
+  - type: spell.duration
+    name: Duration
+    dice: 4
+    units: Round
+  # duration:
+  #   value: 5
+  #   units: Round
+  bonuses:
+  - name: "+2 AC"
+    key: ac.bonus
+
 - duration: Instant
   id: spell:Priest:TurnUndead:1
   level: 1
