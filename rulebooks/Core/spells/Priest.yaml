@@ -1,4 +1,7 @@
 spells:
+#############
+## Level 1
+#############
 - id: spell:Priest:Blank
   level: 1
   profession: Priest
@@ -8,32 +11,50 @@ spells:
   tags:
   - IsBlank
 
-- duration: Instant
-  id: spell:Priest:CureWounds:1
+- id: spell:Priest:CureWounds:1
   level: 1
   name: Cure Wounds
   profession: Priest
   range: Close
-- duration: 5 Rounds
-  id: spell:Priest:HolyWeapon:1
+  description: "Your touch restores ebbing life."
+  rolls:
+  - type: spell.effect
+    name: HP Cured
+    dice: '[1+LevelPriest/2]d6'
+
+- id: spell:Priest:HolyWeapon:1
+  description: "One weapon you touch is imbued with a sacred blessing"
   level: 1
   name: Holy Weapon
   profession: Priest
   range: Close
-- duration: 1 Hour Real Time
-  id: spell:Priest:Light:1
+  duration: "5 Rounds"
+  effects:
+  - name: "+1 to Hit"
+    key: attack.tohit
+    value: 1
+  - name: "+1 Damage"
+    key: attack.damage
+    value: 1
+
+- id: spell:Priest:Light:1
   level: 1
   name: Light
   profession: Priest
   range: Close
   tags:
   - IsLight
-- duration: Focus
-  id: spell:Priest:ProtectionFromEvil:1
+
+- id: spell:Priest:ProtectionFromEvil:1
   level: 1
   name: Protection From Evil
   profession: Priest
   range: Close
+  duration: Focus
+  effects:
+  - name: "+2 AC"
+    key: ac.add
+    value: 2
 
 - id: spell:Priest:ShieldofFaith:1
   level: 1
@@ -41,18 +62,11 @@ spells:
   profession: Priest
   range: Self
   description: "A protective force wrought of your holy conviction surrounds you."
-  duration: "d4 + 1 Round / Level"
-  rolls:
-  - type: spell.duration
-    name: Duration
-    dice: 4
-    units: Round
-  # duration:
-  #   value: 5
-  #   units: Round
-  bonuses:
+  effects:
   - name: "+2 AC"
-    key: ac.bonus
+    key: ac.add
+    value: 2
+    duration: "5 Rounds"
 
 - duration: Instant
   id: spell:Priest:TurnUndead:1
@@ -60,6 +74,10 @@ spells:
   name: Turn Undead
   profession: Priest
   range: Near
+
+#############
+## Level 2
+#############
 - duration: Instant
   id: spell:Priest:Augury:2
   level: 2

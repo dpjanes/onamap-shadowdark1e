@@ -71,17 +71,17 @@ weapons:
     name: Damage
     dice: d4
     stat: STR
-    rule: "AND(pc.functions.StatBonus('DEX') == 0, pc.functions.StatBonus('STR') == 0)"
+    rule: "AND(StatBonusDEX == 0, StatBonusSTR == 0)"
   - type: attack.damage
     name: Damage (+STR)
     dice: d4
     stat: STR
-    rule: "pc.functions.StatBonus('STR') != 0"
+    rule: "StatBonusSTR != 0"
   - type: attack.damage
     name: Damage (+DEX)
     dice: d4
     stat: DEX
-    rule: "pc.functions.StatBonus('DEX') != 0"
+    rule: "StatBonusDEX != 0"
 
 - id: weapon:Core:Greataxe
   name: Greataxe

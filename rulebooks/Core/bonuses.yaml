@@ -4,10 +4,10 @@
 bonuses:
 - key: "attack.tohit"
   name: "To Hit (Melee/+STR)"
-  value_rule: "pc.functions.StatBonus('STR')"
+  value_rule: "StatBonusSTR"
   rule: "range == 'Melee'"
   
 - key: "attack.tohit"
   name: "To Hit (Ranged/+DEX)"
-  value_rule: "pc.functions.StatBonus('DEX')"
+  value_rule: "StatBonusDEX"
   rule: "range != 'Melee'"
