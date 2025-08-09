@@ -5,7 +5,6 @@ armour_rule: "True"
 weapon_rule: "True"
 
 skills:
-## CHECKED
 - id: skill:Core:Fighter:HitDice
   name: "Hit Dice"
   description: "1d8 per level"
@@ -14,7 +13,6 @@ skills:
   - IsAlways
   - HitDice
 
-## CHECKED
 - id: skill:Core:Fighter:WEAPON_MASTERY
   name: "Weapon Mastery"
   description: "Weapon Mastery with a weapon type"
@@ -36,7 +34,6 @@ skills:
   - sdl:WeaponMastery
   - IsAlways ## fighter gets one, they can add more
 
-## CHECKED
 - id: skill:Core:Fighter:ATTACK_BONUS
   name: "Attack Bonus"
   description: "+1 to melee and ranged attacks" ## it is both!
@@ -47,7 +44,6 @@ skills:
   tags:
   - sdl:Plus1ToHit
 
-## CHECKED
 - id: skill:Core:Fighter:STAT_BONUS_2
   name: "Stat Bonus"
   description: "+2 to STR, DEX or CON"
@@ -62,7 +58,6 @@ skills:
   tags:
   - sdl:StatBonus
 
-## CHECKED
 - id: skill:Core:Fighter:ArmorMastery
   name: "AC Bonus"
   description: "+1 AC to one armour"
@@ -75,7 +70,6 @@ skills:
   tags:
   - sdl:ArmorMastery
 
-## CHECKED
 - id: skill:Core:Fighter:Hauler
   name: "Hauler"
   option: "CON"
@@ -87,7 +81,6 @@ skills:
   - sdl:Hauler
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Fighter:ClassAbilityGrit
   name: "Grit"
   description: Advantage on STR or DEX against opposing force

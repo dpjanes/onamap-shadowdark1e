@@ -9,7 +9,6 @@ skills:
   tags:
   - IsBlank
 
-## CHECKED
 - id: skill:Core:Base:StatBonus
   name: "Stat Bonus"
   description: "+1 points to to stats"
@@ -25,7 +24,6 @@ skills:
   - "sdl:StatBonus-1"
   - "sdl:StatBonus-2"
 
-## CHECKED
 - id: skill:Core:Base:LanguageCommon
   name: "Language"
   description: "Speak Common"
@@ -35,7 +33,6 @@ skills:
   - IsLanguage
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Base:RARE_LANGUAGE
   name: "Language"
   description: "Speak a Rare Language"
@@ -44,7 +41,6 @@ skills:
   - IsLanguage
   options_rule: "GetOptions('RARE_LANGUAGES')"
 
-## CHECKED
 - id: skill:Core:Base:COMMON_LANGUAGE
   name: "Language"
   description: "Speak a Common Language"

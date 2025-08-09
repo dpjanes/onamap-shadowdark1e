@@ -4,7 +4,6 @@ name_generator: fictional_names:elven
 
 skills:
 
-## CHECKED
 - id: skill:Core:Elf:FarSight
   name: "Farsight"
   description: "+1 bonus to attack rolls with ranged weapons or spellcasting checks"
@@ -26,7 +25,6 @@ skills:
   - sdl:Plus1ToCastingSpells=Spellcast
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Elf:LanguageElvish
   name: "Language"
   description: "Speak Elvish"
@@ -35,7 +33,6 @@ skills:
   - IsAlways
   option: "Elvish"
 
-## CHECKED
 - id: skill:Core:Elf:LanguageSylvan
   name: "Language"
   description: "Speak Sylvan"

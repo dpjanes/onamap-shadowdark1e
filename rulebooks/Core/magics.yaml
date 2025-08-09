@@ -1,31 +1,3 @@
-magic_types:
-- Armour
-- Weapon
-- Wand
-- Rod
-- Ring
-- Amulet/Necklace
-- Cloak/Robe
-- Boots/Bracers/Gloves
-- Helmet/Hat
-- Potion
-- Scroll
-- Summoning/Transformation
-- Storage
-- Artifact/Relic
-- Miscellaneous Tool
-- Cursed Item
-- Divination/Perception
-- Flight/Levitation
-- Time Manipulation
-- Healing/Restoration
-- Elemental Power
-- Necromantic/Undead Affinity
-- Luck/Probability Manipulation
-- Planar/Dimensional
-- Mind Control/Psychic
-- Light
-
 magics:
 
 - id: magic:Core:ArmorOfSaintTerragnis
@@ -317,6 +289,13 @@ magics:
     value: 13
     rule: "item.is_donned"
     stat_bonus: DEX
+  effects:
+  - key: spell.cast
+    value: 1
+    name: "+1 to spellcasting"
+  - key: attack.tohit
+    value: 1
+    name: "+1 to ranged attack"
 
 - id: magic:Core:NecklaceOfCharm
   name: Necklace of Charm
@@ -473,7 +452,7 @@ magics:
   description: "Throw Fireball up to Far - 1/rest"
   rolls:
   - name: Fireball
-    type: attack.tohit
+    type: attack.damage
     dice: 4d6
 
 - id: magic:Core:RingOfInvisibility

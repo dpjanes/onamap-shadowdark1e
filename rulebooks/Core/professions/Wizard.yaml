@@ -10,7 +10,6 @@ weapon_types:
 primary_stat: "INT"
 
 skills:
-## CHECKED
 - id: skill:Core:Wizard:HitDice
   name: "Hit Dice"
   description: "1d4 per level"
@@ -19,7 +18,6 @@ skills:
   - IsAlways
   - HitDice
 
-## CHECKED
 - id: skill:Core:Wizard:LanguageCommon1
   name: "Language"
   description: "Speak an additional common language"
@@ -29,7 +27,6 @@ skills:
   - IsLanguage
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Wizard:LanguageCommon2
   name: "Language"
   description: "Speak an additional common language"
@@ -40,7 +37,6 @@ skills:
   - IsAlways
 
 
-## CHECKED
 - id: skill:Core:Wizard:LanguageRare1
   name: "Language"
   description: "Speak an additional rare language"
@@ -50,7 +46,6 @@ skills:
   - IsLanguage
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Wizard:LanguageRare2
   name: "Language"
   description: "Speak an additional rare language"
@@ -60,7 +55,6 @@ skills:
   - IsLanguage
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Wizard:STAT_BONUS
   name: "Wizard Bonus"
   description: "+2 to INT or +1 to spellcasting"
@@ -79,7 +73,6 @@ skills:
   - sdl:Plus1ToCastingSpells=Spellcast
   - sdl:StatBonus=INT
 
-## CHECKED
 - id: skill:Core:Wizard:MAKE_MAGIC_ITEM
   name: "Make Magic Item"
   description: "Make a magic item of a type"
@@ -87,7 +80,6 @@ skills:
   tags:
   - sdl:MakeRandomMagicItem
 
-## CHECKED
 - id: skill:Core:Wizard:ONE_SPELL_ADVANGTAGE
   name: "Spell Advantage"
   description: "Advantage on casting one spell"
@@ -99,7 +91,6 @@ skills:
     rule: "skill.option"
     value_rule: "spell.name == skill.option"
   
-## CHECKED
 - id: skill:Core:Wizard:ONE_EXTRA_SPELL
   name: "Extra Spell"
   description: "One additional wizard spell"

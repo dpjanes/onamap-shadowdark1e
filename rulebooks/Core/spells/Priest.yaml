@@ -62,11 +62,11 @@ spells:
   profession: Priest
   range: Self
   description: "A protective force wrought of your holy conviction surrounds you."
+  duration: "5 Rounds"
   effects:
   - name: "+2 AC"
     key: ac.add
     value: 2
-    duration: "5 Rounds"
 
 - duration: Instant
   id: spell:Priest:TurnUndead:1

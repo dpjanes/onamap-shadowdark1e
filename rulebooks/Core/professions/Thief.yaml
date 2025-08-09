@@ -12,7 +12,6 @@ weapon_rule: "IN(item.weapon_type, profession.weapon_types)"
 armour_rule: "OR(item.armour_type == 'Leather', item.name == 'Mithral Chainmail')"
 
 skills:
-## CHECKED
 - id: skill:Core:Thief:HitDice
   name: "Hit Dice"
   description: "1d6 per level"
@@ -21,7 +20,6 @@ skills:
   - IsAlways
   - HitDice
 
-## CHECKED
 - id: skill:Core:Thief:ATTACK_BONUS
   name: "Attack Bonus"
   description: "+1 to melee and ranged attacks" ## it is both
@@ -32,7 +30,6 @@ skills:
   tags:
   - sdl:Plus1ToHit
 
-## CHECKED
 - id: skill:Core:Thief:STAT_BONUS
   name: "Stat Bonus"
   description: "+2 to STR, DEX, or CHA"
@@ -47,7 +44,6 @@ skills:
   tags:
   - sdl:StatBonus
 
-## CHECKED
 - id: skill:Core:Thief:ClassAbilityAdvantage
   name: "Advantage"
   description: "Advantage on such as picking locks and other Thief skills"
@@ -61,7 +57,6 @@ skills:
   - key: 'stat.INT.text'
     value: "Advantage on Thief Talents"
 
-## CHECKED
 - id: skill:Core:Thief:Backstab
   name: "Backstab"
   description: "Extra die + 1/2 level damage to unaware creatures"

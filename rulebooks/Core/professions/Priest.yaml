@@ -16,7 +16,6 @@ primary_stat: "WIS"
 
 skills:
 
-## CHECKED
 - id: skill:Core:Priest:HitDice
   name: "Hit Dice"
   description: "1d6 per level"
@@ -25,7 +24,6 @@ skills:
   - IsAlways
   - HitDice
 
-## CHECKED
 - id: skill:Core:Priest:LanguageExtra
   name: "Language"
   options:
@@ -38,7 +36,6 @@ skills:
   - IsLanguage
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Priest:TurnUndead
   name: "Turn Undead"
   description: "You know Turn Undead spell"
@@ -48,7 +45,6 @@ skills:
   tags:
   - IsAlways
 
-## CHECKED
 - id: skill:Core:Priest:ATTACK_BONUS
   name: "Attack Bonus"
   description: "+1 to melee or ranged attacks"  
@@ -71,7 +67,6 @@ skills:
   - "sdl:Ranged attacks=Ranged Attacks"
   - "sdl:Melee attacks=Melee Attacks"
 
-## CHECKED
 - id: skill:Core:Priest:STAT_BONUS
   name: "Stat Bonus"
   description: "+2 to STR or WIS"
@@ -85,7 +80,6 @@ skills:
   tags:
   - sdl:StatBonus
 
-## CHECKED
 - id: skill:Core:Priest:ONE_SPELL_ADVANGTAGE
   name: "Spell Advantage"
   description: "Advantage on casting one spell"
