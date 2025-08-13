@@ -1,0 +1,20 @@
+spells:
+- id: spell:Priest:ExtendedHolyWeapon:1
+  description: "One weapon you touch is imbued with a sacred blessing"
+  level: 1
+  name: Extended Holy Weapon
+  profession: Priest
+  range: Close
+  duration: "5 Rounds"
+  rolls:
+  - type: bonus
+    name: Rolled Bonus
+    dice: '[1+LevelPriest/2]d6'
+  effects:
+  - name: "+RolledBonus to Hit"
+    key: attack.tohit
+    value_rule: "RolledBonus"
+  - name: "+RolledBonus Damage"
+    key: attack.damage
+    value_rule: "RolledBonus"
+

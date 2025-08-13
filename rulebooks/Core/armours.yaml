@@ -84,7 +84,7 @@ armours:
     cost: 10 gp
     weight: 1
     bonuses:
-    - key: ac.bonus
+    - key: ac.add
       value: 2
       rule: "item.is_donned"
 
@@ -97,6 +97,6 @@ armours:
     cost: 10 gp
     weight: 1
     bonuses:
-    - key: ac.bonus
+    - key: ac.add
       value: 1
       rule: "item.is_donned"

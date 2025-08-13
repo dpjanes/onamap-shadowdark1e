@@ -293,9 +293,12 @@ magics:
   - key: spell.cast
     value: 1
     name: "+1 to spellcasting"
-  - key: attack.tohit
+    group: "Option 1"
+  - rule: AND(weapon.is_ranged, Range != "Melee", Range != "Close")
+    key: attack.tohit
     value: 1
     name: "+1 to ranged attack"
+    group: "Option 2"
 
 - id: magic:Core:NecklaceOfCharm
   name: Necklace of Charm
@@ -508,7 +511,7 @@ magics:
   weight: 1
   stack: "shield"
   bonuses:
-  - key: ac.bonus
+  - key: ac.add
     value: 2
     rule: "item.is_donned"
 
@@ -521,7 +524,7 @@ magics:
   weight: 1
   stack: "shield"
   bonuses:
-  - key: ac.bonus
+  - key: ac.add
     value: 2
     rule: "item.is_donned"
 
@@ -534,7 +537,7 @@ magics:
   weight: 1
   stack: "shield"
   bonuses:
-  - key: ac.bonus
+  - key: ac.add
     value: 2
     rule: "item.is_donned"
 

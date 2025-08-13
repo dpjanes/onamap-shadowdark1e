@@ -1,13 +1,27 @@
 ## NOTE BONUSES ARE BS
 conditions:
+
+  # - id: 'condition:Core:ExcellentAtAttacking'
+  #   name: "+1 to ranged attack"
+  #   bonuses:
+  #   - rule: AND(weapon.is_ranged, Range != "Melee", Range != "Close")
+  #     key: attack.tohit
+  #     value: 1
+
+  - id: 'condition:Core:Flying'
+    name: Flying
+    description: "You are flying"
+
   - id: 'condition:Core:Blinded'
     name: Blinded
     description: "You can’t see and automatically fail any ability check that requires sight. Attack rolls against you have advantage, and your attack rolls have disadvantage."
     bonuses:
-      - key: weapon.attack.advantage
+      - key: attack.tohit.advantage
         value: -1
-      - key: ability_check.sight_based
-        value: -10
+      - key: check.advantage
+        value: -1
+      - key: ac.advantage
+        value: -1
 
   - id: 'condition:Core:Charmed'
     name: Charmed
@@ -27,7 +41,7 @@ conditions:
     bonuses:
       - key: ability_check.general
         value: -1
-      - key: weapon.attack.advantage
+      - key: attack.tohit.advantage
         value: -1
 
   - id: 'condition:Core:Grappled'
@@ -50,9 +64,9 @@ conditions:
     name: Invisible
     description: "You are impossible to see without the aid of magic or special senses. For the purpose of hiding, you are heavily obscured. Attack rolls against you have disadvantage, and your attack rolls have advantage."
     bonuses:
-      - key: weapon.attack.advantage
+      - key: attack.tohit.advantage
         value: 1
-      - key: defense.attack.advantage
+      - key: defense.attack.tohit.advantage
         value: -1
 
   - id: 'condition:Core:Paralyzed'
@@ -67,7 +81,7 @@ conditions:
         value: -10
       - key: saving_throw.DEX
         value: -10
-      - key: defense.attack.advantage
+      - key: defense.attack.tohit.advantage
         value: 1
       - key: defense.attack.critical_if_within_5ft
         value: 1
@@ -87,7 +101,7 @@ conditions:
     name: Poisoned
     description: "You have disadvantage on attack rolls and ability checks."
     bonuses:
-      - key: weapon.attack.advantage
+      - key: attack.tohit.advantage
         value: -1
       - key: ability_check.general
         value: -1
@@ -98,11 +112,11 @@ conditions:
     bonuses:
       - key: movement.mode
         value: 'crawl'
-      - key: weapon.attack.advantage
+      - key: attack.tohit.advantage
         value: -1
-      - key: defense.attack.advantage_if_within_5ft
+      - key: defense.attack.tohit.advantage_if_within_5ft
         value: 1
-      - key: defense.attack.advantage_if_ranged
+      - key: defense.attack.tohit.advantage_if_ranged
         value: -1
 
   - id: 'condition:Core:Restrained'
@@ -111,9 +125,9 @@ conditions:
     bonuses:
       - key: movement.speed
         value: 0
-      - key: weapon.attack.advantage
+      - key: attack.tohit.advantage
         value: -1
-      - key: defense.attack.advantage
+      - key: defense.attack.tohit.advantage
         value: 1
       - key: saving_throw.DEX
         value: -1
@@ -132,7 +146,7 @@ conditions:
         value: -10
       - key: saving_throw.DEX
         value: -10
-      - key: defense.attack.advantage
+      - key: defense.attack.tohit.advantage
         value: 1
 
   - id: 'condition:Core:Unconscious'
@@ -149,7 +163,7 @@ conditions:
         value: -10
       - key: saving_throw.DEX
         value: -10
-      - key: defense.attack.advantage
+      - key: defense.attack.tohit.advantage
         value: 1
       - key: defense.attack.critical_if_within_5ft
         value: 1
