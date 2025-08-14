@@ -19,7 +19,7 @@ keys:
   name: Damage Bonus
   group: Weapon Attack
 
-- key: spell.cast
+- key: spell.cast.add
   name: Spell Cast Bonus
   group: Spell Casting
 

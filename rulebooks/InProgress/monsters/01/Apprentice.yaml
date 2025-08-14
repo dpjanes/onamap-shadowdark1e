@@ -41,6 +41,6 @@ weapons:
 - name: Dagger
   damage: 1d4
 bonuses:
-- key: spell.cast
+- key: spell.cast.add
   value: 2
 

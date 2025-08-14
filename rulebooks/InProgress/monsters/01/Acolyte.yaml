@@ -40,6 +40,6 @@ weapons:
     value: 1
   damage: 1d6
 bonuses:
-- key: spell.cast
+- key: spell.cast.add
   value: 2
 

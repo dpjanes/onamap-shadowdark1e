@@ -100,7 +100,7 @@ skills:
   description: "+1 to Spellcasting"
   bonuses:
   - skill: skill.option == "Spellcast"
-    key: "spell.cast"
+    key: "spell.cast.add"
     value: 1
   tags:
   - sdl:Plus1ToCastingSpells

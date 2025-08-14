@@ -17,7 +17,7 @@ skills:
     key: "attack.tohit.add"
     value: 1
   - rule: skill.option == "Spellcast"
-    key: "spell.cast"
+    key: "spell.cast.add"
     value: 1
   tags:
   - sdl:FarSight

@@ -189,7 +189,7 @@ skills:
   options_rule: "GetOptions('ALL-SPELLS', 'Wizard')"
   # bonuses:
   # ## XXX
-  # - key: "spell.cast"
+  # - key: "spell.cast.add"
   #   value_rule: "spell.name == skill.option"
 
 - id: skill:CSZ1:Warlock:ShuneTheVile:StatBoost

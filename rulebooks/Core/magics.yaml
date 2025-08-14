@@ -290,7 +290,7 @@ magics:
     rule: "item.is_donned"
     stat_bonus: DEX
   effects:
-  - key: spell.cast
+  - key: spell.cast.add
     value: 1
     name: "+1 to spellcasting"
     group: "Option 1"

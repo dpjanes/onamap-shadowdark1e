@@ -97,7 +97,7 @@ for monster in monsters:
         if attack_name == "Spell":
             attack["types"] = "spell"
             monster_bonuses.append({
-                "key": "spell.cast",
+                "key": "spell.cast.add",
                 "value": tohit
             })
         else:
