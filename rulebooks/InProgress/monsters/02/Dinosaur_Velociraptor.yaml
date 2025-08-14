@@ -37,7 +37,7 @@ stats:
 weapons:
 - name: Claw
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 3
   damage: 1d6
 

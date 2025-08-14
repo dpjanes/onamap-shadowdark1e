@@ -38,7 +38,7 @@ stats:
 weapons:
 - name: War Pick
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: 1d6
 

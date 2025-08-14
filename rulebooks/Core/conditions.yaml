@@ -5,7 +5,7 @@ conditions:
   #   name: "+1 to ranged attack"
   #   bonuses:
   #   - rule: AND(weapon.is_ranged, Range != "Melee", Range != "Close")
-  #     key: attack.tohit
+  #     key: "attack.tohit.add"
   #     value: 1
 
   - id: 'condition:Core:Flying'

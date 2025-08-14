@@ -35,13 +35,13 @@ stats:
 weapons:
 - name: Poison Dart
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 3
   damage: 1d4
   description: 'Poison: DC 15 CON or sleep.'
 - name: Longsword
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 1
   damage: 1d8
 

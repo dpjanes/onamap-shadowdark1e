@@ -33,7 +33,7 @@ stats:
 weapons:
 - name: Horn
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 1
   damage: 1d4
   description: 'Knock: DC 9 STR or pushed a close distance and fall down.'

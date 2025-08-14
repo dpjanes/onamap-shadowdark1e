@@ -39,7 +39,7 @@ stats:
 weapons:
 - name: Slam
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: 1d6
 

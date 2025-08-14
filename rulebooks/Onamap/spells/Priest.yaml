@@ -12,7 +12,7 @@ spells:
     dice: '[1+LevelPriest/2]d6'
   effects:
   - name: "+RolledBonus to Hit"
-    key: attack.tohit
+    key: "attack.tohit.add"
     value_rule: "RolledBonus"
   - name: "+RolledBonus Damage"
     key: attack.damage

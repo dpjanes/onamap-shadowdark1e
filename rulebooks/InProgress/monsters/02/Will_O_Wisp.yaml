@@ -38,6 +38,6 @@ stats:
 weapons:
 - name: Life Drain
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 3
 

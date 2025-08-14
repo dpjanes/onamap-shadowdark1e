@@ -1,13 +1,21 @@
 keys:
-- key: attack.tohit
-  name: To Hit Bonus
+- key: "attack.tohit"
+  name: To Hit
   group: Weapon Attack
 
-- key: attack.tohit.advantage
+- key: "attack.tohit.add"
+  name: To Hit Bonus
+  group: Weapon Attack
+  
+- key: "attack.tohit.advantage"
   name: Advantage To Hit
   group: Weapon Attack
 
 - key: attack.damage
+  name: Damage
+  group: Weapon Attack
+
+- key: attack.damage.add
   name: Damage Bonus
   group: Weapon Attack
 

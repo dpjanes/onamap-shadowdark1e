@@ -33,7 +33,7 @@ stats:
 weapons:
 - name: Club
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 1
   damage: 1d4
 - name: Shortbow

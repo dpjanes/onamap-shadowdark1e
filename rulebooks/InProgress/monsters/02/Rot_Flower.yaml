@@ -33,7 +33,7 @@ stats:
 weapons:
 - name: Bite
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 1
   damage: 1d4
   description: 'Toxin: DC 12 CON or unconscious for 1d4 rounds.'

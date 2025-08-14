@@ -30,7 +30,7 @@ stats:
 weapons:
 - name: Beak
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: 1d4
   description: 'Blood Drain: Attach to bitten target; auto-hit the next round. DC

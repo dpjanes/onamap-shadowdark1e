@@ -32,7 +32,7 @@ stats:
 weapons:
 - name: Bite
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 3
   damage: 1d4
   description: 'Poison: DC 12 CON or paralyzed 1d4 rounds.'

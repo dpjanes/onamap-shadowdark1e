@@ -39,7 +39,7 @@ spells:
 weapons:
 - name: Longsword
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 1
   damage: 1d8
 bonuses:

@@ -34,7 +34,7 @@ stats:
 weapons:
 - name: Bite
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 1
   damage: 1d4
   description: 'Attach: Attach to target; bite auto-hits next round. DC 12 STR on

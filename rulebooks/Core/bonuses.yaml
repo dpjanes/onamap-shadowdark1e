@@ -2,12 +2,12 @@
 #   This is basically the rules of the game
 #
 bonuses:
-- key: "attack.tohit"
+- key: "attack.tohit.add"
   name: "To Hit (Melee/+STR)"
   value_rule: "StatBonusSTR"
   rule: "range == 'Melee'"
   
-- key: "attack.tohit"
+- key: "attack.tohit.add"
   name: "To Hit (Ranged/+DEX)"
   value_rule: "StatBonusDEX"
   rule: "range != 'Melee'"

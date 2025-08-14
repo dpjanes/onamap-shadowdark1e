@@ -37,7 +37,7 @@ stats:
 weapons:
 - name: Stinger
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 3
   damage: 1d4
   description: 'Poison: DC 12 CON or fitful sleep for 1d4 hours.'

@@ -34,7 +34,7 @@ stats:
 weapons:
 - name: Longsword
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 3
   damage: 1d8
 

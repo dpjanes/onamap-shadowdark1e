@@ -8,7 +8,7 @@ skills:
   description: "+1 bonus to attack and damage rolls with melee weapons"
   rule: True
   bonuses:
-  - key: 'attack.tohit'
+  - key: "attack.tohit.add"
     value: 1
   tags:
   - IsAlways

@@ -29,7 +29,7 @@ stats:
 weapons:
 - name: Bite
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: '1'
   description: 'Poison: DC 18 CON or go to 0 HP with a death timer of 1.'

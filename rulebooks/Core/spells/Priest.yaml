@@ -31,7 +31,7 @@ spells:
   duration: "5 Rounds"
   effects:
   - name: "+1 to Hit"
-    key: attack.tohit
+    key: "attack.tohit.add"
     value: 1
   - name: "+1 Damage"
     key: attack.damage

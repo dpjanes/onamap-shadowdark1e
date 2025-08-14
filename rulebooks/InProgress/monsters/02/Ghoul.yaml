@@ -35,7 +35,7 @@ stats:
 weapons:
 - name: Claw
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: 1d6
   description: 'Paralyze: DC 12 CON or paralyzed 1d4 rounds.'

@@ -20,12 +20,12 @@ skills:
   options_rule: "GetOptions('WEAPONS')"
   rule: item.weapon_type == skill.option
   bonuses:
-  - key: 'attack.tohit'
+  - key: "attack.tohit.add"
     value: 1
   - key: 'attack.damage'
     value: 1
   - name: "Weapon Mastery Level Bonus"
-    key: 'attack.tohit'
+    key: "attack.tohit.add"
     value_rule: "LevelFighter/2"
   - name: "Weapon Mastery Level Bonus"
     key: 'attack.damage'
@@ -39,7 +39,7 @@ skills:
   description: "+1 to melee and ranged attacks" ## it is both!
   value: 1
   bonuses:
-  - key: 'attack.tohit'
+  - key: "attack.tohit.add"
     value: 1
   tags:
   - sdl:Plus1ToHit

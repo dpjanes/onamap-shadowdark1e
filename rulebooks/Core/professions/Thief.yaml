@@ -25,7 +25,7 @@ skills:
   description: "+1 to melee and ranged attacks" ## it is both
   value: 1
   bonuses:
-  - key: 'attack.tohit'
+  - key: "attack.tohit.add"
     value: 1
   tags:
   - sdl:Plus1ToHit

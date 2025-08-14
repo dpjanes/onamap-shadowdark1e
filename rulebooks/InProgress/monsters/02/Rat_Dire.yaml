@@ -33,7 +33,7 @@ stats:
 weapons:
 - name: Bite
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: 1d6
   description: 'Disease: DC 12 CON or 1d4 CON damage (can''t heal while ill). Repeat

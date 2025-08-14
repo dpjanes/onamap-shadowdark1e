@@ -33,7 +33,7 @@ stats:
 weapons:
 - name: Sting
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 3
   damage: 1d6+venom
 

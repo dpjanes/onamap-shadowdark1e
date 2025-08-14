@@ -35,12 +35,12 @@ stats:
 weapons:
 - name: Fist
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: 1d6
 - name: Rock
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 2
   damage: 1d4
 

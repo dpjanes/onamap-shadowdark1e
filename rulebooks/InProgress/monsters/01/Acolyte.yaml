@@ -36,7 +36,7 @@ spells:
 weapons:
 - name: Mace
   bonuses:
-  - key: attack.tohit
+  - key: "attack.tohit.add"
     value: 1
   damage: 1d6
 bonuses:
