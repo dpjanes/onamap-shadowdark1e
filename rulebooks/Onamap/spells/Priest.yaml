@@ -15,6 +15,6 @@ spells:
     key: "attack.tohit.add"
     value_rule: "RolledBonus"
   - name: "+RolledBonus Damage"
-    key: attack.damage
+    key: "attack.damage.add"
     value_rule: "RolledBonus"
 

@@ -34,7 +34,7 @@ spells:
     key: "attack.tohit.add"
     value: 1
   - name: "+1 Damage"
-    key: attack.damage
+    key: "attack.damage.add"
     value: 1
 
 - id: spell:Priest:Light:1

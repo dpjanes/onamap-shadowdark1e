@@ -11,13 +11,13 @@ weapons:
   - Stack:Weapon1
   cost: 10 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (1H)
     description: "Wielded with one hand"
     dice: d8
     rule: "Hands == '1'"
     # stat: STR
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (2H)
     dice: d10
     rule: "Hands != '1'"
@@ -35,7 +35,7 @@ weapons:
   - Stack:Weapon1
   cost: 5 cp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d4
     # stat: STR
@@ -50,7 +50,7 @@ weapons:
   - Stack:Weapon2
   cost: 8 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d6
     # stat: DEX
@@ -67,17 +67,17 @@ weapons:
   - Stack:Weapon0
   cost: 1 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d4
     stat: STR
     rule: "AND(StatBonusDEX == 0, StatBonusSTR == 0)"
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (+STR)
     dice: d4
     stat: STR
     rule: "StatBonusSTR != 0"
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (+DEX)
     dice: d4
     stat: DEX
@@ -95,13 +95,13 @@ weapons:
   - Stack:Weapon1
   cost: 10 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (1H)
     description: "Wielded with one hand"
     dice: d8
     rule: "Hands == '1'"
     # stat: STR
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (2H)
     dice: d10
     rule: "Hands != '1'"
@@ -119,7 +119,7 @@ weapons:
   - Stack:Weapon2
   cost: 12 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d12
     # stat: STR
@@ -136,12 +136,12 @@ weapons:
   - Stack:Weapon1
   cost: 5 sp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (held)
     dice: d4
   #   stat: STR
   #   rule: "range == 'Melee'"
-  # - type: attack.damage
+  # - type: "attack.damage"
   #   name: Damage (thrown)
   #   dice: d4
   #   stat: DEX
@@ -157,7 +157,7 @@ weapons:
   - Stack:Weapon1
   cost: 8 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d8
     # stat: DEX
@@ -173,7 +173,7 @@ weapons:
   - Stack:Weapon1
   cost: 9 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d8
     # stat: STR
@@ -189,7 +189,7 @@ weapons:
   - Stack:Weapon1
   cost: 5 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d6
     # stat: STR
@@ -204,7 +204,7 @@ weapons:
   - Stack:Weapon2
   cost: 6 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d6
     # stat: DEX
@@ -220,7 +220,7 @@ weapons:
   - Stack:Weapon1
   cost: 7 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d6
     # stat: STR
@@ -237,7 +237,7 @@ weapons:
   - Stack:Weapon1
   cost: 5 sp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage (held)
     dice: d6
 
@@ -252,7 +252,7 @@ weapons:
   - Stack:Weapon2
   cost: 5 sp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d4
     # stat: STR
@@ -268,7 +268,7 @@ weapons:
   - Stack:Weapon2
   cost: 10 gp
   rolls:
-  - type: attack.damage
+  - type: "attack.damage"
     name: Damage
     dice: d10
     # stat: STR

@@ -22,13 +22,13 @@ skills:
   bonuses:
   - key: "attack.tohit.add"
     value: 1
-  - key: 'attack.damage'
+  - key: "attack.damage.add"
     value: 1
   - name: "Weapon Mastery Level Bonus"
     key: "attack.tohit.add"
     value_rule: "LevelFighter/2"
   - name: "Weapon Mastery Level Bonus"
-    key: 'attack.damage'
+    key: "attack.damage.add"
     value_rule: "LevelFighter/2"
   tags:
   - sdl:WeaponMastery

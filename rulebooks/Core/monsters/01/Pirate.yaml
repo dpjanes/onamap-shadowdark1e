@@ -50,13 +50,13 @@ weapons:
 #   type: attack.tohit
 #   dice: 1d20
 # - name: Cutlass
-#   type: attack.damage
+#   type: "attack.damage.add"
 #   dice: 1d6
 # - name: Dagger
 #   type: attack.tohit
 #   dice: 1d20
 # - name: Dagger
-#   type: attack.damage
+#   type: "attack.damage.add"
 #   dice: 1d4
   
 # moves:

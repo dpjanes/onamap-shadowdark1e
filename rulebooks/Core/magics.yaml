@@ -455,7 +455,7 @@ magics:
   description: "Throw Fireball up to Far - 1/rest"
   rolls:
   - name: Fireball
-    type: attack.damage
+    type: "attack.damage.add"
     dice: 4d6
 
 - id: magic:Core:RingOfInvisibility

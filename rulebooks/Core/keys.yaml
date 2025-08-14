@@ -11,11 +11,11 @@ keys:
   name: Advantage To Hit
   group: Weapon Attack
 
-- key: attack.damage
+- key: "attack.damage"
   name: Damage
   group: Weapon Attack
 
-- key: attack.damage.add
+- key: "attack.damage.add"
   name: Damage Bonus
   group: Weapon Attack
 
