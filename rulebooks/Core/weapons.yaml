@@ -15,12 +15,12 @@ weapons:
     name: Damage (1H)
     description: "Wielded with one hand"
     dice: d8
-    rule: "Hands == '1'"
+    rule: "Hands == 1"
     # stat: STR
   - type: "attack.damage"
     name: Damage (2H)
     dice: d10
-    rule: "Hands != '1'"
+    rule: "Hands != 1"
     description: "Wielded with two hands - no shield"
     # stat: STR
 
@@ -99,12 +99,12 @@ weapons:
     name: Damage (1H)
     description: "Wielded with one hand"
     dice: d8
-    rule: "Hands == '1'"
+    rule: "Hands == 1"
     # stat: STR
   - type: "attack.damage"
     name: Damage (2H)
     dice: d10
-    rule: "Hands != '1'"
+    rule: "Hands != 1"
     description: "Wielded with two hands - no shield"
     # stat: STR
 

@@ -1,4 +1,5 @@
 keys:
+## Attacks
 - key: "attack.tohit"
   name: To Hit
   group: Weapon Attack
@@ -19,6 +20,7 @@ keys:
   name: Damage Bonus
   group: Weapon Attack
 
+## Spell Casting
 - key: spell.cast.add
   name: Spell Cast Bonus
   group: Spell Casting
@@ -27,6 +29,7 @@ keys:
   name: Advantage to Spell Cast
   group: Spell Casting
 
+## Armour Class
 - key: ac.add
   name: AC Bonus
   group: Armour
@@ -39,15 +42,16 @@ keys:
   name: Advantage against Attacks
   group: Armour
 
-- key: weight.carry.base
+## Weight
+- key: carry.base
   name: Carry Base
   group: Weight
 
-- key: weight.carry.add
+- key: carry.add
   name: Carry Bonus
   group: Weight
 
-- key: weight.carry.set
+- key: carry.set
   name: Carry Set
   group: Weight
 
@@ -60,79 +64,79 @@ keys:
   group: Check
 
 ## STR
-- key: stat.str.add
+- key: stat.STR.add
   name: STR Bonus
   group: "Stat (STR)"
 
-- key: stat.str.set
+- key: stat.STR.set
   name: STR Set
   group: "Stat (STR)"
 
-- key: stat.str.advantage
+- key: stat.STR.advantage
   name: Advantage on STR Checks
   group: "Stat (STR)"
 
 ## DEX
-- key: stat.dex.add
+- key: stat.DEX.add
   name: DEX Bonus
   group: "Stat (DEX)"
 
-- key: stat.dex.set
+- key: stat.DEX.set
   name: DEX Set
   group: "Stat (DEX)"
 
-- key: stat.dex.advantage
+- key: stat.DEX.advantage
   name: Advantage on DEX Checks
   group: "Stat (DEX)"
 
 ## CON
-- key: stat.con.add
+- key: stat.CON.add
   name: CON Bonus
   group: "Stat (CON)"
 
-- key: stat.con.set
+- key: stat.CON.set
   name: CON Set
   group: "Stat (CON)"
 
-- key: stat.con.advantage
+- key: stat.CON.advantage
   name: Advantage on CON Checks
   group: "Stat (CON)"
 
 ## INT
-- key: stat.int.add
+- key: stat.INT.add
   name: INT Bonus
   group: "Stat (INT)"
 
-- key: stat.int.set
+- key: stat.INT.set
   name: INT Set
   group: "Stat (INT)"
 
-- key: stat.int.advantage
+- key: stat.INT.advantage
   name: Advantage on INT Checks
   group: "Stat (INT)"
 
 ## WIS
-- key: stat.wis.add
+- key: stat.WIS.add
   name: WIS Bonus
   group: "Stat (WIS)"
 
-- key: stat.wis.set
+- key: stat.WIS.set
   name: WIS Set
   group: "Stat (WIS)"
 
-- key: stat.wis.advantage
+- key: stat.WIS.advantage
   name: Advantage on WIS Checks
   group: "Stat (WIS)"
 
 ## CHA
-- key: stat.cha.add
+- key: stat.CHA.add
   name: CHA Bonus
   group: "Stat (CHA)"
 
-- key: stat.cha.set
+- key: stat.CHA.set
   name: CHA Set
   group: "Stat (CHA)"
 
-- key: stat.cha.advantage
+- key: stat.CHA.advantage
   name: Advantage on CHA Checks
   group: "Stat (CHA)"

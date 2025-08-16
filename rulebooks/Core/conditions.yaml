@@ -12,6 +12,13 @@ conditions:
     name: Flying
     description: "You are flying"
 
+  - id: 'condition:Core:Dextrous'
+    name: Dextrous
+    description: "You are skilled at moving nimbly and avoiding obstacles."
+    bonuses:
+      - key: stat.DEX.set
+        value: 18
+
   - id: 'condition:Core:Blinded'
     name: Blinded
     description: "You can’t see and automatically fail any ability check that requires sight. Attack rolls against you have advantage, and your attack rolls have disadvantage."

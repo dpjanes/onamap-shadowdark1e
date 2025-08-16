@@ -75,7 +75,7 @@ skills:
   option: "CON"
   description: "+CON to gear slots."
   bonuses:
-  - key: "weight.carry.add"
+  - key: "carry.add"
     value_rule: "MAX(0, StatBonusCON)"
   tags:
   - sdl:Hauler
