@@ -72,8 +72,28 @@ keys:
   name: STR Set
   group: "Stat (STR)"
 
-- key: stat.STR.advantage
+- key: stat.STR.check
+  name: STR Check
+  group: "Stat (STR)"
+
+- key: stat.STR.check.add
+  name: STR Check Bonus
+  group: "Stat (STR)"
+
+- key: stat.STR.check.advantage
   name: Advantage on STR Checks
+  group: "Stat (STR)"
+
+- key: stat.STR.opposed
+  name: Opposed STR Check
+  group: "Stat (STR)"
+
+- key: stat.STR.opposed.add
+  name: Opposed STR Check Bonus
+  group: "Stat (STR)"
+
+- key: stat.STR.opposed.advantage
+  name: Advantage on Opposed STR Checks
   group: "Stat (STR)"
 
 ## DEX
@@ -85,8 +105,28 @@ keys:
   name: DEX Set
   group: "Stat (DEX)"
 
-- key: stat.DEX.advantage
+- key: stat.DEX.check
+  name: DEX Check
+  group: "Stat (DEX)"
+
+- key: stat.DEX.check.add
+  name: DEX Check Bonus
+  group: "Stat (DEX)"
+
+- key: stat.DEX.check.advantage
   name: Advantage on DEX Checks
+  group: "Stat (DEX)"
+
+- key: stat.DEX.opposed
+  name: Opposed DEX Check
+  group: "Stat (DEX)"
+
+- key: stat.DEX.opposed.add
+  name: Opposed DEX Check Bonus
+  group: "Stat (DEX)"
+
+- key: stat.DEX.opposed.advantage
+  name: Advantage on Opposed DEX Checks
   group: "Stat (DEX)"
 
 ## CON
@@ -98,8 +138,28 @@ keys:
   name: CON Set
   group: "Stat (CON)"
 
-- key: stat.CON.advantage
+- key: stat.CON.check
+  name: CON Check
+  group: "Stat (CON)"
+
+- key: stat.CON.check.add
+  name: CON Check Bonus
+  group: "Stat (CON)"
+
+- key: stat.CON.check.advantage
   name: Advantage on CON Checks
+  group: "Stat (CON)"
+
+- key: stat.CON.opposed
+  name: Opposed CON Check
+  group: "Stat (CON)"
+
+- key: stat.CON.opposed.add
+  name: Opposed CON Check Bonus
+  group: "Stat (CON)"
+
+- key: stat.CON.opposed.advantage
+  name: Advantage on Opposed CON Checks
   group: "Stat (CON)"
 
 ## INT
@@ -111,8 +171,28 @@ keys:
   name: INT Set
   group: "Stat (INT)"
 
-- key: stat.INT.advantage
+- key: stat.INT.check
+  name: INT Check
+  group: "Stat (INT)"
+
+- key: stat.INT.check.add
+  name: INT Check Bonus
+  group: "Stat (INT)"
+
+- key: stat.INT.check.advantage
   name: Advantage on INT Checks
+  group: "Stat (INT)"
+
+- key: stat.INT.opposed
+  name: Opposed INT Check
+  group: "Stat (INT)"
+
+- key: stat.INT.opposed.add
+  name: Opposed INT Check Bonus
+  group: "Stat (INT)"
+
+- key: stat.INT.opposed.advantage
+  name: Advantage on Opposed INT Checks
   group: "Stat (INT)"
 
 ## WIS
@@ -124,8 +204,28 @@ keys:
   name: WIS Set
   group: "Stat (WIS)"
 
-- key: stat.WIS.advantage
+- key: stat.WIS.check
+  name: WIS Check
+  group: "Stat (WIS)"
+
+- key: stat.WIS.check.add
+  name: WIS Check Bonus
+  group: "Stat (WIS)"
+
+- key: stat.WIS.check.advantage
   name: Advantage on WIS Checks
+  group: "Stat (WIS)"
+
+- key: stat.WIS.opposed
+  name: Opposed WIS Check
+  group: "Stat (WIS)"
+
+- key: stat.WIS.opposed.add
+  name: Opposed WIS Check Bonus
+  group: "Stat (WIS)"
+
+- key: stat.WIS.opposed.advantage
+  name: Advantage on Opposed WIS Checks
   group: "Stat (WIS)"
 
 ## CHA
@@ -137,6 +237,26 @@ keys:
   name: CHA Set
   group: "Stat (CHA)"
 
-- key: stat.CHA.advantage
+- key: stat.CHA.check
+  name: CHA Check
+  group: "Stat (CHA)"
+
+- key: stat.CHA.check.add
+  name: CHA Check Bonus
+  group: "Stat (CHA)"
+
+- key: stat.CHA.check.advantage
   name: Advantage on CHA Checks
+  group: "Stat (CHA)"
+
+- key: stat.CHA.opposed
+  name: Opposed CHA Check
+  group: "Stat (CHA)"
+
+- key: stat.CHA.opposed.add
+  name: Opposed CHA Check Bonus
+  group: "Stat (CHA)"
+
+- key: stat.CHA.opposed.advantage
+  name: Advantage on Opposed CHA Checks
   group: "Stat (CHA)"
