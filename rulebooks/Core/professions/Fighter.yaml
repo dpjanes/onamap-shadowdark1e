@@ -3,6 +3,7 @@ id: profession:Core:Fighter
 is_spellcaster: false
 armour_rule: "True"
 weapon_rule: "True"
+primary_stats: [ "STR", "CON" ]
 
 skills:
 - id: skill:Core:Fighter:HitDice

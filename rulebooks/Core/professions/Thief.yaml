@@ -10,6 +10,7 @@ weapon_types:
 - Shortsword
 weapon_rule: "IN(item.weapon_type, profession.weapon_types)"
 armour_rule: "OR(item.armour_type == 'Leather', item.name == 'Mithral Chainmail')"
+primary_stats: [ "DEX", "CON" ]
 
 skills:
 - id: skill:Core:Thief:HitDice

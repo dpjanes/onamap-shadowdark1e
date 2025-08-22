@@ -29,6 +29,11 @@ keys:
   name: Advantage to Spell Cast
   group: Spell Casting
 
+- key: spell.effect
+  name: Spell Effect
+  group: Spell Casting
+  description: You are under the effect of a spell.
+
 ## Armour Class
 - key: ac.add
   name: AC Bonus
@@ -260,3 +265,9 @@ keys:
 - key: stat.CHA.opposed.advantage
   name: Advantage on Opposed CHA Checks
   group: "Stat (CHA)"
+
+
+## Special
+- key: special.light
+  name: Light
+  group: "Special"

@@ -12,14 +12,9 @@ spells:
   level: 1
   name: Alarm
   profession: Wizard
+  duration: "1 Day"
   tags:
   - Range:Close
-  rolls:
-  - type: spell.duration
-    name: Duration
-    description: 1 day
-    dice: 1
-    units: Day
 
 - damage: 1d6
   id: spell:Wizard:BurningHands:1
@@ -39,12 +34,7 @@ spells:
   profession: Wizard
   tags:
   - Range:Near
-  rolls:
-  - type: spell.duration
-    name: Duration
-    description: in days
-    dice: d8
-    units: Day
+  duration: "d8 Days"
 
 - id: spell:Wizard:DetectMagic:1
   level: 1
@@ -52,36 +42,23 @@ spells:
   profession: Wizard
   tags:
   - Range:Near
-  rolls:
-  - type: spell.duration
-    name: Duration
-    description: Focus
-    units: Focus
+  duration: "Focus"
 
 - id: spell:Wizard:FeatherFall:1
   level: 1
   name: Feather Fall
   profession: Wizard
+  duration: "Focus"
   tags:
   - Range:Self
-  rolls:
-  - type: spell.duration
-    name: Duration
-    description: Focus
-    units: Instant
 
 - id: spell:Wizard:FloatingDisk:1
   level: 1
   name: Floating Disk
   profession: Wizard
+  duration: "10 Rounds"
   tags:
   - Range:Near
-  rolls:
-  - type: spell.duration
-    name: Duration
-    description: in Rounds
-    dice: 10
-    units: Round
 
 - id: spell:Wizard:HoldPortal:1
   level: 1
@@ -89,12 +66,7 @@ spells:
   profession: Wizard
   tags:
   - Range:Near
-  rolls:
-  - type: spell.duration
-    name: Duration
-    description: in Rounds
-    dice: 10
-    units: Round
+  duration: "10 Rounds"
 
 - id: spell:Wizard:Light:1
   level: 1
@@ -103,12 +75,16 @@ spells:
   tags:
   - Range:Close
   - IsLight
-  rolls:
-  - type: spell.duration
-    name: Duration
-    description: in Rounds
-    dice: 1
-    units: Real Hour
+  duration: "1 Hour"
+  effects:
+  - name: "Start Light"
+    key: "special.light"
+  # rolls:
+  # - type: spell.duration
+  #   name: Duration
+  #   description: in Rounds
+  #   dice: 1
+  #   units: Real Hour
 
 - duration: 10 Rounds
   id: spell:Wizard:MageArmor:1
@@ -117,21 +93,17 @@ spells:
   profession: Wizard
   tags:
   - Range:Self
-  rolls:
-  - name: Duration
-    type: spell.duration
-    description: in Rouunds
-    dice: 10
-    units: Round
-  bonuses:
-  - key: ac.base
+  duration: 10 Rounds
+  effects:
+  - name: AC
+    key: ac.base
     value: 14
 
 - damage: 1d4
   id: spell:Wizard:MagicMissile:1
   level: 1
   name: Magic Missile
-  notes: IsAlways hits the target.
+  notes: Always hits the target.
   profession: Wizard
   tags:
   - Range:Far

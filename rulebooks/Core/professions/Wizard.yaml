@@ -7,7 +7,7 @@ weapon_rule: "IN(item.weapon_type, profession.weapon_types)"
 weapon_types:
 - Staff
 - Dagger
-primary_stat: "INT"
+primary_stats: [ "INT", "WIS", ]
 
 skills:
 - id: skill:Core:Wizard:HitDice
