@@ -294,7 +294,7 @@ magics:
     value: 1
     name: "+1 to spellcasting"
     group: "Option 1"
-  - rule: AND(weapon.is_ranged, Range != "Melee", Range != "Close")
+  - rule: AND(weapon.is_ranged, Mode != "Ranged")
     key: attack.tohit.add
     value: 1
     name: "+1 to ranged attack"

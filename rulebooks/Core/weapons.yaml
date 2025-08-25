@@ -4,7 +4,7 @@ weapons:
   description: Use a longer blade and handle, allowing for versatile one- or two-handed use. 
   tags:
   - WeaponType:Bastard sword
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - Hands:1
   - Hands:2
@@ -28,7 +28,7 @@ weapons:
   name: Club
   description: A simple, heavy stick or cudgel.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Club
   - Hands:1
@@ -44,6 +44,7 @@ weapons:
   name: Crossbow
   description: A ranged weapon that uses a horizontal bow mounted on a stock.
   tags:
+  - Mode:Ranged
   - Range:Far
   - WeaponType:Crossbow
   - Hands:2
@@ -59,7 +60,8 @@ weapons:
   name: Dagger
   description: A small, easily concealed blade. May be thrown. 
   tags:
-  - Range:Melee
+  - Mode:Melee
+  - Mode:Ranged
   - Range:Close
   - Range:Near
   - WeaponType:Dagger
@@ -87,7 +89,7 @@ weapons:
   name: Greataxe
   description: A large, heavy axe designed for one or two-handed use.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Greataxe
   - Hands:1
@@ -112,7 +114,7 @@ weapons:
   name: Greatsword
   description: A large, heavy sword designed for two-handed use.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Greatsword
   - Hands:2
@@ -128,7 +130,8 @@ weapons:
   name: Javelin
   description: A light spear designed for throwing.
   tags:
-  - Range:Melee
+  - Mode:Melee
+  - Mode:Ranged
   - Range:Close
   - Range:Far
   - WeaponType:Javelin
@@ -151,8 +154,9 @@ weapons:
   name: Longbow
   description: A large bow designed for long-range use.
   tags:
+  - Mode:Ranged
   - Range:Far
-  - WeaponType:Longsword
+  - WeaponType:Longbow
   - Hands:2
   - Stack:Weapon1
   cost: 8 gp
@@ -166,7 +170,7 @@ weapons:
   name: Longsword
   description: A sword designed for one-handed use.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Longsword
   - Hands:1
@@ -182,7 +186,7 @@ weapons:
   name: Mace
   description: A heavy, blunt weapon designed for crushing blows.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Mace
   - Hands:1
@@ -198,6 +202,7 @@ weapons:
   name: Shortbow
   description: A small bow designed for short-range use.
   tags:
+  - Mode:Ranged
   - Range:Far
   - WeaponType:Shortbow
   - Hands:2
@@ -213,7 +218,7 @@ weapons:
   name: Shortsword
   description: A small sword designed for one-handed use.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Shortsword
   - Hands:1
@@ -229,7 +234,8 @@ weapons:
   name: Spear
   description: A long pole with a pointed end, used for thrusting or throwing.
   tags:
-  - Range:Melee
+  - Mode:Melee
+  - Mode:Ranged
   - Range:Close
   - Range:Near
   - WeaponType:Spear
@@ -245,7 +251,7 @@ weapons:
   name: Staff
   description: A long, sturdy pole used for support or as a weapon.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Staff
   - Hands:2
@@ -261,7 +267,7 @@ weapons:
   name: Warhammer
   description: A heavy hammer designed for crushing blows.
   tags:
-  - Range:Melee
+  - Mode:Melee
   - Range:Close
   - WeaponType:Warhammer
   - Hands:2

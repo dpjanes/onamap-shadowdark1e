@@ -49,17 +49,14 @@ skills:
   name: "Attack Bonus"
   description: "+1 to melee or ranged attacks"  
   value: 1
-  bonuses:
-  - key: "attack.tohit.add"
-    value: 1
   options:
     - "Ranged Attacks"
     - "Melee Attacks"
   bonuses:
-  - rule: AND(skill.option == "Ranged Attacks", weapon.is_ranged, Range != "Melee")
+  - rule: AND(skill.option == "Ranged Attacks", weapon.is_ranged, Mode == "Ranged")
     key: "attack.tohit.add"
     value: 1
-  - rule: AND(skill.option == "Melee Attacks", weapon.is_melee, Range == "Melee")
+  - rule: AND(skill.option == "Melee Attacks", weapon.is_melee, Mode == "Melee")
     key: "attack.tohit.add"
     value: 1
   tags:
