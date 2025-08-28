@@ -10,3 +10,11 @@ skills:
   - Recharge:Daily
   - IsAlways
   value: 1
+  duration: "3 Rounds"
+  effects:
+    - name: "Advantage to Hit"
+      key: attack.tohit.advantage
+      value: 1
+    - name: "Disadvantage to Attackers"
+      key: defense.tohit.advantage
+      value: -1

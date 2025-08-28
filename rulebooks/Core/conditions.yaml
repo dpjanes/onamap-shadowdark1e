@@ -66,7 +66,7 @@ conditions:
     bonuses:
       - key: attack.tohit.advantage
         value: 1
-      - key: defense.attack.tohit.advantage
+      - key: defense.tohit.advantage
         value: -1
 
   - id: 'condition:Core:Paralyzed'
