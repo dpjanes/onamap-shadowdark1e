@@ -4,6 +4,7 @@ is_spellcaster: false
 armour_rule: "True"
 weapon_rule: "True"
 primary_stats: [ "STR", "CON" ]
+hit_dice: "1d8"
 
 skills:
 - id: skill:Core:Fighter:HitDice

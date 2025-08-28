@@ -8,6 +8,7 @@ weapon_types:
 - Staff
 - Dagger
 primary_stats: [ "INT", "WIS", ]
+hit_dice: "1d4"
 
 skills:
 - id: skill:Core:Wizard:HitDice

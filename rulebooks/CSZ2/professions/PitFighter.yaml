@@ -14,6 +14,7 @@ skills:
   tags:
   - IsAlways
   - HitDice
+primary_stats: [ "STR", ]
 
 - id: skill:CSZ2:PitFighter:Flourish
   name: Flourish

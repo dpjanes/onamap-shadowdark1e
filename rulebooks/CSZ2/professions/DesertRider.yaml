@@ -14,6 +14,8 @@ weapons:
 armor:
   - Leather armor
   - Shields
+primary_stats: [ "CON", ]
+
 skills:
 - id: skill:CSZ2:DesertRider:HitDice
   name: "Hit Dice"

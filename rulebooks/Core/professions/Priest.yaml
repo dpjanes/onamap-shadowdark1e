@@ -13,6 +13,7 @@ weapon_types:
 - Staff
 - Warhammer
 primary_stats: [ "WIS", "STR" ]
+hit_dice: "1d6"
 
 skills:
 

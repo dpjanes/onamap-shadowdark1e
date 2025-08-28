@@ -14,8 +14,9 @@ weapon_types:
 - Dagger
 - Mace
 - Longsword
-primary_stat: "STR"
+primary_stats: [ "STR", ]
 # is_spellcaster: true
+hit_dice: "1d6"
 
 addons:
 - name: Patron
