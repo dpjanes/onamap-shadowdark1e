@@ -11,14 +11,6 @@ primary_stats: [ "INT", "WIS", ]
 hit_dice: "1d4"
 
 skills:
-- id: skill:Core:Wizard:HitDice
-  name: "Hit Dice"
-  description: "1d4 per level"
-  value: 4
-  tags:
-  - IsAlways
-  - HitDice
-
 - id: skill:Core:Wizard:LanguageCommon1
   name: "Language"
   description: "Speak an additional common language"

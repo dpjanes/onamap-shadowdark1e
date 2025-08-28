@@ -7,14 +7,6 @@ primary_stats: [ "STR", "CON" ]
 hit_dice: "1d8"
 
 skills:
-- id: skill:Core:Fighter:HitDice
-  name: "Hit Dice"
-  description: "1d8 per level"
-  value: 8
-  tags:
-  - IsAlways
-  - HitDice
-
 - id: skill:Core:Fighter:WEAPON_MASTERY
   name: "Weapon Mastery"
   description: "Weapon Mastery with a weapon type"

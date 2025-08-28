@@ -17,14 +17,6 @@ hit_dice: "1d6"
 
 skills:
 
-- id: skill:Core:Priest:HitDice
-  name: "Hit Dice"
-  description: "1d6 per level"
-  value: 6
-  tags:
-  - IsAlways
-  - HitDice
-
 - id: skill:Core:Priest:LanguageExtra
   name: "Language"
   options:

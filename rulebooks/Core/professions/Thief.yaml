@@ -14,14 +14,6 @@ primary_stats: [ "DEX", "CON" ]
 hit_dice: "1d6"
 
 skills:
-- id: skill:Core:Thief:HitDice
-  name: "Hit Dice"
-  description: "1d6 per level"
-  value: 6
-  tags:
-  - IsAlways
-  - HitDice
-
 - id: skill:Core:Thief:ATTACK_BONUS
   name: "Attack Bonus"
   description: "+1 to melee and ranged attacks" ## it is both

@@ -10,14 +10,6 @@ primary_stats: [ "CHA", ]
 hit_dice: "1d4"
 
 skills:
-- id: skill:Core:Witch:HitDice
-  name: "Hit Dice"
-  description: "1d4 per level"
-  value: 4
-  tags:
-  - IsAlways
-  - HitDice
-
 - id: skill:Core:Witch:LanguageDiabolic
   name: "Languages"
   description: "You know Diabolic"

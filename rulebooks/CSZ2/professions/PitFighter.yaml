@@ -6,15 +6,9 @@ weapons:
 armor:
   - Leather armor
   - Shields
-skills:
-- id: skill:CSZ2:PitFighter:HitDice
-  name: "Hit Dice"
-  description: "1d8 per level"
-  value: 8
-  tags:
-  - IsAlways
-  - HitDice
+
 primary_stats: [ "STR", ]
+skills:
 
 - id: skill:CSZ2:PitFighter:Flourish
   name: Flourish

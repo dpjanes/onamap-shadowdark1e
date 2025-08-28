@@ -17,14 +17,6 @@ armor:
 primary_stats: [ "CON", ]
 
 skills:
-- id: skill:CSZ2:DesertRider:HitDice
-  name: "Hit Dice"
-  description: "1d8 per level"
-  value: 8
-  tags:
-  - IsAlways
-  - HitDice
-
 - id: skill:CSZ2:DesertRider:Charge
   name: Charge
   description: "Move at least near before attacking to deal double melee damage that round"

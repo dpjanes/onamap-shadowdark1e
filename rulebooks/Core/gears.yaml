@@ -1,4 +1,11 @@
 gears:
+  - id: gear:Core:Base:Blank
+    name: "Blank"
+    description: "Fill in your own description"
+    source: "Base"
+    tags:
+    - IsBlank
+
   - id: 'gear:Core:Arrows'
     name: Arrows
     cost: 1 gp
