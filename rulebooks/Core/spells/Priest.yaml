@@ -44,6 +44,10 @@ spells:
   range: Close
   tags:
   - IsLight
+  duration: "1 Hour"
+  effects:
+  - name: "Light"
+    key: "special.light"
 
 - id: spell:Priest:ProtectionFromEvil:1
   level: 1
