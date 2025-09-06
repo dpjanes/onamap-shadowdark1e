@@ -1,40 +1,40 @@
 id: monster:Core:Animated_Armor:02
 name: Animated Armor
 description: An old suit of armor magically animated by a
-ac:
-  computed: 15
-  value: 15
-alignment: Chaotic
-attacks:
-- name: Longsword
-  range: Near
-  tags: weapon
-hp:
-  computed: 11
-  max: 11
-  value: 11
-level:
-  value: 2
-moves:
-- range: Near
-skills:
-- description: When standing still, looks exactly like a suit of armor.
-  name: Statue
-stats:
-  CON:
-    bonus: 2
-  DEX:
-    bonus: 1
-  INT:
-    bonus: 1
-  STR:
-    bonus: 3
-  WIS:
-    bonus: 1
-weapons:
-- name: Longsword
-  bonuses:
-  - key: "attack.tohit.add"
-    value: 3
-  damage: 1d8
+# ac:
+#   computed: 15
+#   value: 15
+# alignment: Chaotic
+# attacks:
+# - name: Longsword
+#   range: Near
+#   tags: weapon
+# hp:
+#   computed: 11
+#   max: 11
+#   value: 11
+# level:
+#   value: 2
+# moves:
+# - range: Near
+# skills:
+# - description: When standing still, looks exactly like a suit of armor.
+#   name: Statue
+# stats:
+#   CON:
+#     bonus: 2
+#   DEX:
+#     bonus: 1
+#   INT:
+#     bonus: 1
+#   STR:
+#     bonus: 3
+#   WIS:
+#     bonus: 1
+# weapons:
+# - name: Longsword
+#   bonuses:
+#   - key: "attack.tohit.add"
+#     value: 3
+#   damage: 1d8
 

@@ -1,46 +1,46 @@
 id: monster:Core:Ape:02
 name: Ape
 description: Hooting, omnivorous apes that live in trees.
-ac:
-  computed: 12
-  value: 12
-alignment: Neutral
-attacks:
-- name: Fist
-  range: Near
-  tags: weapon
-- name: Rock
-  range: Far
-  tags: weapon
-hp:
-  computed: 10
-  max: 10
-  value: 10
-level:
-  value: 2
-moves:
-- range: Near
-  type: climb
-stats:
-  CON:
-    bonus: 1
-  DEX:
-    bonus: 2
-  INT:
-    bonus: 2
-  STR:
-    bonus: 2
-  WIS:
-    bonus: 1
-weapons:
-- name: Fist
-  bonuses:
-  - key: "attack.tohit.add"
-    value: 2
-  damage: 1d6
-- name: Rock
-  bonuses:
-  - key: "attack.tohit.add"
-    value: 2
-  damage: 1d4
+# ac:
+#   computed: 12
+#   value: 12
+# alignment: Neutral
+# attacks:
+# - name: Fist
+#   range: Near
+#   tags: weapon
+# - name: Rock
+#   range: Far
+#   tags: weapon
+# hp:
+#   computed: 10
+#   max: 10
+#   value: 10
+# level:
+#   value: 2
+# moves:
+# - range: Near
+#   type: climb
+# stats:
+#   CON:
+#     bonus: 1
+#   DEX:
+#     bonus: 2
+#   INT:
+#     bonus: 2
+#   STR:
+#     bonus: 2
+#   WIS:
+#     bonus: 1
+# weapons:
+# - name: Fist
+#   bonuses:
+#   - key: "attack.tohit.add"
+#     value: 2
+#   damage: 1d6
+# - name: Rock
+#   bonuses:
+#   - key: "attack.tohit.add"
+#     value: 2
+#   damage: 1d4
 
